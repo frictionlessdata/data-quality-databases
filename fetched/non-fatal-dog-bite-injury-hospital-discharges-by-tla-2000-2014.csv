@@ -1,0 +1,887 @@
+Year,TLA,Number of discharges
+2000,Areas Outside TLA,2
+2000,Auckland,28
+2000,Buller,1
+2000,Carterton,2
+2000,Christchurch,10
+2000,Dunedin,7
+2000,Far North,2
+2000,Franklin,2
+2000,Gisborne,5
+2000,Grey,1
+2000,Hamilton,8
+2000,Hastings,6
+2000,Hauraki,1
+2000,Horowhenua,1
+2000,Invercargill,1
+2000,Kapiti Coast,2
+2000,Kawerau,1
+2000,Lower Hutt,10
+2000,Manawatu,2
+2000,Manukau,28
+2000,Masterton,1
+2000,Matamata-Piako,3
+2000,Napier,4
+2000,Nelson,2
+2000,New Plymouth,4
+2000,North Shore,2
+2000,Opotiki,1
+2000,Overseas resident,3
+2000,Palmerston North,5
+2000,Papakura,6
+2000,Porirua,4
+2000,Rangitikei,1
+2000,Rodney,4
+2000,Rotorua,3
+2000,Ruapehu,1
+2000,Selwyn,1
+2000,South Taranaki,1
+2000,South Waikato,2
+2000,Southland,2
+2000,Tararua,2
+2000,Tasman,1
+2000,Taupo,2
+2000,Tauranga,5
+2000,Thames-Coromandel,1
+2000,Timaru,2
+2000,Upper Hutt,8
+2000,Waikato,12
+2000,Waimakariri,3
+2000,Waipa,3
+2000,Waitakere,30
+2000,Waitaki,2
+2000,Wanganui,4
+2000,Wellington,9
+2000,Western BOP,4
+2000,Westland,1
+2000,Whakatane,8
+2000,Whangarei,9
+2001,Areas Outside TLA,8
+2001,Auckland,24
+2001,Buller,1
+2001,Carterton,1
+2001,Central Hawkes Bay,2
+2001,Central Otago,1
+2001,Christchurch,25
+2001,Clutha,2
+2001,Dunedin,3
+2001,Far North,11
+2001,Franklin,4
+2001,Gisborne,2
+2001,Gore,2
+2001,Grey,5
+2001,Hamilton,18
+2001,Hastings,8
+2001,Hauraki,1
+2001,Horowhenua,5
+2001,Hurunui,1
+2001,Invercargill,2
+2001,Kaipara,2
+2001,Kapiti Coast,5
+2001,Kawerau,1
+2001,Lower Hutt,14
+2001,Manawatu,2
+2001,Manukau,28
+2001,Marlborough,1
+2001,Masterton,2
+2001,Matamata-Piako,1
+2001,Napier,2
+2001,Nelson,3
+2001,New Plymouth,6
+2001,North Shore,6
+2001,Opotiki,2
+2001,Overseas resident,3
+2001,Palmerston North,1
+2001,Papakura,6
+2001,Porirua,2
+2001,Rangitikei,3
+2001,Rodney,6
+2001,Rotorua,1
+2001,Selwyn,1
+2001,South Taranaki,1
+2001,Stratford,1
+2001,Tararua,1
+2001,Taupo,2
+2001,Tauranga,6
+2001,Thames-Coromandel,3
+2001,Timaru,2
+2001,Upper Hutt,3
+2001,Waikato,6
+2001,Waimakariri,5
+2001,Waipa,3
+2001,Wairoa,1
+2001,Waitakere,8
+2001,Waitaki,1
+2001,Waitomo,1
+2001,Wanganui,5
+2001,Wellington,3
+2001,Western BOP,4
+2001,Westland,2
+2001,Whakatane,4
+2001,Whangarei,10
+2002,Areas Outside TLA,1
+2002,Ashburton,1
+2002,Auckland,28
+2002,Central Hawkes Bay,2
+2002,Christchurch,22
+2002,Clutha,1
+2002,Dunedin,4
+2002,Far North,5
+2002,Franklin,8
+2002,Gisborne,7
+2002,Gore,1
+2002,Grey,3
+2002,Hamilton,8
+2002,Hastings,5
+2002,Horowhenua,2
+2002,Invercargill,1
+2002,Kaipara,1
+2002,Kapiti Coast,8
+2002,Kawerau,3
+2002,Lower Hutt,8
+2002,Manawatu,3
+2002,Manukau,31
+2002,Marlborough,2
+2002,Masterton,1
+2002,Matamata-Piako,3
+2002,Napier,7
+2002,New Plymouth,8
+2002,North Shore,12
+2002,Opotiki,1
+2002,Palmerston North,3
+2002,Papakura,4
+2002,Porirua,5
+2002,Rangitikei,1
+2002,Rodney,1
+2002,Rotorua,11
+2002,Ruapehu,1
+2002,Selwyn,1
+2002,South Taranaki,4
+2002,South Waikato,1
+2002,Southland,2
+2002,Tararua,2
+2002,Tasman,1
+2002,Taupo,3
+2002,Tauranga,11
+2002,Timaru,5
+2002,Upper Hutt,8
+2002,Waikato,8
+2002,Waimakariri,2
+2002,Waipa,6
+2002,Waitakere,11
+2002,Waitaki,1
+2002,Waitomo,4
+2002,Wanganui,1
+2002,Wellington,6
+2002,Western BOP,1
+2002,Whakatane,7
+2002,Whangarei,9
+2003,Auckland,26
+2003,Central Hawkes Bay,1
+2003,Central Otago,4
+2003,Christchurch,17
+2003,Dunedin,3
+2003,Far North,6
+2003,Franklin,8
+2003,Gisborne,4
+2003,Gore,1
+2003,Grey,3
+2003,Hamilton,19
+2003,Hastings,9
+2003,Hauraki,2
+2003,Horowhenua,5
+2003,Hurunui,1
+2003,Invercargill,3
+2003,Kapiti Coast,4
+2003,Kawerau,1
+2003,Lower Hutt,9
+2003,Manawatu,2
+2003,Manukau,48
+2003,Marlborough,3
+2003,Matamata-Piako,4
+2003,Napier,12
+2003,Nelson,4
+2003,New Plymouth,2
+2003,North Shore,10
+2003,Opotiki,2
+2003,Otorohanga,1
+2003,Overseas resident,5
+2003,Palmerston North,9
+2003,Papakura,7
+2003,Porirua,4
+2003,Queenstown Lakes,1
+2003,Rangitikei,5
+2003,Rodney,9
+2003,Rotorua,10
+2003,Ruapehu,1
+2003,Selwyn,4
+2003,South Taranaki,1
+2003,South Waikato,2
+2003,Southland,1
+2003,Tararua,1
+2003,Tasman,1
+2003,Tauranga,12
+2003,Thames-Coromandel,3
+2003,Timaru,2
+2003,Upper Hutt,5
+2003,Waikato,12
+2003,Waimakariri,4
+2003,Waipa,6
+2003,Wairoa,1
+2003,Waitakere,18
+2003,Waitaki,1
+2003,Waitomo,1
+2003,Wanganui,7
+2003,Wellington,8
+2003,Western BOP,3
+2003,Whakatane,3
+2003,Whangarei,11
+2004,Areas Outside TLA,3
+2004,Auckland,24
+2004,Christchurch,23
+2004,Dunedin,3
+2004,Far North,8
+2004,Franklin,7
+2004,Gisborne,4
+2004,Hamilton,8
+2004,Hastings,10
+2004,Hauraki,2
+2004,Horowhenua,3
+2004,Invercargill,1
+2004,Kaipara,2
+2004,Kapiti Coast,6
+2004,Lower Hutt,10
+2004,Manawatu,1
+2004,Manukau,35
+2004,Marlborough,2
+2004,Matamata-Piako,4
+2004,Napier,4
+2004,Nelson,1
+2004,New Plymouth,5
+2004,North Shore,5
+2004,Opotiki,1
+2004,Overseas resident,1
+2004,Palmerston North,3
+2004,Papakura,9
+2004,Porirua,5
+2004,Rangitikei,2
+2004,Rodney,5
+2004,Rotorua,5
+2004,Ruapehu,2
+2004,Selwyn,1
+2004,South Taranaki,1
+2004,South Waikato,2
+2004,South Wairarapa,1
+2004,Stratford,1
+2004,Tararua,1
+2004,Tasman,2
+2004,Taupo,3
+2004,Tauranga,8
+2004,Thames-Coromandel,1
+2004,Timaru,1
+2004,Upper Hutt,5
+2004,Waikato,9
+2004,Waimakariri,2
+2004,Waimate,1
+2004,Waipa,2
+2004,Waitakere,15
+2004,Waitaki,1
+2004,Wanganui,8
+2004,Wellington,8
+2004,Western BOP,6
+2004,Whakatane,2
+2004,Whangarei,6
+2005,Auckland,27
+2005,Buller,1
+2005,Carterton,1
+2005,Central Hawkes Bay,1
+2005,Central Otago,1
+2005,Christchurch,20
+2005,Dunedin,1
+2005,Far North,4
+2005,Franklin,11
+2005,Gisborne,4
+2005,Grey,1
+2005,Hamilton,9
+2005,Hastings,8
+2005,Hauraki,4
+2005,Horowhenua,5
+2005,Invercargill,2
+2005,Kaipara,1
+2005,Kapiti Coast,4
+2005,Kawerau,1
+2005,Lower Hutt,10
+2005,Manawatu,3
+2005,Manukau,40
+2005,Matamata-Piako,2
+2005,Napier,6
+2005,New Plymouth,2
+2005,North Shore,14
+2005,Opotiki,1
+2005,Overseas resident,1
+2005,Palmerston North,6
+2005,Papakura,7
+2005,Porirua,7
+2005,Rangitikei,1
+2005,Rodney,6
+2005,Rotorua,7
+2005,Ruapehu,5
+2005,Selwyn,2
+2005,South Taranaki,1
+2005,South Waikato,1
+2005,Stratford,1
+2005,Tararua,1
+2005,Taupo,1
+2005,Tauranga,13
+2005,Thames-Coromandel,6
+2005,Timaru,3
+2005,Upper Hutt,2
+2005,Waikato,9
+2005,Waimakariri,4
+2005,Waipa,5
+2005,Waitakere,18
+2005,Waitomo,2
+2005,Wanganui,2
+2005,Wellington,6
+2005,Western BOP,5
+2005,Whakatane,5
+2005,Whangarei,9
+2006,Areas Outside TLA,2
+2006,Ashburton,1
+2006,Auckland,33
+2006,Central Hawkes Bay,1
+2006,Central Otago,1
+2006,Christchurch,27
+2006,Dunedin,5
+2006,Far North,9
+2006,Franklin,9
+2006,Gisborne,3
+2006,Grey,1
+2006,Hamilton,9
+2006,Hastings,11
+2006,Horowhenua,3
+2006,Hurunui,1
+2006,Invercargill,6
+2006,Kaipara,3
+2006,Kapiti Coast,3
+2006,Lower Hutt,12
+2006,Manawatu,1
+2006,Manukau,46
+2006,Marlborough,2
+2006,Matamata-Piako,1
+2006,Napier,4
+2006,New Plymouth,5
+2006,North Shore,7
+2006,Opotiki,2
+2006,Otorohanga,2
+2006,Overseas resident,3
+2006,Palmerston North,3
+2006,Papakura,11
+2006,Porirua,5
+2006,Queenstown Lakes,1
+2006,Rodney,7
+2006,Rotorua,2
+2006,Ruapehu,3
+2006,Selwyn,1
+2006,South Taranaki,2
+2006,South Waikato,1
+2006,South Wairarapa,1
+2006,Stratford,2
+2006,Tararua,4
+2006,Taupo,2
+2006,Tauranga,1
+2006,Thames-Coromandel,1
+2006,Timaru,2
+2006,Upper Hutt,2
+2006,Waikato,3
+2006,Waimakariri,4
+2006,Waipa,2
+2006,Waitakere,21
+2006,Waitaki,3
+2006,Wanganui,4
+2006,Wellington,4
+2006,Western BOP,4
+2006,Whakatane,3
+2006,Whangarei,4
+2007,Auckland,24
+2007,Buller,1
+2007,Central Otago,1
+2007,Christchurch,27
+2007,Dunedin,8
+2007,Far North,6
+2007,Franklin,8
+2007,Gisborne,8
+2007,Grey,3
+2007,Hamilton,12
+2007,Hastings,4
+2007,Hauraki,1
+2007,Hurunui,1
+2007,Invercargill,1
+2007,Kaipara,2
+2007,Kapiti Coast,3
+2007,Kawerau,1
+2007,Lower Hutt,10
+2007,Manawatu,3
+2007,Manukau,42
+2007,Marlborough,2
+2007,Masterton,3
+2007,Matamata-Piako,5
+2007,Napier,5
+2007,Nelson,3
+2007,New Plymouth,8
+2007,North Shore,6
+2007,Opotiki,2
+2007,Overseas resident,2
+2007,Palmerston North,2
+2007,Papakura,7
+2007,Porirua,4
+2007,Rangitikei,2
+2007,Rodney,5
+2007,Rotorua,5
+2007,Ruapehu,1
+2007,Selwyn,1
+2007,South Taranaki,5
+2007,South Waikato,4
+2007,Southland,2
+2007,Tasman,1
+2007,Taupo,1
+2007,Tauranga,10
+2007,Thames-Coromandel,6
+2007,Upper Hutt,2
+2007,Waikato,6
+2007,Waimakariri,6
+2007,Waipa,1
+2007,Wairoa,1
+2007,Waitakere,14
+2007,Waitaki,1
+2007,Wanganui,6
+2007,Wellington,8
+2007,Western BOP,2
+2007,Whakatane,5
+2007,Whangarei,5
+2008,Areas Outside TLA,1
+2008,Ashburton,1
+2008,Auckland,23
+2008,Central Hawkes Bay,1
+2008,Central Otago,2
+2008,Christchurch,30
+2008,Dunedin,3
+2008,Far North,7
+2008,Franklin,6
+2008,Gisborne,5
+2008,Grey,1
+2008,Hamilton,4
+2008,Hastings,5
+2008,Hauraki,1
+2008,Horowhenua,2
+2008,Hurunui,3
+2008,Invercargill,4
+2008,Kaipara,1
+2008,Kapiti Coast,4
+2008,Kawerau,1
+2008,Lower Hutt,6
+2008,Manawatu,1
+2008,Manukau,36
+2008,Marlborough,1
+2008,Masterton,1
+2008,Matamata-Piako,1
+2008,Napier,8
+2008,Nelson,2
+2008,New Plymouth,4
+2008,North Shore,15
+2008,Otorohanga,1
+2008,Overseas resident,3
+2008,Palmerston North,5
+2008,Papakura,9
+2008,Porirua,7
+2008,Queenstown Lakes,1
+2008,Rodney,6
+2008,Rotorua,7
+2008,Selwyn,1
+2008,South Taranaki,4
+2008,South Waikato,1
+2008,Southland,2
+2008,Stratford,1
+2008,Tararua,1
+2008,Tasman,1
+2008,Taupo,1
+2008,Tauranga,4
+2008,Thames-Coromandel,3
+2008,Timaru,1
+2008,Upper Hutt,4
+2008,Waikato,3
+2008,Waimakariri,5
+2008,Waipa,3
+2008,Waitakere,10
+2008,Waitomo,2
+2008,Wanganui,7
+2008,Wellington,6
+2008,Whakatane,2
+2008,Whangarei,8
+2009,Areas Outside TLA,1
+2009,Ashburton,4
+2009,Auckland,25
+2009,Buller,1
+2009,Central Hawkes Bay,1
+2009,Christchurch,36
+2009,Clutha,2
+2009,Dunedin,6
+2009,Far North,3
+2009,Franklin,5
+2009,Gisborne,3
+2009,Gore,1
+2009,Grey,2
+2009,Hamilton,11
+2009,Hastings,10
+2009,Hauraki,2
+2009,Horowhenua,3
+2009,Hurunui,1
+2009,Invercargill,1
+2009,Kaipara,1
+2009,Kapiti Coast,3
+2009,Lower Hutt,16
+2009,Mackenzie,1
+2009,Manawatu,2
+2009,Manukau,31
+2009,Masterton,3
+2009,Matamata-Piako,1
+2009,Napier,5
+2009,New Plymouth,6
+2009,North Shore,3
+2009,Overseas resident,2
+2009,Palmerston North,4
+2009,Papakura,12
+2009,Porirua,3
+2009,Queenstown Lakes,1
+2009,Rodney,1
+2009,Rotorua,6
+2009,Ruapehu,2
+2009,Selwyn,6
+2009,South Taranaki,5
+2009,Southland,1
+2009,Stratford,2
+2009,Tararua,2
+2009,Tauranga,11
+2009,Upper Hutt,5
+2009,Waikato,5
+2009,Waimakariri,4
+2009,Waipa,3
+2009,Wairoa,2
+2009,Waitakere,12
+2009,Wanganui,5
+2009,Wellington,7
+2009,Western BOP,2
+2009,Whangarei,9
+2010,Areas Outside TLA,1
+2010,Ashburton,2
+2010,Auckland,28
+2010,Central Hawkes Bay,4
+2010,Christchurch,35
+2010,Dunedin,7
+2010,Far North,3
+2010,Franklin,9
+2010,Gisborne,6
+2010,Hamilton,10
+2010,Hastings,11
+2010,Hauraki,1
+2010,Horowhenua,1
+2010,Invercargill,8
+2010,Kaipara,3
+2010,Kapiti Coast,3
+2010,Kawerau,1
+2010,Lower Hutt,7
+2010,Manawatu,1
+2010,Manukau,38
+2010,Masterton,2
+2010,Matamata-Piako,4
+2010,Napier,2
+2010,Nelson,1
+2010,New Plymouth,3
+2010,North Shore,7
+2010,Opotiki,2
+2010,Overseas resident,3
+2010,Palmerston North,7
+2010,Papakura,6
+2010,Porirua,1
+2010,Rangitikei,2
+2010,Rodney,11
+2010,Rotorua,5
+2010,Ruapehu,1
+2010,Selwyn,4
+2010,South Taranaki,6
+2010,South Waikato,4
+2010,Southland,2
+2010,Tararua,3
+2010,Tasman,1
+2010,Taupo,3
+2010,Tauranga,12
+2010,Timaru,1
+2010,Upper Hutt,2
+2010,Waikato,4
+2010,Waimakariri,4
+2010,Waipa,3
+2010,Wairoa,2
+2010,Waitakere,18
+2010,Waitaki,1
+2010,Wanganui,7
+2010,Wellington,4
+2010,Western BOP,4
+2010,Westland,1
+2010,Whakatane,4
+2010,Whangarei,12
+2011,Ashburton,1
+2011,Auckland,31
+2011,Central Otago,1
+2011,Christchurch,50
+2011,Clutha,1
+2011,Dunedin,8
+2011,Far North,2
+2011,Franklin,8
+2011,Gisborne,13
+2011,Grey,1
+2011,Hamilton,13
+2011,Hastings,13
+2011,Hauraki,2
+2011,Horowhenua,1
+2011,Invercargill,5
+2011,Kaipara,4
+2011,Kapiti Coast,1
+2011,Kawerau,4
+2011,Lower Hutt,13
+2011,Manawatu,5
+2011,Manukau,34
+2011,Marlborough,2
+2011,Masterton,2
+2011,Matamata-Piako,5
+2011,Napier,6
+2011,New Plymouth,5
+2011,North Shore,13
+2011,Opotiki,3
+2011,Overseas resident,4
+2011,Palmerston North,4
+2011,Papakura,8
+2011,Porirua,2
+2011,Queenstown Lakes,2
+2011,Rangitikei,3
+2011,Rodney,10
+2011,Rotorua,12
+2011,Ruapehu,1
+2011,Selwyn,5
+2011,South Taranaki,1
+2011,South Waikato,2
+2011,South Wairarapa,1
+2011,Southland,2
+2011,Stratford,1
+2011,Tararua,2
+2011,Tasman,5
+2011,Taupo,4
+2011,Tauranga,13
+2011,Thames-Coromandel,3
+2011,Timaru,3
+2011,Upper Hutt,4
+2011,Waikato,9
+2011,Waimakariri,7
+2011,Waipa,4
+2011,Waitakere,27
+2011,Waitomo,1
+2011,Wanganui,3
+2011,Wellington,8
+2011,Western BOP,7
+2011,Westland,1
+2011,Whakatane,2
+2011,Whangarei,6
+2012,Ashburton,5
+2012,Auckland,28
+2012,Buller,1
+2012,Carterton,1
+2012,Central Hawkes Bay,1
+2012,Central Otago,1
+2012,Christchurch,40
+2012,Clutha,3
+2012,Dunedin,10
+2012,Far North,8
+2012,Franklin,14
+2012,Gisborne,9
+2012,Grey,1
+2012,Hamilton,22
+2012,Hastings,7
+2012,Hauraki,1
+2012,Horowhenua,6
+2012,Hurunui,3
+2012,Invercargill,2
+2012,Kaipara,1
+2012,Kapiti Coast,1
+2012,Kawerau,1
+2012,Lower Hutt,14
+2012,Manawatu,5
+2012,Manukau,50
+2012,Marlborough,3
+2012,Masterton,3
+2012,Matamata-Piako,2
+2012,Napier,6
+2012,Nelson,1
+2012,New Plymouth,8
+2012,North Shore,12
+2012,Opotiki,2
+2012,Otorohanga,1
+2012,Overseas resident,3
+2012,Palmerston North,9
+2012,Papakura,14
+2012,Porirua,5
+2012,Queenstown Lakes,1
+2012,Rangitikei,1
+2012,Rodney,10
+2012,Rotorua,6
+2012,Ruapehu,2
+2012,Selwyn,5
+2012,South Taranaki,3
+2012,South Waikato,1
+2012,Southland,2
+2012,Tararua,2
+2012,Tasman,2
+2012,Taupo,3
+2012,Tauranga,8
+2012,Thames-Coromandel,1
+2012,Timaru,1
+2012,Waikato,8
+2012,Waimakariri,4
+2012,Waimate,1
+2012,Waipa,4
+2012,Wairoa,1
+2012,Waitakere,25
+2012,Waitaki,1
+2012,Wanganui,11
+2012,Wellington,7
+2012,Western BOP,6
+2012,Whakatane,8
+2012,Whangarei,13
+2013,Areas Outside TLA,2
+2013,Ashburton,2
+2013,Auckland,39
+2013,Buller,1
+2013,Carterton,1
+2013,Central Otago,1
+2013,Christchurch,43
+2013,Clutha,2
+2013,Dunedin,10
+2013,Far North,10
+2013,Franklin,4
+2013,Gisborne,3
+2013,Gore,1
+2013,Grey,1
+2013,Hamilton,21
+2013,Hastings,6
+2013,Hauraki,3
+2013,Horowhenua,5
+2013,Hurunui,3
+2013,Invercargill,5
+2013,Kaipara,4
+2013,Kapiti Coast,8
+2013,Lower Hutt,22
+2013,Manawatu,5
+2013,Manukau,56
+2013,Marlborough,6
+2013,Masterton,4
+2013,Matamata-Piako,3
+2013,Napier,6
+2013,Nelson,1
+2013,New Plymouth,5
+2013,North Shore,20
+2013,Opotiki,2
+2013,Otorohanga,1
+2013,Overseas resident,4
+2013,Palmerston North,8
+2013,Papakura,12
+2013,Porirua,8
+2013,Queenstown Lakes,2
+2013,Rangitikei,1
+2013,Rodney,8
+2013,Rotorua,13
+2013,Ruapehu,3
+2013,Selwyn,3
+2013,South Taranaki,3
+2013,South Waikato,3
+2013,South Wairarapa,2
+2013,Southland,3
+2013,Tasman,3
+2013,Taupo,3
+2013,Tauranga,8
+2013,Thames-Coromandel,3
+2013,Timaru,2
+2013,Upper Hutt,11
+2013,Waikato,5
+2013,Waimakariri,5
+2013,Waipa,3
+2013,Wairoa,2
+2013,Waitakere,18
+2013,Waitaki,1
+2013,Wanganui,5
+2013,Wellington,9
+2013,Western BOP,6
+2013,Whakatane,6
+2013,Whangarei,10
+2014,Ashburton,2
+2014,Auckland,33
+2014,Buller,1
+2014,Carterton,1
+2014,Central Hawkes Bay,3
+2014,Central Otago,2
+2014,Christchurch,41
+2014,Clutha,2
+2014,Dunedin,13
+2014,Far North,10
+2014,Franklin,14
+2014,Gisborne,7
+2014,Hamilton,22
+2014,Hastings,7
+2014,Hauraki,2
+2014,Horowhenua,4
+2014,Hurunui,2
+2014,Kaikoura,1
+2014,Kaipara,7
+2014,Kapiti Coast,6
+2014,Kawerau,3
+2014,Lower Hutt,11
+2014,Manukau,51
+2014,Marlborough,4
+2014,Masterton,4
+2014,Matamata-Piako,5
+2014,Napier,6
+2014,Nelson,2
+2014,New Plymouth,8
+2014,North Shore,12
+2014,Otorohanga,1
+2014,Overseas resident,4
+2014,Palmerston North,3
+2014,Papakura,14
+2014,Porirua,5
+2014,Queenstown Lakes,1
+2014,Rangitikei,1
+2014,Rodney,10
+2014,Rotorua,6
+2014,Ruapehu,2
+2014,Selwyn,3
+2014,South Taranaki,2
+2014,South Waikato,7
+2014,South Wairarapa,1
+2014,Southland,3
+2014,Stratford,1
+2014,Tararua,3
+2014,Tasman,1
+2014,Taupo,3
+2014,Tauranga,16
+2014,Thames-Coromandel,1
+2014,Timaru,1
+2014,Upper Hutt,7
+2014,Waikato,9
+2014,Waimakariri,4
+2014,Waipa,2
+2014,Wairoa,2
+2014,Waitakere,21
+2014,Waitaki,2
+2014,Waitomo,3
+2014,Wanganui,9
+2014,Wellington,11
+2014,Western BOP,6
+2014,Whakatane,7
+2014,Whangarei,16

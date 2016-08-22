@@ -1,0 +1,89 @@
+{
+    "query": {
+        "offset": 0,
+        "count": 20,
+        "total": 36
+    },
+    "sectors": [
+        {
+            "id": 2,
+            "name": "State Services"
+        },
+        {
+            "id": 5,
+            "name": "Public Service"
+        },
+        {
+            "id": 8,
+            "name": "Non-Public Service departments"
+        },
+        {
+            "id": 11,
+            "name": "Crown entities"
+        },
+        {
+            "id": 14,
+            "name": "Public Sector"
+        },
+        {
+            "id": 17,
+            "name": "Statutory entities"
+        },
+        {
+            "id": 20,
+            "name": "Crown agents"
+        },
+        {
+            "id": 23,
+            "name": "Autonomous crown entities"
+        },
+        {
+            "id": 26,
+            "name": "Independent crown entities"
+        },
+        {
+            "id": 29,
+            "name": "Crown entity companies"
+        },
+        {
+            "id": 32,
+            "name": "Crown Research Institutes"
+        },
+        {
+            "id": 35,
+            "name": "Other companies"
+        },
+        {
+            "id": 38,
+            "name": "Crown entity subsidiaries"
+        },
+        {
+            "id": 41,
+            "name": "School boards of trustees"
+        },
+        {
+            "id": 44,
+            "name": "Tertiary education institutions"
+        },
+        {
+            "id": 47,
+            "name": "Universities"
+        },
+        {
+            "id": 50,
+            "name": "Polytechnics\/Institutes of technology"
+        },
+        {
+            "id": 53,
+            "name": "W\u0101nanga"
+        },
+        {
+            "id": 56,
+            "name": "Public Finance Act Schedule 4 organisations"
+        },
+        {
+            "id": 59,
+            "name": "Fish and game councils"
+        }
+    ]
+}

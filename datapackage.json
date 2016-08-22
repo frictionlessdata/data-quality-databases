@@ -1,0 +1,994 @@
+{
+    "admin": "",
+    "context": "",
+    "last_modified": "",
+    "name": "",
+    "pitch": "",
+    "resources": [
+        {
+            "name": "publisher_file",
+            "path": "data/publishers.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "constraints": {
+                            "required": true,
+                            "unique": true
+                        },
+                        "name": "id",
+                        "title": "ID of the publisher",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true,
+                            "unique": true
+                        },
+                        "name": "title",
+                        "title": "Title or official name of the publisher",
+                        "type": "string"
+                    }
+                ],
+                "primaryKey": "id"
+            }
+        },
+        {
+            "name": "source_file",
+            "path": "data/sources.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "constraints": {
+                            "required": true,
+                            "unique": true
+                        },
+                        "name": "id",
+                        "title": "ID of the source",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true,
+                            "unique": true
+                        },
+                        "name": "publisher_id",
+                        "title": "ID of the source's publisher",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "title",
+                        "title": "Title or name of the source",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "data",
+                        "title": "Path/url to source",
+                        "type": "string"
+                    },
+                    {
+                        "name": "format",
+                        "title": "File format of the source",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "created_at",
+                        "title": "Time of the source's creation.",
+                        "type": "string"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": "publisher_id",
+                        "reference": {
+                            "fields": "id",
+                            "resource": "publisher_file"
+                        }
+                    }
+                ],
+                "primaryKey": "id"
+            }
+        },
+        {
+            "name": "run_file",
+            "path": "data/runs.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "constraints": {
+                            "required": true,
+                            "unique": true
+                        },
+                        "name": "id",
+                        "title": "ID of the run",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "format": "datetime",
+                        "name": "timestamp",
+                        "title": "Timestamp of the run execution",
+                        "type": "date"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "total_score",
+                        "title": "Rounded average score of results in this run",
+                        "type": "integer"
+                    }
+                ],
+                "primaryKey": "id"
+            }
+        },
+        {
+            "name": "result_file",
+            "path": "data/results.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "constraints": {
+                            "required": true,
+                            "unique": true
+                        },
+                        "name": "id",
+                        "title": "ID of the result",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true,
+                            "unique": true
+                        },
+                        "name": "source_id",
+                        "title": "ID of the correspoding source",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "publisher_id",
+                        "title": "ID of the source's publisher",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "format": "date",
+                        "name": "created_at",
+                        "title": "time of the source's creation.",
+                        "type": "date"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "data",
+                        "title": "Path/url to source",
+                        "type": "string"
+                    },
+                    {
+                        "name": "schema",
+                        "title": "Path/url to the source's schema",
+                        "type": "string"
+                    },
+                    {
+                        "contrains": {
+                            "required": true
+                        },
+                        "name": "score",
+                        "title": "Score of correctness given by GoodTables",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "summary",
+                        "title": "Summary",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true,
+                            "unique": true
+                        },
+                        "name": "run_id",
+                        "title": "ID of the run in which the result was calculated",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "format": "datetime",
+                        "name": "timestamp",
+                        "title": "Timestamp of the run execution",
+                        "type": "date"
+                    },
+                    {
+                        "name": "report",
+                        "title": "Path/url to the full GoodTabels report",
+                        "type": "string"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": "source_id",
+                        "reference": {
+                            "fields": "id",
+                            "resource": "source_file"
+                        }
+                    },
+                    {
+                        "fields": "publisher_id",
+                        "reference": {
+                            "fields": "id",
+                            "resource": "publisher_file"
+                        }
+                    },
+                    {
+                        "fields": "run_id",
+                        "reference": {
+                            "fields": "id",
+                            "resource": "run_file"
+                        }
+                    }
+                ],
+                "primaryKey": "id"
+            }
+        },
+        {
+            "name": "performance_file",
+            "path": "data/performance.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "constraints": {
+                            "required": true,
+                            "unique": true
+                        },
+                        "name": "publisher_id",
+                        "title": "ID of the publisher",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "format": "date",
+                        "name": "month_of_creation",
+                        "title": "Month when the source was created",
+                        "type": "date"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "files_count",
+                        "title": "Number of files published by the publisher during period",
+                        "type": "integer"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "score",
+                        "title": "Rounded average score of files published by the publisher during period",
+                        "type": "integer"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "valid",
+                        "title": "Number of valid files published by the publisher during period",
+                        "type": "integer"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "files_count_to_date",
+                        "title": "Number of files published by the publisher up to period",
+                        "type": "integer"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "score_to_date",
+                        "title": "Rounded average score of files published by the publisher up to period",
+                        "type": "integer"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "valid_to_date",
+                        "title": "Number of valid files published by the publisher up to period",
+                        "type": "integer"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": "publisher_id",
+                        "reference": {
+                            "fields": "id",
+                            "resource": "publisher_file"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "sources": [
+        {
+            "name": "Historic Buildings and Structures / ArcGIS Open Dataset",
+            "web": "http://datawestcoast.wcrc.opendata.arcgis.com/datasets/68f8c970bc3145dab8162e8fdf58f1f9_0"
+        },
+        {
+            "name": "Historic Buildings and Structures / Esri Rest API",
+            "web": "https://services3.arcgis.com/za4HjpHWqnA4SFnH/arcgis/rest/services/Historic_Buildings_and_Structures/FeatureServer/0"
+        },
+        {
+            "name": "Historic Buildings and Structures / CSV",
+            "web": "http://datawestcoast.wcrc.opendata.arcgis.com/datasets/68f8c970bc3145dab8162e8fdf58f1f9_0.csv"
+        },
+        {
+            "name": "Pest Plant Control Areas / ArcGIS Open Dataset",
+            "web": "http://datawestcoast.wcrc.opendata.arcgis.com/datasets/2c932dbab0e44501b7d1e1e0c7ff0541_2"
+        },
+        {
+            "name": "Pest Plant Control Areas / Esri Rest API",
+            "web": "http://gis.wcrc.govt.nz/arcgis/rest/services/ResourceManagementAndPlanning/ManagementPlans/MapServer/2"
+        },
+        {
+            "name": "Pest Plant Control Areas / CSV",
+            "web": "http://datawestcoast.wcrc.opendata.arcgis.com/datasets/2c932dbab0e44501b7d1e1e0c7ff0541_2.csv"
+        },
+        {
+            "name": "Historic Places / ArcGIS Open Dataset",
+            "web": "http://datawestcoast.wcrc.opendata.arcgis.com/datasets/0c6d1b99ca104112b7e5db29f04e662a_0"
+        },
+        {
+            "name": "Historic Places / Esri Rest API",
+            "web": "http://gis.wcrc.govt.nz/arcgis/rest/services/ResourceManagementAndPlanning/PlanningFeatures/MapServer/0"
+        },
+        {
+            "name": "Historic Places / CSV",
+            "web": "http://datawestcoast.wcrc.opendata.arcgis.com/datasets/0c6d1b99ca104112b7e5db29f04e662a_0.csv"
+        },
+        {
+            "name": "Air Management Zones / ArcGIS Open Dataset",
+            "web": "http://datawestcoast.wcrc.opendata.arcgis.com/datasets/ef72fb122dec4dba8b1cb05bbda83b29_0"
+        },
+        {
+            "name": "Air Management Zones / Esri Rest API",
+            "web": "http://gis.wcrc.govt.nz/arcgis/rest/services/Environment/AirManagementZones/MapServer/0"
+        },
+        {
+            "name": "Air Management Zones / CSV",
+            "web": "http://datawestcoast.wcrc.opendata.arcgis.com/datasets/ef72fb122dec4dba8b1cb05bbda83b29_0.csv"
+        },
+        {
+            "name": "Air Management Zones / OGC WFS",
+            "web": "http://gis.wcrc.govt.nz/arcgis/services/Environment/AirManagementZones/MapServer/WFSServer?request=GetCapabilities&service=WFS"
+        },
+        {
+            "name": "Lake Brunner Special Management Area / ArcGIS Open Dataset",
+            "web": "http://datawestcoast.wcrc.opendata.arcgis.com/datasets/791bda5d93604489aa914a35dd0996a8_0"
+        },
+        {
+            "name": "Lake Brunner Special Management Area / Esri Rest API",
+            "web": "http://gis.wcrc.govt.nz/arcgis/rest/services/ResourceManagementAndPlanning/ManagementPlans/MapServer/0"
+        },
+        {
+            "name": "Lake Brunner Special Management Area / CSV",
+            "web": "http://datawestcoast.wcrc.opendata.arcgis.com/datasets/791bda5d93604489aa914a35dd0996a8_0.csv"
+        },
+        {
+            "name": "Greymouth Earthworks / ArcGIS Open Dataset",
+            "web": "http://datawestcoast.wcrc.opendata.arcgis.com/datasets/38fcd119f8da40a48a0641d911a181a0_3"
+        },
+        {
+            "name": "Greymouth Earthworks / Esri Rest API",
+            "web": "http://gis.wcrc.govt.nz/arcgis/rest/services/ResourceManagementAndPlanning/ManagementPlans/MapServer/3"
+        },
+        {
+            "name": "Greymouth Earthworks / CSV",
+            "web": "http://datawestcoast.wcrc.opendata.arcgis.com/datasets/38fcd119f8da40a48a0641d911a181a0_3.csv"
+        },
+        {
+            "name": "Coastal Hazards / ArcGIS Open Dataset",
+            "web": "http://datawestcoast.wcrc.opendata.arcgis.com/datasets/c9aafc7d10324c7280a828bb3571f8ab_3"
+        },
+        {
+            "name": "Coastal Hazards / Esri Rest API",
+            "web": "http://gis.wcrc.govt.nz/arcgis/rest/services/ResourceManagementAndPlanning/PlanningFeatures/MapServer/3"
+        },
+        {
+            "name": "Coastal Hazards / CSV",
+            "web": "http://datawestcoast.wcrc.opendata.arcgis.com/datasets/c9aafc7d10324c7280a828bb3571f8ab_3.csv"
+        },
+        {
+            "name": "NZ Title Parcel Association List / NZ Title Parcel Association List",
+            "web": "https://data.linz.govt.nz/table/1569-nz-title-parcel-association-list/"
+        },
+        {
+            "name": "NZ Property Titles List / NZ Property Titles List",
+            "web": "https://data.linz.govt.nz/table/1567-nz-property-titles-list/"
+        },
+        {
+            "name": "NZ Property Titles / NZ Property Titles",
+            "web": "https://data.linz.govt.nz/layer/804-nz-property-titles/"
+        },
+        {
+            "name": "NZ Property Title Estates List / NZ Property Title Estates List",
+            "web": "https://data.linz.govt.nz/table/1566-nz-property-title-estates-list/"
+        },
+        {
+            "name": "NZ Primary Road Parcels / NZ Primary Road Parcels",
+            "web": "https://data.linz.govt.nz/layer/796-nz-primary-road-parcels/"
+        },
+        {
+            "name": "NZ Powerline Centrelines (Topo, 1:250k) / NZ Powerline Centrelines (Topo, 1:250k)",
+            "web": "https://data.linz.govt.nz/layer/177-nz-powerline-centrelines-topo-1250k/"
+        },
+        {
+            "name": "NZ Parcels / NZ Parcels",
+            "web": "https://data.linz.govt.nz/layer/1571-nz-parcels/"
+        },
+        {
+            "name": "NZ Non-Primary Parcels / NZ Non-Primary Parcels",
+            "web": "https://data.linz.govt.nz/layer/782-nz-non-primary-parcels/"
+        },
+        {
+            "name": "NZ Linear Parcels / NZ Linear parcels",
+            "web": "https://data.linz.govt.nz/layer/1570-nz-linear-parcels/"
+        },
+        {
+            "name": "NZ Land Districts / NZ Land Districts",
+            "web": "https://data.linz.govt.nz/layer/785-nz-land-districts/"
+        },
+        {
+            "name": "NZ Chatham Is Windmill Points (Topo, 1:250k) / NZ Chatham Island Windmill Points",
+            "web": "https://data.linz.govt.nz/layer/2326-nz-chatham-is-windmill-points-topo-1250k/"
+        },
+        {
+            "name": "NZ Bathymetric Data Index - Third Party / NZ Bathymetric Data Index - Third Party",
+            "web": "https://data.linz.govt.nz/layer/3395-nz-bathymetric-data-index-third-party/"
+        },
+        {
+            "name": "NZ Airport Polygons (Topo, 1:50k) / NZ Airport Polygons (Topo, 1:50k)",
+            "web": "https://data.linz.govt.nz/layer/237-nz-airport-polygons-topo-150k/"
+        },
+        {
+            "name": "LINZ Managed Crown Property / LINZ Managed Crown Property",
+            "web": "https://data.linz.govt.nz/layer/3358-linz-managed-crown-property/"
+        },
+        {
+            "name": "Landonline: Encumbrance / Landonline: Encumbrance",
+            "web": "https://data.linz.govt.nz/table/1984-landonline-encumbrance/"
+        },
+        {
+            "name": "Ferry route polyline (Hydro, 1:22k - 1:90k) / Ferry route polyline (Hydro, 1:22k - 1:90k)",
+            "web": "https://data.linz.govt.nz/layer/2810-ferry-route-polyline-hydro-122k-190k/"
+        },
+        {
+            "name": "Daymark points (Hydro, 1:22k - 1:90k) / Daymark points (Hydro, 1:22k - 1:90k)",
+            "web": "https://data.linz.govt.nz/layer/551-daymark-points-hydro-122k-190k/"
+        },
+        {
+            "name": "Dog control statistics / Dog control statistics 2001 - 2016",
+            "web": "https://beta.data.govt.nz/dataset/e4e5f381-6e04-4f78-b013-9fc9c72495cb/resource/9a0d6057-4b54-4f01-810b-f34a872ec441/download/dogcontrolstatistics.csv"
+        },
+        {
+            "name": "Statistical Profiles of Individual Councils / Statistical Profiles of Individual Councils",
+            "web": "http://www.localcouncils.govt.nz/lgip.nsf/wpg_url/Profiles-Index"
+        },
+        {
+            "name": "Local Authority Long-Term plan financial tables / Councils 2015-2025 LTP financial data",
+            "web": "https://beta.data.govt.nz/dataset/ee51ccdd-5cde-46bc-9840-2c16528d5c5a/resource/ecb51c1d-8bff-4ac2-abdd-a1708350276e/download/councils-201525-ltp-financial-data.csv"
+        },
+        {
+            "name": "Local Authority Long-Term plan financial tables / Councils 2012-22 LTP Balance Sheet data",
+            "web": "https://beta.data.govt.nz/dataset/ee51ccdd-5cde-46bc-9840-2c16528d5c5a/resource/0bc8a80c-498a-48b8-bc3b-8f2a7790156a/download/councils-balance-sheets-2012-22-ltp.csv"
+        },
+        {
+            "name": "Local Authority Long-Term plan financial tables / Councils 2012-22 LTP Funding Impact Statements data",
+            "web": "https://beta.data.govt.nz/dataset/ee51ccdd-5cde-46bc-9840-2c16528d5c5a/resource/5cc61e9a-c413-4ff6-bfb0-54339b4f66b3/download/fis-2012-2022-ltp.csv"
+        },
+        {
+            "name": "Local Authority Long-Term plan financial tables / Councils 2012-22 LTP Income and Expenditure data",
+            "web": "https://beta.data.govt.nz/dataset/ee51ccdd-5cde-46bc-9840-2c16528d5c5a/resource/0aef2cac-6177-4ef5-949e-086bcbfe6c07/download/financial-performance.csv"
+        },
+        {
+            "name": "Local Authority Long-Term plan financial tables / Councils 2012-22 LTP Cash Flow data",
+            "web": "https://beta.data.govt.nz/dataset/ee51ccdd-5cde-46bc-9840-2c16528d5c5a/resource/157f244e-fd11-4850-9794-de5ca2ad1c53/download/cashflow.csv"
+        },
+        {
+            "name": "Local Authority Long-Term plan financial tables / Councils 2012-22 LTP Funding Impact Statement 5 Activities data",
+            "web": "https://beta.data.govt.nz/dataset/ee51ccdd-5cde-46bc-9840-2c16528d5c5a/resource/1c86491c-e927-4734-9a01-15b467a673af/download/councils-2012-2022-ltp-fis-5-activities.csv"
+        },
+        {
+            "name": "Local Authority Long-Term plan financial tables / Councils 2009-2019 LTP Balance Sheet data",
+            "web": "https://beta.data.govt.nz/dataset/ee51ccdd-5cde-46bc-9840-2c16528d5c5a/resource/5dd0363a-a425-48c9-bc64-cc3d60506ae7/download/councils-2009-2019-ltp-balance-sheet-data.csv"
+        },
+        {
+            "name": "Local Authority Long-Term plan financial tables / Councils 2009-2019 LTP Income and Expenditure data",
+            "web": "https://beta.data.govt.nz/dataset/ee51ccdd-5cde-46bc-9840-2c16528d5c5a/resource/7cc4cb54-0a04-4eec-be89-58da6be00209/download/councils-2009-2019-ltp-income-expenditure-data.csv"
+        },
+        {
+            "name": "Local Authority Long-Term plan financial tables / Councils 2009-2019 LTP Cash Flow data",
+            "web": "https://beta.data.govt.nz/dataset/ee51ccdd-5cde-46bc-9840-2c16528d5c5a/resource/e936a061-ff35-401d-945a-cef33c5a6957/download/councils-2009-2019-ltp-cash-flow-data.csv"
+        },
+        {
+            "name": "Local Authority Long-Term plan financial tables / Councils 2006-2016 LTP Balance Sheet data",
+            "web": "https://beta.data.govt.nz/dataset/ee51ccdd-5cde-46bc-9840-2c16528d5c5a/resource/9be4b439-dd8a-43f2-ad3b-08998371b274/download/councils-2006-2016-ltp-balance-sheet-data.csv"
+        },
+        {
+            "name": "Local Authority Long-Term plan financial tables / Councils 2006-2016 LTP Income and Expenditure data",
+            "web": "https://beta.data.govt.nz/dataset/ee51ccdd-5cde-46bc-9840-2c16528d5c5a/resource/e800d31f-ce7e-49c3-9636-c64798324231/download/councils-2006-2016-ltp-income-expenditure-data.csv"
+        },
+        {
+            "name": "Local Authority Long-Term plan financial tables / Councils 2006-2016 LTP Cash Flow data",
+            "web": "https://beta.data.govt.nz/dataset/ee51ccdd-5cde-46bc-9840-2c16528d5c5a/resource/50e15237-6de0-4a83-80ed-c897c31d3fa9/download/councils-2006-2016-ltp-cash-flow-data.csv"
+        },
+        {
+            "name": "Local authority 2009-19 LTP Survey results / Local Councils with a population under 10K_ 2009-19 LTP survey responses",
+            "web": "http://www.localcouncils.govt.nz/lgip.nsf/Files/Excel/$file/Local%20Councils%20Pop%20Under%2010k%20LTCCP%20Survey%202009_19.xls"
+        },
+        {
+            "name": "Local authority 2009-19 LTP Survey results / Local Councils with a population between 10-25K_ 2009-19 LTP survey responses",
+            "web": "http://www.localcouncils.govt.nz/lgip.nsf/Files/Excel/$file/Local%20Councils%20Pop%2010-25k%20LTCCP%20Survey%202009_19.xls"
+        },
+        {
+            "name": "Local authority 2009-19 LTP Survey results / Local Councils with a population between 25-45K_ 2009-19 LTP survey responses",
+            "web": "http://www.localcouncils.govt.nz/lgip.nsf/Files/Excel/$file/Local%20Councils%20Pop%2025-45k%20LTCCP%20Survey%202009_19.xls"
+        },
+        {
+            "name": "Local authority 2009-19 LTP Survey results / Local Councils with a population between 45-125K_ 2009-19 LTP survey responses",
+            "web": "http://www.localcouncils.govt.nz/lgip.nsf/Files/Excel/$file/Local%20Councils%20Pop%2045-125k%20LTCCP%20Survey%202009_19.xls"
+        },
+        {
+            "name": "Local authority 2009-19 LTP Survey results / Auckland Councils_ 2009-19 LTP survey responses",
+            "web": "http://www.localcouncils.govt.nz/lgip.nsf/Files/Excel/$file/Auckland%20Local%20Councils%20LTCCP%20Survey%202009_19.xls"
+        },
+        {
+            "name": "Local authority 2009-19 LTP Survey results / Regional Councils_ 2009-19 LTP survey responses",
+            "web": "http://www.localcouncils.govt.nz/lgip.nsf/Files/Excel/$file/Regional%20Councils%20LTCCP%20Survey%202009_19.xls"
+        },
+        {
+            "name": "Local authority 2009-19 LTP Survey results / Income data from responding councils_2009-19 LTP Survey",
+            "web": "http://www.localcouncils.govt.nz/lgip.nsf/Files/Excel/$file/INCOME%20Only%20LTCCP%20Survey%202009_19.xls"
+        },
+        {
+            "name": "Local authority 2009-19 LTP Survey results / Expenditure data from responding councils_2009-19 LTP Survey",
+            "web": "http://www.localcouncils.govt.nz/lgip.nsf/Files/Excel/$file/EXPENDITURE%20Only%20LTCCP%20Survey%202009_19.xls"
+        },
+        {
+            "name": "Dog related injury recorded in public hospital discharges 2000-2014 / By Territitorial Local Authority (Council) - non fatal dog bite injury hospital discharges 2000-2014",
+            "web": "https://beta.data.govt.nz/dataset/d890243a-740f-4a11-82df-76a778b30bcf/resource/d09791ee-d2fa-42d6-a4a6-f87119bc7746/download/non-fatal-dog-bite-injury-hospital-discharges-by-tla-2000-2014.csv"
+        },
+        {
+            "name": "Dog related injury recorded in public hospital discharges 2000-2014 / By age group - non fatal dog bite injury hospital discharges 2000-2014",
+            "web": "https://beta.data.govt.nz/dataset/d890243a-740f-4a11-82df-76a778b30bcf/resource/251f7871-16b2-4491-b013-ecde3d76cf96/download/by-age-group-non-fatal-dog-bite-injury-hospital-discharges2000-2014.csv"
+        },
+        {
+            "name": "Dog related injury recorded in public hospital discharges 2000-2014 / By ethnicity - non fatal dog bite injury hospital discharges 2000-2014",
+            "web": "https://beta.data.govt.nz/dataset/d890243a-740f-4a11-82df-76a778b30bcf/resource/602aae94-3dba-4048-8fe1-ce4c8062475f/download/by-ethnicity-non-fatal-dog-bite-injury-hospital-discharges2000-2014.csv"
+        },
+        {
+            "name": "Dog related injury recorded in public hospital discharges 2000-2014 / By gender - non fatal dog bite injury hospital discharges 2000-2014",
+            "web": "https://beta.data.govt.nz/dataset/d890243a-740f-4a11-82df-76a778b30bcf/resource/2e0d2f97-2426-44a6-afbf-9781ae2ebc22/download/by-gender-non-fatal-dog-bite-injury-hospital-discharges2000-2014.csv"
+        },
+        {
+            "name": "Dog related injury recorded in public hospital discharges 2000-2014 / By scene - non fatal dog bite injury hospital discharges 2000-2014",
+            "web": "https://beta.data.govt.nz/dataset/d890243a-740f-4a11-82df-76a778b30bcf/resource/ac0cea2b-b008-40e4-b3cc-969ee2b2b1e4/download/by-scene-non-fatal-dog-bite-injury-hospital-discharges2000-2014.csv"
+        },
+        {
+            "name": "Dog related injury recorded in public hospital discharges 2000-2014 / By activity - non fatal dog bite injury hospital discharges 2000-2014",
+            "web": "https://beta.data.govt.nz/dataset/d890243a-740f-4a11-82df-76a778b30bcf/resource/a4a192ed-df66-42ec-86bc-6f4f94c354e4/download/by-activity-non-fatal-dog-bite-injury-hospital-discharges2000-2014.csv"
+        },
+        {
+            "name": "Dog related injury recorded in public hospital discharges 2000-2014 / By day of week injury occurred - non fatal dog bite injury hospital discharges 2000-2014",
+            "web": "https://beta.data.govt.nz/dataset/d890243a-740f-4a11-82df-76a778b30bcf/resource/d101af0b-3f16-4fea-8ce2-651e4bbac941/download/by-day-of-week-non-fatal-dog-bite-injury-hospital-discharges2000-2014.csv"
+        },
+        {
+            "name": "Dog related injury recorded in public hospital discharges 2000-2014 / By month injury occurred - non fatal dog bite injury hospital discharges 2000-2014",
+            "web": "https://beta.data.govt.nz/dataset/d890243a-740f-4a11-82df-76a778b30bcf/resource/b9010f24-5c40-4ce5-8606-b927b5a8e5ab/download/by-month-non-fatal-dog-bite-injury-hospital-discharges2000-2014.csv"
+        },
+        {
+            "name": "Dog related injury recorded in public hospital discharges 2000-2014 / By total days spent in hospital - non fatal dog bite injury hospital discharges 2000-2014",
+            "web": "https://beta.data.govt.nz/dataset/d890243a-740f-4a11-82df-76a778b30bcf/resource/b2082fd2-04fe-4a8f-96c5-16e8187d0a7a/download/by-days-stay-in-hospital-non-fatal-dog-bite-injury-hospital-discharges2000-2014.csv"
+        },
+        {
+            "name": "Dog related injury recorded in public hospital discharges 2000-2014 / By diagnosis - non fatal dog bite injury hospital discharges 2000-2014",
+            "web": "https://beta.data.govt.nz/dataset/d890243a-740f-4a11-82df-76a778b30bcf/resource/311d90c7-7a60-4feb-8229-96d3054ad859/download/by-diagnosis-non-fatal-dog-bite-injury-hospital-discharges2000-2014.csv"
+        },
+        {
+            "name": "Council rates rebates / Council Rates Rebate Statistics",
+            "web": "http://www.localcouncils.govt.nz/lgip.nsf/Files/Excel/$file/rates_rebates_statistics.xlsx"
+        },
+        {
+            "name": "Usual residence 5 years ago by meshblock (2013 Census) / Usual residence 5 years ago by meshblock (2013 Census)",
+            "web": "https://datafinder.stats.govt.nz/layer/8441-usual-residence-5-years-ago-by-meshblock-2013-census/"
+        },
+        {
+            "name": "Territorial Authority 2016 Generalised Version / Territorial Authority 2016 Generalised Version",
+            "web": "https://datafinder.stats.govt.nz/layer/8409-territorial-authority-2016-generalised-version/"
+        },
+        {
+            "name": "Sex by meshblock (2013 Census) / Sex by meshblock (2013 Census)",
+            "web": "https://datafinder.stats.govt.nz/layer/8446-sex-by-meshblock-2013-census/"
+        },
+        {
+            "name": "Rental bond data / Lodged bonds by TA [CSV 73KB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/10b3f5843dc24a3b98847eddd7321708"
+        },
+        {
+            "name": "Rental bond data / Active bonds by TA [CSV 99KB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/88c78bfacc2a48acaf4a2f6d04998f64"
+        },
+        {
+            "name": "Rental bond data / Closed bonds by TA [CSV 72KB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/74d986fbcfef42c7ad070cd648c6b35e"
+        },
+        {
+            "name": "Rental bond data / Mean rents by TA [CSV 306KB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/26e809299eb0405e83a178d5f9cfd6cf"
+        },
+        {
+            "name": "Rental bond data / Geometric mean rents by TA [CSV 337KB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/439fb405e6754fb59167367fbfb64fbb"
+        },
+        {
+            "name": "Rental bond data / Synthetic upper quartile rents by TA [CSV 337KB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/bfbd45a60d14481691273201525dccfa"
+        },
+        {
+            "name": "Rental bond data / Synthetic lower quartile rents by TA [CSV 337KB]",
+            "web": "https://beta.data.govt.nz/dataset/41defb85-abce-42f2-822f-a6af282c2f1f/resource/e80a809d-069f-4b7c-9de6-e516ba5beabc/download/synthetic-lower-quartile-rents-by-ta.csv"
+        },
+        {
+            "name": "Rental bond data / Standard deviation of log rents by TA [CSV 357KB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/c68ed0cf49314b98ba9e742fa86b89a9"
+        },
+        {
+            "name": "Rental bond data / Lodged bonds by region [CSV 24KB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/799e79d9c77f4d52be146927d0f74ae3"
+        },
+        {
+            "name": "Rental bond data / Active bonds by region [CSV 29KB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/3ed3b89b83fb4ddbb3d0868d1f465baf"
+        },
+        {
+            "name": "Rental bond data / Closed bonds by region [CSV 24KB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/9197ca5ae94a4a54835db32b1a9b0d1e"
+        },
+        {
+            "name": "Rental bond data / Mean rents by region [CSV 80KB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/69ccf090f2714a0dae2ef1f7dbe76bc1"
+        },
+        {
+            "name": "Rental bond data / Geometric mean rents by region [CSV 82KB]",
+            "web": "https://beta.data.govt.nz/dataset/41defb85-abce-42f2-822f-a6af282c2f1f/resource/5d6cd218-4797-4c23-8889-fd0926d9e879/download/geometric-mean-rents-by-region.csv"
+        },
+        {
+            "name": "Rental bond data / Synthetic upper quartile rents by region [CSV 82KB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/3fe059e7bf8a423b9e864a004703b9f0"
+        },
+        {
+            "name": "Rental bond data / Synthetic lower quartile rents by region [CSV 82KB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/7739019e9c024f8cbae3a41d24c97a6e"
+        },
+        {
+            "name": "Rental bond data / Standard deviation of log rents by region [CSV 87KB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/b15be58eeadc42249c1a1ac9b0d5d24e"
+        },
+        {
+            "name": "Rental bond data / Detailed lodged bonds [CSV 4.2MB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/278003a79b7948fcb5926da90ff7a7ac"
+        },
+        {
+            "name": "Rental bond data / Detailed active bonds [CSV 4.7MB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/905ed9e144c04836acb082d7f480bd87"
+        },
+        {
+            "name": "Rental bond data / Detailed closed bonds [CSV 4.2MB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/42451a48c9d148419722146ab83feb22"
+        },
+        {
+            "name": "Rental bond data / Detailed mean rents [CSV 10MB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/ef8b83136bb04f49ab80999f63d0c957"
+        },
+        {
+            "name": "Rental bond data / Detailed geometric mean rents [CSV 11.6MB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/6ea1d34a75834912838e1fcc1648a724"
+        },
+        {
+            "name": "Rental bond data / Detailed synthetic upper quartile rents [CSV 11.6MB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/00d74c3c1b3d4a308bf2f53278d8f081"
+        },
+        {
+            "name": "Rental bond data / Detailed synthetic lower quartile rents [CSV 11.7MB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/66a4ab1adbb1425e9d7639b3603b9229"
+        },
+        {
+            "name": "Rental bond data / Detailed standard deviation of log rents [CSV 14.4MB]",
+            "web": "http://www.mbie.govt.nz/info-services/housing-property/sector-information-and-statistics/rental-bond-data/resolveuid/7aeaef729dd94a97afbf6d8e5a7a2dc1"
+        },
+        {
+            "name": "Population by meshblock (2013 Census) / Population by meshblock (2013 Census)",
+            "web": "https://datafinder.stats.govt.nz/layer/8437-population-by-meshblock-2013-census/"
+        },
+        {
+            "name": "NZ Earthquakes June 2015 to June 2016 / Earthquakes in Auckland and Northland June 2015 - June 2016",
+            "web": "http://quakesearch.geonet.org.nz/services/1.0.0/geojson?region=aucklandnorthland&startdate=2015-6-3T0:00:00&enddate=2016-6-3T1:00:00"
+        },
+        {
+            "name": "NZ Earthquakes June 2015 to June 2016 / Earthquakes in Fiordland June 2015 - June 2016",
+            "web": "http://quakesearch.geonet.org.nz/services/1.0.0/geojson?region=fiordland&startdate=2015-6-3T0:00:00&enddate=2016-6-3T1:00:00"
+        },
+        {
+            "name": "NZ Earthquakes June 2015 to June 2016 / Earthquakes in Hawkes Bay June 2015 - June 2016",
+            "web": "http://quakesearch.geonet.org.nz/services/1.0.0/geojson?region=hawkesbay&startdate=2015-6-3T0:00:00&enddate=2016-6-3T1:00:00"
+        },
+        {
+            "name": "NZ Earthquakes June 2015 to June 2016 / Earthquakes in Otago and Southland June 2015 - June 2016",
+            "web": "http://quakesearch.geonet.org.nz/services/1.0.0/geojson?region=otagosouthland&startdate=2015-6-3T0:00:00&enddate=2016-6-3T1:00:00"
+        },
+        {
+            "name": "NZ Earthquakes June 2015 to June 2016 / Earthquakes in Tongariro and Bay of Plenty June 2015 - June 2016",
+            "web": "http://quakesearch.geonet.org.nz/services/1.0.0/geojson?region=tongagrirobayofplenty&startdate=2015-6-3T0:00:00&enddate=2016-6-3T1:00:00"
+        },
+        {
+            "name": "NZ Earthquakes June 2015 to June 2016 / Earthquakes in Canterbury June 2015 - June 2016",
+            "web": "http://quakesearch.geonet.org.nz/services/1.0.0/geojson?region=canterbury&startdate=2015-6-3T0:00:00&enddate=2016-6-3T1:00:00"
+        },
+        {
+            "name": "NZ Earthquakes June 2015 to June 2016 / Earthquakes in Gisborne June 2015 - June 2016",
+            "web": "http://quakesearch.geonet.org.nz/services/1.0.0/geojson?region=gisborne&startdate=2015-6-3T0:00:00&enddate=2016-6-3T1:00:00"
+        },
+        {
+            "name": "NZ Earthquakes June 2015 to June 2016 / Earthquakes in Nelson and West Coast June 2015 - June 2016",
+            "web": "http://quakesearch.geonet.org.nz/services/1.0.0/geojson?region=nelsonwestcoast&startdate=2015-6-3T0:00:00&enddate=2016-6-3T1:00:00"
+        },
+        {
+            "name": "NZ Earthquakes June 2015 to June 2016 / Earthquakes in Taranaki  June 2015 - June 2016",
+            "web": "http://quakesearch.geonet.org.nz/services/1.0.0/geojson?region=taranaki&startdate=2015-6-3T0:00:00&enddate=2016-6-3T1:00:00"
+        },
+        {
+            "name": "NZ Earthquakes June 2015 to June 2016 / Earthquakes in Wellington and Marlborough June 2015 - June 2016",
+            "web": "http://quakesearch.geonet.org.nz/services/1.0.0/geojson?region=wellington&startdate=2015-6-3T0:00:00&enddate=2016-6-3T1:00:00"
+        },
+        {
+            "name": "New Zealand Schools Directory Information / Current School Directory",
+            "web": "http://www.educationcounts.govt.nz/__data/assets/file/0003/62571/Directory-School-current.csv"
+        },
+        {
+            "name": "New Zealand Gazette / New Zealand Gazette access through Digital NZ API",
+            "web": "http://www.digitalnz.org/developers"
+        },
+        {
+            "name": "New Zealand Citizenship statistics from 1949 - 2014 / Granted New Zealand Citizenship from 1949-2014",
+            "web": "https://www.dia.govt.nz/diawebsite.nsf/Files/Granted_Citizenship_1949_2013/$file/Granted_Citizenship_1949.xls"
+        },
+        {
+            "name": "New Zealand Citizenship statistics from 1949 - 2014 / Granted New Zealand Citizenship from 1949-2014",
+            "web": "https://beta.data.govt.nz/dataset/6704c2b6-6284-470d-947d-9d6a61022261/resource/8be47522-c3ee-4ff1-916c-73b0c5b08327/download/grantedcitizenship19492014.csv"
+        },
+        {
+            "name": "Most Popular Male and Female First Names / Top 100 Male and Female Baby Names",
+            "web": "https://www.dia.govt.nz/diawebsite.nsf/Files/Top-baby-names-1999-2015/$file/Top-baby-names-1999-2015.xlsx"
+        },
+        {
+            "name": "Most Popular Male and Female First Names / Top 20 M\u0101ori boys\u2019 and girls\u2019 names for 2015",
+            "web": "https://www.dia.govt.nz/press.nsf/d77da9b523f12931cc256ac5000d19b6/3a6c1923b85f3819cc257f48008050eb!OpenDocument"
+        },
+        {
+            "name": "Most Popular Male and Female First Names / 100 Most Popular Female Names 1999 - 2015",
+            "web": "https://beta.data.govt.nz/dataset/376c6153-d4ef-4436-bc20-d55d9439f5aa/resource/9176a94b-cc96-42b5-b96d-c66fdc5a9952/download/registered-girl-baby-names-1999---2015.csv"
+        },
+        {
+            "name": "Meshblock  2016 Generalised Version / Meshblock 2016 Generalised Version",
+            "web": "https://datafinder.stats.govt.nz/layer/8413-meshblock-2016-generalised-version/"
+        },
+        {
+            "name": "Meshblock 2013 / Meshblock 2013",
+            "web": "https://datafinder.stats.govt.nz/layer/8347-meshblock-2013/"
+        },
+        {
+            "name": "Maori descent by meshblock (2013 Census) / Maori descent by meshblock (2013 Census)",
+            "web": "https://datafinder.stats.govt.nz/layer/8445-maori-descent-by-meshblock-2013-census/"
+        },
+        {
+            "name": "Lottery Grants Board World War One Commemorations, Environment and Heritage grant recipients / December 2015 - Environment and heritage grants approved",
+            "web": "http://www.communitymatters.govt.nz/vwluResources/Lottery-WW1-Environment-and-Heritage-Enviornment-and-Heritage-Grants-8-December-2015-csv/$file/Lottery-WW1-Environment-and-Heritage-Environment-and-Heritage-Grants-8-December-2015-csv.csv"
+        },
+        {
+            "name": "Lottery Grants Board World War One Commemorations, Environment and Heritage grant recipients / December 2015 - World War One Commemorative grants approved",
+            "web": "http://www.communitymatters.govt.nz/vwluResources/Lottery-WW1-Environment-and-Heritage-8-December-2015-csv/$file/Lottery-WW1-Environment-and-Heritage-8-December-2015.csv"
+        },
+        {
+            "name": "Lottery Grants Board World War One Commemorations, Environment and Heritage grant recipients / May 2015 - Environment and heritage grants approved",
+            "web": "http://www.communitymatters.govt.nz/vwluResources/LGB-WW1EH-EH-May-2015-csv/$file/LGB-WW1EH-EH-May-2015-csv.csv"
+        },
+        {
+            "name": "Lottery Grants Board World War One Commemorations, Environment and Heritage grant recipients / May 2015 - World War One Commemorative grants approved ",
+            "web": "http://www.communitymatters.govt.nz/vwluResources/LGB-WW1EH-WW1-May-2015-csv/$file/LGB-WW1EH-WW1-May-2015-csv.csv"
+        },
+        {
+            "name": "Lottery Grants Board World War One Commemorations, Environment and Heritage grant recipients / November 2014 - Lottery World War One Commemorations, Environment and Heritage natural heritage grants approved",
+            "web": "http://www.communitymatters.govt.nz/vwluResources/LGB-WW1EH-natural-Nov-2014-csv/$file/LGB-WW1EH-natural-Nov-2014-csv.csv"
+        },
+        {
+            "name": "Lottery Grants Board World War One Commemorations, Environment and Heritage grant recipients / November 2014 - Lottery World War One Commemorations, Environment and Heritage natural heritage grants approved",
+            "web": "http://www.communitymatters.govt.nz/vwluResources/LGB-WW1EH-natural-Nov-2014-csv/$file/LGB-WW1EH-natural-Nov-2014-csv.csv"
+        },
+        {
+            "name": "Lottery Grants Board World War One Commemorations, Environment and Heritage grant recipients / November 2014 - Lottery World War One Commemorations, Environment and Heritage physical heritage grants approved",
+            "web": "http://www.communitymatters.govt.nz/vwluResources/LGB-WW1EH-physical-Nov-2014-csv/$file/LGB-WW1EH-physical-Nov-2014-csv.csv"
+        },
+        {
+            "name": "Lottery Grants Board World War One Commemorations, Environment and Heritage grant recipients / November 2014 - Lottery World War One Commemorations, Environment and Heritage World War One commemorations grants approved",
+            "web": "http://www.communitymatters.govt.nz/vwluResources/LGB-WW1EH-commemorations-Nov-2014-csv/$file/LGB-WW1EH-commemorations-Nov-2014-csv.csv"
+        },
+        {
+            "name": "Lottery Grants Board World War One Commemorations, Environment and Heritage grant recipients / April 2014 - World War One Commemorative grants approved",
+            "web": "http://www.communitymatters.govt.nz/vwluResources/LGB-WW1EH-ww1-April-2014-csv/$file/LGB-WW1EH-ww1-April-2014-csv.csv"
+        },
+        {
+            "name": "Lottery Grants Board World War One Commemorations, Environment and Heritage grant recipients / October 2013 - World War One Commemorative grants approved",
+            "web": "http://www.communitymatters.govt.nz/vwluResources/LGB-WW1EH-ww1-October-2013-csv/$file/LGB-WW1EH-ww1-October-2013-csv.csv"
+        },
+        {
+            "name": "Lottery Grants Board World War One Commemorations, Environment and Heritage grant recipients / October 2013 - Environment and Heritage, natural heritage grants approved",
+            "web": "http://www.communitymatters.govt.nz/vwluResources/LGB-WW1EH-natural-Oct-2013-csv/$file/LGB-WW1EH-natural-Oct-2013-csv.csv"
+        },
+        {
+            "name": "Lottery Grants Board World War One Commemorations, Environment and Heritage grant recipients / October 2013 - Environment and Heritage, physical heritage grants approved ",
+            "web": "http://www.communitymatters.govt.nz/vwluResources/LGB-WW1EH-physical-Oct-2013-csv/$file/LGB-WW1EH-physical-Oct-2013-csv.csv"
+        },
+        {
+            "name": "Lottery Grants Board World War One Commemorations, Environment and Heritage grant recipients / October 2013 - Environment and Heritage, cultural heritage grants approved",
+            "web": "http://www.communitymatters.govt.nz/vwluResources/LGB-WW1EH-cultural-Oct-2013-csv/$file/LGB-WW1EH-cultural-Oct-2013-csv.csv"
+        },
+        {
+            "name": "Lottery Grants Board World War One Commemorations, Environment and Heritage grant recipients / April 2013 - World War One Commemorative grants approved",
+            "web": "http://www.communitymatters.govt.nz/vwluResources/LGB-WW1EH-commemorations-April-2013-csv/$file/LGB-WW1EH-commemorations-April-2013-csv.csv"
+        },
+        {
+            "name": "Local Authority Election Statistics / 2013 Local Authority Election Data",
+            "web": "https://beta.data.govt.nz/dataset/9f8635d6-17a7-4dfb-a93d-a52f76f5e00b/resource/c6dc3fe3-b832-4e1b-ac62-05d660fbd8a2/download/2013-local-authority-election-data-1.csv"
+        },
+        {
+            "name": "Local Authority Election Statistics / 2010 Local Authority Election Data",
+            "web": "https://beta.data.govt.nz/dataset/9f8635d6-17a7-4dfb-a93d-a52f76f5e00b/resource/75df6834-5684-401d-ac7d-bff925a5aee6/download/2010-local-authority-election-data.csv"
+        },
+        {
+            "name": "Local Authority Election Statistics / 2007 Local Authority Election Data",
+            "web": "https://beta.data.govt.nz/dataset/9f8635d6-17a7-4dfb-a93d-a52f76f5e00b/resource/e2c6b1e1-80a7-423e-b2e1-a90e1485903d/download/2007-local-authority-election-data.csv"
+        },
+        {
+            "name": "Languages by meshblock (2013 Census) / Languages by Meshblock (2013 Census)",
+            "web": "https://datafinder.stats.govt.nz/layer/8444-languages-by-meshblock-2013-census/"
+        },
+        {
+            "name": "Government consultation listing / Consultation list",
+            "web": "https://www.govt.nz/api/v2/consultation/list"
+        },
+        {
+            "name": "Government consultation listing / Consultation organisation",
+            "web": "https://www.govt.nz/api/v2/consultation/organisation"
+        },
+        {
+            "name": "Government consultation listing / Consultation topic",
+            "web": "https://www.govt.nz/api/v2/consultation/topic"
+        },
+        {
+            "name": "Government A-Z directory / Government organisations",
+            "web": "https://www.govt.nz/api/v2/organisation/list"
+        },
+        {
+            "name": "Government A-Z directory / Government sectors",
+            "web": "https://www.govt.nz/api/v2/organisation/sector"
+        },
+        {
+            "name": "Gambling Expenditure Statistics / Gambling Expenditure Statistics Table",
+            "web": "https://beta.data.govt.nz/dataset/de6d0666-228b-4be9-aeed-e24481072740/resource/7e50821f-043a-4949-bf6e-773d70489446/download/2010-2015-gambling-expenditure-statistics-1.xlsx"
+        },
+        {
+            "name": "Gambling Expenditure Statistics / Clean gambling dataset",
+            "web": "https://beta.data.govt.nz/dataset/de6d0666-228b-4be9-aeed-e24481072740/resource/2e80597c-2b18-40a2-aaae-2e9b74a23bdf/download/clean-gambling-dataset.csv"
+        },
+        {
+            "name": "Ethnic group by meshblock (2013 Census) / Ethnic group by meshblock (2013 Census)",
+            "web": "https://datafinder.stats.govt.nz/layer/8448-ethnic-group-by-meshblock-2013-census/"
+        },
+        {
+            "name": "Counts of te reo speakers of Maori descent by Meshblock / Counts of te reo speakers of Maori descent by meshblock",
+            "web": "https://datafinder.stats.govt.nz/layer/8387-counts-of-te-reo-speakers-of-maori-descent-by-meshblock/"
+        },
+        {
+            "name": "Constituencies 2016 Generalised Version / Constituencies 2016 Generalised Version",
+            "web": "https://datafinder.stats.govt.nz/layer/8410-constituencies-2016-generalised-version/"
+        },
+        {
+            "name": "Community Board 2016 Generalised Version / Community Board 2016 Generalised Version",
+            "web": "https://datafinder.stats.govt.nz/layer/8411-community-board-2016-generalised-version/"
+        },
+        {
+            "name": "Charities Register Open Data / Charities Services OData end point",
+            "web": "http://www.odata.charities.govt.nz/"
+        },
+        {
+            "name": "Cancer: Historical summary 1948\u20132012 / Cancer: Historical summary 1948\u20132012",
+            "web": "http://www.health.govt.nz/system/files/documents/publications/cancer-historical-summary-1948-2012.xlsx"
+        },
+        {
+            "name": "Cancer: Historical summary 1948\u20132012 / Total Cancer Deaths 1948-2012",
+            "web": "https://beta.data.govt.nz/dataset/2c089622-9503-487d-a9e0-a9d7a516fc40/resource/1b1a56a3-4f56-4e13-9f66-a57e5e2361d4/download/cancer-historical-deathstotal-1948-2012.csv"
+        },
+        {
+            "name": "Cancer: Historical summary 1948\u20132012 / Female Cancer Deaths 1948-2012",
+            "web": "https://beta.data.govt.nz/dataset/2c089622-9503-487d-a9e0-a9d7a516fc40/resource/cbd9d6a1-7370-42a5-90a4-ce40f1899b5b/download/cancer-historical-deathsfemale-1948-2012.csv"
+        },
+        {
+            "name": "Cancer: Historical summary 1948\u20132012 / Male Cancer Deaths 1948-2012",
+            "web": "https://beta.data.govt.nz/dataset/2c089622-9503-487d-a9e0-a9d7a516fc40/resource/24e9da3f-b01b-4ff0-8d34-865b92432e2c/download/cancer-historical-deathsmale1948-2012.csv"
+        },
+        {
+            "name": "Birthplace by meshblock (2013 Census) / Birthplace by meshblock (2013 Census)",
+            "web": "https://datafinder.stats.govt.nz/layer/8442-birthplace-by-meshblock-2013-census/"
+        },
+        {
+            "name": "Area Unit 2016 Generalised Version / Area Unit 2016 Generalised Version",
+            "web": "https://datafinder.stats.govt.nz/layer/8412-area-unit-2016-generalised-version/"
+        },
+        {
+            "name": "Annual mean sea level (relative to land) (1900 - 2013) / Annual mean sea level (relative to land) (1900\u20132013)",
+            "web": "https://data.mfe.govt.nz/table/2523-annual-mean-sea-level-relative-to-land-19002013/"
+        },
+        {
+            "name": "Annual Forecast of NZ Passport Issuance Volumes / 1 July 2015 to 30 June 2016 New Zealand issuance forecast of passports",
+            "web": "https://www.dia.govt.nz/diawebsite.nsf/Files/NZPassports-15/$file/NZ15tabs.xls"
+        },
+        {
+            "name": "Annual Forecast of NZ Passport Issuance Volumes / 1 July 2015 to 30 June 2016 overseas issuance forecast of passports",
+            "web": "https://www.dia.govt.nz/diawebsite.nsf/Files/NZPassports-15/$file/os15tabs.xls"
+        },
+        {
+            "name": "Annual Forecast of NZ Passport Issuance Volumes / 1 July 2014 to 30 June 2015 New Zealand issuance forecast of passports",
+            "web": "https://www.dia.govt.nz/diawebsite.nsf/Files/NZ-passports-14/$file/NZPassports-14tabs.xls"
+        },
+        {
+            "name": "Annual Forecast of NZ Passport Issuance Volumes / 1 July 2014 to 30 June 2015 overseas issuance forecast of passports",
+            "web": "https://www.dia.govt.nz/diawebsite.nsf/Files/NZ-passports-14/$file/osPassports-14tabs.xls"
+        },
+        {
+            "name": "Annual Forecast of NZ Passport Issuance Volumes / 1 July 2013 to 30 June 2014 New Zealand issuance forecast of passports",
+            "web": "https://www.dia.govt.nz/diawebsite.nsf/Files/NZPassports13tabs/$file/NZPassports13tabs.xls"
+        },
+        {
+            "name": "Annual Forecast of NZ Passport Issuance Volumes / 1 July 2013 to 30 June 2014 overseas issuance forecast of passports",
+            "web": "https://www.dia.govt.nz/diawebsite.nsf/Files/osPassports13tabs/$file/osPassports13tabs.xls"
+        },
+        {
+            "name": "Age by meshblock (2013 Census) / Age by meshblock (2013 Census)",
+            "web": "https://datafinder.stats.govt.nz/layer/8447-age-by-meshblock-2013-census/"
+        }
+    ],
+    "validator_url": "https://goodtables.okfnlabs.org/api/run"
+}

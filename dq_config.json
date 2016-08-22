@@ -1,0 +1,32 @@
+{
+    "assess_timeliness": false,
+    "branch": "master",
+    "cache_dir": "fetched",
+    "data_dir": "data",
+    "data_quality_spec": {
+        "data_quality_spec_web": "https://raw.githubusercontent.com/frictionlessdata/data-quality-spec/master/spec.json"
+    },
+    "datapackage_file": "datapackage.json",
+    "goodtables": {
+        "arguments": {
+            "batch": {
+                "data_key": "data",
+                "format_key": "format",
+                "sleep": 2
+            },
+            "pipeline": {
+                "break_on_invalid_processor": false
+            }
+        },
+        "goodtables_web": "http://goodtables.okfnlabs.org"
+    },
+    "performance_file": "performance.csv",
+    "publisher_file": "publishers.csv",
+    "remotes": [
+        "origin"
+    ],
+    "result_file": "results.csv",
+    "run_file": "runs.csv",
+    "source_file": "sources.csv",
+    "timeliness": {}
+}
