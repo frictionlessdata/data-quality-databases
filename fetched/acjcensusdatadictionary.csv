@@ -1,0 +1,12 @@
+Field Name,Data Type and Length,Field Description,Example 1,Example 2
+Date,DATE,Date of Daily Census,9/1/2015,10/13/2015
+Gender,CHAR(1),Gender of Inmate,M,F
+Race,CHAR(2),"Race of Inmate
+A- ASIAN OR PACIFIC ISLANDER
+B-BLACK OR AFRICAN AMERICAN
+H- HISPANIC 
+I- AMERICAN INDIAN OR ALASKAN NATIVE
+U- UNKNOWN
+W- WHITE",W,B
+Age at Booking,NUMBER(4),Age of Inmate at ACJ Booking,28,19
+Current Age,NUMBER(4),Age of Inmate as of Date,29,21

@@ -1,0 +1,18 @@
+﻿FID,PERIMETER,POLY_,SUBCLASS,SUBCLASS_,BASIN,SYMBOL,DIRECTION
+1,161330.9,1,BASIN,5,Lower Ohio River,17,north
+2,113386.4,2,BASIN,1,Upper Ohio/Allegheny/Monongahela Ri,12,north
+3,147009.8,3,BASIN,2,Lower Northern Allegheny River,23,north
+4,103578,4,BASIN,3,Upper Allegheny River,57,north
+5,53398.7,5,BASIN,5,Lower Ohio River,17,north
+6,349470.8,6,BASIN,4,Chartiers Creek,25,south
+7,92945.47,7,BASIN,1,Upper Ohio/Allegheny/Monongahela Ri,12,north
+8,6792.294,8,BASIN,5,Lower Ohio River,17,north
+9,130340.8,9,BASIN,1,Upper Ohio/Allegheny/Monongahela Ri,12,east
+10,242297.9,10,BASIN,7,Thompson Run/Turtle Creek,19,east
+11,8203.545,12,BASIN,2,Lower Northern Allegheny River,23,north
+12,68040.05,13,BASIN,1,Upper Ohio/Allegheny/Monongahela Ri,12,south
+13,150482.1,14,BASIN,6,Saw Mill Run,113,south
+14,32870.51,15,BASIN,8,Shallow-Cut Monongahela River,52,east
+15,138477.1,16,BASIN,8,Shallow-Cut Monongahela River,52,south
+16,40967.23,17,BASIN,1,Upper Ohio/Allegheny/Monongahela Ri,12,south
+17,124607.5,18,BASIN,3,Upper Allegheny River,57,east

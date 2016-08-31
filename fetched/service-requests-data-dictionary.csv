@@ -1,0 +1,28 @@
+Field Name,Data Type and Length,Field Description,Example 1,Example 2
+SR_NUM,NOT NULL VARCHAR2(20)�,Service Request Number,HCE-20150202-2536,
+INSPECT_ID�,NOT NULL VARCHAR2(20)�,Inspection ID,149908,
+STREET,VARCHAR2(120),Street Address of the Property,442  WILLIAM STREET ,
+ADDRESS_2�������������� �����,VARCHAR2(50)�,Additional Address line (optional),AKA 441 HAYS AVE.,
+APT_FLOOR�������������� ����,VARCHAR2(15)�,Apartment or floor number,2,
+CITY������������������� ����������������,VARCHAR2(30),City of property,Pittsburgh,
+STATE������������������ ���������������,VARCHAR2(2),State of property,PA,
+ZIP�������������������� �������������������,VARCHAR2(5),Zip code of property,15221,
+CENSUS_TRACT����������� �,VARCHAR2(10),Census tract of property,5606,
+REQUEST_TYPE����������� �,VARCHAR2(50),"Request Type. Can be one of the following codes;
+Complaint Housing
+Community Environment
+Rodent
+Other Vector
+Community Environment
+West Nile ",Complaint Housing,Rodent
+PROPERTY_TYPE���������� �,VARCHAR2(17),Type of Property on which the complaint is filed,MULTI FAMILY� ��,VACANT PROPERTY
+NUM_UNITS������������ ������������,NUMBER,"Number of Housing Units in the Property. 1 for Single-Family property, etc. This field is left empty for property types other than residential.",1,3
+EMERGENCY_TYPE������ ,VARCHAR2(100),"Emergency Type. Can be one of the following codes; 
+NON EMERGENCY      
+NO HEAT
+NO WATER
+UTILITY TERMINATION
+SEWAGE
+RATS
+OTHER",NON EMERGENCY,NO HEAT
+INSPECTOR_ID� ������������ ,NUMBER,ID of Inspector,18,

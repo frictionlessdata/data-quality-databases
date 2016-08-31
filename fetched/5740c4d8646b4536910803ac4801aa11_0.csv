@@ -1,0 +1,524 @@
+﻿FID,OBJECTID,BRIDGE_COD,BRBIDGE_NA,FACILITYID,SHAPE_Leng,Shape_Le_1,Bridge_Typ
+1,1,TF01,Thorn Run East #1,222,15,35.808193,Vehicle
+2,223,PI15,Pine Creek Br #15,338,92,98.359726,Vehicle
+3,224,KL11,KILBUCK RUN NO. 11,339,26,41.353779,Vehicle
+4,2,SF02,Wagner Rd. Bridge #2,223,16,20.986086,Vehicle
+5,225,KL03,KILBUCK RUN NO. 3,340,36,19.308251,Vehicle
+6,3,WR02,West Run Br #2,224,22.232668,22.23265,Vehicle
+7,226,FU06,FLAUGHERTY RUN NO. 6,341,20,18.885936,Vehicle
+8,4,WR03,West Run Br #3,225,22.05784,22.057859,Vehicle
+9,227,GH01,GOURDHEAD NO. 1,342,27,26.659269,Vehicle
+10,5,WR04,West Run Br #4,226,27.064712,27.064717,Vehicle
+11,228,SB06,BIG SEWICKLEY CREEK NO. 6,344,32,35.100526,Vehicle
+12,6,WR05,West Run Br #5,227,27.086646,27.086616,Vehicle
+13,229,SB04,BIG SEWICKLEY CREEK NO. 4,345,32,35.286112,Vehicle
+14,7,WR06,West Run Br #6,228,19.952152,19.95212,Vehicle
+15,230,DE13,DEER CREEK NO. 13,346,36,69.672946,Vehicle
+16,8,WB08,Wible Run Br #8,229,5,27.649817,Vehicle
+17,231,SB10,BIG SEWICKLEY CREEK NO. 10,347,35,56.225854,Vehicle
+18,9,WB09,Wible Run Br #9,230,4,23.333104,Vehicle
+19,232,DE12,DEER CREEK NO. 12,348,32,80.747452,Vehicle
+20,10,WC10,Wildcat Run Br #10,231,6,24.984846,Vehicle
+21,11,WC09,Wildcat Run Br #9,232,11,23.244626,Vehicle
+22,233,DG09,Douglas Run #9,400,13,79.770925,Vehicle
+23,12,WD01,Wood Run Br #1,233,12,25.978477,Vehicle
+24,234,PE06,Peter's Creek #6,401,16,62.998065,Vehicle
+25,13,WD02,Wood Run Br #2,234,5,24.460797,Vehicle
+26,235,PG06,Pangburn Hollow #6,402,14,17.725213,Vehicle
+27,236,LC13,Lick's Run Br #13,403,8,17.298221,Vehicle
+28,14,WY13,Wylie's Run Br #13,235,23.948777,23.948762,Vehicle
+29,237,LC14,Lick's Run #14,404,8,12.977379,Vehicle
+30,15,WY14,Wylie's Run Br #14,236,22,34.016604,Vehicle
+31,238,CT11,Corrgian Drive #11,405,6,39.364843,Vehicle
+32,239,LC07,Lick's Run #7,406,18,26.784673,Vehicle
+33,16,YR09,Youghiogheny River #9,237,12,22.936222,Vehicle
+34,240,GS01,Fort Couch Rd. #1,408,20,44.192607,Vehicle
+35,17,AR01,Armstrong Tunnels,1,1298.966,1440.353216,Vehicle
+36,241,SW07,Saw Mill Run Br. #7,409,39.960192,39.960218,Vehicle
+37,18,PD04,Bellevue Rd Br,2,240,358.872041,Vehicle
+38,242,CT07,Catfish Run #7,410,42.961673,42.961685,Vehicle
+39,19,PN02,Pine Creek N Branch No 2,3,30,44.82997,Vehicle
+40,243,SY01,Sleepy Hollow Bridge #1,411,18.876365,18.876354,Vehicle
+41,22,JA04,Jacks Run No 4,9,35,45.871307,Vehicle
+42,244,TH03,Thoms Run No. 2,413,10,17.974065,Vehicle
+43,23,PD03,Jacks Run No. 3,10,197,245.609995,Vehicle
+44,245,DS01,Dawsons Run No. 1,415,15,22.52073,Vehicle
+45,24,LO09,Lowrie's Run No. 9,11,13,21.197292,Vehicle
+46,246,PB07,Plum Creek South Br. #7,417,8,27.128434,Vehicle
+47,25,PN07,Pine Creek N Branch Br #7,12,22,36.860398,Vehicle
+48,247,PU04,Unity Trestle Rd. #4,418,8,21.767162,Vehicle
+49,26,SL03,Little Sewickley Creek No. 3,14,31,11.292765,Vehicle
+50,248,CE02,Crawford Run #2,419,41.03065,41.030675,Vehicle
+51,27,IW01,Irwin Run No. 1,15,23,132.427164,Vehicle
+52,249,PM07,Plum Creek Br #7,420,16,19.930123,Vehicle
+53,250,LO07,Lowrie's Run #7,421,12,19.302938,Vehicle
+54,28,GI10,Girty's Run No. 10,17,38,36.105373,Vehicle
+55,251,LO08,Lowrie's Run #8,422,12,55.982365,Vehicle
+56,29,PS01,Pine Creek S Branch No. 1,19,34,51.7272,Vehicle
+57,252,XP01,Spruce Run #1,423,36.890065,36.890119,Vehicle
+58,253,XP04,Spruce Run #4,424,18.915698,18.915716,Vehicle
+59,30,TN07,Thompson Run N S No. 7,20,6,19.870223,Vehicle
+60,254,PK01,Park's Run #1,425,8,33.996342,Vehicle
+61,31,PS06,Pine Creek S Branch No. 6,21,22,47.454864,Vehicle
+62,255,SS05,L. Sewickley Creek S. Br. #5,426,33.070381,33.070403,Vehicle
+63,32,PZ01,Middle Rd Br No. 1,22,100.171775,100.171831,Vehicle
+64,256,PU05,Unity Trestle Rd. #5,428,7,22.682456,Vehicle
+65,33,IV01,Ivory Avenue No. 1,23,192,209.828854,Vehicle
+66,257,SB07,Spang Road Bridge #7,430,15,59.113982,Vehicle
+67,258,SN03,Spring Road Run #3,431,12,26.477373,Vehicle
+68,34,WB01,Wible Run No. 1,24,20,66.311424,Vehicle
+69,259,TN05,Thompson Run N S #5,432,7,22.477725,Vehicle
+70,35,WB04,Wible Run No 4,25,29,64.750514,Vehicle
+71,260,TN06,Thompson Run N S #6,433,8,26.456059,Vehicle
+72,36,SQ01,Squaw Run Br No 1,26,48,54.396252,Vehicle
+73,261,PS08,Thompson Run #8,435,7,23.119468,Vehicle
+74,262,WB07,Wible Run #7,436,10,24.299867,Vehicle
+75,37,NR01,Nelson Run Br #1,27,100.386377,100.386372,Vehicle
+76,263,WB03,Wible Run #3,437,16,36.841691,Vehicle
+77,38,DY03,Days Run No. 3,30,31,41.422972,Vehicle
+78,264,WB11,Wible Run #11,438,16,26.210663,Vehicle
+79,42,PU02,Plum Creek Upper Branch No 2,36,30,57.258649,Vehicle
+80,117,SS04,L.Sewickley Crk.S.Br. #4,150,13,21.942092,Vehicle
+81,43,MA07,Rankin Bridge,38,863,2439.194726,Vehicle
+82,265,WB12,Wible Run #12,439,12,25.288446,Vehicle
+83,266,TY02,Tassy Hollow #2,440,10,32.020391,Vehicle
+84,118,SS07,L.Sewickley Crk.S.Br. #7,151,8,22.270248,Vehicle
+85,44,PD01,Jacks Run No 1,41,96.898868,96.898807,Vehicle
+86,119,LW03,Lewis Run Br #3,152,3,25.486068,Vehicle
+87,45,PR04,Pine Run Br No 4,42,23,55.239721,Vehicle
+88,267,WC05,Wildcat Run #5,441,13,16.471025,Vehicle
+89,120,LC16,Lick's Run Br #16,154,2,44.394071,Vehicle
+90,46,PR03,Pine Run Br No 3,43,13,13.30029,Vehicle
+91,268,WC06,Wildcat Run #6,442,13,28.512554,Vehicle
+92,269,CK02,Crooked Run #2,443,41.989326,41.989326,Vehicle
+93,121,LC08,Lick?s Run Br #8,156,3,13.914972,Vehicle
+94,47,PT15,Hillcrest Bridge,45,118,176.255469,Vehicle
+95,122,LE10,Lowrie's Run East Br #10,157,5,35.402275,Vehicle
+96,270,LG08,Long Run Br #8,444,8,52.991454,Vehicle
+97,48,PV01,Brownsville Rd No 1,48,115,113.82737,Vehicle
+98,123,ML07,McLaughlin's Run  Br #7,159,21,35.521212,Vehicle
+99,271,DE18,Deer Creek #18,445,12,17.647597,Vehicle
+100,49,MA14,Mansfield Br,50,1931,1914.122461,Vehicle
+101,124,MR02,McRobert's Run Br #2,160,5,93.944977,Vehicle
+102,272,DW01,Deer Creek West Br. #1,446,10,34.84226,Vehicle
+103,50,MA26,Maple Ave Underpass,51,68,583.146338,Vehicle
+104,52,HV05,Homeville Creek No 5,55,13.33,22.398283,Vehicle
+105,273,DW02,Deer Creek West Br. #2,447,18,45.297376,Vehicle
+106,125,NP01,North Park Bridge #1,168,3,184.753685,Vehicle
+107,126,NP10,North Park Bridge #10,169,4,39.116864,Vehicle
+108,53,TS05,Homeville Rd Viaduct,57,778,785.139033,Vehicle
+109,274,DS03,Dawson Run #3,449,12,28.168618,Vehicle
+110,127,NP02,North Park Bridge #2,170,4,48.335795,Vehicle
+111,275,DS06,Dawson Run #6,451,12,102.145917,Vehicle
+112,276,DS04,Dawson Run #4,450,9,53.834001,Vehicle
+113,128,NP03,North Park Bridge #3,171,3,54.735984,Vehicle
+114,54,CT05,Catfish Run No 5,59,24,57.73919,Vehicle
+115,129,NP04,North Park Bridge #4,172,3,74.289191,Vehicle
+116,277,TL09,Turtle Creek #9,452,15,32.726524,Vehicle
+117,130,NP05,North Park Bridge #5,173,2,26.999717,Vehicle
+118,55,TS04,Thompson Run Br No 4,60,15,22.52511,Vehicle
+119,131,NP06,North Park Bridge #6,174,4,93.653423,Vehicle
+120,278,RY02,Ryan's Run Br. #2,453,14,24.230289,Vehicle
+121,56,MA12 West,Homestead High Level (Ramp),61,340,583.041368,Vehicle
+122,132,NP07,North Park Bridge #7,175,2,66.464853,Vehicle
+123,279,SA13,Sandy Creek Br #13,454,10,33.730835,Vehicle
+124,133,NP08,North Park Bridge #8,176,5,40.212719,Vehicle
+125,57,MA12,Homestead High Level (Ramp),62,469.474441,469.474404,Vehicle
+126,134,NP09,North Park Bridge #9,177,4,44.624603,Vehicle
+127,280,TE10,Thompson Run E Side #10,455,44.743975,44.744009,Vehicle
+128,135,PA11,Painter's Run Br #11,178,5,25.745424,Vehicle
+129,58,MO02,Moon Run Br No 2,65,15,20.33967,Vehicle
+130,281,QY03,Quigley Run #3,457,9,28.385052,Vehicle
+131,136,PA01,Painter's Run Br #1,179,15,43.315263,Vehicle
+132,59,CM05,Campbells Run No. 5,72,16,3.375498,Vehicle
+133,282,QY01,Quigley Run #1,456,8,14.946822,Vehicle
+134,137,PG11,Pangburn Hollow Br #11,181,2,20.143724,Vehicle
+135,283,XT02,Porter Creek #2,458,28.243524,28.243534,Vehicle
+136,62,PA04,Painter's Run Br No 4,77,15,36.510593,Vehicle
+137,138,PG13,Pangburn Hollow Br #13,182,6,19.924468,Vehicle
+138,139,PC02,Pierce Run Bridge #2,183,7,21.607643,Vehicle
+139,284,TE09,Thompson Run E Side #9,459,12,44.15525,Vehicle
+140,63,SN02,Spring Run Rd Br No 2,78,14,20.547549,Vehicle
+141,140,PC03,Pierce Run Bridge #3,184,5,11.742706,Vehicle
+142,285,SF01,Shaffer's Run #1,460,18,22.588803,Vehicle
+143,64,SN04,Spring Run Rd Br No 4,79,10,11.27048,Vehicle
+144,141,PI29,Pine Creek Bridge #29,185,3,18.869718,Vehicle
+145,286,DV01,Beaver Road Bridge No. 1,461,10,58.58073,Vehicle
+146,65,CC17,Chartiers Creek No 17,84,205.834857,205.834902,Vehicle
+147,142,PI30,Pine Creek Bridge #30,186,3,21.71058,Vehicle
+148,287,KL12,Kilbuck Run Bridge No. 12,462,16,37.498979,Vehicle
+149,67,MT20,Montour Run No 20,86,20,24.43254,Vehicle
+150,143,PI36,Pine Creek Bridge #36,187,21.806536,21.806501,Vehicle
+151,288,KL16,Kilbuck Run Bridge No. 16,464,20.091358,63.303595,Vehicle
+152,70,XP05,Levi Bird Duff Br,89,889.556622,889.556638,Vehicle
+153,289,MC05,McClaren's Run Bridge No. 5,466,6,39.993665,Vehicle
+154,144,PN11,Pine Creek N Br #11,189,5,28.494998,Vehicle
+155,71,GH03,Gourdhead Run #3,90,36,60.962674,Vehicle
+156,290,MC04,McClaren's Run Bridge No. 4,465,10,34.887568,Vehicle
+157,72,SW09,Saw Mill Run No 9,92,26.437079,26.437079,Vehicle
+158,145,PN12,Pine Creek N Br #12,190,4,27.644415,Vehicle
+159,291,MC08,McClaren's Run Bridge No. 8,467,5,23.181853,Vehicle
+160,146,PR02,Pine Run Br #2,191,15,14.959362,Vehicle
+161,73,PG08,Pangburn Hollow Br No 8,94,22,48.52755,Vehicle
+162,74,PG07,Pangburn Hollow Br No 7,95,25,90.113239,Vehicle
+163,147,SZ14,Street's Run Br #14,214,22.954946,22.954956,Vehicle
+164,292,MT17,Montour Run Bridge No.17,469,22.198193,30.228276,Vehicle
+165,148,CT13,Tennis Court's S Park Br #13,215,1.757387,1.757326,Vehicle
+166,75,SD03,Shades Run No 3,96,395,395.834991,Vehicle
+167,293,MT18,Montour Run Bridge No.18,470,11,49.215074,Vehicle
+168,294,PJ02,Pierson's Run Bridge No. 2,471,8,58.906391,Vehicle
+169,149,TN01,Thompson Run  North Side Br #,216,9,45.77925,Vehicle
+170,76,AT01,Adtranz Ped Bridge,97,48,48.169866,Pedestrian
+171,150,TN08,Thompson Run  North Side Br #,217,3,22.362483,Vehicle
+172,295,RY06,Ryan's Run Bridge No. 6,472,5,43.055764,Vehicle
+173,77,BC04,Beck's Run #4,98,27.293893,27.293927,Vehicle
+174,78,BC07,Beck's Run #7,99,22.621746,45.522782,Vehicle
+175,151,TE11,Thompson Run E. Side #11,218,4,25.959677,Vehicle
+176,296,SA06,Sandy Creek Bridge #6,473,4,24.329906,Vehicle
+177,79,BC08,Beck's Run #8,100,33.712605,56.466318,Vehicle
+178,297,SN01,Spring Run Bridge No 1,474,6,29.550659,Vehicle
+179,152,PS07,Thompson Run Road Bridge #7,219,4,22.81959,Vehicle
+180,80,SB16,Big Sewickley Creek Br #16,101,4,21.219684,Vehicle
+181,153,PS09,Thompson Run Road Bridge #9,220,6,21.647936,Vehicle
+182,298,TH07,Thom's Run Bridge No. 7,475,8,19.815938,Vehicle
+183,81,SB17,Big Sewickley Creek Br #17,102,5,21.200094,Vehicle
+184,154,TS03,Thompson Run South Side Br #3,221,6,20.966545,Vehicle
+185,299,TH08,Thom's Run Bridge No. 8,476,6,23.092593,Vehicle
+186,155,MR03,McRobert's Run Br #3,161,8,34.400536,Vehicle
+187,300,TH10,Thom's Run Bridge No. 10,477,14,19.414177,Vehicle
+188,82,SB19,Big Sewickley Creek Br #19,103,5,21.827631,Vehicle
+189,156,MH01,Mustard Hollow Run  Br #1,163,9,31.539603,Vehicle
+190,301,TY01,Tassy Hollow Bridge No. 1,478,12,23.191267,Vehicle
+191,83,SB20,Big Sewickley Creek Br #20,104,5,22.002281,Vehicle
+192,302,WP01,White Oak Park Bridge No. 1,479,41.384056,41.383985,Vehicle
+193,157,MH02,Mustard Hollow Run  Br #2,164,10,45.857921,Vehicle
+194,84,SB18,Big Sewickley Crk Br #18,105,11,21.150575,Vehicle
+195,303,WP03,White Oak Park Bridge No. 3,480,20.961964,20.961961,Vehicle
+196,158,MH03,Mustard Hollow Run  Br #3,165,12,50.490688,Vehicle
+197,85,YR11,Boston Greenock Rd Br #11,106,22.679399,22.679378,Vehicle
+198,304,BB02,Blackburn Rd Bridge No.2,39,62.998715,62.998694,Vehicle
+199,159,AL12,Natrona Rd Br #12,166,21.96404,33.668414,Vehicle
+200,86,PN08,Brown Rd Br #8,107,6,19.892984,Vehicle
+201,160,AL20,Natrona Rd Br #20,167,52.568281,118.321567,Vehicle
+202,305,BB01,Blackburn Rd Bridge No.1,37,77.601645,89.621272,Vehicle
+203,87,BR02,Bull Run #2,108,6,47.92508,Vehicle
+204,306,BC03,Beck's Run Rd Bridge No.2,44,120.532014,122.316044,Vehicle
+205,161,CT22,Catfish Run Bridge #22,116,4,21.412326,Vehicle
+206,88,BR01,Bull Run Br #1,109,21.000269,21.000283,Vehicle
+207,162,CT23,Catfish Run Bridge #23,117,3,13.638814,Vehicle
+208,307,BC01,Beck's Run Rd Bridge No.2,40,80.892343,88.113838,Vehicle
+209,89,CT10,Catfish Run # 10,110,12.5,20.493772,Vehicle
+210,163,BY02,Creighton-Russellton Rd Br #2,118,22.837934,40.525387,Vehicle
+211,308,BC02,Bajo Street Bridge No.2,41,22.274929,122.322232,Vehicle
+212,90,CT04,Catfish Run #4,111,13,41.132747,Vehicle
+213,164,DP01,Deer Lakes Park Br #1,119,5,25.084279,Vehicle
+214,91,CT17,Catfish Run Bridge #17,112,38.712649,38.712641,Vehicle
+215,309,BC06,Beck's Run Rd Bridge No.6,47,24,40.09573,Vehicle
+216,165,DP02,Deer Lakes Park Br #2,120,4,66.917338,Vehicle
+217,310,BF06,Thompson's Run No. 6,241,83.796723,83.796675,Vehicle
+218,166,DG06,Douglas Run #6,121,4.5,118.603703,Vehicle
+219,92,CT18,Catfish Run Bridge #18,113,2.6,20.541886,Vehicle
+220,167,DG13,Douglas Run Br #13,122,8,46.083664,Vehicle
+221,311,BF07,Thompson's Run No.7,242,65.893758,65.893811,Vehicle
+222,168,DG14,Douglas Run Br #14,123,1.4,54.903606,Vehicle
+223,93,CT19,Catfish Run Bridge #19,114,2,21.54421,Vehicle
+224,169,DG15,Douglas Run Br #15,124,2.6,25.22512,Vehicle
+225,312,BF08,Thompson's Run No.8,243,79.462481,79.462501,Vehicle
+226,94,BC05,Beck's Run #5,125,22.675346,64.194585,Vehicle
+227,170,PR06,Pine Run Br #6,194,3,21.901493,Vehicle
+228,95,CT21,Catfish Run Bridge #21,126,3,41.118159,Vehicle
+229,313,BG01,Boggs Run #1,8,45.492767,80.052219,Vehicle
+230,171,PF07,Piney Fork Creek Br #7,195,10,20.826826,Vehicle
+231,96,CT24,Catfish Run Bridge #24,127,4,15.219249,Vehicle
+232,314,BH06,Brush Creek #6,52,45.327941,45.327914,Vehicle
+233,172,RE01,Reed's Run Br #1,196,5,20.952466,Vehicle
+234,97,CT25,Catfish Run Bridge #25,128,3,23.727245,Vehicle
+235,315,AL02,Sixth St Br,238,894.810826,894.810789,Vehicle
+236,173,DG10,Round Hill Rd Br #10,197,9,62.237636,Vehicle
+237,98,DG04,Douglas Run #4,130,5,172.837132,Vehicle
+238,316,AL03,Seventh St Br,239,924.908151,924.908145,Vehicle
+239,174,DG11,Round Hill Rd Br #11,198,22.021166,22.021126,Vehicle
+240,99,DG16,Douglas Run Br #16,131,3,42.374161,Vehicle
+241,317,AL04,Ninth St Br,240,897.454193,897.454166,Vehicle
+242,100,DG18,Douglas Run Br #18,132,2.6,60.820184,Vehicle
+243,175,DG12,Round Hill Rd Br #12,199,3,62.977538,Vehicle
+244,318,AL05,Sixteenth St Bridge, ,1872.624307,2019.346172,Vehicle
+245,101,CT06,East Dr Br #6,133,24.101797,24.1018,Vehicle
+246,176,DG07,Round Hill Rd Br #7,201,5,60.748032,Vehicle
+247,319,BH08,Brush Creek #8,56,63.111867,63.111905,Vehicle
+248,320,BH07,Brush Creek #7,58,60.432002,60.431997,Vehicle
+249,177,PL17,Little Pine Creek Br #17,202,3,18.073166,Vehicle
+250,102,CT14,Edgebrook Br #14,134,6,36.730153,Vehicle
+251,322,CC02,Windgap Avenue Bridge,73,790.775172,790.775112,Vehicle
+252,178,SG01,Spring Garden Run Br #1,203,6,17.748928,Vehicle
+253,103,FT07,Fallen Timber Run Br #7,135,2,4.024228,Vehicle
+254,179,SG03,Spring Garden Run Br #3,205,7,36.371507,Vehicle
+255,323,CC03,Chartiers Creek Br #3,75,310.015316,318.996729,Vehicle
+256,104,FH02,Fish Run #2,136,7,16.363172,Vehicle
+257,180,SG05,Spring Garden Run Br #5,206,6,19.557607,Vehicle
+258,105,PI42,Gatehouse Box Culvert,137,5,38.36093,Vehicle
+259,445,LK02,Lake Run Br #2,288,4,27.587246,Vehicle
+260,325,OK03,Oakwood Run Br #3,355,385,70.001531,Vehicle
+261,106,GI01,Girty's Run Br #1,138,12,43.713973,Vehicle
+262,327,CC04,Chestnut Street Bridge #4,75,147.892634,223.737459,Vehicle
+263,181,SG06,Spring Garden Run Br #6,207,6,9.7397,Vehicle
+264,446,LN01,Lick's Run North Br. #1,153,14,41.663571,Vehicle
+265,107,GI17,Girty's Run Br #17,139,5,64.827558,Vehicle
+266,328,CC06,Chartiers Creek No. 6,80,146,173.79261,Vehicle
+267,182,SQ04,Squaw Run Br #4,208,6,34.11028,Vehicle
+268,108,GI22,Girty's Run Br #22,140,2,52.762651,Vehicle
+269,183,SQ05,Squaw Run Br #5,209,4,21.521615,Vehicle
+270,329,CM01,Campbell's Run #1,180,40,50.268352,Vehicle
+271,184,SQ06,Squaw Run Br #6,210,9,23.051886,Vehicle
+272,109,GI23,Girty's Run Br #23,141,2,26.445025,Vehicle
+273,330,CM08,Campbells Run #8,180,9,69.42961,Vehicle
+274,185,SQ08,Squaw Run Br #8,211,3,22.230375,Vehicle
+275,110,GI24,Girty's Run Br #24,142,6,66.30666,Vehicle
+276,186,SK01,Stillhouse Run Br #1,212,6,26.702383,Vehicle
+277,111,GH05,Gourdhead Run Br #5,143,5,25.854444,Vehicle
+278,447,LO10,Lowries Run Br #10,289,2,32.852698,Vehicle
+279,187,SZ13,Street's Run Br #13,213,9.679906,9.679915,Vehicle
+280,112,GS04,Graeser's Run Br #4,144,8,63.024022,Vehicle
+281,113,JA05,Jack's Run #5,146,11,42.668705,Vehicle
+282,188,HV03,HOMEVILLE CREEK NO. 3,300,24,53.024228,Vehicle
+283,189,PF06,PINEY FORK NO. 6,301,35,68.618272,Vehicle
+284,114,PL16,Kay St Br #16 (under Saxonbur,147,4,21.635211,Vehicle
+285,190,LG03,LONG RUN NO. 3,302,32,65.694877,Vehicle
+286,115,SS02,L.Sewickley Crk.S.Br. #2,148,14,20.253527,Vehicle
+287,116,SS03,L.Sewickley Crk.S.Br. #3,149,13,20.085021,Vehicle
+288,191,LG01,LONG RUN NO. 1,303,32,41.106039,Vehicle
+289,448,LO11,Lowries Run Br #11,290,3,34.679448,Vehicle
+290,192,HH01,HEATHS RUN NO. 1,304,20,42.68458,Vehicle
+291,193,GS02,GRAESERS RUN NO. 2,305,18,28.639797,Vehicle
+292,194,MS06,MILLERS RUN NO. 6,306,53,53.031744,Vehicle
+293,195,MS05,MILLERS RUN NO. 5,307,57,91.861484,Vehicle
+294,449,LO12,Lowries Run Br #12,291,2,27.773633,Vehicle
+295,196,HT04,HARTMANS RUN NO. 4,308,310,339.594345,Vehicle
+296,197,ML06,MCLAUGHLIN RUN NO.  6,309,35,59.340222,Vehicle
+297,198,SZ02,STREETS RUN NO. 2,310,63.704504,63.70448,Vehicle
+298,450,LW01,Lewis Run Br #1,291,27,43.342008,Vehicle
+299,199,HV06,HOMEVILLE CREEK NO. 6,311,18,30.698617,Vehicle
+300,200,GR01,GEORGE'S RUN NO. 1,312,21,44.775407,Vehicle
+301,201,TL13,PATTON ST. BRIDGE,313,424,426.358541,Vehicle
+302,202,HV08,HOMEVILLE CREEK NO. 8,314,15,24.100643,Vehicle
+303,451,MA07TL,Rankin Bridge Talbot Ramp,292,344,358.340376,Vehicle
+304,203,HV04,HOMEVILLE CREEK NO. 4,315,33,23.969486,Vehicle
+305,204,TL06,TURTLE CREEK BR #6,316,824,921.659088,Vehicle
+306,452,MA07KN,Rankin Bridge Kenmawr Ramp,293,203,382.933542,Vehicle
+307,205,MA12,HOMESTEAD HIGH LEV,317,3103,3168.166009,Vehicle
+308,453,MC06,McLaren's Run Br #6,296,12,42.79454,Vehicle
+309,206,CM03,CAMPBELLS RUN NO. 3,318,56,53.730298,Vehicle
+310,207,AB04,ABERS CREEK NO. 4,320,53,93.382262,Vehicle
+311,454,MC09,McLaren's Run Br #9,297,3,27.651023,Vehicle
+312,208,AB03,ABERS CREEK NO. 3,321,46,65.135223,Vehicle
+313,209,AB02,ABERS CREEK NO. 2,322,63,68.463733,Vehicle
+314,455,ML01,McGlaughlin's Run Br #1,297,51,51.532974,Vehicle
+315,210,MT05,MONTOUR RUN NO. 5,324,58,63.823061,Vehicle
+316,456,MO04,Moon Run Br #4,298,4,34.773272,Vehicle
+317,211,MT04,MONTOUR RUN NO. 4,325,48,46.051366,Vehicle
+318,212,MT14,MONTOUR RUN NO. 14,326,20,32.302847,Vehicle
+319,457,MO06,Moon Run Br #6,299,4,14.768718,Vehicle
+320,213,MN01,"MONTOUR RUN, N. FORK, NO. 1",327,23,37.061474,Vehicle
+321,458,MO07,Moon Run Br #7,334,5,19.067897,Vehicle
+322,459,MR01,McRobert's Run Br #1,335,10,31.284192,Vehicle
+323,214,MT06,MONTOUR RUN NO. 6,328,48,76.841098,Vehicle
+324,460,MT15,Montour Run Br #15,352,4,26.231772,Vehicle
+325,215,MC01,MCCLARENS RUN NO.  1,329,56,49.259143,Vehicle
+326,216,BI01,B & LE RR NO. 1,330,99.755934,99.755989,Vehicle
+327,461,MX01,Montour Run NB Br #1,353,26,29.239434,Vehicle
+328,217,MC07,MCCLARENS RUN NO.  7,331,20,50.363965,Vehicle
+329,219,JA01,JACKS RUN NO. 1,333,770,593.454411,Vehicle
+330,462,OB02,Coraopolis Bridge,353,1110,732.64839,Vehicle
+331,220,WB04,WIBLE RUN NO. 4,335,64.427836,64.427863,Vehicle
+332,221,WB06,WIBLE RUN NO. 6,336,24,21.412502,Vehicle
+333,222,GI14,GIRTYS RUN NO. 14,337,22,25.086972,Vehicle
+334,463,OB04,Fleming Park Bridge,354,807,689.0589,Vehicle
+335,464,PA07,Painter's Run Br #7,358,31,62.729945,Vehicle
+336,465,PA08,Painter's Run Br #8,359,34,56.906531,Vehicle
+337,466,PA09,Painter's Run Br #9,360,42,50.553721,Vehicle
+338,467,PB02,Plum Creek South Br. #2,416,12,27.584855,Vehicle
+339,468,PF01,Piney Fork Br #1,364,30,31.835694,Vehicle
+340,469,PG03,Pangburn Hollow Br #3,365,24,24.342218,Vehicle
+341,470,PG04,Pangburn Hollow Br #4,366,14,41.544275,Vehicle
+342,471,PG05,Pangburn Hollow Br #5,366,19,49.215888,Vehicle
+343,472,PG09,Pangburn Hollow Br No 9,93,24,63.475507,Vehicle
+344,473,PG10,Pangburn Hollow Br #10,366,4,59.288439,Vehicle
+345,474,PG14,Pangburn Hollow Br #14,367,14,18.229216,Vehicle
+346,475,PH02,Pine Hollow Br #2,368,4,18.365277,Vehicle
+347,476,PH04,Pine Hollow Br #4,369,4,22.034171,Vehicle
+348,477,PI02,Pine Creek Br #2,370,61,57.990675,Vehicle
+349,478,PH03,Pine Hollow Br #3,370,6,33.347741,Vehicle
+350,479,PI08,Pine Creek Br #8,372,40,38.500592,Vehicle
+351,480,PI09,Pine Creek Br #9,373,55,46.736856,Vehicle
+352,481,PI11,Pine Creek Br #11,374,58,75.386595,Vehicle
+353,482,PI35,Pine Creek Br #35,376,61,55.890731,Vehicle
+354,483,PI36,Pine Creek Br #36,376,4,52.244501,Vehicle
+355,484,PI37,Pine Creek Br #37,377,24,30.534102,Vehicle
+356,485,PI41,Pine Creek Br #41,378,43,45.81083,Vehicle
+357,486,PJ03,Pierson's Run Br #3,379,6,9.551762,Vehicle
+358,487,PJ04,Pierson's Run Br #4,380,6,18.879039,Vehicle
+359,488,PJ05,Pierson's Run Br#5,381,5,55.36539,Vehicle
+360,489,PJ07,Pierson's Run Br#7,383,4,19.65733,Vehicle
+361,490,PJ08,Pierson's Run Br #8,384,5,41.990962,Vehicle
+362,491,PK03,Parks Run Br #3,384,4,32.214519,Vehicle
+363,492,PL15,Little Pine Creek Br #15,385,5,31.497903,Vehicle
+364,493,PM06,Plum Creek Br #6,385,20,26.589081,Vehicle
+365,494,PN03,Pine Creek North Branch #3,385,48,73.982763,Vehicle
+366,495,PN06,Pine Creek North Branch Br #6,386,35,39.38772,Vehicle
+367,496,PN09,Pine Creek North Branch Br #9,386,24,41.840732,Vehicle
+368,497,PN10,Pine Creek N Br #10,188,3,13.358575,Vehicle
+369,498,PR05,Pine Run Br #5,193,6,21.700602,Vehicle
+370,499,PS05,Pine Creek South Branch Br #5,387,30,31.574695,Vehicle
+371,500,PS10,Pine Creek South Branch Br #1,388,37,26.325727,Vehicle
+372,501,PU07,Plum Creek Bridge No. 7,429,7,26.783076,Vehicle
+373,502,PU09,Pierson Run Road #9,414,6,12.053286,Vehicle
+374,503,PY02,Piney Fork North Branch Br #2,389,20,37.651484,Vehicle
+375,504,MR06,McRobert's Run Br #6,390,10,25.628827,Vehicle
+376,505,RS03,Robinson Run South Branch Br,390,61,50.059813,Vehicle
+377,506,RY03,Ryan's Run Br #3,390,4,40.926255,Vehicle
+378,507,RY04,Ryan's Run Br #4,391,3,32.996394,Vehicle
+379,508,RY05,Ryan's Run Br #5,392,3,22.635371,Vehicle
+380,509,RY07,Ryan's Run Br #7,392,0,13.499602,Vehicle
+381,510,SA07,Sandy Creek Br #7,393,5,20.466616,Vehicle
+382,511,SA14,Sandy Creek Br #14,394,5,12.800851,Vehicle
+383,512,SG02,Spring Garden Run Br #2,204,6,14.298752,Vehicle
+384,513,SG04,Spring Garden Br #4,396,10,28.295143,Vehicle
+385,514,SL02,LITTLE SEW CRK NO. 2,343,42,45.551244,Vehicle
+386,515,SN05,Spring Run Rd Br #5,398,6,30.690373,Vehicle
+387,516,SS01,Little Sewickley Creek South,468,28,26.235406,Vehicle
+388,517,SS06,L. Sewickley Creek S. Br. #6,427,9,21.667362,Vehicle
+389,518,TC05,Thompson Creek Br #5,482,20,23.291751,Vehicle
+390,519,TE02,Thompson Run East Branch Br #,484,49,47.898561,Vehicle
+391,520,TH02,Thoms Run No. 2,412,11,29.824919,Vehicle
+392,521,TH04,Thom's Run Bridge #4,485,5,29.115493,Vehicle
+393,522,TH05,Thom's Run Br #5,486,4,17.704966,Vehicle
+394,523,TH06,Thom's Run Br #6,487,2,13.997319,Vehicle
+395,524,TH09,Thom's Run Br #9,488,4,15.783028,Vehicle
+396,525,TL10,Turtle Creek Br #10,489,25,40.968954,Vehicle
+397,526,TL12,Turtle Creek Br #12,490,20,26.313598,Vehicle
+398,527,TL15,Turtle Creek Br #15,490,4,28.987326,Vehicle
+399,528,TL16,Turtle Creek Br #16,491,5,37.976706,Vehicle
+400,529,TL19,TURTLE CREEK NO. 19,319,75,115.951596,Vehicle
+401,530,TN02,Thompson's Run North Side Br,491,12,35.120413,Vehicle
+402,531,TN03,Thompson's Run North Side Br,492,17,40.640174,Vehicle
+403,532,TN04,Thompson's Run North Side Br,492,7,24.195934,Vehicle
+404,533,TN09,Thompson's Run North Side Br,493,3,28.581538,Vehicle
+405,534,WB05,Wible Run Br #5,494,17,59.384069,Vehicle
+406,535,WC04,Wildcat Run Br #4,495,12,33.840284,Vehicle
+407,536,WC07,Wildcat Run Br #7,496,10,24.652765,Vehicle
+408,537,WY08,Liberty Way over Wylies Run,497,21,29.343587,Vehicle
+409,539,XC01,Scotia Run #1, 498,22.5,129.778956,Vehicle
+410,540,XO01,Sixth Street Bridge,499,129.5,133.754608,Vehicle
+411,541,YR01,Douglas Run Road over Youghio,500,606,916.8455,Vehicle
+412,542,YR07,Youghioghney River #7,501,5,31.858673,Vehicle
+413,543,YR08,Youghioghney #8,502,5,40.627918,Vehicle
+414,544,YR10,Youghioghney #10,503,22.25,48.845672,Vehicle
+415,545,WP02,White Oak Park No. 2,504,2.5,38.256517,Vehicle
+416,546,WP04,White Oak Park Number 4,505,1.5,24.526404,Vehicle
+417,549,SW06,Sawmill Run # 6, ,0,72.481774,Vehicle
+418,550,BC09,Beck's Run Rd Bridge No.9,BC09,0,11.839584,Box Culvert (8 ft)
+419,331,CM09,Campbells Run #9,245,4,75.437853,Vehicle
+420,332,CM10,Campbell's Run Br #10,246,14.7,27.88621,Vehicle
+421,333,CM11,Campbells Run Br #11,247,4,35.08014,Vehicle
+422,334,MT13,Montour Run Br #13,352,9,55.882871,Vehicle
+423,335,SL07,Little Sewickley Creek Br #7,397,3,83.529303,Vehicle
+424,336,SL04,Little Sewickley Creek Br #4,396,31,89.71001,Vehicle
+425,338,PH01,Pine Hollow Br #1,371,6,73.081886,Vehicle
+426,340,JA03,Jacks Run Br #3,276,10,78.324554,Vehicle
+427,341,GI16,Girty's Run Br #16,272,16,75.377154,Vehicle
+428,342,DH01,Jackman Ave Br #3,256,234,268.881208,Vehicle
+429,343,FH01,Brandt School Rd Br#1,266,19.42,143.348924,Vehicle
+430,344,GH02,Gourdhead Run Br #2,270,42,117.501811,Vehicle
+431,345,PA02,Painter's Run Br #2,356,39,57.251512,Vehicle
+432,346,PA03,Painter's Run Br #3,357,34,17.634523,Vehicle
+433,347,PA06,Painter's Run Br #6,358,22,29.947353,Vehicle
+434,349,CT03,Corrigan Dr Br #3,247,25,70.733247,Vehicle
+435,350,CT15,Scnmker Rs. Br. #15, ,0,47.495146,Vehicle
+436,351,CT16,Fair Grounds Hill Fame SP #16, ,0,32.056733,Vehicle
+437,352,CT08,Catfish Run #8,248,37,32.637876,Vehicle
+438,353,CT09,Catfish Run #9,249,32,39.579246,Pedestrian
+439,354,DG01,Douglas Run Br. #1, ,0,90.47068,Vehicle
+440,355,DG08,Doublas Run Br. #8, ,0,34.996026,Vehicle
+441,356,MR04,McRobert's Run Br #4,349,5,70.476498,Vehicle
+442,357,MR05,McRobert's Run Br #5,350,5,55.806848,Vehicle
+443,358,DT03,Dirty Camp Run Br #3,263,10,54.464534,Vehicle
+444,359,DT05,Pitcairn Rd. Br #5, ,0,68.213697,Vehicle
+445,360,DT07,Dirty Camp Run Br#6,264,13,63.057053,Vehicle
+446,361,FT05,Fallen Timber Run Br#5,267,5,116.136866,Vehicle
+447,362,MA11,S Tenth St Bridge,295,1275,1031.937281,Vehicle
+448,363,HV07,Homeville Creek Br #7,275,12,104.70488,Vehicle
+449,364,HV09,Homeville Creek Br #9, ,0,35.943336,Vehicle
+450,365,LC09,Lick's Run Br #9,286,15,62.615003,Vehicle
+451,366,LW02,Lewis Run Br #2, ,0,72.890037,Vehicle
+452,368,MA08,Glenwood Bridge,294,2280,1449.710694,Vehicle
+453,370,MT09,Montour Run #9, ,0,58.923491,Vehicle
+454,371,PI16,Pine Creek Br #16,375,61,120.847809,Vehicle
+455,372,PJ06,Pierson's Run Br #6,382,5,17.616252,Vehicle
+456,373,PL15,Little Pine Creek Br #15, ,0,65.346453,Vehicle
+457,374,PO06,Pucketa Creek Br #6,388,62,106.792672,Vehicle
+458,375,PO05,Pucketa Creek Br #5,387,45,93.233966,Vehicle
+459,376,PU06,Plum Creek Upper Branch #6, ,3,21.886205,Vehicle
+460,377,PU10,Plum Creek Upper Branch Br #1,388,8,15.61276,Vehicle
+461,378,RB02,Robinson Run Br #2, ,0,31.204632,Vehicle
+462,379,RB01,Robinson Run Br #1, ,0,62.464213,Vehicle
+463,380,RS01,Robinson's Run S Branch #1, ,0,49.715875,Vehicle
+464,381,RN01,Robinson's Run Br #1, ,0,42.826952,Vehicle
+465,382,RN02,Robinson's Run Br #2, ,0,71.032522,Vehicle
+466,383,RS04,Robinson Run S Branch Br#4,391,36,50.312629,Vehicle
+467,384,RS05,Robinson Run S Branch Br #5, ,0,32.94623,Vehicle
+468,385,SE01,Big Sewickley Creek East Bran,395,26,45.135289,Vehicle
+469,386,SH02,Sham Hollow Run Br #2, ,0,52.629768,Vehicle
+470,387,SQ02,Squaw Run Br #2,399,43,42.217547,Vehicle
+471,388,SQ03,Squaw Run Br #2,434,19,22.491997,Vehicle
+472,389,SQ07,Squaw Run Br #7,448,20,31.514389,Vehicle
+473,391,TC06,Thompson Creek Br #6,483,2,38.718371,Vehicle
+474,392,TE12,Thompson Run East Branch Br #,485,24,66.263889,Vehicle
+475,393,TL11,Turtle Creek Br #11,490,21,62.469291,Vehicle
+476,394,WR01,West Run Br #1, ,0,54.616857,Vehicle
+477,396,BF09,Thompson's Run No.9,244,88.024,88.058507,Vehicle
+478,397,CC16,Chartiers Creek #16,180,144,159.785379,Vehicle
+479,399,CC23,Chartiers Creek No. 23,145,5,46.244699,Vehicle
+480,400,CH01,Laketon Rd Br No. 1,162,35,58.237142,Vehicle
+481,401,CK03,Crooked Run Br. #3,162,4,70.411398,Vehicle
+482,402,CM06,CAMPBELLS RUN NO. 6,323,49,24.235679,Vehicle
+483,403,CT12,Catfish Run #12,250,24,30.848067,Vehicle
+484,405,CT20,Catfish Run #20,252,7.8,108.767054,Vehicle
+485,406,DE04,Deer Creek Br #4,253,65,92.811651,Vehicle
+486,407,DE09,Deer Creek Br #9,254,58,100.054557,Vehicle
+487,408,DG05,Round Hill Rd Br #5,255,2,12.768364,Vehicle
+488,409,DK01,Dooker's Hollow Br #1,256,641,686.845591,Vehicle
+489,410,DL04,Little Deer Creek Br#4,257,45,43.458315,Vehicle
+490,411,DL05,Little Deer Creek #5,258,57,84.563048,Vehicle
+491,412,DL06,Little Deer Creek Br #6,259,32,55.784235,Vehicle
+492,413,DP03,Deer Lakes Park Br#3,259,59.2,28.828003,Pedestrian
+493,414,DP04,Deer Lakes Park Br#4,260,32.3,32.838138,Pedestrian
+494,415,DP05,Deer Lakes Park Br #5,261,140.4,135.755486,Pedestrian
+495,416,DP07,Deer Lakes Park Br#7,262,161,161.995588,Pedestrian
+496,417,DT06,Pitcairn Rd Br #6,264,5,26.916677,Vehicle
+497,418,DT09,Dirty Camp Br #9,265,14,40.475613,Vehicle
+498,419,FO02,Duquesne Flyover,267,81.5,121.049728,Vehicle
+499,420,FO04,Leetsdale Overpass,268,171.5,313.722219,Vehicle
+500,421,FT06,Fallen Timber Run Br#6,268,6,24.712528,Vehicle
+501,422,FU07,Flaugherty Run Br#7,269,48,41.04977,Vehicle
+502,423,GH06,Gourdhead Run Br#6,271,28,39.085326,Vehicle
+503,424,HP01,Harrison Hills Park Br #1,273,6,13.816375,Vehicle
+504,425,HP02,Harrison Hills Park Br#2,274,2,31.071632,Vehicle
+505,426,HP03,Harrison Hills Park Br#3,275,8,31.597687,Vehicle
+506,427,IN01,Indian Creek Br #1,276,6,43.888408,Vehicle
+507,428,JH02,Johnson's Run Br #2,277,4,43.706069,Vehicle
+508,429,JH03,Johnson's Run Br #3,278,3,27.723935,Vehicle
+509,430,KL09,Kilbuck Run Br #9,279,24,29.255038,Vehicle
+510,431,KL13,Kilbuck Run Bridge No. 13,463,18,46.886454,Vehicle
+511,432,KL14,Killbuck Run Br #14,280,4,17.704883,Vehicle
+512,433,KL15,Kilbuck Run Br #15,280,6,51.559084,Vehicle
+513,434,KL16,Kilbuck Run Br #16,281,8,36.634143,Vehicle
+514,435,KL17,Kilbuck Run Br #17,282,10,31.7312,Vehicle
+515,436,LC02,Lick's Run Br #2,283,35,30.999117,Vehicle
+516,437,LC04,Lick's Run Br #4,284,23,18.2153,Vehicle
+517,438,LC06,Lick's Run Br #6,285,37,45.804437,Vehicle
+518,439,LC10,Lick's Run Br #10,287,5,16.471246,Vehicle
+519,440,LC11,Lick's Run #11,407,7,27.31158,Vehicle
+520,441,LC11,Lick's Run #11,407,7,43.680013,Vehicle
+521,442,LC17,Lick's Run Br #17,155,3,20.440434,Vehicle
+522,443,LE11,Lowrie's Run East Br #12,158,5,29.396575,Vehicle
+523,444,LE12,Lowries' Run East Br #12,288,7,30.525941,Vehicle

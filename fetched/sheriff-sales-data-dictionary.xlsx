@@ -1,0 +1,35 @@
+"Column Name","Description","Data Type","Example Data"
+"SaleNumber","Unique identifier for the sale. This is assigned by the Sheriff's office and is in the format <three-digit sequential number><three-letter month abbreviation><two-digit year>. A sale has the same Auction Number no matter how many times it is postponed.
+The Master Bid List includes all sales that begin in the selected month, so all rows will have the same month in the SaleNumber (the selected month).
+The Postponement List includes all sales that are up for auction in the selected month regardless of when they were originally up for sale, so the SaleNumber column will have a range of months and years.","Text","001JUL15"
+"DocketNumber","The docket number of the court case that corresponds with the sale. This number is assigned by the Court of Common Pleas and is in the format <docket type>-<two-digit year>-<six-digit sequential number>.","Text","MG-15-000000"
+"AttorneyName","Name of the plaintiff attorney assigned to the sale in the format of <last name>, <first initial>.","Text","Smith, J."
+"Plaintiff","The plaintiff(s) in the case. If more than one plaintiff is listed, the names will be separated with semicolons (;)","Text","XYZ Mortgage Co."
+"Defendant","The defendant(s) in the case. If more than one defendant is listed, the names will be separated with semicolons (;).","Text","Jones, John"
+"SaleType","The type of Sheriff Sale:
+Mortgage Foreclosure - The property is in foreclosure due to non-payment of mortgage.
+Sci Fa sur Tax Lien - There are back taxes owed to one or more taxing bodies on the property.
+Other Real Estate - There is a judgement on the property that is not a mortgage foreclosure or a tax lien.","Text","Mortgage Foreclosure"
+"SaleDate","The date the property sale was originally scheduled for auction. This will be the same date for all rows in the Master Bid List and a range of dates in the Postponement List.","Date","2015-07-06T00:00:00"
+"SaleStatus","Status of the sale. If the report is run before a sale ocurrs, the property will have one of the following statuses:
+ACTIVE - the property is up for auction
+BANKRUPTCY - Defendant filed for bankruptcy
+POSTPONED - the sale of the property has been postponed (see PPDate for the new sale date)
+MONEY MADE - The face of the writ was paid in full, which means that any damages/costs associated with the sale were paid to the Sheriff's office before the scheduled sale.
+PP GENERALLY - The sale has been postponed but as yet there is no specific date.
+STAYED - The sale of the property was stayed by plaintiff or court order and the property will not be for sale at the auction.
+
+If the report is run after a sale occurs, the property will have one of the following statuses:
+PLTF Cost & Tax - the plaintiff in the case bought the property for the costs and taxes owed
+PLTF Cost - The taxing body took possession of the property. This status is only used for a tax sale.
+PLTF Overbid - The plaintiff in the case bought the property for more than the Costs and Taxes amount.
+UNSOLD - The property was part of the auction but was not sold.
+THIRD PARTY - The property was bought by a third party (neither the plaintiff nor defendant in the case).","Text","ACTIVE"
+"PPDate","Date to which the sale is postponed. If the sale is not postponed, this field will be blank.","Date","2015-08-03T00:00:00"
+"Address","The address of the property that is at auction.","Text","123 MAIN ST PITTSBURGH PA 15219"
+"Municipality","The municipality in which the property is located.","Text","PGH Ward 11"
+"CostTaxes","The amount of outstanding taxes on the property (if any) plus court and sheriff costs that have been incurred to put the property on auction. This is the starting bid of the auction. This number will be inaccurate until the report is pulled a few days before the sale.","Currency","1000.0"
+"ServicesCompleted","Whether or not the defendant has been notified that the property is on auction. If there is a Y in this field, the services have been completed. Otherwise the field will be blank.","Text","Y"
+"Delivered3129","Whether or not lienholders and all others with interest in the property have been notified that the property is on auction. If there is a Y in this field, all parties have been notified. Otherwise the field will be blank.","Text","Y"
+"ReadyForSale","Whether or not the property is ready to be sold at auction. If there is a Y in this field, then the property is ready. Otherwise this field will be blank.","Text","Y"
+"AdditionalNotes","Any additional comments about the sale.","Text",""

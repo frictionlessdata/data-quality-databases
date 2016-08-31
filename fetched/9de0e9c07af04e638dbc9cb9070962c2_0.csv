@@ -1,0 +1,131 @@
+﻿OBJECTID,NAME,TYPE,LABEL,COG,SCHOOLD,CONGDIST,FIPS,REGION,ACRES,SQMI,MUNICODE,CNTL_ID,CNTYCOUNCIL,EOC,ASSESSORTERRITORY,VALUATIONAREA,YEARCONVERTED,GlobalID
+1,CHESWICK,BOROUGH,Cheswick Borough,Allegheny Valley North,Allegheny Valley,4,13392,NH,350.191284,0.547174,815,003100,7,NEWCOM,East,Alle-Kiski Valley,1966,f29648dc-0d4f-4e35-8f2d-7b465dcff308
+4,EDGEWORTH,BOROUGH,Edgeworth Borough,Quaker Valley,Quaker Valley,20,22576,AA,1030.743774,1.610538,824,003170,1,Northwest Regional,North,Northwest,1974,7e8bdba9-9260-48e1-91f0-cb52295b551e
+5,SEWICKLEY,BOROUGH,Sewickley Borough,Quaker Valley,Quaker Valley,20,69376,AA,718.30957,1.122359,851,003490,1,Northwest Regional,North,Northwest,1972,1441bb31-e106-4064-af15-f91865a3f9cd
+6,SEWICKLEY HEIGHTS,BOROUGH,Sewickley Heights Borough, ,Quaker Valley,14,69400,AA,4738.989746,7.404672,869,003500,2,Northwest Regional,North,Northwest,1976,3ce63efc-d770-42e5-b926-aa5b58a9ed7c
+8,HARMAR,TOWNSHIP,Harmar Township,Allegheny Valley North,Allegheny Valley,18,32624,NH,4060.858643,6.345092,915,003250,7,NEWCOM,East,Alle-Kiski Valley,1967,47ac83a5-9584-40e1-83d9-5dbf7cacf798
+9,FOX CHAPEL,BOROUGH,Fox Chapel Borough,North Hills,Fox Chapel Area,18,27120,NH,5025.400391,7.852188,868,003215,3,NEWCOM,North,North,1961,9cec60fe-3b73-46dd-b87e-80c10336c321
+12,FRANKLIN PARK,BOROUGH,Franklin Park Borough,North Hills,North Allegheny,14,27552,NH,8670.269531,13.547297,884,003223,2,Northwest Regional,North,North,1988,0036e079-d3e4-4438-b4bc-154c2d49d5df
+13,BELL ACRES,BOROUGH,Bell Acres Borough,Quaker Valley,Quaker Valley,14,5216,AA,3385.003418,5.289067,883,003028,2, ,North,Northwest,1978,14bb2ba1-43db-4faa-8606-c1836d8d03a0
+14,LEET,TOWNSHIP,Leet Township,Quaker Valley,Quaker Valley,14,42368,AA,1024.352295,1.60055,921,003302,1,Northwest Regional,North,Northwest,1974,095fe692-50db-4f0d-8e2e-66c529d734b6
+15,LEETSDALE,BOROUGH,Leetsdale Borough,Quaker Valley,Quaker Valley,14,42392,AA,753.322815,1.177067,836,003305,1,Northwest Regional,North,Northwest,1974,cb2b1592-b691-411c-a702-f6db0518b2cd
+16,SEWICKLEY HILLS,BOROUGH,Sewickley Hills Borough, ,Quaker Valley,14,69416,AA,1564.793457,2.444989,882,003505,2,Northwest Regional,North,Northwest,1976,f590d4c3-3ee1-4118-933e-18c66aff8fef
+17,OHIO,TOWNSHIP,Ohio Township,North Hills,Avonworth,14,56392,NH,4355.547852,6.805544,932,003410,2,Northwest Regional,North,Northwest,1976,c47771dc-fb14-4830-a752-48d8c6f20ec7
+18,RICHLAND,TOWNSHIP,Richland Township,North Hills,Pine-Richland,4,64528,NH,9362.007812,14.628138,938,003465,2,NEWCOM,North,North,1989,1508ad5c-78d5-426b-86ce-38f91251c541
+19,MCCANDLESS,TOWNSHIP,McCandless Township,North Hills,North Allegheny,14,45900,NH,10586.797852,16.541876,927,003320,2,Northwest Regional,North,North,1987,52ec9087-0585-4d67-9108-a6d838a13ec1
+22,HAYSVILLE,BOROUGH,Haysville Borough,Quaker Valley,Quaker Valley,20,33312,AA,137.77037,0.215266,832,003260,4,Northwest Regional,North,Northwest,1971,f56dcbed-98ca-4af6-866b-5930666af43a
+25,FRAZER,TOWNSHIP,Frazer Township,Allegheny Valley North,Deer Lakes,4,27608,NH,5990.693848,9.360459,913,003225,3,NEWCOM,East,Alle-Kiski Valley,1980,aa1cd14b-9e0e-4cde-ab39-7666edf54222
+26,FAWN,TOWNSHIP,Fawn Township,Allegheny Valley North,Highlands,4,25400,NH,8234.729492,12.866764,909,003195,3,NEWCOM,East,Alle-Kiski Valley,1980,c2e59b0f-dbfe-4977-a64e-1cf4a7b35cda
+27,HARRISON,TOWNSHIP,Harrison Township,Allegheny Valley North,Highlands,4,32832,NH,5015.975586,7.837462,916,003255,3,NEWCOM,East,Alle-Kiski Valley,1972,a1997247-8cc0-4c49-a489-7c8f8d7b0df9
+28,TARENTUM,BOROUGH,Tarentum Borough,Allegheny Valley North,Highlands,4,76104,NH,903.48877,1.411701,855,003555,3,NEWCOM,East,Alle-Kiski Valley,1969,0e76751d-fefc-495e-885a-ba6d57b20007
+30,GLEN OSBORNE,BOROUGH,Glen Osborne Borough,Quaker Valley,Quaker Valley,20,57200,AA,358.957794,0.560872,846,003415,4,Northwest Regional,North,Northwest,1971,9ba4c380-ca58-4b63-b666-adb7604ace9a
+31,EMSWORTH,BOROUGH,Emsworth Borough,Quaker Valley,Avonworth,14,23616,NH,434.306488,0.678604,826,003185,1,Northwest Regional,North,Northwest,1957,9ecdc221-1dd3-40f4-b670-f6a33130bfd5
+32,GLENFIELD,BOROUGH,Glenfield Borough,Quaker Valley,Quaker Valley,20,29592,AA,639.739624,0.999593,830,003235,4,Northwest Regional,North,Northwest,1971,8ec80cbb-13bb-415b-a268-ecb08859198b
+34,AVALON,BOROUGH,Avalon Borough,Quaker Valley,Northgate,14,3608,NH,437.833588,0.684115,802,003015,1,Northwest Regional,North,Northwest,1955,2d297c51-54a6-4013-8328-9cdac6743d57
+35,MILLVALE,BOROUGH,Millvale Borough,North Hills,Shaler Area,18,49920,NH,441.883026,0.690442,838,003345,3,NEWCOM,North,North,1956,f4572946-c0eb-4c4f-bc90-1ec711755465
+37,NEVILLE,TOWNSHIP,Neville Township,Char-West,Cornell,14,53136,AA,1500.700928,2.344845,928,003375,4,Northwest Regional,West,West,1970,e01edc50-befa-498d-b0f6-5049f400400f
+38,BEN AVON,BOROUGH,Ben Avon Borough,Quaker Valley,Avonworth,14,5504,NH,284.064056,0.44385,804,003035,1,Northwest Regional,North,Northwest,1956,ea373915-8deb-4ae1-ac5c-dc1093741b11
+39,BEN AVON HEIGHTS,BOROUGH,Ben Avon Heights Borough, ,Avonworth,14,5520,NH,109.539764,0.171156,805,003040,1,Northwest Regional,North,Northwest,1956,ed185fe5-3b0d-492f-8054-ca80f74db277
+41,RESERVE,TOWNSHIP,Reserve Township,North Hills,Shaler Area,18,64240,NH,1299.43811,2.030372,937,003460,3,NEWCOM,North,North,1959,a9363ce6-0dc5-46c6-9907-d016a126f717
+42,SHALER,TOWNSHIP,Shaler Township,North Hills,Shaler Area,18,69584,NH,7172.964844,11.207758,944,003510,3,NEWCOM,North,North,1965,7476f99d-a034-4739-9980-7d4433758070
+43,EAST DEER,TOWNSHIP,East Deer Township,Allegheny Valley North,Deer Lakes,4,21024,NH,1613.701782,2.521409,907,003150,3,NEWCOM,East,Alle-Kiski Valley,1968,297910ac-50ef-49a2-b9be-cc917be15257
+54,WILKINSBURG,BOROUGH,Wilkinsburg Borough,Turtle Creek Valley,Wilkinsburg,18,85188,ES,1445.369507,2.258391,866,003640,10,East Regional,East,Mon Valley,1952,3652b67d-2dad-45da-84ac-7bc166cf9c6b
+64,PLUM,BOROUGH,Plum Borough,Turtle Creek Valley,Plum Borough,4,61536,ES,18545.425781,28.977234,880,003445,7,East Regional,East,East,1997,775a637c-50bf-4cd7-bd36-45c8fe3791c8
+65,BRADDOCK HILLS,BOROUGH,Braddock Hills Borough,Steel Rivers,Woodland Hills,18,8008,MV,603.870605,0.943548,872,003065,8,East Regional,East,Mon Valley,1953,944e21e4-4f6b-45b3-ba2b-8d3103d8c95e
+66,RANKIN,BOROUGH,Rankin Borough,Turtle Creek Valley,Woodland Hills,18,63408,MV,311.508423,0.486732,849,003455,8,East Regional,East,Mon Valley,1953,296faf34-2af8-4572-9132-4347b47ebf2e
+68,SWISSVALE,BOROUGH,Swissvale Borough,Turtle Creek Valley,Woodland Hills,18,75816,MV,53.422752,0.083473,854,003550,8,East Regional,East,Mon Valley,1953,c47d76d0-882e-4cd4-bcf3-f1ac8ed6baa5
+69,EDGEWOOD,BOROUGH,Edgewood Borough,Turtle Creek Valley,Woodland Hills,14,22520,ES,418.757416,0.654308,823,003165,8,East Regional,East,Mon Valley,1952,58962c34-7620-48b8-865c-75724959e148
+76,WEST VIEW,BOROUGH,West View Borough,North Hills,North Hills,14,84144,NH,647.374268,1.011522,864,003615,1,Northwest Regional,North,North,1969,6412caf8-9a94-4011-86f5-23b755115e1b
+77,CHURCHILL,BOROUGH,Churchill Borough,Turtle Creek Valley,Woodland Hills,18,13608,ES,1398.227783,2.184731,816,003105,8,East Regional,East,Mon Valley,1953,9e3c5ad7-5746-4cf2-b58e-b41d2fcf311f
+78,MONROEVILLE,MUNICIPALI,Monroeville Municipality,Turtle Creek Valley,Gateway,18,52330,ES,12622.498047,19.722656,879,003350,8,East Regional,East,East,1985,cadf64a3-7588-4e00-af96-bf5f6452f088
+82,CHALFANT,BOROUGH,Chalfant Borough,Turtle Creek Valley,Woodland Hills,18,12496,ES,104.564331,0.163382,814,003095,8,East Regional,East,Mon Valley,1954,dceb0961-e9a4-4e3a-a462-0225c43b7ac4
+91,ROSS,TOWNSHIP,Ross Township,North Hills,North Hills,14,66264,NH,9257.419922,14.464719,940,003475,1,NEWCOM,North,North,1970,43f37fe1-25bb-49bc-b9ff-bd49f15e4707
+92,BRACKENRIDGE,BOROUGH,Brackenridge Borough,Allegheny Valley North,Highlands,4,7976,NH,357.320007,0.558312,807,003055,3,NEWCOM,East,Alle-Kiski Valley,1970,1d833932-20b6-4b84-bfec-2e789aa0a50b
+93,SPRINGDALE,TOWNSHIP,Springdale Township,Allegheny Valley North,Allegheny Valley,18,72968,NH,1553.413696,2.427209,948,003540,3,NEWCOM,East,Alle-Kiski Valley,1968,c7eb1a7c-c812-40f3-ad75-a4ed0103f96f
+106,HEIDELBERG,BOROUGH,Heidelberg Borough,South Hills Area,Chartiers Valley,18,33592,SH,175.082489,0.273566,833,003265,4,Southwest Regional,West,West,1962,23f74b50-608d-43eb-8e53-b45513af0a11
+107,ETNA,BOROUGH,Etna Borough,North Hills,Shaler Area,18,24160,NH,505.648651,0.790076,827,003190,3,NEWCOM,North,North,1955,ff43db02-1a93-4cf1-93be-d0b9a92a75b8
+108,VERONA,BOROUGH,Verona Borough,Allegheny Valley North,Riverview,18,80032,ES,378.812775,0.591895,859,003580,7,East Regional,East,North,1982,bb233a18-21a8-48e0-9b83-a99d6eece106
+109,PENNSBURY VILLAGE,BOROUGH,Pennsbury Village Borough,Char-West,Montour,14,59152,AA,37.13929,0.05803,871,003422,4,Southwest Regional,West,West,1977,9715398c-bb83-4699-9d15-b67f2a3ac7ab
+111,CLAIRTON,CITY,Clairton,Steel Rivers,Clairton City,18,13704,MV,1933.003052,3.020317,200,003110,6,Mon-Valley,South,Mon Valley,1966,e6608539-0e20-42c4-9ca9-868634f2758d
+117,SPRINGDALE,BOROUGH,Springdale Borough,Allegheny Valley North,Allegheny Valley,18,72960,NH,698.273926,1.091053,853,003540,7,NEWCOM,East,Alle-Kiski Valley,1967,7aaa94ca-3ded-4978-be51-3a4feea34619
+119,OAKMONT,BOROUGH,Oakmont Borough, ,Riverview,18,56088,ES,1120.934448,1.751459,845,003400,7,East Regional,East,North,1983,14c92119-d260-4cbc-a877-045692c6e8f0
+120,BLAWNOX,BOROUGH,Blawnox Borough,Allegheny Valley North,Fox Chapel Area,18,7000,NH,277.078857,0.432936,806,003050,3,NEWCOM,North,North,1960,d895efe2-9ebd-45ad-ad3f-a39048d120d9
+122,PLEASANT HILLS,BOROUGH,Pleasant Hills Borough,South Hills Area,West Jefferson Hills,18,61328,SH,1792.188354,2.800294,873,003440,6,South Hills Regional,South,Mon Valley,1965,1d241e31-b03c-47ee-be51-8f79925801c1
+130,SHARPSBURG,BOROUGH,Sharpsburg Borough,North Hills,Fox Chapel Area,18,69776,NH,414.509033,0.64767,852,003515,3,NEWCOM,North,North,1954,b2db32d9-db00-4c91-a0e3-2ebb998fb537
+4132,WILKINS,TOWNSHIP,Wilkins Township,Turtle Creek Valley,Woodland Hills,18,85184,ES,1671.226318,2.611291,953,003635,7,East Regional,East,Mon Valley,1959,eaf2a691-eb4d-4041-9ff5-10fdc351e771
+4133,TURTLE CREEK,BOROUGH,Turtle Creek Borough,Turtle Creek Valley,Woodland Hills,18,77912,MV,644.897644,1.007653,858,003570,8,East Regional,East,Mon Valley,1959,1a5fbb4c-12ff-44c4-85c2-8ba08ad75252
+4134,BRADDOCK,BOROUGH,Braddock Borough,Turtle Creek Valley,Woodland Hills,18,7992,MV,414.308899,0.647358,808,003060,8,East Regional,East,Mon Valley,1953,3872ba96-3f08-45fc-a3e7-baa4f22bdca7
+4135,EAST PITTSBURGH,BOROUGH,East Pittsburgh Borough,Turtle Creek Valley,Woodland Hills,18,21712,MV,250.961563,0.392128,822,003160,8,East Regional,East,Mon Valley,1954,7df6c127-d0c5-4c0d-8910-9e713839960c
+4136,NORTH BRADDOCK,BOROUGH,North Braddock Borough,Turtle Creek Valley,Woodland Hills,18,54816,MV,977.492798,1.527333,843,003380,8,East Regional,East,Mon Valley,1954,f472e16e-e3c3-496d-b144-f836b20fcf32
+4138,WILMERDING,BOROUGH,Wilmerding Borough,Turtle Creek Valley,East Allegheny,18,85496,MV,281.610809,0.440017,867,003645,8,East Regional,East,Mon Valley,1972,f6917c59-3c45-4529-9900-271214d6cf8c
+4151,WALL,BOROUGH,Wall Borough,Turtle Creek Valley,East Allegheny,18,80600,ES,240.456009,0.375713,861,003590,8,East Regional,East,Mon Valley,1971,9a9cdc74-31ba-443e-bf0d-1e9b37fc4795
+4152,VERSAILLES,BOROUGH,Versailles Borough,Steel Rivers,McKeesport Area,18,80040,MV,345.723999,0.540194,860,003585,9,Mon-Valley,South,Mon Valley,1975,cbf9a6b7-857c-4808-bd97-0c147a4a7ab8
+5337,DRAVOSBURG,BOROUGH,Dravosburg Borough,Steel Rivers,McKeesport Area,18,19856,MV,685.87915,1.071686,820,003140,9,Mon-Valley,South,Mon Valley,1964,2015cabd-1c4f-40cb-8501-bc2dd491c49c
+5344,MCKEESPORT,CITY,McKeesport,Steel Rivers,McKeesport Area,18,46256,MV,3468.846924,5.420073,400,003330,9,Mon-Valley,South,Mon Valley,1973,854a0310-19c4-461d-a6b5-612b47367fc4
+5356,PORT VUE,BOROUGH,Port Vue Borough,Steel Rivers,South Allegheny,18,62320,MV,748.593018,1.169677,848,003450,9,Mon-Valley,South,Mon Valley,1974,5cff2331-42bd-4bd5-a57a-f6d74ac0f739
+5367,GLASSPORT,BOROUGH,Glassport Borough,Steel Rivers,South Allegheny,18,29432,MV,1148.58313,1.794661,829,003230,9,Mon-Valley,South,Mon Valley,1974,b5a8ad29-2016-4aa9-b1e0-8e5c780d6521
+5373,DUQUESNE,CITY,Duquesne,Steel Rivers,Duquesne City,18,20432,MV,1315.88855,2.056077,300,003145,9,Mon-Valley,South,Mon Valley,1963,81c2196e-427f-49e5-b1d4-d9fad837b9ec
+5736,LIBERTY,BOROUGH,Liberty Borough,Steel Rivers,South Allegheny,18,43064,MV,943.39856,1.47406,837,003310,9,Mon-Valley,South,Mon Valley,1977,fe592e52-219d-46f1-9221-0b4dae603a46
+6153,LINCOLN,BOROUGH,Lincoln Borough,Steel Rivers,South Allegheny,18,43408,MV,3289.419678,5.139719,881,003315,9,Mon-Valley,South,Mon Valley,1977,4639bf1b-229b-4271-ad5b-d100075b515c
+6942,ELIZABETH,TOWNSHIP,Elizabeth Township,South Hills Area,Elizabeth Foreward,18,23000,MV,14758.374023,23.059954,908,003180,9,Mon-Valley,South,Mon Valley,1981,3e063b53-3c78-4de5-b241-a4fa36d7e42c
+6959,ELIZABETH,BOROUGH,Elizabeth Borough,Steel Rivers,Elizabeth Foreward,18,22992,MV,251.579834,0.393093,825,003180,9,Mon-Valley,South,Mon Valley,1980,543a93aa-4e57-4dfd-ae95-38d1e2b3f4f6
+6983,WEST ELIZABETH,BOROUGH,West Elizabeth Borough,Steel Rivers,West Jefferson Hills,18,82848,MV,146.38269,0.228723,862,003600,9,Mon-Valley,South,Mon Valley,1964,11f628cf-af36-4290-a69b-6d2ce9ba5133
+7372,SOUTH PARK,TOWNSHIP,South Park Township,South Hills Area,South Park,20,6064,SH,7491.746582,11.705854,945,003045,5,South Hills Regional,South,South,1962,0c8e0af1-e6d5-4e60-8390-621671fbf39c
+9365,WEST MIFFLIN,BOROUGH,West Mifflin Borough,South Hills Area,West Mifflin Area,18,83512,MV,1510.908081,2.360794,870,003370,9,Mon-Valley,South,Mon Valley,1964,f4c42407-4e39-486b-b3d5-f65fffdfeb4e
+9400,MOUNT OLIVER,BOROUGH,Mount Oliver Borough, ,City of Pittsburgh,14,51744,PGH,215.673828,0.33699,839,003365,0,City of Pittsburgh,City,Pittsburgh,1950,0ce53d0a-2c0e-4bea-b562-9f01e89fb1e5
+9428,WHITAKER,BOROUGH,Whitaker Borough,Steel Rivers,West Mifflin Area,18,84440,MV,211.785004,0.330914,865,003620,8,Mon-Valley,South,Mon Valley,1955,39ec5992-eed1-4a0b-84de-5054e3646202
+10241,HOMESTEAD,BOROUGH,Homestead Borough,Steel Rivers,Steel Valley,14,35424,MV,417.550873,0.652423,834,003270,11,Mon-Valley,South,Mon Valley,1954,5de92c20-a2e7-42e5-b788-f08ea7a653ec
+10640,MUNHALL,BOROUGH,Munhall Borough,Steel Rivers,Steel Valley,18,52320,MV,1510.908081,2.360794,840,003370,11,Mon-Valley,South,Mon Valley,1955,a37e6729-b290-450c-badd-66873e71431d
+10659,WEST HOMESTEAD,BOROUGH,West Homestead Borough,Steel Rivers,Steel Valley,18,83200,MV,643.757812,1.005872,863,003605,11,Mon-Valley,South,Mon Valley,1954,db5f4536-7f87-4c7a-bdd4-a8c07516c457
+11467,GREEN TREE,BOROUGH,Green Tree Borough,South Hills Area,Keystone Oaks,14,31256,SH,1328.240967,2.075377,831,003240,12,Southwest Regional,South,South,1956,b973bcb4-f77c-42aa-972b-72efd5e72d33
+11861,DORMONT,BOROUGH,Dormont Borough,South Hills Area,Keystone Oaks,18,19576,SH,490.771851,0.766831,819,003135,12,South Hills Regional,South,South,1953,e4dca2c5-3ace-4208-9c4c-357b10c894ab
+11882,BALDWIN,TOWNSHIP,Baldwin Township,South Hills Area,Baldwin-Whitehall,18,3952,SH,315.475952,0.492931,902,003020,6,South Hills Regional,South,South,1959,e1c03870-63ba-4fb3-a242-c3004ef6c59e
+12691,BRENTWOOD,BOROUGH,Brentwood Borough,South Hills Area,Brentwood Borough,18,8416,SH,944.373413,1.475583,810,003075,6,South Hills Regional,South,South,1956,3a5c3c99-1af3-4a22-82dc-2c06a754f914
+13439,BALDWIN,BOROUGH,Baldwin Borough,South Hills Area,Baldwin-Whitehall,18,3928,SH,3730.407471,5.828761,877,003020,6,South Hills Regional,South,South,1960,31af7280-38d9-4fa7-bcc2-afa786eb1598
+13848,WHITEHALL,BOROUGH,Whitehall Borough,South Hills Area,Baldwin-Whitehall,18,84512,SH,2110.15918,3.297123,874,003625,6,South Hills Regional,South,South,1957,d35d0b16-93d5-4b50-b594-c91640658ac1
+13871,MOUNT LEBANON,MUNICIPALI,Mount Lebanon,South Hills Area,Mt. Lebanon,18,51696,SH,3891.854004,6.081022,926,003360,5,South Hills Regional,South,South,1963,54efc8a3-442f-4a11-9f01-7eec585a33fd
+13872,CASTLE SHANNON,BOROUGH,Castle Shannon Borough,South Hills Area,Keystone Oaks,18,11680,SH,1027.096924,1.604839,813,003090,6,South Hills Regional,South,South,1958,d8a872af-c402-40f9-af3e-2466fba45a5c
+13877,KENNEDY,TOWNSHIP,Kennedy Township,Char-West,Montour,14,39312,AA,3535.634277,5.524428,919,003290,4,Southwest Regional,West,West,1975,94f3ef4f-6be3-41bb-b30b-4fca1378a5b9
+14248,BRIDGEVILLE,BOROUGH,Bridgeville Borough,Char-West,Chartiers Valley,20,8624,SH,693.333862,1.083334,811,003080,4,Southwest Regional,West,West,1965,66268719-5f68-4006-84cb-264d855c3e9c
+14256,UPPER ST. CLAIR,MUNICIPALI,Upper St. Clair Municipality,South Hills Area,Upper St. Clair Area,20,79274,SH,6255.606934,9.774386,950,003575,5,South Hills Regional,South,South,1966,ac96902e-6174-4981-8efc-da28b5457ccb
+14282,INGRAM,BOROUGH,Ingram Borough,Char-West,Montour,14,37000,AA,279.21698,0.436277,835,003280,12,Southwest Regional,West,West,1953,1acbcb2a-df9c-411d-8fb5-2dc33a099b56
+14291,STOWE,TOWNSHIP,Stowe Township,Char-West,Sto-Rox,14,74648,AA,1464.63147,2.288486,949,003545,4,Southwest Regional,West,West,1974,8395ee0c-10b7-4627-aef7-998e9ee71639
+14306,MCKEES ROCKS,BOROUGH,McKees Rocks Borough,Char-West,Sto-Rox,14,46264,AA,717.449707,1.121015,842,003335,4,Southwest Regional,West,West,1953,940a8c2b-8aee-481c-b29f-597bb2366e4e
+14642,THORNBURG,BOROUGH,Thornburg Borough,Char-West,Montour,14,76560,AA,276.666046,0.432291,856,003560,4,Southwest Regional,West,West,1954,f63f45f2-c748-4422-8ea5-2514ec172ba3
+14645,CRAFTON,BOROUGH,Crafton Borough,Char-West,Carlynton,14,16848,AA,734.246338,1.14726,818,003125,4,Southwest Regional,West,West,1954,d6e94d87-a500-4ec9-9fab-e6e9110589a4
+14655,ROSSLYN FARMS,BOROUGH,Rosslyn Farms Borough,Char-West,Carlynton,14,66320,AA,353.490936,0.55233,850,003480,4,Southwest Regional,West,West,1955,c9844cac-e013-4ba9-a623-5a80beaef3b3
+14661,SCOTT,TOWNSHIP,Scott Township,South Hills Area,Chartiers Valley,18,68388,SH,2484.294434,3.881709,941,003485,4,Southwest Regional,West,West,1961,b9c1f160-ae1f-45ca-ac27-b1d180b047d4
+14664,CARNEGIE,BOROUGH,Carnegie Borough,Char-West,Carlynton,18,11336,SH,1040.548096,1.625856,812,003085,4,Southwest Regional,West,West,1958,52ac39c1-ddaa-4e94-979a-d624b24c0ace
+14678,CRESCENT,TOWNSHIP,Crescent Township,Char-West,Moon Area,20,17048,AA,1511.144165,2.361162,906,003130,1,Northwest Regional,West,West,1978,9f8166a1-9d75-4868-beba-1574a8cd86dd
+14692,MOON,TOWNSHIP,Moon Township,South Hills Area,Moon Area,20,50784,AA,15352.370117,23.988079,925,003355,1,Northwest Regional,West,West,1979,6c4c3849-406d-468d-b7e5-ff537826b0a2
+14694,CORAOPOLIS,BOROUGH,Coraopolis Borough,Char-West,Cornell,20,16144,AA,946.467163,1.478855,817,003120,1,Northwest Regional,West,West,1979,88a19229-c6d1-40cc-a3ff-fb74d994a760
+14697,ROBINSON,TOWNSHIP,Robinson Township,Char-West,Montour,14,65352,AA,9622.300781,15.034845,939,003470,4,Northwest Regional,West,West,1977,b88b62ad-7bd5-432b-b477-492b700c7efc
+15470,OAKDALE,BOROUGH,Oakdale Borough,Char-West,West Allegheny,20,55840,AA,285.33847,0.445841,844,003395,4,Southwest Regional,West,West,2007,6f0e47b6-3116-432b-b888-b28aeffe3b4c
+15516,MCDONALD,BOROUGH,McDonald Borough, ,Fort Cherry,20,46072,AA,121.228447,0.189419,841,003325,5,Southwest Regional,West,West,2007,b3abdb2d-c811-447b-9f24-c0f88dab24df
+15520,SOUTH FAYETTE,TOWNSHIP,South Fayette Township,Char-West,South Fayete Township,20,72160,AA,13000.657227,20.313532,946,003525,5,Southwest Regional,West,West,2007,683371b8-88bf-4487-8fb7-24ab3a998df0
+15581,NORTH FAYETTE,TOWNSHIP,North Fayette Township,Char-West,West Allegheny,20,55016,AA,16090.414062,25.141266,929,003385,4,Southwest Regional,West,West,2007,021ea3b6-5179-444f-b204-c1b9a8e36ad1
+16275,FINDLAY,TOWNSHIP,Findlay Township,South Hills Area,West Allegheny,20,25904,AA,20697.904297,32.340469,910,003200,4,Northwest Regional,West,West,2007,3477fe2b-056a-4e4e-8335-832510f665a7
+17073,FORWARD,TOWNSHIP,Forward Township,Steel Rivers,Elizabeth Foreward,18,26896,MV,12703.655273,19.849468,911,003210,9,Mon-Valley,South,Mon Valley,1990,2004c3d4-ee05-4594-9579-086a6915e6b6
+17476,SOUTH VERSAILLES,TOWNSHIP,South Versailles Township,Steel Rivers,McKeesport Area,18,72568,MV,633.785217,0.990289,947,003530,9,Mon-Valley,South,Mon Valley,1975,99488cf4-5faf-43b3-90ad-3865c5e8791f
+18278,WHITE OAK,BOROUGH,White Oak Borough,Steel Rivers,McKeesport Area,18,84704,MV,4233.855957,6.6154,875,003630,9,Mon-Valley,South,Mon Valley,1975,b378a25e-3176-4033-8510-ffb0c367f8ac
+18673,NORTH VERSAILLES,TOWNSHIP,North Versailles Township,Turtle Creek Valley,East Allegheny,18,55488,MV,5342.856934,8.348214,930,003390,8,East Regional,East,Mon Valley,1972,6d67cb8d-b590-4179-a731-4e9b1a99e39b
+19071,PINE,TOWNSHIP,Pine Township,North Hills,Pine-Richland,4,60272,NH,10785.910156,16.852983,935,003425,2,NEWCOM,North,North,2007,d30a8fc8-66a5-4855-b230-b709166b7e71
+19479,MARSHALL,TOWNSHIP,Marshall Township,North Hills,North Allegheny,4,47696,NH,9874.303711,15.4286,923,003340,2,NEWCOM,North,North,2007,c7d5388e-0da6-44f5-b7d7-3ada65f47236
+19482,BRADFORD WOODS,BOROUGH,Bradford Woods Borough,North Hills,North Allegheny,4,8064,NH,589.59259,0.921238,809,003070,2,NEWCOM,North,North,2007,99972dbe-fdb3-4ddd-b8b8-0d2d92ef5b7e
+21872,ALEPPO,TOWNSHIP,Aleppo Township,Quaker Valley,Quaker Valley,14,724,AA,1124.589233,1.75717,901,003005,1,Northwest Regional,North,Northwest,1974,549bd1a0-64cc-4110-9e98-7fd73ed9373e
+22273,COLLIER,TOWNSHIP,Collier Township,Char-West,Chartiers Valley,14,15216,AA,8943.533203,13.97427,905,003115,4,Southwest Regional,West,West,2007,aa624d33-e8df-4cef-93f8-8194697facc1
+24280,HAMPTON,TOWNSHIP,Hampton Township,North Hills,Hampton Township,14,32328,NH,10367.599609,16.199375,914,003245,2,NEWCOM,North,North,1986,eef460ba-3707-44ab-a94c-563bc0da8247
+25480,PITCAIRN,BOROUGH,Pitcairn Borough,Turtle Creek Valley,Gateway,18,60712,ES,309.703888,0.483912,847,003430,8,East Regional,East,East,1982,fe367532-0a4b-48ac-beb3-3131bb396e97
+26689,INDIANA,TOWNSHIP,Indiana Township,North Hills,Fox Chapel Area,18,36808,NH,11256.240234,17.587875,917,003275,3,NEWCOM,North,North,1986,41adb597-00f4-43b8-9cc5-1282e518ef25
+29481,O'HARA,TOWNSHIP,O Hara Township,North Hills,Fox Chapel Area,18,56384,NH,2247.916992,3.51237,931,003405,3,NEWCOM,North,North,1960,41770961-a728-41e6-82b9-8ee24eded590
+29482,ASPINWALL,BOROUGH,Aspinwall Borough,Allegheny Valley North,Fox Chapel Area,18,3320,NH,245.543152,0.383661,801,003010,3,NEWCOM,North,North,1954,0fd56362-2325-440f-b763-4155993a0feb
+30282,WEST DEER,TOWNSHIP,West Deer Township,North Hills,Deer Lakes,4,82800,NH,18471.134766,28.861141,952,003595,2,NEWCOM,East,Alle-Kiski Valley,1988,3e651835-375a-40df-b0c2-59f3b75d9174
+30285,JEFFERSON HILLS,BOROUGH,Jefferson Hills Borough,South Hills Area,West Jefferson Hills,18,37816,SH,10813.691406,16.896391,878,003285,6,South Hills Regional,South,Mon Valley,1968,9419c042-55c5-47b3-b340-d515df9675c9
+31086,BELLEVUE,BOROUGH,Bellevue Borough,Quaker Valley,Northgate,14,5312,NH,706.687988,1.1042,803,003030,1,Northwest Regional,North,Northwest,1955,9b0a557a-f0de-42d3-a041-da5263183956
+31497,BETHEL PARK,MUNICIPALI,Bethel Park Municipality,South Hills Area,Bethel Park,20,6064,SH,7491.746582,11.705854,876,003045,5,South Hills Regional,South,South,1962,0f876147-366a-4a1d-a786-8aa8312bd071
+31503,TRAFFORD,BOROUGH,Trafford Borough, ,Penn-Trafford,18,77272,MV,93.270042,0.145734,857,003565,8,East Regional,East,East,1999,98716d9e-576b-42fe-99f0-ea6440cf0d4f
+31505,KILBUCK,TOWNSHIP,Kilbuck Township,Quaker Valley,Avonworth,14,39624,NH,1696.042969,2.650067,920,003295,1,Northwest Regional,North,Northwest,1971,220b6ed1-35db-40e1-97f6-c5f1b9533985
+31510,EAST MCKEESPORT,BOROUGH,East McKeesport Borough,Turtle Creek Valley,East Allegheny,18,21496,MV,242.558563,0.378998,821,003155,8,East Regional,East,Mon Valley,1971,2a7329dd-a15e-4e7e-a7e2-d215e8b5b5ab
+31908,PITTSBURGH,CITY,Pittsburgh, ,City of Pittsburgh,14,61000,PGH,,,100,003435,13,City of Pittsburgh,City,City,1948,3689576c-bdf6-4e79-bfe3-579e96f76637
+35908,PENN HILLS,MUNICIPALI,Penn Hills Municipality,Turtle Creek Valley,Penn Hills,18,59032,ES,12455.728516,19.462078,934,003420,7,East Regional,East,East,1984,e4ed7404-d1ea-41a3-9e17-070fdae0c8f0
+36708,FOREST HILLS,BOROUGH,Forest Hills Borough,Turtle Creek Valley,Woodland Hills,18,26592,ES,990.75531,1.548055,828,003205,8,East Regional,East,Mon Valley,1953,0ac0ecf3-e435-44a9-b3e8-9e2a57827230

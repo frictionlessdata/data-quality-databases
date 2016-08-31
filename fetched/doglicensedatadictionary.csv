@@ -1,0 +1,8 @@
+Field Name,Data Type,Field Description,Example 1,Example 2
+LicenseType,CHAR,"Type of Dog License. Contains information on the license term (lifetime or other), gender of the dog, Spay or Neuter status, and owner status (senior, disabled, individual). ",Dog Senior Citizen or Disability Female,Dog Lifetime Neutered Male
+Breed,CHAR,Breed of Dog,GOLDENDOODLE,MIXED
+Color,CHAR,Color as reported by applicant,WHITE/BLACK/BROWN,MULTI
+DogName,CHAR,Dog Name as reported by applicant,PUNKIN,SPANKY HUMPERDINK
+OwnerZip,NUMBER,Zip code of applicant,150,170
+ExpYear,NUMBER,Expiration year of license. 2099 denotes a lifetime license.,2099,2014
+Valid Date,DATE,Valid date of dog license,3/6/2015 16:12,11/14/2012

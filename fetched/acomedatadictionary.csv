@@ -1,0 +1,18 @@
+Field Name,Data Type and Length,Field Description,Example 1,Example 2,Additional Data Details
+Date of Death,DateTime,Date of Death, 08/21/2013, 12/04/2013,Death date for morgue autopsy case.
+Time of Death,DateTime,Time of Death,9:33 PM,4:34 AM,Death time for morgue autopsy case.
+Manner of Death,String [40],Manner of Death Description,Accidents,ACCIDENT,Manner of death for morgue autopsy case determined by the case pathologist.
+Name ID,String [20],Age of Decedent,42,22,Age of Decedent for the morgue autopsy case.
+Sex,String [40],Sex of Decedent,Male,Female,Sex of Decedent for the morgue autopsy case.
+Race,String [40],Race of Decedent,Black,White,Race of Decedent for the morgue autopsy case.
+Case Disposition,String [30],Case Disposition. MO=Morgue,MO,MO,Jurisdiction of case as a morgue autopsy case.
+Combined OD 1,String [40],Drug found in Overdose 1. In alphabetical order by drug name. ,Fentanyl,Alcohol,Chemical name of Drug found as cause of death in combined Overdose. In alphabetical order by drug name. 
+Combined OD 2,String [40],Drug found in Overdose 2. In alphabetical order by drug name. ,Fluoxetine,Alprazolam,Chemical name of Drug found as cause of death in combined Overdose. In alphabetical order by drug name. 
+Combined OD 3,String [40],Drug found in Overdose 3. In alphabetical order by drug name. ,Diphenhydramine,Diazepam,Chemical name of Drug found as cause of death in combined Overdose. In alphabetical order by drug name. 
+Combined OD 4,String [40],Drug found in Overdose 4. In alphabetical order by drug name. ,Citalopram,Oxycodone,Chemical name of Drug found as cause of death in combined Overdose. In alphabetical order by drug name. 
+Combined OD 5,String [40],Drug found in Overdose 5. In alphabetical order by drug name. ,Tramadol,Oxymorphone,Chemical name of Drug found as cause of death in combined Overdose. In alphabetical order by drug name. 
+Combined OD 6,String [40],Drug found in Overdose 6. In alphabetical order by drug name. ,Methadone,Heroin,Chemical name of Drug found as cause of death in combined Overdose. In alphabetical order by drug name. 
+Combined OD 7,String [40],Drug found in Overdose 7. In alphabetical order by drug name. ,Morphine,Cocaine,Chemical name of Drug found as cause of death in combined Overdose. In alphabetical order by drug name. 
+Incident Zip,String [10],Medical Examiner's Incident Zip Code,15025,15234,Zip Code for where the medical examiner's office receives the body
+Decedent's Zip,String [10],Decedent's Zip Code,39532,16230,Zip Code for the decedent's address
+Lab Case Year,Number,Medical Examiner Case Year,2013,2014,Medical Examiner Case Year

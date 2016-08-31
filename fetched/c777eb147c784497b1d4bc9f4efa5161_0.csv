@@ -1,0 +1,254 @@
+﻿X,Y,FID,PERIMETER,PUBLICBL_I,FACILITY,FACILITY_C,ADDRESS,CITY,ZIPCODE,CLASS,MUNICODE
+-80.054719782045282,40.456675241539934,1,0,42,Sheraden Park Entrance Building,B318,Thornton St,Pittsburgh,15205,City of Pittsburgh,100
+-79.996966999052276,40.441796242312364,2,0,29,Mellon Square Park Building,B355,Sixth Ave,Pittsburgh,15219,City of Pittsburgh,100
+-79.889999855109551,40.467094871807795,3,0,3,Chadwick Maintenance Building,B263,Oberlin & Mingo St,Pittsburgh,15206,City of Pittsburgh,100
+-80.004928374695496,40.41910842236372,4,0,27,Mckinley Southern Division Service Garage,B201,Gearing Ave,Pittsburgh,15210,City of Pittsburgh,100
+-79.968665888185498,40.523490524714035,5,0,59,Shaler Township Building,,300 Wetzel Rd,Glenshaw,15116,,944
+-80.023594329079287,40.440726158994323,6,0,16,Grandview Radio Tower Building,B280,Grandview Ave,Pittsburgh,15211,City of Pittsburgh,100
+-79.872222178047537,40.349326330929372,7,0,101,Port Vue Borough Building,,1191 Romine Ave,Port Vue,15133,,848
+-80.003089683176356,40.427336601131856,8,0,15,Grandview Overlook Building,B207,Bailey Ave,Pittsburgh,15211,City of Pittsburgh,100
+-79.867998529317518,40.410651951718073,9,0,102,Rankin Borough Building,,320 Hawkins Ave,Rankin,15104,,849
+-79.941316903978873,40.434424087904226,10,0,37,Schenley Nature Museum,B066,Panther Hollow Rd,Pittsburgh,15217,City of Pittsburgh,100
+-79.751971217336234,40.600967326837193,11,0,108,Tarentum Borough Building,,318 Second Ave,Tarentum,15084,,855
+-80.08526572779715,40.385809762476462,12,0,58,Scott Township Building,,2600 Old Greentree Rd,Carnegie,15106,,941
+-79.975175094927721,40.373515908948754,13,0,33,Brentwood Borough Building,,3624 Brownsville Rd,Pittsburgh,15227,,810
+-80.066424126439216,40.445338072467642,14,0,88,Ingram Borough Building,,40 W Prospect Ave,Pittsburgh,15205,,835
+-79.925032078368289,40.494665602101939,15,0,105,Sharpsburg Borough Building,,1611 Main St,Pittsburgh,15215,,852
+-80.087873796540322,40.392604604771982,16,0,86,Heidelberg Borough Building,,1631 Railroad St,Heidelberg,15106,,833
+-80.087793316482674,40.433707593447465,17,0,109,Thornburg Borough Building,,235 Tech Rd,Pittsburgh,15205,,856
+-79.856622892419068,40.325336843506797,18,0,90,Liberty Borough Building,,2921 Liberty Way,McKeesport,15133,,837
+-79.824822210498112,40.404983606888926,19,0,111,Turtle Creek Borough Building,,125 Monroeville Ave,Turtle Creek,15145,,858
+-79.79727703973542,40.53871235191189,20,0,68,Cheswick Borough Building,,220 South Atlantic Ave,Cheswick,15024,,815
+-80.123379126364043,40.481786329638474,21,0,40,Kennedy Township Building,,340 Forest Grove Rd,Coraopolis,15108,,919
+-80.07926742035842,40.582530898540732,22,0,12,Franklin Park Borough Building,,2344 West Ingomar Rd,Pittsburgh,15237,,884
+-79.903632638379264,40.401490852498462,23,0,118,Whitaker Borough Building,,1705 Maple St,Homestead,15120,,865
+-79.859997688715865,40.494418976726642,24,0,29,Blawnox Borough Building,,376 Freeport Rd,Pittsburgh,15238,,806
+-80.101695535759205,40.520922251234559,25,0,41,Kilbuck Township Building,,343 Eicher Rd,Pittsburgh,15237,,920
+-80.056205532789107,40.465906147509223,26,0,95,McKees Rocks Borough Building,,340 Bell Ave,McKees Rocks,15136,,842
+-79.805136830538331,40.552463390954401,27,0,63,Springdale Township Building,,1331 Pillow Ave,Harwick,15049,,948
+-79.986496262140932,40.416529068256011,28,0,92,Mount Oliver Borough Building,,150 Brownsville Rd,Pittsburgh,15210,,839
+-80.045246635255921,40.378509527702533,29,0,45,Mount Lebanon Township Building,,710 Washington Rd,Pittsburgh,15228,,926
+-79.904281444592542,40.399241928653673,30,0,93,Munhall Borough Building,,1900 West St,Munhall,15120,,840
+-79.883186663129734,40.504743791256217,31,0,121,Fox Chapel Borough Building,,401 Fox Chapel Rd,Pittsburgh,15238,,868
+-79.928600077566571,40.350196770994614,32,0,123,West Mifflin Borough Building,,3000 Lebanon Church Rd,West Mifflin,15122,,870
+-79.867930331837556,40.403628068277371,33,0,31,Braddock Borough Building,,415 Sixth St,Braddock,15104,,808
+-80.101413047694138,40.428668758935096,34,0,124,Pennsbury Village Borough Building,,1043 Pennsbury Blvd,Pittsburgh,15205,,871
+-79.867790898293237,40.424011230282922,35,0,125,Braddock Hills Borough Building,,1300 Brinton Rd,Pittsburgh,15221,,872
+-80.003994998710482,40.288308298103424,36,0,60,South Park Township Building,,2675 Brownsville Rd,Library,15129,,945
+-80.087714328302496,40.639750080716276,37,0,32,Bradford Woods Borough Building,,4908 Wexford Run Rd,Bradford Woods,15015,,809
+-80.072519806453869,40.484533739594362,38,0,64,Stowe Township Building,,1301 Island Ave,McKees Rocks,15136,,949
+-79.760066147252147,40.426067001697561,39,0,17,Crescent Township Building,,255 Spring Run Rd,Crescent,15046,,906
+-79.84641678335511,40.373087484652871,40,0,128,Duquesne City Building,,12 S Second St,Duquesne,15110,,300
+-79.758988066151389,40.656076947701642,41,0,20,Fawn Township Building,,3054 Howes Run Rd,Tarentum,15084,,909
+-79.866441352740722,40.351472640810726,42,0,129,McKeesport City Building,,201 Lysle Blvd,McKeesport,15132,,400
+-79.853281767926859,40.445943475131266,43,0,69,Churchill Borough Building,,2300 William Penn Hwy,Pittsburgh,15235,,816
+-79.916099659509214,40.201837154579152,44,0,22,Forward Township Building,,500 Liggett Ave,Monongahela,15063,,911
+-80.111329337443877,40.360032608342742,45,0,34,Bridgeville Borough,,425 Bower Hill Rd,Bridgeville,15017,,811
+-79.782861304822177,40.43411043318995,46,0,7,Monroeville Township Building,,2700 Monroeville Blvd,Monroeville,15146,,879
+-79.790141669169813,40.573822563988621,47,0,23,Frazer Township Building,,2129 Butler-Logan Rd,Tarentum,15084,,913
+-80.007826868054948,40.367353855608307,48,0,66,Castle Shannon Borough Building,,3310 McRoberts Rd,Pittsburgh,15234,,813
+-79.808658654701759,40.540688217701295,49,0,37,Harmar Township Building,,701 Freeport Rd,Cheswick,15024,,915
+-79.838031715958593,40.408140457378757,50,0,67,Chalfant Borough Building,,144 Lynnwood Ave,East Pittsburgh,15112,,814
+-80.163845964301629,40.517355423816525,51,0,70,Coraopolis Borough Building,,1012 Fifth Ave,Coraopolis,15108,,817
+-80.024236157277201,40.619293013871918,52,0,53,Pine Township,,230 Pearce Mill Rd,Wexford,15090,,935
+-80.046502037712827,40.418284365805349,53,0,84,Green Tree Borough Building,,10 West Manilla Ave,Pittsburgh,15220,,831
+-80.089033302885298,40.407269362327362,54,0,35,Carnegie Borough,,1 Glass St,Carnegie,15106,,812
+-80.120199204182398,40.588714005904045,55,0,10,Sewickley Hills Borough Building,,1165 Fairhill Rd,Sewickley,15143,,882
+-79.946396835307581,40.643552896942566,56,0,55,Richland Township,,4011 Dickey Rd,Gibsonia,15044,,938
+-80.066001642967507,40.435035186790515,57,0,71,Crafton Borough Building,,100 Stotz Ave,Pittsburgh,15205,,818
+-79.9503628596634,40.330021003805051,58,0,1,Pleasant Hills Borough,,410 E Bruceton Rd,Pittsburgh,15236,,873
+-80.037417659417329,40.394417607079475,59,0,72,Dormont Borough Building,,1444 Hillsdale Ave,Pittsburgh,15216,,819
+-79.890803490774388,40.34777890578787,60,0,73,Dravosburg Borough Building,,226 Maple Ave,Dravosburg,15034,,820
+-80.07278991072468,40.335326492815668,61,0,65,Upper St. Clair Township,,1820 McLaughlin Run Rd,Upper St Clair,15241,,950
+-79.88370406021896,40.43405192275462,62,0,76,Edgewood Borough Building,,2 Race St,Pittsburgh,15218,,823
+-80.191650275802715,40.552049010399294,63,0,77,Edgeworth Borough Building,,301 Beaver Rd,Sewickley,15143,,824
+-79.755226159911857,40.498744597911589,64,0,8,Plum Borough,,4575 New Texas Rd,Pittsburgh,15239,,880
+-80.096683719794953,40.513279897924136,65,0,79,Emsworth Borough Building,,171 Center Ave,Pittsburgh,15202,,826
+-80.147957334771917,40.530441727312613,66,0,126,Aleppo Township,,100 North Dr,Sewickley,15143,,901
+-79.85033795320237,40.420336696968128,67,0,81,Forest Hills Borough Building,,2071 Ardmore Blvd,Pittsburgh,15221,,828
+-79.896624461451196,40.436617631931682,68,0,248,Frick Park,,Braddock & Biddle,Pittsburgh,15221,Pittsburgh Parks,100
+-79.739071293537037,40.604986115849883,69,0,30,Brackenridge Borough Building,,1000 Brackenridge Ave,Brackenridge,15014,,807
+-79.913191100132579,40.429260241069763,70,0,606,Frick Park Parks Buiding,,Frick Park,Pittsburgh,15221,Pittsburgh Public Works,100
+-80.158390843262637,40.527097199467896,71,0,83,Glenfield Borough Building,,105 River Rd,Sewickley,15143,,830
+-80.018551128126035,40.483351599136597,72,0,605,Riverview Park Parks Building,,Riverview Park,Pittsburgh,15214,Pittsburgh Public Works,100
+-79.892245607575234,40.327771461993649,73,0,82,Glassport Borough Building,,Fifth & Monongahela Ave,Glassport,15045,,829
+-79.925651486085528,40.481568722262352,74,0,607,Heths Run Storage Facility,,Highland Park,Pittsburgh,15206,Pittsburgh Public Works,100
+-79.863173928208511,40.351211168724852,75,0,19,DHS-MVO,DHS-MVO,332 Fifth Ave,McKeesport,15132,Allegheny County,
+-79.952510233530177,40.57994328897491,76,0,7,ACHD-North Hills,ACHD-NH,4706 William Flynn Hwy,Allison Park,15101,Allegheny County,
+-80.012175477263114,40.44135038838958,77,0,602,Point State Park/ 1st,,101 Commonwealth Pl,Pittsburgh,15222,PIttsburgh Parks,100
+-79.996339673591194,40.439726542563243,78,0,15,Court House,CH,436 Grant St,Pittsburgh,15219,Allegheny County,
+-79.998192710085988,40.440426832729308,79,0,16,DHS @ Smithfield,DHS-Sm,441 Smithfield St,Pittsburgh,15222,Allegheny County,
+-79.907716368592901,40.436406068993776,80,0,278,Frick Park Nature Center,,Frick Park,Pittsburgh,15221,Pittsburgh Public Works,100
+-80.000018891458666,40.437559677508844,81,0,17,DHS @ United Way,DHS-UW,1 Smithfield St,Pittsburgh,15222,Allegheny County,
+-79.977407541854262,40.454896759188216,82,0,457,Pittsuburgh Public Works Painting Building,,2526 Liberty Ave,Pittsburgh,15222,Pittsburgh Public Works,100
+-79.936570222792454,40.489316623764246,83,0,5,Pittsburgh Public Works Warehouse,,6300  AVRR,Pittsburgh,15201,Pittsburgh Public Works,100
+-79.985984915634532,40.438083252910431,84,0,18,DHS-CRO,DHS-CRO,1401 Forbes Ave,Pittsburgh,15222,Allegheny County,
+-80.010944428294721,40.464146069822263,85,0,20,DHS-NRO,DHS-NRO,1972 Clayton Ave,Pittsburgh,15214,Allegheny County,
+-79.974183915222241,40.460927477395757,86,0,604,Pittsuburgh Public Works Headquarters,,3001 Railroad St,Pittsburgh,15222,Pittsburgh Environmental,100
+-80.017371208877563,40.478127703373893,87,0,375,Pittsburgh Public Works 1st Division,,300 Kilbuck Rd,Pittsburgh,15214,Pittsburgh Public Works,100
+-79.970468340593584,40.428356348652514,88,0,22,DHS-SRO,DHS-SRO,2400 E Carson St,Pittsburgh,15203,Allegheny County,
+-80.000359568005649,40.440419837580478,89,0,25,DHS-YWCA,DHS-Y,304 Wood St,Pittsburgh,15222,Allegheny County,
+-80.046534166240761,40.4395108021927,90,0,588,Pittsburgh Public Works 5th Division,,1330 Hassler St,Pittsburgh,15220,Pittsburgh Public Works,100
+-79.995912157840706,40.414012458504565,91,0,592,Pittsburgh Public Works 4th Division,,414 Bausman St,Pittsburgh,15210,Pittsburgh Public Works,100
+-79.886508791259359,40.445402035608247,92,0,24,DHS-Wilkinsburg,DHS-WK,300 Wallace Ave,Pittsburgh,15221,Allegheny County,
+-79.996339673591194,40.439726542563243,93,0,28,Frick Building,FrB,437 Grant St,Pittsburgh,15219,Allegheny County,
+-79.942734860629699,40.403379342911094,94,0,608,Pittsburgh Public Works 3rd Division,,40 Malanchton St,Pittsburgh,15207,Pittsburgh Public Works,100
+-79.905503492638999,40.456182636379182,95,0,2,Pittsburgh Public Works 2nd Division,,6814 Hamilton Ave,Pittsburgh,15208,Pittsburgh Public Works,100
+-79.867767871074747,40.346719822541239,96,0,32,Kane-McKeesport,K-Mc,100 Ninth Ave,McKeesport,15132,Allegheny County,
+-80.000715950662268,40.46474116335397,97,0,5,Pittsburgh Public Works Construction,,1909 Howard St,Pittsburgh,15212,Pittsburgh Public Works,100
+-79.948085706809493,40.437817074980345,98,0,597,Pittsburgh Public Works 3rd Division,,400 Frew Street Ext,Pittsburgh,15221,Pittsburgh Public Works,100
+-80.014936452440423,40.551599880116022,99,0,33,Kane-Ross,K-R,110 McIntyre Rd,Pittsburgh,15237,Allegheny County,
+-80.085614379887019,40.373907621602378,100,0,34,Kane-Scott,K-S,300 Kane Blvd,Pittsburgh,15243,Allegheny County,
+-79.933104204298587,40.581655066561744,101,0,36,Hampton Township Building,,3101 McCully Rd,Allison Park,15101,,914
+-80.212336210345725,40.581210518582154,102,0,42,Leet Township Building,,198 Ambridge Ave,Fair Oaks,15003,,921
+-79.897110100510289,40.452512149744976,103,0,35,Lexington Tech Pk Offices,LEX,400 N Lexington Ave,Pittsburgh,15208,Allegheny County,
+-80.207138166060773,40.505210281186741,104,0,44,Moon Township Building,,1000 Beaver Grade Rd,Moon,15108,,925
+-80.01023751537015,40.587871714904615,105,0,38,Police/Fire Academy,ACAD,700 West Ridge Dr,Allison Park,15101,Allegheny County,
+-79.976884295571224,40.351639971891558,106,0,2,Whitehall Borough Building,,100 Borough Park Dr,Pittsburgh,15236,,874
+-79.860651360870889,40.277539941225299,107,0,44,PW - Dx 4,PW-4,460 Lovedale Rd,Elizabeth,15037,Allegheny County,
+-79.973556933571743,40.481571790246292,108,0,91,Millvale Borough Building,,501 Lincoln Ave,Pittsburgh,15209,,838
+-80.023172552403253,40.333140589796379,109,0,45,PW - Dx 5,PW-5,5091 Library Rd,Bethel Park,15102,Allegheny County,
+-79.838665112290201,40.523032827819904,110,0,98,Oakmont Borough Building,,206 Fifth & Virginia Ave,Oakmont,15139,,845
+-79.786533183173376,40.491815561492068,111,0,43,PW - Dx 3,PW-3,500 Railroad St,Pittsburgh,15235,Allegheny County,
+-80.094061955728719,40.426185266237177,112,0,103,Rosslyn Farms Borough Building,,421 Kings Hwy,Carnegie,15106,,850
+-79.965705475447237,40.472243425541286,113,0,46,PW - Dx 7,PW-7,40th and Willow Sts,Pittsburgh,15201,Allegheny County,
+-79.793212344808438,40.393725883438577,114,0,114,Wall Borough Building,,412 Wall Ave,Wilmerding,15148,,861
+-79.995971552556355,40.437966291427202,115,0,30,Allegheny County Jail Annex,JA,Fourth Ave & Ross St,Pittsburgh,15219,Allegheny County,
+-80.089783105116283,40.407694904268446,116,0,42,PW - Dx 2,PW-2,1040 Campbells Run Rd,Pittsburgh,15106,Allegheny County,
+-80.054719782045282,40.456675241539934,117,0,43,Sheraden Residence And Service Building,B039,Thornton St,Pittsburgh,15205,City of Pittsburgh,100
+-79.907268843579018,40.358478605502413,118,0,47,PW - Dx 8,PW-8,1305 Pgh McKeesport Blvd,West Mifflin,15122,Allegheny County,
+-80.041299153988845,40.439374884608071,119,0,19,Herschel Radio Tower,B157,801 Herschel St,Pittsburgh,15220,City of Pittsburgh,100
+-79.997806424642775,40.430748310479586,120,0,54,PW - Southside Garage,PW-SSG,215 McKean St,Pittsburgh,15219,Allegheny County,
+-79.834877519239498,40.400407574160887,121,0,75,East Pittsburgh Borough Building,,813 Linden Ave,East Pittsburgh,15112,,822
+-80.030617061426938,40.454008749042785,122,0,56,Records Center,RCW,1441 Metropolitan St,Pittsburgh,15233,Allegheny County,
+-80.211227155070276,40.56719254497802,123,0,89,Leetsdale Borough,,85 Broad St,Leetsdale,15056,,836
+-80.000359568005649,40.440419837580478,124,0,60,Wood Street Commons,DHS-WSC,304 Wood St,Pittsburgh,15222,Allegheny County,
+-80.071367324063289,40.510790519751424,125,0,28,Ben Avon Heights Borough Building,,9 Biddeford Rd,Pittsburgh,15202,,805
+-79.957716807114295,40.465355569309743,126,0,1,ACHD-Arsenal Health Center,ACHD-Ars,40th St & Penn Ave,Pittsburgh,15201,Allegheny County,
+-79.805884382654469,40.384872074587264,127,0,74,East McKeesport Borough Building,,907 Florence Ave,East McKeesport,15035,,821
+-79.961932858981356,40.437785468519444,128,0,4,ACHD-Health Department,ACHD,3333 Forbes Ave,Pittsburgh,15213,Allegheny County,
+-79.932442386594872,40.296689602659328,129,0,6,Jefferson Hills Borough Building,,925 Old Clairton Rd,Clairton,15025,,878
+-79.959871132812339,40.43932569842449,130,0,6,ACHD-Medical Clinic Building,ACHD-MED,3441 Forbes Ave,Pittsburgh,15213,Allegheny County,
+-79.778703656131512,40.57763954326645,131,0,18,East Deer Township Building,,927 Freeport Rd,Creighton,15030,,907
+-79.898618938527662,40.492063277685695,132,0,27,ACHD-Arsenal Health Center,4AG,610 Fourth Ave,Pittsburgh,15219,Allegheny County,
+-79.996735116646519,40.444437743762649,133,0,21,DHS-Penn,DHS-P,933 Penn Avenue,Pittsburgh,15222,Allegheny County,
+-79.954891980628702,40.444204514403914,134,0,58,Soldiers & Sailors Memorial Hall,S&S,4141 Fifth Ave,Pittsburgh,15213,Allegheny County,
+-79.992943972848863,40.434484107799115,135,0,29,Allegheny County Jail,JAIL,950 Second Ave,Pittsburgh,15219,Allegheny County,
+-80.002052110132766,40.437696750152952,136,0,59,West Penn Building,WPB,14 Wood St,Pittsburgh,15222,Allegheny County,
+-79.928079108088184,40.406835751134182,137,0,31,Kane-Glen Hazel,K-GH,955 Rivermont Dr,Pittsburgh,15207,Allegheny County,
+-79.996800581502839,40.441736322678224,138,0,11,Alcoa Building,ALCO,425 Sixth St,Pittsburgh,15219,Allegheny County,
+-80.020081518832185,40.591676500064992,139,0,46,McCandless Township Building,,9955 Grubbs Rd,Wexford,15090,,927
+-79.986056292881401,40.593991961830184,140,0,41,PW - Dx 1,PW-1,2154 Wildwood Rd,Gibsonia,15044,Allegheny County,
+-80.030525406486618,40.334064603491193,141,0,4,Bethel Park Borough Building,,5100 W Library Ave,Bethel Park,15102,,876
+-79.97000993090704,40.437439308075774,142,0,61,Work Release Center,WRC,2410 Fifth Ave,Pittsburgh,15213,Allegheny County,
+-79.830972867459479,40.315121356264051,143,0,113,Versailles Borough Building,,5100 Walnut St,McKeesport,15132,,860
+-79.962603081170101,40.438662124189314,144,0,37,Nova House,NOVA,3346 Fifth Ave,Pittsburgh,15213,Allegheny County,
+-80.139095754373287,40.354325320965955,145,0,62,South Fayette Township Building,,515 Millers Run Rd,Morgan,15064,,946
+-79.951407103538685,40.466229028876477,146,0,3,ACHD-Clack Health Center,ACHD-Clck,3901 Penn Ave,Pittsburgh,15224,Allegheny County,
+-79.829387604306135,40.405355329736302,147,0,9,ACHD-Turtle Creek,ACHD-TC,519 Penn Avenue,Turtle Creek,15145,Allegheny County,
+-79.959490457277468,40.461539538560245,148,0,8,ACHD-Sassafrass,ACHD-Sss,3190 Sassafrass Way,Pittsburgh,15201,Allegheny County,
+-80.083600412279054,40.397355600092091,149,0,2,ACHD-Carnegie,ACHD-C,1100 Washington Blvd,Crafton,15106,Allegheny County,
+-79.914767911113145,40.429535838668393,150,0,9,Frick Park Service Center Garage,B159,1 English Lane,Pittsburgh,15217,City of Pittsburgh,100
+-79.995890518638134,40.43773163440116,151,0,14,County Office Building,COB,542 Forbes Ave,Pittsburgh,15219,Allegheny County,
+-79.952558456316311,40.461826110851071,152,0,1,Bloomfield Utility Building,B268,408 Ella St,Pittsburgh,15224,City of Pittsburgh,100
+-80.084169510014462,40.657272371244176,153,0,43,Marshall Township Building,,377 Northgate Dr,Warrendale,15086,,923
+-79.995892066852093,40.414164388326725,154,0,26,Mckinley Park Office,B052,441 Bausman St,Pittsburgh,15210,City of Pittsburgh,100
+-79.86352199631537,40.350893744693082,155,0,5,ACHD-McKeesport,ACHD-McK,339 Fifth Ave,McKeesport,15132,Allegheny County,
+-79.980266036142808,40.438764399132666,156,0,14,General Services Repair Shop,B002,1807 Fifth Ave,Pittsburgh,15219,City of Pittsburgh,100
+-80.001484039963486,40.439869350512765,157,0,10,ACHD-WIC-Investment Building,ACHD-WIC,239 Fourth Ave,Pittsburgh,15222,Allegheny County,
+-79.918703321531055,40.462918165953624,158,0,23,Liberty Park Maintenance Building,B266,100 Larimer Ave,Pittsburgh,15206,City of Pittsburgh,100
+-79.985949741507156,40.431071986011474,159,0,44,Southside Market House,B047,12th St,Pittsburgh,15203,City of Pittsburgh,100
+-79.920542182654529,40.449823079926908,160,0,28,Mellon Park Service Building,B087,1047 Shady Ave,Pittsburgh,15232,City of Pittsburgh,100
+-79.838943122092545,40.480993441422186,161,0,7,Frick Park Bowling Greens Building,B103,Reynolds St,Pittsburgh,15217,City of Pittsburgh,100
+-79.997059281955316,40.436231968152676,162,0,30,Municipal Courts Building,B371,660 First Ave,Pittsburgh,15219,City of Pittsburgh,100
+-79.838943122092545,40.480993441422186,163,0,8,Frick Park Bowling Greens Garage,B104,Reynolds St,Pittsburgh,15217,City of Pittsburgh,100
+-80.004185179480871,40.407991719180309,164,0,33,Saw Mill Run Building,B220,1000 Saw Mill Run Blvd,Pittsburgh,15220,City of Pittsburgh,100
+-80.007313040491496,40.471453463414896,165,0,6,Fowler Field Utility Building,B338,Charles St,Pittsburgh,15214,City of Pittsburgh,100
+-80.01144861965831,40.45134765792249,166,0,47,Town North Maintenance Building Office,B188,601 Ridge Ave,Pittsburgh,15212,City of Pittsburgh,100
+-79.889324718891444,40.445232903777743,167,0,49,West Park Maintenance Building,B277,West Park,Pittsburgh,15212,City of Pittsburgh,100
+-79.975487166667691,40.459446058453025,168,0,14,Pittsburgh Emergency Operations Center,,2925 Railroad St,Pittsburgh,15201,City of Pittsburgh,100
+-79.897401427594218,40.272132396789232,169,0,115,West Elizabeth Borough Building,,800 Fourth St,West Elizabeth,15088,,862
+-79.955319216883609,40.444053320593845,170,0,10,Department of Veterans' Services,,4141 Fifth Ave,Pittsburgh,15213,,100
+-79.921720013349727,40.398325647649017,171,0,116,West Homestead Borough Building,,456 W Eighth Ave,Homestead,15120,,863
+-80.004836090527462,40.441371981346173,172,0,12,PA State Office Building,,300 Liberty Ave,Pittsburgh,15222,State,100
+-80.032389004991188,40.519767387263663,173,0,117,West View Borough Building,,441 Perry Hwy,Pittsburgh,15229,,864
+-79.943754425574625,40.498004249825222,174,0,80,Etna Borough Building,,437 Butler St,Pittsburgh,15223,,827
+-80.021149397773158,40.457119728000855,175,0,24,Manchester Storage Building,B275,Franklin St,Pittsburgh,15233,City of Pittsburgh,100
+-79.904823766098787,40.490543190416908,176,0,24,Aspinwall Borough Building,,217 Commerical Ave,Aspinwall,15215,,801
+-79.907452370979641,40.370278467019958,177,0,25,Mcbride Service Building,B059,Mcbride St,Pittsburgh,15207,City of Pittsburgh,100
+-80.06742846094825,40.501235384572468,178,0,25,Avalon Borough Building,,640 California Ave,Pittsburgh,15202,,802
+-79.976874529663974,40.423960640491551,179,0,31,Parks Southern Division Storage Building,B246,Mission St,Pittsburgh,15203,City of Pittsburgh,100
+-79.961527639366764,40.385739576124713,180,0,5,Baldwin Borough Building,,3344 Churchview Ave,Pittsburgh,15227,,877
+-79.871280955738129,40.455070898722106,181,0,5,East Hills Maintenance Building,B264,Wilner Dr,Pittsburgh,15221,City of Pittsburgh,100
+-79.915170783142329,40.483421765723506,182,0,21,Highland Park Storage Building,B204,Reservoir Dr,Pittsburgh,15206,City of Pittsburgh,100
+-80.018472549863503,40.37977977113038,183,0,13,Baldwin Township Building,,10 Community Park Dr,Pittsburgh,15234,,902
+-80.020607352078571,40.484569713032215,184,0,32,Riverview Nature Center,B040,Riverview Dr,Pittsburgh,15214,City of Pittsburgh,100
+-80.17289554194997,40.58509236306179,185,0,11,Bell Acres Borough Building,,1151 Camp Meeting Rd,Sewickley,15143,,883
+-79.942533861207778,40.440094683353848,186,0,35,Schenley Golf Course Clubhouse,B068,Schenley Dr,Pittsburgh,15217,City of Pittsburgh,100
+-80.055821977363436,40.49691704569144,187,0,26,Bellevue Borough Building,,537 Bayne Ave,Pittsburgh,15202,,803
+-79.937386012665371,40.436651994436936,188,0,36,Schenley Golf Course Service Building,B067,East Circuit Dr,Pittsburgh,15217,City of Pittsburgh,100
+-79.946830339420899,40.430704055993523,189,0,39,Schenley Skating Rink,B064,Overlook Dr,Pittsburgh,15217,City of Pittsburgh,100
+-80.087120602862839,40.510528665329261,190,0,27,Ben Avon Borough Building,,7101 Church Ave,Pittsburgh,15202,,804
+-80.027023674213211,40.417324965012675,191,0,4,Crane Ave Radio Tower Building,B281,Crane Ave,Pittsburgh,15216,City of Pittsburgh,100
+-79.778013444920688,40.542264548818409,192,0,106,Springdale Borough Building,,325 School St,Springdale,15144,,853
+-79.958098380781379,40.47099750835757,193,0,38,Schenley Park Maintenance Building,B062,Service Rd,Pittsburgh,15217,City of Pittsburgh,100
+-80.132227673702587,40.512320936290834,194,0,47,Neville Township Building,,5050 Grand Ave,Pittsburgh,15225,,928
+-79.958098380781379,40.47099750835757,195,0,40,Schenley Warehouse Building 1,B074,Service Rd,Pittsburgh,15217,City of Pittsburgh,100
+-80.124188240247719,40.391055134850532,196,0,14,Collier Township Building,,2418 Hilltop Rd,Presto,15142,,905
+-79.958098380781379,40.47099750835757,197,0,41,Schenley Warehouse Building 2,B156,Service Rd,Pittsburgh,15217,City of Pittsburgh,100
+-80.202166406854062,40.418836053341565,198,0,48,North Fayette Township Building,,400 North Branch Rd,Oakdale,15071,,929
+-79.997313457499203,40.452074639285335,199,0,45,Sue Murray Filter Building,B276,North Canal & Cedar Ave,Pittsburgh,15212,City of Pittsburgh,100
+-79.818719452085858,40.383512514757214,200,0,49,North Versailles Township Building,,1401 Greensburg Ave,North Versailles,15137,,930
+-79.806329309806301,40.393158676866129,201,0,120,Wilmerding Borough Building,,Commerce & Station St,Wilmerding,15148,,867
+-79.883380675343005,40.499565813807642,202,0,50,O'Hara Township Building,,325 Fox Chapel Rd,Pittsburgh,15238,,931
+-80.164457107785907,40.557643184434752,203,0,122,Sewickley Heights Borough Building,,Country Club Rd,Sewickley,15143,,869
+-79.801331479437948,40.332001928262926,204,0,3,White Oak Borough Building,,2280 Lincoln Way,White Oak,15131,,875
+-79.991832974663112,40.441333220702283,205,0,23,DHS-Washington Place,DHS-WP,Washington Place,Pittsburgh,15219,Allegheny County,
+-80.101365768671528,40.549583338709013,206,0,51,Ohio Township Building,,1719 Roosevelt Rd,Pittsburgh,15237,,932
+-79.999342921322551,40.436808021905776,207,0,26,Fort Pitt Commons,L-FPC,445 Fort Pitt Blvd,Pittsburgh,15219,Allegheny County,
+-79.819521586048509,40.471740752777251,208,0,52,Penn Hills Township Building,,12245 Frankstown Rd,Pittsburgh,15235,,934
+-80.017159633596236,40.445262326870257,209,0,2,Buhl Planetarium,B375,1 Allegheny Ave,Pittsburgh,15212,City of Pittsburgh,100
+-79.983194536970984,40.474333409652644,210,0,54,Reserve Township Building,,33 Lonsdale St,Pittsburgh,15212,,937
+-79.854546542480435,40.621187934684635,211,0,15,West Deer Township Building,,109 E Union Rd,Russellton,15076,,952
+-80.195171204708345,40.394140170677325,212,0,97,Oakdale Borough Building,,6115 Noblestown Rd,Oakdale,15071,,844
+-79.828918140173002,40.420375165018399,213,0,16,Wilkins Township Building,,110 Peffer Rd,Turtle Creek,15145,,953
+-80.030026735734936,40.513915999475593,214,0,56,Ross Township Building,,5325 Perrysville Ave,Pittsburgh,15229,,940
+-79.767345752753727,40.382173878135234,215,0,110,Trafford Borough Building,,Fourth St & Duquesne Ave,Trafford,15085,,857
+-80.144148017250444,40.438823352619664,216,0,57,Robinson Township Building,,1000 Church Hill Rd,Pittsburgh,15205,,939
+-80.180323090077493,40.538563489965327,217,0,99,Osborne Borough Building,,601 Thorn St,Sewickley,15143,,846
+-79.885750923998458,40.272546894608332,218,0,78,Elizabeth Borough Building,,206 Third Ave,Elizabeth,15037,,825
+-80.01023751537015,40.587871714904615,219,0,62,Fire Training Academy,FTA,700 West Ridge Rd,Allison Park,15101,Allegheny County,
+-79.824441113979915,40.272382516709634,220,0,19,Elizabeth Township Building,,522 Rock Run Rd,Elizabeth,15037,,908
+-79.903632638379264,40.401490852498462,221,0,87,Homestead Borough Building,,1705 Maple St,Homestead,15120,,834
+-79.914102088902141,40.466807085533112,222,0,22,Larimer Playground Maintenance Building,B267,Lenora St,Pittsburgh,15206,City of Pittsburgh,100
+-80.322416123870255,40.493493574064736,223,0,21,Findlay Township,,1271 Lincoln Hwy,Clinton,15026,,910
+-79.917142706436309,40.475323228410439,224,0,20,Highland Park Construction Division,B210,Heberton St,Pittsburgh,15206,City of Pittsburgh,100
+-79.958785995249713,40.451802666225625,225,0,18,Herron Hill Radio Tower,B149,Camp St,Pittsburgh,15219,City of Pittsburgh,100
+-79.996110372978848,40.438020656093961,226,0,36,Morgue Building,MORG,542 Forth Ave,Pittsburgh,15219,Allegheny County,
+-79.974373652877233,40.458587357955103,227,0,12,General Services Facility 2,B005,35 29 1/2 St,Pittsburgh,15222,City of Pittsburgh,100
+-79.895392819063446,40.301436474776729,228,0,127,Clairton City Building,,551 Ravensburg Blvd,Clairton,15025,,200
+-79.974833708331801,40.459511238051967,229,0,11,General Services Facility 1,B004,10 29 1/2 St,Pittsburgh,15222,City of Pittsburgh,100
+-79.77582295812104,40.40541959061251,230,0,100,Pitcairn Borough Building,,582 Sixth St,Pitcairn,15140,,847
+-79.975283090797262,40.459253315153269,231,0,10,General Services Compressor Building,B007,10 29 1/2 St,Pittsburgh,15222,City of Pittsburgh,100
+-79.861228828214522,40.402330241050656,232,0,96,North Braddock Borough Building,,600 Anderson St,North Braddock,15104,,843
+-80.219963234682922,40.39288953423295,233,0,94,McDonald Borough Building,,151 School St,Mcdonald,15057,,841
+-80.180323090077493,40.538563489965327,234,0,104,Sewickley Borough Building,,601 Thorn St,Sewickley,15143,,851
+-79.790988846675802,40.321530275851238,235,0,61,South Versailles Township Building,,,Coulter,15028,,947
+-79.885872849721679,40.443393483563938,236,0,119,Wilkinsburg Borough Building,,605 Ross Ave,Pittsburgh,15221,,866
+-79.723204531233904,40.624486349533306,237,0,38,Harrison Township Building,,1 Municipal Dr,Natrona Heights,15065,,916
+-79.995290908049142,40.436114633135794,238,0,329,Pittsburgh Public Works Administration/Supplies,,611 Second Ave,Pittsburgh,15219,Pittsburgh Public Works,100
+-80.025471763117267,40.456537022589714,239,0,17,Hazlett Theatre,S992,Allegheny Center Mall,Pittsburgh,15212,City of Pittsburgh,100
+-79.910903315679548,40.471884622941332,240,0,601,Forestry,,6520 Stanton Ave,Pittsburgh,15206,Pittsburgh Public Works,100
+-80.16101119766337,40.528872047953151,241,0,85,Haysville Borough Building,,36 South Ave,Sewickley,15143,,832
+-79.901887733215943,40.477657375861227,242,0,57,Shuman Juvenile Detention Center,SHU,7150 Highland Dr,Pittsburgh,15206,Allegheny County,
+-79.860252129714141,40.294674361381752,243,0,9,Lincoln Borough Building,,45 Abe's Way,Elizabeth,15037,,881
+-79.843867630983311,40.505568008704643,244,0,112,Verona Borough Building,,736 East Railroad Ave,Verona,15147,,859
+-79.942017348433353,40.437055994947656,245,0,34,Schenley Engineering Building,B061,Engineering Dr,Pittsburgh,15217,City of Pittsburgh,100
+-79.977006937467053,40.457501721374882,246,0,4,Pittsburgh Public Works Heavy Equipment/Repair,,74 28th Street,Pittsburgh,15222,Pittsburgh Public Works,100
+-79.810429798869848,40.427129127303957,247,0,12,Buncher Building,BB,1520 Penn Liberty Ctr,Pittsburgh,15235,Allegheny County,
+-79.884242748189052,40.420467229207979,248,0,107,Swissvale Borough Building,,7560 Roslyn St,Pittsburgh,15218,,854
+-79.859762006864756,40.565760477573605,249,0,39,Indiana Township Building,,941 Route 910,Indianola,15051,,917
+-79.906866099019638,40.484951580177196,250,0,3,Asphalt Plant,,777 Lockway East,Pittsburgh,15206,Pittsburgh Public Works,100
+-79.996827892846142,40.438105301351747,251,0,13,City County Building,CCB,414 Grant St,Pittsburgh,15219,Allegheny County,
+-79.996761418308168,40.436743260919343,252,0,13,General Services Motorpool Building,B538,Ross St & Second Ave,Pittsburgh,15219,City of Pittsburgh,100
+-80.018158190646716,40.414540311494534,253,0,48,Vanucci Storage Building,B314,Orangewood Ave,Pittsburgh,15216,City of Pittsburgh,100

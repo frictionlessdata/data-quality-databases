@@ -1,0 +1,6 @@
+Field Name,Data Type and Length,Field Description,Example 1,Example 2
+INSPECT_ID ������������������,NOT NULL VARCHAR2(20),Inspection ID,149908,
+SR_NUM���� �������������������,NOT NULL VARCHAR2(20),Service Request Number,HCE-20150202-2536,
+BEG_DATE����������� ����������������,DATE,Beginning Date for Inspection,8/15/2015,
+END_DATE����������� �����������������,DATE,End Date for Inspection,8/15/2015,
+STATUS������������� �����������,VARCHAR2(4000),Status of Inspection,NO CAUSE FOR ACTION INSPECTION,ALL PREVIOUSLY CITED VIOLATIONS HAVE BEEN CORRECTED

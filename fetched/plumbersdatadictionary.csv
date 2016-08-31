@@ -1,0 +1,7 @@
+Field Name,Data Type,Field Description,Example 1,Example 2
+Last Name,CHAR,Last Name of Plumber,Smith,Arnold
+First Name,CHAR,First Name of Plumber,Greg,Michael
+City,CHAR,City of Plumber's Registration,Clairton,Pittsburgh
+State,CHAR,State of Plumber's Registration,PA,PA
+Zip,NUMBER,Zip code of Plumber's Registration,15221,16055
+HP ID,NUMBER,Plumber's Registration Number,4,2687

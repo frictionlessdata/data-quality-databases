@@ -1,0 +1,42 @@
+"Column Name","Description","Data Type","Example Data"
+"Registered Voters","The number of registered voters that are eligible to vote for that precinct and contest. There will only be data in this column if the Contest Title field contains "Registered Voters". 
+
+In Primary elections, there will be up to four contests that contain "Registered Voters" - one for the total number of registered voters, one each for the two major parties (Democrats and Republicans) and one labeled "Non-Partisan" in cases where there is a special election, non-partisan ballot question, or other contest in that precinct where all registered voters can vote (this is the number of registered voters that do not belong to the two major parties). 
+
+In General elections, there is only one "Registered Voters" contest, which contains the total number of registered voters in the precinct.","Number","123456.0"
+"Votes","Number of votes cast for the candidate for the contest in the precinct. This field is blank for contests with "Registered Voters" in the title. For contests with "Ballots Cast" in the title, this is the overall number of ballots cast in the precinct.
+
+In Primary elections, there will be up to four contests that contain "Ballots Cast" - one for the total number of ballots cast, one each for the two major parties (Democrats and Republicans) and one labeled "Non-Partisan" for ballots cast in special election, non-partisan ballot question, or other contests in that precinct where all registered voters can vote (this is the number of ballots cast from voters that do not belong to the two major parties). 
+
+In General elections, there is only one "Ballots Cast" contest, which contains the total number of ballots cast in the precinct.","Number","123456.0"
+"Party","The party affiliation of the candidate. This field is blank for contests that are referenda. Parties are refreshed every November election. The parties for the November 2015 election are as follows:
+DEM - Democratic
+REP - Republican
+CON - Constitution
+AFC - Albaugh for Council
+DSB - Dave Schuilenburg
+EDS - Elect Darlene Schreiber
+GRN - Green
+IND - Independent
+IJA - Independent Judicial Alliance
+LIB - Libertarian
+NAI - New Afrikan Independence
+OVE - Overly's Electric
+WBC - Wall Boro Council","Text","DEM"
+"Dist. Type","The type of district that the contest pertains to. This field is blank except for the following types of contests:
+LEG - State Legislative District
+SEN - State Senate District
+MUN - Municipal ballot question","Text",""
+"Dist. Code","The number of the district that the contest pertains to. This field is blank except for when there is data in the Dist Type field.","Number",""
+"Contest Title","The name of the office for which ballots are cast. ","Text","President of the United States"
+"Cand. Number","The order in which the candidate appears on the ballot. Candidates may not be in alphabetical order, as ballot order is decided at random. This field will be 1 for any contest with "Registered Voters" or "Ballots Cast" in the title. ","Number","1.0"
+"Cand. Name","The name of the candidate that corresponds with the candidate number in the Cand. Number field. If there are no candidates running in the contest, there will only be a WRITE-IN candidate and that candidate will have Cand. Number 1.","Text","Barack Obama"
+"Precinct Name","The name of the precinct. Precinct names are structured as follows:
+
+Municipality Name
+Ward Number (if applicable)
+District Number
+
+Not all municipalities include wards (some just have districts). All precincts have a district number except for cases where municipalities that have only one precinct.","Text","PITTSBURGH WARD 1 DIST 1"
+"Vote For","The maximum number of candidates that a voter can vote for in the contest. ","Number","1.0"
+"Referendum","Whether or not the contest is a referendum. Y in this field indicates a referendum, otherwise it will be blank. A referendum is a ballot question put to voters, so rather than voting for candidates, voters are voting for YES or NO.","Text",""

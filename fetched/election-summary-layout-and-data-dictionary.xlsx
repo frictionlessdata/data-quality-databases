@@ -1,0 +1,27 @@
+"Column Name","Description","Data Type","Example Data"
+"Votes","The number of ballots cast for the candidate in that contest.","Number","123456.0"
+"Precincts Counted","The number of precincts eligible to vote for the contest that have been counted. Because these are official results, this will be the total number of precincts eligible to vote for the contest.","Number","1319.0"
+"Party","The party affiliation of the candidate. This field is blank for contests that are referenda. Parties are refreshed every November election. The parties for the November 2015 election are as follows:
+DEM - Democratic
+REP - Republican
+CON - Constitution
+AFC - Albaugh for Council
+DSB - Dave Schuilenburg
+EDS - Elect Darlene Schreiber
+GRN - Green
+IND - Independent
+IJA - Independent Judicial Alliance
+LIB - Libertarian
+NAI - New Afrikan Independence
+OVE - Overly's Electric
+WBC - Wall Boro Council","Text","DEM"
+"Dist. Type","The type of district that the contest pertains to. This field is blank except for the following types of contests:
+LEG - State Legislative District
+SEN - State Senate District
+MUN - Municipal ballot question","Text",""
+"Dist. Code","The number of the district that the contest pertains to. This field is blank except for when there is data in the Dist Type field.","Number",""
+"Contest Name","The name of the office for which ballots are cast.","Text","President of the United States"
+"Cand. Number","The order in which the candidate appears on the ballot. Candidates may not be in alphabetical order, as ballot order is decided at random. This field will be 1 for any contest with "Registered Voters" or "Ballots Cast" in the title. ","Number","1.0"
+"Cand. Name","The name of the candidate that corresponds with the candidate number in the Cand. Number field. If there are no candidates running in the contest, there will only be a WRITE-IN candidate and that candidate will have Cand. Number 1.","Text","Barack Obama"
+"Vote For","The maximum number of candidates that a voter can vote for in the contest. ","Number","1.0"
+"Referendum","Whether or not the contest is a referendum. Y in this field indicates a referendum, otherwise it will be blank. A referendum is a ballot question put to voters, so rather than voting for candidates, voters are voting for YES or NO.","Text",""

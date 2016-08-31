@@ -1,0 +1,13 @@
+Column Name,Description,Example Data
+Month,Month of the event,June
+Location,Location of the event,North Park
+Special Event,Notes on any special event type,Open Streets
+Avg age (outreach contacts),Average age of participant group. Only used for outreach activities,8
+Programming,Name of the programming type for each event.,Guided Hike
+Date,"Date of the event. For in-park contacts, only the month is recorded.",8/2/2015
+Time,"Time of event. Only applies to certain programming and events. For full day events, the starting time is recorded.",3:00:00 PM
+Contact type,Event contact refers to special events at the parks or at an event elsewhere in the county. Participants are people that participate in Ranger programming like a guided hike. In-park contacts are people the Rangers interact with each day while patrolling the parks. Activity contacts refer to a large activity held in a park.,In-park contacts
+Number,Number of participants at the event.,40
+Notes,"Any notes on no-shows, weather, etc.",Rained out at 3 PM
+Lat,Latitude of the event location.,40.600477
+Long,Longitude of the event location.,-80.005029

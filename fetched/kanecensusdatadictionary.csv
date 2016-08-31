@@ -1,0 +1,22 @@
+Field Name,Data Type,Field Description,Example 1,Example 2
+Date,DATE,Date of Census (once per week),10/1/2015,9/23/2015
+GH-Male,NUMBER,Number of Male Residents at Glen Hazel Facility,200,400
+GH-Female,NUMBER,Number of Female Residents at Glen Hazel Facility,100,199
+GH-White,NUMBER,Number of White Residents at Glen Hazel Facility,150,170
+GH - Black,NUMBER,Number of Black Residents at Glen Hazel Facility,149,99
+GH-Other,NUMBER,Number of Residents of Another Race at Glen Hazel Facility,2,1
+Scott-Male,NUMBER,Number of Male Residents at Scott Facility,200,400
+Scott-Female,NUMBER,Number of Female Residents at Scott Facility,100,199
+Scott-White,NUMBER,Number of White Residents at Scott Facility,150,170
+Scott-Black,NUMBER,Number of Black Residents at Scott Facility,149,99
+Scott-Other,NUMBER,Number of Residents of Another Race at Scott Facility,2,1
+McK-Male,NUMBER,Number of Male Residents at McKeesport Facility,200,400
+McK-Female,NUMBER,Number of Female Residents at McKeesport Facility,100,199
+McK-White,NUMBER,Number of White Residents at McKeesport Facility,150,170
+McK-Black,NUMBER,Number of Black Residents at McKeesport Facility,149,99
+McK-Other,NUMBER,Number of Residents of Another Race at McKeesport Facility,2,1
+Ross-Male,NUMBER,Number of Male Residents at Ross Facility,200,400
+Ross-Female,NUMBER,Number of Female Residents at Ross Facility,100,199
+Ross-White,NUMBER,Number of White Residents at Ross Facility,150,170
+Ross-Black,NUMBER,Number of Black Residents at Ross Facility,149,99
+Ross-Other,NUMBER,Number of Residents of Another Race at Ross Facility,2,1

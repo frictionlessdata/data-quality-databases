@@ -1,0 +1,25 @@
+FieldName,FieldType,Description
+Name,Text,Carnegie Library of Pittsburgh Location Name
+Address,Text,Location street address
+City,Text,Location city
+State,Text,Location state
+Zip4,Text,Location zip + 4
+County,Text,Locatrion county
+Phone,Text,Location phone number
+SqFt,Number,Location square footage
+MoOpen,Time,Monday hours: regular opening time
+MoClose,Time,Monday hours: regular closing time
+TuOpen,Time,Tuesday hours: regular opening time
+TuClose,Time,Tuesday hours: regular closing time
+WeOpen,Time,Wednesday hours: regular opening time
+WeClose,Time,Wednesday hours: regular closing time
+ThOpen,Time,Thursday hours: regular opening time
+ThClose,Time,Thursday hours: regular closing time
+FrOpen,Time,Friday hours: regular opening time
+FrClose,Time,Friday hours: regular closing time
+SaOpen,Time,Saturday hours: regular opening time
+SaClose,Time,Saturday hours: regular closing time
+SuOpen,Time,Sunday hours: regular opening time
+SuClose,Time,Sunday hours: regular closing time
+Lat,Number,Latitude
+Lon,Number,Longitude

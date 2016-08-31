@@ -1,0 +1,7 @@
+Field Name,Data Type and Length,Field Description,Example 1,Example 2
+SR_NUM���� ����������������,NOT NULL VARCHAR2(20),Service Request Number,HCE-20150202-2536,
+INSPECT_ID ,NOT NULL VARCHAR2(20)��,Inspection ID,149908,
+VIOL_UID����������� �������,VARCHAR2(10),Violation ID,591143,
+VIOLATION���������� ���,VARCHAR2(4000),Violation Description,Owner refused entry for an inspection.,
+REMEDY������������� ������,VARCHAR2(4000),Suggested Remedial Action,Provide access for inspection.,
+VIOL_CLASS��������� ��,VARCHAR2(15),Class of Violation,U,1

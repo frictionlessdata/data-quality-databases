@@ -1,0 +1,25 @@
+Column Name,Description,Data Type,Example Data
+Site,"The name of the building, streetlight, meter, or pump.",Text,Boyce Park Admin. Bldg.
+Site ID,Alphanumeric building code.,Text,CCB
+Year,Energy and water data is presented as a total amount by calendar year.,Number,2013
+Electricity (kBtu),Total consumption of electricity in kBtu (thousands of British thermal units).,Number,"11,243,001"
+Natural Gas (kBtu),Total consumption of natural gas in kBtu (thousands of British thermal units).,Number,"8,315,730"
+Steam (kBtu),Total consumption of district steam in kBtu (thousands of British thermal units). Steam is only used in the downtown office buildings and the Jail.,Number,"8,879,778"
+Total Energy (kBtu),The sum of all energy used in kBtu (thousands of British thermal units).,Number,"21,174,414"
+Total Energy Cost ($),Total cost for all energy consumed at the site.,Number,"$20,757 "
+Area (SqFt),"The total floor area of the building. Sites such as streetlights, pumps, and air pollution monitors do not have a square footage. Also, some buildings in the County parks are missing square footage as the floor plans are in the process of being digitized.",Number,"12,000"
+Site EUI (kBtu/ft²),EUI is the total energy used by the building in one year divided by the building’s total square footage.,Number,418
+Source EUI (kBtu/ft²),"The formula for source EUI weights different types of energy according to the total amount of raw fuel needed to operate a building, including transmission, delivery, and production losses.  Electricity is multiplied by 3.14, natural gas by 1.05, and steam by 1.2 to arrive at the total source energy used. This figure is then divided by the building’s square footage.",Number,"1,311"
+Weather Normalized Site EUI (kBtu/ft²),"The amount of energy the building would have consumed in one year under 30-average weather conditions (also called climate normals), divided by the total gross floor area of the building. This enables building performance comparison over time, despite unusual weather events. Site EUI is multiplied by a conversion factor typically ranging from .98 to 1.02 to arrive at this number.",Number,412
+Weather Normalized Source EUI (kBtu/ft²),"The amount of raw fuel the building would have consumed in one year under 30-average weather conditions (also called climate normals), divided by the total gross floor area of the building. This enables building performance comparison over time, despite unusual weather events. Source EUI is multiplied by a conversion factor typically ranging from .98 to 1.02 to arrive at this number.",Number,"1,299"
+Water (kGal) ,Total water by thousands of gallons.,Number,"32,391"
+Sewer (kGal),Total sewer by thousands of gallons.,Number,"32,386"
+Water Cost ($),Total water cost.,Number,$810 
+Sewer Cost ($),Total sewer cost.,Number,"$12,740 "
+Address,Street address of the site. Some sites such as street lights do not have a precise address.,Text,5091 Library Road
+City,Municipality of the site.,Text,Bethel Park
+State,State of the site.,Text,PA
+Zip Code,Zip Code of the site.,Number,15212
+Zip Code +4,The 4-digit extension to the Zip Code.,Number,3120
+Department,"The County department that operates at or is responsible for the site. Sites that house several departments, such as the County Office Building, are coded as “Multiple”.",Text,Health Department
+Division/Department Detail,"The department division, County park or Public Works district operating at or responsible for the site.",Text,South Park

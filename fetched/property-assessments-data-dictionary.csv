@@ -1,0 +1,173 @@
+Field Name,Data Type and Length,Field Description,Example 1,Example 2,Additional Data Details
+PARID,A30,Parcel Identification Number,0023S00162000000,1468J00244000000,A 16 character unique identifier for the parcel.
+PROPERTYHOUSENUM,NBR(10),Property Location House Number,514,69,House Number for the  physical location of property; may be zero or blank.
+PROPERTYFRACTION,A6,Property Location House Number Fraction,,-73,"Continued House Number information for the  physical location of property; such as 1/2, the house number ending range, or a letter. "
+PROPERTYADDRESS,A80,Property Location Street Name,E OHIO ST,STROUSS RD,"Street name for the  physical location of the property, including directional indicators and suffixes."
+PROPERTYCITY,A50,Property Location City Name,PITTSBURGH,IMPERIAL,City where the property is physically located.
+PROPERTYSTATE,A50,Property Location State Name,PA,PA,State where the property is physically located.
+PROPERTYUNIT,A30,Property Location Unit Number,,,"Unit numbers for the property, such as condo units (e.g. 1, 3C,  115A, B13, etc….)."
+PROPERTYZIP,A10,"Property Location Zip code, first 5 digits",15212,15126,Zip Code where the property is physically located.
+MUNICODE,A5,Municipality Code (Tax District),123,910,Municipality number associated with specified parcel.
+MUNIDESC,A50,Municipality Name,23rd Ward - PITTSBURGH,Findlay,Municipality name associated with specified parcel.
+SCHOOLCODE,A30,School District Code,47,43,School district number associated with specified parcel.
+SCHOOLDESC,A50,School District Name,City Of Pittsburgh,West Allegheny,School district name associated with specified parcel.
+LEGAL1,A60,Legal Description 1,LOT 14.72X110.13 E OHIO ST BET JAMES & MIDDLE S,74 ALD,Line 1 of parcel legal description from the Deed.
+LEGAL2,A60,Legal Description 2,T,43.5656 ALD,Line 2 continuation of parcel legal description from the Deed.
+LEGAL3,A60,Legal Description 3,3 STY BRK HSE 514                      ,94 ALD,Line 3 continuation of parcel legal description from the Deed.
+NEIGHCODE,A8,Neighborhood Number,51C51,91004,"The ID number for the valuation neighborhood containing this parcel.   Valuation neighborhoods were delineated as part of the 2013 reassessment.  A valuation neighborhood is a geographic area exhibiting a high degree of homogeneity in economic amenities, land use, economic trends, and property characteristics such as quality, age, and condition. "
+NEIGHDESC,A50,Neighborhood Name,PITTSBURGH URBAN,91004,"The name associated with the valuation neighborhood number, if a name exists. "
+TAXCODE,A1,Tax Status,E,T,"Tax Status indicates whether or not real estate taxes apply to a parcel's assessment.   Parcels may be Taxable (must pay local taxes), Exempt (pay no taxes), or PURTA [Public Utility Realty Tax Act (if taxes are paid, they are paid into a state fund rather than to local taxing bodies)].
+Values:  'E' , 'T' or 'P' ."
+TAXDESC,A50,Tax Status Description,10 - Exempt,20 - Taxable,"Description for Tax Status codes:  '10 - Exempt', '20 - Taxable' or '12 - Public Utility Realty Tax - PURTA'."
+TAXSUBCODE,A1,Tax Sub Code  (applies to PURTA only),,,Tax Sub Code applies only to parcels having the PURTA tax status.  Public Utilities may not have to pay taxes (E-Exempt) or they may have to pay taxes into a state fund (T-Taxable). 
+TAXSUBCODE_DESC,A50,Tax Sub Code Description,,,"Values:  E - 'PURTA - Exempt',  T - 'PURTA -Taxable' or null."
+OWNERCODE,A3,Owner Type Code 1,20,11,Numeric code categorizes owner as individuals ('REGULAR' ) vs corporations ('CORPORATION').
+OWNERDESC,A50,Owner Description,CORPORATION,REGULAR-ETAL,Descriptions for numeric owner codes.  [e.g. individuals ('REGULAR' ) vs corporations ('CORPORATION')]
+CLASS,A2,Class,C,R,"Broad self-explanatory categories for describing the  general use of a parcel.
+Categories:  R - RESIDENTIAL, U - UTILITIES, I - INDUSTRIAL, 
+C - COMMERCIAL, O - OTHER, G - GOVERNMENT, F - AGRICULTURAL."
+CLASSDESC,A50,Class Description,COMMERCIAL,RESIDENTIAL,"Broad self-explanatory categories for describing the  general use of a parcel.
+Categories:  R - RESIDENTIAL, U - UTILITIES, I - INDUSTRIAL, 
+C - COMMERCIAL, O - OTHER, G - GOVERNMENT, F - AGRICULTURAL."
+USECODE,A4,Land Use Code,404,20,"More detailed than class, these categories further describe the primary use of the parcel.  There are about 200 self-explanatory categories."
+USEDESC,A50,Land Use Code Description ,RETL/APT'S OVER,TWO FAMILY,"More detailed than class, these categories further describe the primary use of the parcel.  There are about 200 self-explanatory categories."
+LOTAREA,number,Sum of Area of Land,1621,9215797,Total square footage of land.
+HOMESTEADFLAG,A6,Homestead Flag,,HOM,A property owner may apply for a homestead reduction on their primary residence.  If granted (indicated by 'HOM') the owner will receive a standard reduction on their assessment for County taxes under Act 50.  They may also receive a variable reduction on their School taxes under Act 1.
+CLEANGREEN,A3,Clean and Green Flag,,Y,This field indicates that a parcel is receiving a reduction in their assessment due to the state’s Clean and Green preferential assessment program.
+FARMSTEADFLAG,A6,Farmstead Flag,,,A property owner may apply for a farmstead reduction if their primary residence is a farm with at least 10 contiguous acres.  If granted (indicated by 'FRM') the owner will receive a standard reduction on their assessment for County taxes under Act 50.  
+ABATEMENTFLAG,A6,Abatement Flag,,Y,"This field indicates that a parcel is receiving a reduction in their County assessment due to a County-approved incentive program.   Specific programs and amounts vary according to the County resolutions and ordinances in effect at the time.  Consult the Office of Property Assessments web page to see the current types of Abatements.
+
+Abatements have been available to residential property owners as incentives for new construction and for building improvements.  Abatements for commercial properties have been available for local economic revitalization programs.
+
+Values:  'Y' or null."
+RECORDDATE,A10,Record Date,10/26/2012,12/23/2011,"Date the sale was recorded 
+in the Department of Real Estate (mm/dd/yyyy)."
+SALEDATE,A10,Sale Date,10/26/2012,12/23/2011,Date the sale occurred  (mm/dd/yyyy).
+SALEPRICE,number,Sale Price,12129,1,"Amount paid for the sale 
+(also called the consideration)."
+SALECODE,A2,Sale Validity Code,2,3,"A subjective categorization (code) as to whether or not the sale price was representative of current market value. These categorizations are subject to change as sales are reviewed by the Office of Property Assessments or during a reassessment. See further details in the Sale Validation Codes Details tab of the ""Property Sale Transaction Data Dictionary"".  "
+SALEDESC,A50,Sale Validity Code Description,CITY TREASURER,LOVE&AFFECTION,"A subjective categorization (description) as to whether or not the sale price was representative of current market value. These categorizations are subject to change as sales are reviewed by the Office of Property Assessments or during a reassessment. See further details in the Sale Validation Codes Details tab of the ""Property Sale Transaction Data Dictionary"".  "
+DEEDBOOK,A8,Book Number,TR13,14772,"Cross-reference to the physical book number 
+where the deed is on file
+in the Department of Real Estate."
+DEEDPAGE,A8,Page Number,475,341,"Page within the specified deed book 
+corresponding to the first page of 
+this physical deed."
+PREVSALEDATE,A10,Previous Sale Date,11/14/1980,2/17/2004,Date the previous sale occurred  (mm/dd/yyyy).
+PREVSALEPRICE,number,Previous Sale Price,12500,1,Amount paid for the previous sale.
+PREVSALEDATE2,A10,Previous Sale Date 2,,9/26/1984,Date the 2nd previous sale occurred  (mm/dd/yyyy).
+PREVSALEPRICE2,number,Previous Sale Price 2,,76600,Amount paid for the 2nd previous sale.
+CHANGENOTICEADDRESS1,A100,Change Notice Full Address 1,414   GRANT ST  RM 200,69   STROUSS RD   ,Address of owner of the property.
+CHANGENOTICEADDRESS2,A100,Change Notice Full Address 2, CITY-COUNTY BUILDING ,,Address of owner of the property.
+CHANGENOTICEADDRESS3,A100,Change Notice Full Address 3,PITTSBURGH PA  ,IMPERIAL PA  ,Address of owner of the property.
+CHANGENOTICEADDRESS4,A100,Change Notice Full Address 4,15219,15126,Address of owner of the property.
+COUNTYBUILDING,number,County Assessed Value for Building ,"81,700","139,300",The assessed property value of the building for county tax purposes.   This amount reflects the remaining assessment after any preferential assessments (such as clean & green) or county reductions (such as homesteads or other abatements) have been deducted from the base year market values.
+COUNTYLAND,number,County Assessed Value for Land,"53,000","114,700",The assessed property value of the land for county tax purposes.   This amount reflects the remaining assessment after any preferential assessments (such as clean & green) or county reductions (such as homesteads or other abatements) have been deducted from the base year market values.
+COUNTYTOTAL,number,County Assessed Value Total,"134,700","254,000",The assessed property value (land and building together) for county tax purposes.   This amount reflects the remaining assessment after any preferential assessments (such as clean & green) or county reductions (such as homesteads or other abatements) have been deducted from the base year market values.
+COUNTYEXEMPTBLDG,number,County Exempt Building Amount,0,"150,000","The amount of assessment reduction granted on a building by the County (for county taxes only) under incentive programs for new construction, building improvements or local economic revitalization."
+LOCALBUILDING,number,Local  Assessed Value for Building ,"81,700","307,300",The assessed property value of the building for local tax purposes (for schools and municipalities).   This amount reflects the remaining assessment after preferential assessments (such as clean & green) have been deducted from the base year market values.   This value is often higher than the county assessed value since county-only incentives (such as homesteads) have not been deducted. 
+LOCALLAND,number,Local Assessed Value for Land,"53,000","114,700",The assessed property value of the land for local tax purposes (for schools and municipalities).   This amount reflects the remaining assessment after preferential assessments (such as clean & green) have been deducted from the base year market values.   This value is often higher than the county assessed value since county-only incentives (such as homesteads) have not been deducted. 
+LOCALTOTAL,number,Local Assessed Value Total,"134,700","422,000",The assessed property value (land and building together) for local tax purposes (for schools and municipalities).   This amount reflects the remaining assessment after preferential assessments (such as clean & green) have been deducted from the base year market values.   This value is often higher than the county assessed value since county-only incentives (such as homesteads) have not been deducted. 
+FAIRMARKETBUILDING,number,Fair Market Building Value,"81,700","307,300","The base year appraised fair market value of the building.  This value has had no reductions, not even Clean and Green preferential assessment reduction.  Allegheny County currently uses a base year of 2012."
+FAIRMARKETLAND,number,Fair Market Land Value,"53,000","316,200","The base year appraised fair market value of the land.  This value has had no reductions, not even Clean and Green preferential assessment reduction.  Allegheny County currently uses a base year of 2012."
+FAIRMARKETTOTAL,number,Fair Market Total Value,"134,700","623,500","The base year appraised fair market value of land and building together.  This value has had no reductions, not even Clean and Green preferential assessment reduction.  Allegheny County currently uses a base year of 2012."
+STYLE,A2,Dwelling - Architectural Style,9,M1,The building style.
+STYLEDESC,A50,Dwelling - Architectural Style Description,TOWNHOUSE,MANUFACTURED,Description for building style.
+STORIES,A3,Dwelling - Number of Stories,2,1,Refers to the story height of the main dwelling.  Attics are not included.  A fractional story height (e.g. 1.5) denotes an upper story where part of the living space is less than full height due to a sloped roof or dormers.
+YEARBLT,number,Dwelling - Year Built,1980,1979,The original date of construction.
+EXTERIORFINISH,A2,Dwelling - Exterior Wall code,1,1,The exterior wall type.
+EXTFINISH_DESC,A50,Dwelling - Exterior Wall Description,Frame,Frame,Description of building material used for exterior walls.
+ROOF,A20,Dwelling - Roof,1,3,The roofing material type.
+ROOFDESC,A50,Dwelling - Roof Description,SHINGLE,METAL,Description of roofing material.
+BASEMENT,A1,Dwelling - Basement,5,2,"This code describes the basement under the main part of the dwelling, and categorizes its size in relation to the main dwelling. 
+1. NONE  - there is no basement.
+2. SLAB/PIERS -indicates slab or pier construction.
+3. CRAWL - indicates crawl space to 1/4 basement area.
+4. PART - indicates basement is between 1/4 and 3/4 of the main dwelling area.
+5. FULL - indicates 3/4 to full basement area."
+BASEMENTDESC,A50,Dwelling - Basement Description,Full,Slab/Piers,"Description of basement type, if one exists."
+GRADE,A3,Dwelling - Grade,C,D+,"Grade refers to quality of construction:
+
+A, X, XX  - have superior materials and workmanship and are typically custom designed or historic homes.
+B - construction has above average construction and may exceed code.
+C - is the standard, construction meets code, and is typical of current materials and methods.
+D - construction is adequate, but below average with minimal features.
+E - construction lacks some basics and may be a ""camp"" or seasonal structure.
+
+Pluses and minuses may be used.
+
+"
+GRADEDESC,A50,Dwelling - Grade Description,AVERAGE,BELOW AVERAGE +,"Grade refers to quality of construction:
+
+A, X, XX  - Very Good and Excellent - have superior materials and workmanship and are typically custom designed or historic homes.
+B - Good - construction has above average construction and may exceed code.
+C - Average - is the standard, construction meets code, and is typical of current materials and methods.
+D - Below Average - construction is adequate, but below average with minimal features.
+E - Poor - construction lacks some basics and may be a ""camp"" or seasonal structure.
+
+Pluses and minuses may be used.
+
+"
+CONDITION,A2,Dwelling - Condition,3,5,"Code for the overall physical condition or state of repair of a structure, relative to its age. Indicated by number and description:
+
+1- Excellent - outstanding maintenance.
+7- Very good - high degree of upkeep.
+2- Good - above ordinary maintenance.
+3- Average - ordinary maintenance, shows normal wear and tear.
+4- Fair - sound but with noticeable deferred maintenance.
+5- Poor - structural deterioration caused by significant and chronic deferred maintenance.
+8- Very poor - barely livable.
+6- Unsound - not suitable for habitation."
+CONDITIONDESC,A50,Dwelling - Condition Description,AVERAGE,POOR,"Description for the overall physical condition or state of repair of a structure, relative to its age. Indicated by number and description:
+
+1- Excellent - outstanding maintenance.
+7- Very good - high degree of upkeep.
+2- Good - above ordinary maintenance.
+3- Average - ordinary maintenance, shows normal wear and tear.
+4- Fair - sound but with noticeable deferred maintenance.
+5- Poor - structural deterioration caused by significant and chronic deferred maintenance.
+8- Very poor - barely livable.
+6- Unsound - not suitable for habitation."
+CDU,A2,Dwelling - CDU,AV,PR,"CDU is a composite rating for structures measuring: 
+Condition (physical condition relative to age), 
+Desirability (location, style), and 
+Utility (functional obsolescence of layout or design).  
+Proper neighborhood delineation compensates for most Desirability and Utility issues, leaving Physical Condition the most influential factor in CDU.  CDU will be null for vacant land.
+ 
+Excellent - Perfect condition, very attractive and highly desirable.
+Very good - Slight deterioration, but still quite attractive and desirable.
+Good - Minor visible deterioration, slightly less attractive and desirable, but still useful.
+Average - Normal wear and tear, average utility and desirability.
+Fair - Usable but marked deterioration.  Somewhat unattractive and undesirable.
+Poor - Obvious deterioration, definitely undesirable.
+Very poor - Extremely undesirable and barely usable.
+Unsound - Unfit for use."
+CDUDESC,A50,Dwelling - CDU Description,AVERAGE,POOR,"CDU is a composite rating for structures measuring: 
+Condition (physical condition relative to age), 
+Desirability (location, style), and 
+Utility (functional obsolescence of layout or design).  
+Proper neighborhood delineation compensates for most Desirability and Utility issues, leaving Physical Condition the most influential factor in CDU.  CDU will be null for vacant land.
+ 
+Excellent - Perfect condition, very attractive and highly desirable.
+Very good - Slight deterioration, but still quite attractive and desirable.
+Good - Minor visible deterioration, slightly less attractive and desirable, but still useful.
+Average - Normal wear and tear, average utility and desirability.
+Fair - Usable but marked deterioration.  Somewhat unattractive and undesirable.
+Poor - Obvious deterioration, definitely undesirable.
+Very poor - Extremely undesirable and barely usable.
+Unsound - Unfit for use."
+TOTALROOMS,number,Dwelling - Total Rooms,7,4,Total number of rooms in the main dwelling.  This includes Rec-rooms and FBLA (Finished Basement Living Area).  This count is for descriptive purposes only and does not affect assessed value.
+BEDROOMS,number,Dwelling - Bedrooms,3,2,"The total number of separate rooms designed to be used as bedrooms.  If a room was designed to be a bedroom, but is being utilized for some other purpose - such as a den, it is to be included in this count.  This is for descriptive purposes only and does not affect value."
+FULLBATHS,number,Dwelling - Full Baths,1,1,"A full bath has a toilet, sink and bathing facility (shower or tub)."
+HALFBATHS,number,Dwelling - Half Baths,0,0,A half bath has a toilet and sink only.
+HEATINGCOOLING,A1,Dwelling - Heating Cooling,2,2,Code for the type of Heating / Cooling system.
+HEATINGCOOLINGDESC,A50,Dwelling - Heating Cooling Description,Central Heat,Central Heat,Description for the type Heating / Cooling system.
+FIREPLACES,number,Dwelling - Number of Wood burning Fireplaces Stacks,0,0,"The number of wood-burning fireplace chimneys/vents.  This need not equal the number of working fireplaces in the dwelling.  This number excludes roof stacks built for bathroom venting, natural gas outlets, etc."
+BSMTGARAGE,A1,Dwelling - Integral Basement Garage (Number of Cars),0,0,The number of vehicle spaces available in a garage that is basement level and comprises a portion of the main dwelling’s basement.  This does not include detached or attached above-grade garages.
+FINISHEDLIVINGAREA,number,Dwelling - Total Square Feet of Living Area,766,660,"Finished living area, as measured from the outside of the structure."
+CARDNUMBER,number,Dwelling - Building (card) Number,2,1,For parcels having more than one building only one building is shown. This field contains the number of the building being shown (which is usually the main dwelling).
+ALT_ID,A30,Alternate Parcel Identification Number,,9910X00529000000,"In tax year 2007, parcel ID numbers within certain municipalities were converted to conform to  Allegheny County's standard naming convention for parcel ID's.   For affected parcels, this field shows the old parcel ID that was in use for tax years 2006 and prior."
+TAXYEAR,number,The current certified tax year,2015,2015,"The  applicable year for which real estate taxes would apply for the parcel.  Allegheny County currently assesses value based on how the parcel stood as of Jan 1 of that year.   
+
+This need not correspond to a calendar year."
+ASOFDATE,date,The run date of this file,18-Jun-15,19-Jun-15,The run date of this file.
