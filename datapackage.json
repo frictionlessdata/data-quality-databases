@@ -1,0 +1,1886 @@
+{
+    "admin": "",
+    "context": "",
+    "last_modified": "",
+    "name": "",
+    "pitch": "",
+    "resources": [
+        {
+            "name": "publisher_file",
+            "path": "data/publishers.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "constraints": {
+                            "required": true,
+                            "unique": true
+                        },
+                        "name": "id",
+                        "title": "ID of the publisher",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true,
+                            "unique": true
+                        },
+                        "name": "title",
+                        "title": "Title or official name of the publisher",
+                        "type": "string"
+                    }
+                ],
+                "primaryKey": "id"
+            }
+        },
+        {
+            "name": "source_file",
+            "path": "data/sources.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "constraints": {
+                            "required": true,
+                            "unique": true
+                        },
+                        "name": "id",
+                        "title": "ID of the source",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true,
+                            "unique": true
+                        },
+                        "name": "publisher_id",
+                        "title": "ID of the source's publisher",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "title",
+                        "title": "Title or name of the source",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "data",
+                        "title": "Path/url to source",
+                        "type": "string"
+                    },
+                    {
+                        "name": "format",
+                        "title": "File format of the source",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "created_at",
+                        "title": "Time of the source's creation.",
+                        "type": "string"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": "publisher_id",
+                        "reference": {
+                            "fields": "id",
+                            "resource": "publisher_file"
+                        }
+                    }
+                ],
+                "primaryKey": "id"
+            }
+        },
+        {
+            "name": "run_file",
+            "path": "data/runs.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "constraints": {
+                            "required": true,
+                            "unique": true
+                        },
+                        "name": "id",
+                        "title": "ID of the run",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "format": "datetime",
+                        "name": "timestamp",
+                        "title": "Timestamp of the run execution",
+                        "type": "date"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "total_score",
+                        "title": "Rounded average score of results in this run",
+                        "type": "integer"
+                    }
+                ],
+                "primaryKey": "id"
+            }
+        },
+        {
+            "name": "result_file",
+            "path": "data/results.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "constraints": {
+                            "required": true,
+                            "unique": true
+                        },
+                        "name": "id",
+                        "title": "ID of the result",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true,
+                            "unique": true
+                        },
+                        "name": "source_id",
+                        "title": "ID of the correspoding source",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "publisher_id",
+                        "title": "ID of the source's publisher",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "format": "date",
+                        "name": "created_at",
+                        "title": "time of the source's creation.",
+                        "type": "date"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "data",
+                        "title": "Path/url to source",
+                        "type": "string"
+                    },
+                    {
+                        "name": "schema",
+                        "title": "Path/url to the source's schema",
+                        "type": "string"
+                    },
+                    {
+                        "contrains": {
+                            "required": true
+                        },
+                        "name": "score",
+                        "title": "Score of correctness given by GoodTables",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "summary",
+                        "title": "Summary",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true,
+                            "unique": true
+                        },
+                        "name": "run_id",
+                        "title": "ID of the run in which the result was calculated",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "format": "datetime",
+                        "name": "timestamp",
+                        "title": "Timestamp of the run execution",
+                        "type": "date"
+                    },
+                    {
+                        "name": "report",
+                        "title": "Path/url to the full GoodTabels report",
+                        "type": "string"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": "source_id",
+                        "reference": {
+                            "fields": "id",
+                            "resource": "source_file"
+                        }
+                    },
+                    {
+                        "fields": "publisher_id",
+                        "reference": {
+                            "fields": "id",
+                            "resource": "publisher_file"
+                        }
+                    },
+                    {
+                        "fields": "run_id",
+                        "reference": {
+                            "fields": "id",
+                            "resource": "run_file"
+                        }
+                    }
+                ],
+                "primaryKey": "id"
+            }
+        },
+        {
+            "name": "performance_file",
+            "path": "data/performance.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "constraints": {
+                            "required": true,
+                            "unique": true
+                        },
+                        "name": "publisher_id",
+                        "title": "ID of the publisher",
+                        "type": "string"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "format": "date",
+                        "name": "month_of_creation",
+                        "title": "Month when the source was created",
+                        "type": "date"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "files_count",
+                        "title": "Number of files published by the publisher during period",
+                        "type": "integer"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "score",
+                        "title": "Rounded average score of files published by the publisher during period",
+                        "type": "integer"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "valid",
+                        "title": "Number of valid files published by the publisher during period",
+                        "type": "integer"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "files_count_to_date",
+                        "title": "Number of files published by the publisher up to period",
+                        "type": "integer"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "score_to_date",
+                        "title": "Rounded average score of files published by the publisher up to period",
+                        "type": "integer"
+                    },
+                    {
+                        "constraints": {
+                            "required": true
+                        },
+                        "name": "valid_to_date",
+                        "title": "Number of valid files published by the publisher up to period",
+                        "type": "integer"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": "publisher_id",
+                        "reference": {
+                            "fields": "id",
+                            "resource": "publisher_file"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "sources": [
+        {
+            "name": "311 Data - In Development / 311 Data",
+            "web": "https://data.wprdc.org/datastore/dump/40776043-ad00-40f5-9dc8-1fde865ff571"
+        },
+        {
+            "name": "311 Data - In Development / 311 Data User Guide",
+            "web": "https://docs.google.com/document/d/1S4uouiP1X06BhJTf-9YPXSAuCDlhousYOn6EpMe-9RM/edit?usp=sharing"
+        },
+        {
+            "name": "311 Data - In Development / 311 Issue and Category Codebook",
+            "web": "https://docs.google.com/spreadsheets/d/1DTDBhwXj1xQG1GCBKPqivlzHQaLh2HLd0SjN1XBPUw0/edit?usp=sharing"
+        },
+        {
+            "name": "Pittsburgh PLI Violations Report / Pittsburgh PLI Violations Report",
+            "web": "https://data.wprdc.org/datastore/dump/4e5374be-1a88-47f7-afee-6a79317019b4"
+        },
+        {
+            "name": "Allegheny County Air Quality / Air Quality Index",
+            "web": "http://www.achd.net/airqual/AQIReport.XLS"
+        },
+        {
+            "name": "Allegheny County Air Quality / Air Quality Daily Summary",
+            "web": "https://data.wprdc.org/dataset/c7b3266c-adc6-41c0-b19a-8d4353bfcdaf/resource/7a417847-37bb-4a16-a25e-477f2a71661d/download/air-quality-daily-summary.csv"
+        },
+        {
+            "name": "Allegheny County Air Quality / Hourly Air Quality Data",
+            "web": "https://data.wprdc.org/datastore/dump/15d7dbf6-cb3b-407b-ae01-325352deed5c"
+        },
+        {
+            "name": "Allegheny County Air Quality / Daily Air Quality Data",
+            "web": "https://data.wprdc.org/datastore/dump/967f1285-f8fb-4785-9673-64a8ae47588d"
+        },
+        {
+            "name": "Allegheny County Asbestos Permits / Asbestos Permits",
+            "web": "https://data.wprdc.org/datastore/dump/0a5408a4-8358-4b14-9317-090db7c61fd9"
+        },
+        {
+            "name": "Pittsburgh Police Incident Blotter / Incidents",
+            "web": "https://data.wprdc.org/datastore/dump/c0fcc09a-7ddc-4f79-a4c1-9542301ef9dd"
+        },
+        {
+            "name": "Allegheny County Jail Daily Census / ACJ Daily Census Data - 06/2016",
+            "web": "https://data.wprdc.org/datastore/dump/869ca391-7508-4a64-8a27-09cc4799923f"
+        },
+        {
+            "name": "Allegheny County Jail Daily Census / ACJ Daily Census Data - 05/2016",
+            "web": "https://data.wprdc.org/datastore/dump/54b2ab9c-568f-4cec-a923-625a1db13c9f"
+        },
+        {
+            "name": "Allegheny County Jail Daily Census / ACJ Daily Census Data - 04/2016",
+            "web": "https://data.wprdc.org/datastore/dump/576e0bbd-7236-47f2-abd8-fc2f04188f12"
+        },
+        {
+            "name": "Allegheny County Jail Daily Census / ACJ Daily Census Data - 03/2016",
+            "web": "https://data.wprdc.org/datastore/dump/24671304-a3e9-4bb8-b722-48b5cfdea6ed"
+        },
+        {
+            "name": "Allegheny County Jail Daily Census / ACJ Daily Census Data - 02/2016",
+            "web": "https://data.wprdc.org/datastore/dump/673188b6-3cbd-4fe3-bb6c-984ee325f597"
+        },
+        {
+            "name": "Allegheny County Jail Daily Census / ACJ Daily Census Data - 01/2016",
+            "web": "https://data.wprdc.org/datastore/dump/35b19857-e653-4801-a4ba-022365341ce9"
+        },
+        {
+            "name": "Allegheny County Jail Daily Census / ACJ Daily Census Data - 12/2015 ",
+            "web": "https://data.wprdc.org/datastore/dump/85e0c576-41af-403d-a994-a27834b15157"
+        },
+        {
+            "name": "Allegheny County Jail Daily Census / ACJ Daily Census Data - 11/2015 ",
+            "web": "https://data.wprdc.org/datastore/dump/aa4cae88-0831-46ec-8853-7707202f88f4"
+        },
+        {
+            "name": "Allegheny County Jail Daily Census / ACJ Daily Census Data - 10/2015 ",
+            "web": "https://data.wprdc.org/dataset/d15ca172-66df-4508-8562-5ec54498cfd4/resource/e92767c3-f9de-4f8e-919e-85141ce47b7e/download/fd3b3cae-355c-46ca-a505-b1f0672153c7-5.csv"
+        },
+        {
+            "name": "Allegheny County Jail Daily Census / ACJ Daily Census Data - 09/2015",
+            "web": "https://data.wprdc.org/datastore/dump/8fb43d9a-9fb9-431d-93d2-9be7330dc846"
+        },
+        {
+            "name": "Allegheny County Jail Daily Census / ACJ Daily Census Data (Combined)",
+            "web": "https://data.wprdc.org/datastore/dump/66cdcd57-6c92-4aaa-8800-0ed9d8f03e22"
+        },
+        {
+            "name": "Allegheny County Jail Daily Census / ACJ Census Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/d15ca172-66df-4508-8562-5ec54498cfd4/resource/9822dc91-bacb-46d8-999f-19b267992118/download/acjcensusdatadictionary.csv"
+        },
+        {
+            "name": "Allegheny County Jail Daily Census / ACJ Daily Census Data - 6/2016 ",
+            "web": "http://#"
+        },
+        {
+            "name": "Allegheny County Jail Daily Census / ACJ Daily Census Data - 7/2016 ",
+            "web": "http://#"
+        },
+        {
+            "name": "Allegheny County Jail Daily Census / ACJ Daily Census Data - 07/2016",
+            "web": "https://data.wprdc.org/datastore/dump/30247275-2c96-4107-9f11-a639cfe886c8"
+        },
+        {
+            "name": "Allegheny County Jail Daily Census / ACJ Daily Census Data - 8/2016 ",
+            "web": "http://#"
+        },
+        {
+            "name": "Allegheny County Jail Daily Census / ACJ Daily Census Data - 08/2016",
+            "web": "https://data.wprdc.org/datastore/dump/65e5e21e-57bc-42fc-b40d-bf4b58ce361f"
+        },
+        {
+            "name": "Allegheny County Pennsylvania Senate District Boundaries / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/2dcb640fb87b4fbb91db833804b38e32_0"
+        },
+        {
+            "name": "Allegheny County Pennsylvania Senate District Boundaries / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Allegheny_County_Pennsylvania_Senate_Districts/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Pennsylvania Senate District Boundaries / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/2dcb640fb87b4fbb91db833804b38e32_0.csv"
+        },
+        {
+            "name": "Allegheny County Dam Locations / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/46c367ef407741c7af00153c62900c1b_0"
+        },
+        {
+            "name": "Allegheny County Dam Locations / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Allegheny_County_Dam_Locations/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Dam Locations / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/46c367ef407741c7af00153c62900c1b_0.csv"
+        },
+        {
+            "name": "Allegheny County Street Centerlines / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/4aefb4499aef4d88bb2563be74d964ac_0"
+        },
+        {
+            "name": "Allegheny County Street Centerlines / Esri Rest API",
+            "web": "http://geodata.alleghenycounty.us/arcgis/rest/services/EGIS/AC_Centerlines/MapServer/0"
+        },
+        {
+            "name": "Allegheny County Street Centerlines / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/4aefb4499aef4d88bb2563be74d964ac_0.csv"
+        },
+        {
+            "name": "Allegheny County Cemetery Outlines / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/4d83e90db45e48a688376c431ceec81f_0"
+        },
+        {
+            "name": "Allegheny County Cemetery Outlines / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Cemeteries/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Cemetery Outlines / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/4d83e90db45e48a688376c431ceec81f_0.csv"
+        },
+        {
+            "name": "Allegheny County-Owned Bridges Centerlines / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/5740c4d8646b4536910803ac4801aa11_0"
+        },
+        {
+            "name": "Allegheny County-Owned Bridges Centerlines / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Allegheny_County_Owned_Bridges/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County-Owned Bridges Centerlines / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/5740c4d8646b4536910803ac4801aa11_0.csv"
+        },
+        {
+            "name": "Allegheny County Wooded Area Boundaries / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/633565f21e534a4e8b8143dc0fffbe6c_0"
+        },
+        {
+            "name": "Allegheny County Wooded Area Boundaries / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Wooded_Areas/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Wooded Area Boundaries / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/633565f21e534a4e8b8143dc0fffbe6c_0.csv"
+        },
+        {
+            "name": "Allegheny County-Owned Bridges Points / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/65e21a4d53b9419b9c422657cac63a1b_0"
+        },
+        {
+            "name": "Allegheny County-Owned Bridges Points / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Allegheny_County_Owned_Bridges_points/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County-Owned Bridges Points / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/65e21a4d53b9419b9c422657cac63a1b_0.csv"
+        },
+        {
+            "name": "Allegheny County Basin Outlines Map / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/8f7d3d37eee544d4998b40f7b964634f_0"
+        },
+        {
+            "name": "Allegheny County Basin Outlines Map / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Basins/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Basin Outlines Map / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/8f7d3d37eee544d4998b40f7b964634f_0.csv"
+        },
+        {
+            "name": "Allegheny County Land Cover Areas / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/961ee66b67ca4b32bfbcc79bc4ed29ef_0"
+        },
+        {
+            "name": "Allegheny County Land Cover Areas / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Land_Cover/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Land Cover Areas / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/961ee66b67ca4b32bfbcc79bc4ed29ef_0.csv"
+        },
+        {
+            "name": "Allegheny County Hydrology Areas / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/9ff3941e47f74c609057cb60f4992852_0"
+        },
+        {
+            "name": "Allegheny County Hydrology Areas / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Hydrology_Areas/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Hydrology Areas / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/9ff3941e47f74c609057cb60f4992852_0.csv"
+        },
+        {
+            "name": "Allegheny County Public Building Locations / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/c777eb147c784497b1d4bc9f4efa5161_0"
+        },
+        {
+            "name": "Allegheny County Public Building Locations / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Public_Buildings/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Public Building Locations / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/c777eb147c784497b1d4bc9f4efa5161_0.csv"
+        },
+        {
+            "name": "Allegheny County Council Districts / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/d1e98be0250147c99974b27ed7140ddc_0"
+        },
+        {
+            "name": "Allegheny County Council Districts / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Council_Districts/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Council Districts / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/d1e98be0250147c99974b27ed7140ddc_0.csv"
+        },
+        {
+            "name": "Allegheny County Pennsylvania U.S. Legislative Congressional District Boundaries / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/d3f349ea4e4047f38c0dc56a39c7cfde_0"
+        },
+        {
+            "name": "Allegheny County Pennsylvania U.S. Legislative Congressional District Boundaries / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/US_Legislative_Congressional_Districts/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Pennsylvania U.S. Legislative Congressional District Boundaries / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/d3f349ea4e4047f38c0dc56a39c7cfde_0.csv"
+        },
+        {
+            "name": "Allegheny County Major Rivers / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/def3bd39f12d408c9bd097f5a3b3b136_0"
+        },
+        {
+            "name": "Allegheny County Major Rivers / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Major_Rivers/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Major Rivers / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/def3bd39f12d408c9bd097f5a3b3b136_0.csv"
+        },
+        {
+            "name": "Allegheny County Block Areas / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/dfb2d043543443b19c46f746e0d6a7cf_0"
+        },
+        {
+            "name": "Allegheny County Block Areas / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Blocks/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Block Areas / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/dfb2d043543443b19c46f746e0d6a7cf_0.csv"
+        },
+        {
+            "name": "Allegheny County Boundary / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/12d17d63e67d4b22b833b5733abf2f7e_0"
+        },
+        {
+            "name": "Allegheny County Boundary / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Allegheny_County_Boundary/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Boundary / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/12d17d63e67d4b22b833b5733abf2f7e_0.csv"
+        },
+        {
+            "name": "Allegheny County Beltway System Street Centerlines / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/efef714cf0dd4ea1a4786d6bb6d08fd9_0"
+        },
+        {
+            "name": "Allegheny County Beltway System Street Centerlines / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Allegheny_County_Beltway_System_Roads/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Beltway System Street Centerlines / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/efef714cf0dd4ea1a4786d6bb6d08fd9_0.csv"
+        },
+        {
+            "name": "Allegheny County School District Boundaries / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/f5ac385118344bbf8f707cd88ba31a45_0"
+        },
+        {
+            "name": "Allegheny County School District Boundaries / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Allegheny_County_School_Districts/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County School District Boundaries / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/f5ac385118344bbf8f707cd88ba31a45_0.csv"
+        },
+        {
+            "name": "Allegheny County Map Index Grid / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/fd536d7506cf4d35a4f75fa76aa4c57d_0"
+        },
+        {
+            "name": "Allegheny County Map Index Grid / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Index/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Map Index Grid / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/fd536d7506cf4d35a4f75fa76aa4c57d_0.csv"
+        },
+        {
+            "name": "Allegheny County Land Use Areas / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/eb92126f86274dc7b31b757892eade98_0"
+        },
+        {
+            "name": "Allegheny County Land Use Areas / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Land_Use/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Land Use Areas / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/eb92126f86274dc7b31b757892eade98_0.csv"
+        },
+        {
+            "name": "Allegheny County Pennsylvania House of Representatives District Boundaries / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/ff02e0b9fd7946ffbf7cf661e2ffd7de_0"
+        },
+        {
+            "name": "Allegheny County Pennsylvania House of Representatives District Boundaries / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Allegheny_County_Pennsylvania_House_of_Representatives_Districts/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Pennsylvania House of Representatives District Boundaries / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/ff02e0b9fd7946ffbf7cf661e2ffd7de_0.csv"
+        },
+        {
+            "name": "Allegheny County Polling Place Locations (November 2014) / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/f3bd69247ecc4e419508b8fb3eebcc7f_0"
+        },
+        {
+            "name": "Allegheny County Polling Place Locations (November 2014) / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Polling_Places/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Polling Place Locations (November 2014) / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/f3bd69247ecc4e419508b8fb3eebcc7f_0.csv"
+        },
+        {
+            "name": "Allegheny County Polling Place Locations (November 2015) / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/aac87cc82fd243f3b589fc0004531216_0"
+        },
+        {
+            "name": "Allegheny County Polling Place Locations (November 2015) / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Nov15updates/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Polling Place Locations (November 2015) / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/aac87cc82fd243f3b589fc0004531216_0.csv"
+        },
+        {
+            "name": "Allegheny County WIC Vendor Locations / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/ab9ec54e46d8403db31cff6bdc890aff_0"
+        },
+        {
+            "name": "Allegheny County WIC Vendor Locations / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Allegheny_County_WIC_Vendor_Locations/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County WIC Vendor Locations / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/ab9ec54e46d8403db31cff6bdc890aff_0.csv"
+        },
+        {
+            "name": "Allegheny County Cell Tower Points / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/9205acf132454d6cbf5d5e156bda5bf4_0"
+        },
+        {
+            "name": "Allegheny County Cell Tower Points / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/CellTowers/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Cell Tower Points / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/9205acf132454d6cbf5d5e156bda5bf4_0.csv"
+        },
+        {
+            "name": "Allegheny County Magisterial Districts Outlines (2015) / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/9ff374e08cf948b1b0bf3cef546a214c_0"
+        },
+        {
+            "name": "Allegheny County Magisterial Districts Outlines (2015) / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/MyMapService/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Magisterial Districts Outlines (2015) / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/9ff374e08cf948b1b0bf3cef546a214c_0.csv"
+        },
+        {
+            "name": "Allegheny County-Owned Roads Centerlines / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/8f48fccd18e6498e84b97ed152e17d04_0"
+        },
+        {
+            "name": "Allegheny County-Owned Roads Centerlines / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/AlleghenyCountyOwnedRoadsCenterlines/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County-Owned Roads Centerlines / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/8f48fccd18e6498e84b97ed152e17d04_0.csv"
+        },
+        {
+            "name": "Allegheny County Department of Public Works Maintenance District Boundaries / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/92ec7a6d562b46da9323009d17009b89_0"
+        },
+        {
+            "name": "Allegheny County Department of Public Works Maintenance District Boundaries / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/DPW_Maintenance_Districts/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Department of Public Works Maintenance District Boundaries / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/92ec7a6d562b46da9323009d17009b89_0.csv"
+        },
+        {
+            "name": "Allegheny County  Zip Code Boundaries / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/d71d9b907e2940219e426900a24c8da7_0"
+        },
+        {
+            "name": "Allegheny County  Zip Code Boundaries / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Allegheny_County__Zip_Code_Boundaries/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County  Zip Code Boundaries / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/d71d9b907e2940219e426900a24c8da7_0.csv"
+        },
+        {
+            "name": "Allegheny County Municipal Boundaries / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/9de0e9c07af04e638dbc9cb9070962c2_0"
+        },
+        {
+            "name": "Allegheny County Municipal Boundaries / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/AlleghenyCountyMunicipalBoundaries/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Municipal Boundaries / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/9de0e9c07af04e638dbc9cb9070962c2_0.csv"
+        },
+        {
+            "name": "Allegheny County Parks Outlines / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/f3ed40df96314490b56f708333a53117_0"
+        },
+        {
+            "name": "Allegheny County Parks Outlines / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/AlCo_Parks_Polygons_DD/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Parks Outlines / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/f3ed40df96314490b56f708333a53117_0.csv"
+        },
+        {
+            "name": "Allegheny County Parcel Boundaries / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/ebc3eb6a71dc4a60839b6eb80fa176aa_0"
+        },
+        {
+            "name": "Allegheny County Parcel Boundaries / Esri Rest API",
+            "web": "http://geodata.alleghenycounty.us/arcgis/rest/services/OPENDATA/Parcels/MapServer/0"
+        },
+        {
+            "name": "Allegheny County Parcel Boundaries / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/ebc3eb6a71dc4a60839b6eb80fa176aa_0.csv"
+        },
+        {
+            "name": "Allegheny County TIF Exclusions / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/cd3d579c0cc946e684dd93776d78ef1b_0"
+        },
+        {
+            "name": "Allegheny County TIF Exclusions / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/TIF_Exclusions/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County TIF Exclusions / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/cd3d579c0cc946e684dd93776d78ef1b_0.csv"
+        },
+        {
+            "name": "Allegheny County Voting District Boundaries (2015) / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/e40fec861749405694c3c5149a670b76_0"
+        },
+        {
+            "name": "Allegheny County Voting District Boundaries (2015) / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Voting_District_2015/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Voting District Boundaries (2015) / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/e40fec861749405694c3c5149a670b76_0.csv"
+        },
+        {
+            "name": "Allegheny County TIF Boundaries / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/d82baabaedd446269d718cf6b1d53c34_0"
+        },
+        {
+            "name": "Allegheny County TIF Boundaries / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/TIF_Boundaries/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County TIF Boundaries / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/d82baabaedd446269d718cf6b1d53c34_0.csv"
+        },
+        {
+            "name": "Allegheny County Hydrology Lines / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/051d790166084bc09c3a1e4fb1236abc_0"
+        },
+        {
+            "name": "Allegheny County Hydrology Lines / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Hydrology_Lines/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Hydrology Lines / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/051d790166084bc09c3a1e4fb1236abc_0.csv"
+        },
+        {
+            "name": "Allegheny County Watershed Boundaries / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/364f4c3613164f79a1d8c84aed6c03e0_0"
+        },
+        {
+            "name": "Allegheny County Watershed Boundaries / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Watersheds/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Watershed Boundaries / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/364f4c3613164f79a1d8c84aed6c03e0_0.csv"
+        },
+        {
+            "name": "Allegheny County Building Footprint Locations / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/7458acedb7a149dea57418fb77de8f9b_0"
+        },
+        {
+            "name": "Allegheny County Building Footprint Locations / Esri Rest API",
+            "web": "http://geodata.alleghenycounty.us/arcgis/rest/services/OPENDATA/Buildings/MapServer/0"
+        },
+        {
+            "name": "Allegheny County Building Footprint Locations / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/7458acedb7a149dea57418fb77de8f9b_0.csv"
+        },
+        {
+            "name": "Allegheny County Address Points / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/c4bff67870034113b2c95c6ef228af0c_0"
+        },
+        {
+            "name": "Allegheny County Address Points / Esri Rest API",
+            "web": "http://geodata.alleghenycounty.us/arcgis/rest/services/OPENDATA/Addresses/MapServer/0"
+        },
+        {
+            "name": "Allegheny County Address Points / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/c4bff67870034113b2c95c6ef228af0c_0.csv"
+        },
+        {
+            "name": "Allegheny County Soil Type Areas / ArcGIS Open Dataset",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/5fe0dfa186d5468fbcedfff5555fae29_0"
+        },
+        {
+            "name": "Allegheny County Soil Type Areas / Esri Rest API",
+            "web": "https://services1.arcgis.com/vdNDkVykv9vEWFX4/arcgis/rest/services/Soils/FeatureServer/0"
+        },
+        {
+            "name": "Allegheny County Soil Type Areas / CSV",
+            "web": "http://openac.alcogis.opendata.arcgis.com/datasets/5fe0dfa186d5468fbcedfff5555fae29_0.csv"
+        },
+        {
+            "name": "Allegheny County Dog Licenses / Lifetime Dog Licenses",
+            "web": "https://data.wprdc.org/dataset/ad5bd3d6-1b53-4ed0-8cd9-157a985bd0bd/resource/f8ab32f7-44c7-43ca-98bf-c1b444724598/download/dlgvdata2099.csv"
+        },
+        {
+            "name": "Allegheny County Dog Licenses / 2016 Dog Licenses",
+            "web": "https://data.wprdc.org/dataset/ad5bd3d6-1b53-4ed0-8cd9-157a985bd0bd/resource/c88d57d4-cb43-4257-a3f1-ca46f0c837de/download/dlgvdata2016.csv"
+        },
+        {
+            "name": "Allegheny County Dog Licenses / 2015 Dog Licenses",
+            "web": "https://data.wprdc.org/dataset/ad5bd3d6-1b53-4ed0-8cd9-157a985bd0bd/resource/4d49202b-8bac-4cf9-9915-798a342253a6/download/2015.csv"
+        },
+        {
+            "name": "Allegheny County Dog Licenses / 2014 Dog Licenses",
+            "web": "https://data.wprdc.org/dataset/ad5bd3d6-1b53-4ed0-8cd9-157a985bd0bd/resource/19e5756c-a964-4ac3-abb5-ab1f7a1f9bd6/download/2014.csv"
+        },
+        {
+            "name": "Allegheny County Dog Licenses / 2013 Dog Licenses",
+            "web": "https://data.wprdc.org/dataset/ad5bd3d6-1b53-4ed0-8cd9-157a985bd0bd/resource/9ad226b2-4231-4158-bf71-043be226e3d9/download/2013.csv"
+        },
+        {
+            "name": "Allegheny County Dog Licenses / 2012 Dog Licenses",
+            "web": "https://data.wprdc.org/dataset/ad5bd3d6-1b53-4ed0-8cd9-157a985bd0bd/resource/891ee2e8-411a-433c-80a3-885b13008d66/download/2012.csv"
+        },
+        {
+            "name": "Allegheny County Dog Licenses / 2011 Dog Licenses",
+            "web": "https://data.wprdc.org/dataset/ad5bd3d6-1b53-4ed0-8cd9-157a985bd0bd/resource/a0b2bd41-cee9-4501-92b9-4cd55ed61ee6/download/2011.csv"
+        },
+        {
+            "name": "Allegheny County Dog Licenses / 2010 Dog Licenses",
+            "web": "https://data.wprdc.org/dataset/ad5bd3d6-1b53-4ed0-8cd9-157a985bd0bd/resource/174fc1be-68a6-4b6a-96d9-e5ef540b8e95/download/2010.csv"
+        },
+        {
+            "name": "Allegheny County Dog Licenses / 2009 Dog Licenses",
+            "web": "https://data.wprdc.org/dataset/ad5bd3d6-1b53-4ed0-8cd9-157a985bd0bd/resource/5a019e45-e2cb-4f48-8934-1988923239d2/download/2009.csv"
+        },
+        {
+            "name": "Allegheny County Dog Licenses / 2008 Dog Licenses",
+            "web": "https://data.wprdc.org/dataset/ad5bd3d6-1b53-4ed0-8cd9-157a985bd0bd/resource/82040517-c2c1-41d9-a810-73b15603cd9a/download/2008.csv"
+        },
+        {
+            "name": "Allegheny County Dog Licenses / 2007 Dog Licenses",
+            "web": "https://data.wprdc.org/dataset/ad5bd3d6-1b53-4ed0-8cd9-157a985bd0bd/resource/2623112a-bc79-4318-b816-ebb1d576da9c/download/2007.csv"
+        },
+        {
+            "name": "Allegheny County Dog Licenses / Dog License Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/ad5bd3d6-1b53-4ed0-8cd9-157a985bd0bd/resource/24771463-fec6-4d35-9662-2258575cd47d/download/doglicensedatadictionary.csv"
+        },
+        {
+            "name": "Pittsburgh Bridges / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/60b25e95c256460592304758b59de19c_0"
+        },
+        {
+            "name": "Pittsburgh Bridges / Esri Rest API",
+            "web": "https://services1.arcgis.com/YZCmUqbcsUpOKfj7/arcgis/rest/services/PGHBridges/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh Bridges / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/60b25e95c256460592304758b59de19c_0.csv"
+        },
+        {
+            "name": "Pittsburgh Uptown IPOD Zoning District / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/5424b636afb1463f92a479f26186822e_0"
+        },
+        {
+            "name": "Pittsburgh Uptown IPOD Zoning District / Esri Rest API",
+            "web": "https://services1.arcgis.com/YZCmUqbcsUpOKfj7/arcgis/rest/services/UptownIPODZoningDistrict/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh Uptown IPOD Zoning District / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/5424b636afb1463f92a479f26186822e_0.csv"
+        },
+        {
+            "name": "Pittsburgh Police Zones / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/7e95f0914283472e83e8000c0af33110_0"
+        },
+        {
+            "name": "Pittsburgh Police Zones / Esri Rest API",
+            "web": "http://maps.pittsburghpa.gov//arcgis/rest/services/OpenData/PGHODPoliceZones/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh Police Zones / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/7e95f0914283472e83e8000c0af33110_0.csv"
+        },
+        {
+            "name": "Pittsburgh Greenways / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/dcef4d943c1b44129b967d97def9e8c4_0"
+        },
+        {
+            "name": "Pittsburgh Greenways / Esri Rest API",
+            "web": "http://maps.pittsburghpa.gov//arcgis/rest/services/OpenData/PGHODGreenways/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh Greenways / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/dcef4d943c1b44129b967d97def9e8c4_0.csv"
+        },
+        {
+            "name": "Pittsburgh Police Sectors / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/b40baf0cf63342a5a99c4ddfa608bc44_0"
+        },
+        {
+            "name": "Pittsburgh Police Sectors / Esri Rest API",
+            "web": "http://maps.pittsburghpa.gov//arcgis/rest/services/OpenData/PGHODPoliceSectors/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh Police Sectors / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/b40baf0cf63342a5a99c4ddfa608bc44_0.csv"
+        },
+        {
+            "name": "Pittsburgh Undermined Areas / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/a065e686e9144110ac6ccfe7bb43fd98_0"
+        },
+        {
+            "name": "Pittsburgh Undermined Areas / Esri Rest API",
+            "web": "http://maps.pittsburghpa.gov//arcgis/rest/services/OpenData/PGHODUndermined/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh Undermined Areas / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/a065e686e9144110ac6ccfe7bb43fd98_0.csv"
+        },
+        {
+            "name": "Pittsburgh City Trees / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/7a2566de73cd4d23b41ef96d4ae528d3_0"
+        },
+        {
+            "name": "Pittsburgh City Trees / Esri Rest API",
+            "web": "http://maps.pittsburghpa.gov//arcgis/rest/services/OpenData/PGHODCityTrees/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh City Trees / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/7a2566de73cd4d23b41ef96d4ae528d3_0.csv"
+        },
+        {
+            "name": "Pittsburgh DPW Environmental Services Divisions / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/8f9caf7f57bc4e54b0ed4a25b3366f29_0"
+        },
+        {
+            "name": "Pittsburgh DPW Environmental Services Divisions / Esri Rest API",
+            "web": "http://maps.pittsburghpa.gov//arcgis/rest/services/OpenData/PGHODDPWESDivisions/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh DPW Environmental Services Divisions / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/8f9caf7f57bc4e54b0ed4a25b3366f29_0.csv"
+        },
+        {
+            "name": "Pittsburgh DPW Divisions / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/2d2c30d9633647ddab2f918afc38c35b_0"
+        },
+        {
+            "name": "Pittsburgh DPW Divisions / Esri Rest API",
+            "web": "http://maps.pittsburghpa.gov/arcgis/rest/services/OpenData/PGHODDPWDivisions/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh DPW Divisions / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/2d2c30d9633647ddab2f918afc38c35b_0.csv"
+        },
+        {
+            "name": "Pittsburgh City Council Districts / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/677930d13af94fd8b70c693c1a6660d0_0"
+        },
+        {
+            "name": "Pittsburgh City Council Districts / Esri Rest API",
+            "web": "http://maps.pittsburghpa.gov/arcgis/rest/services/OpenData/PGHODCityCouncil/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh City Council Districts / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/677930d13af94fd8b70c693c1a6660d0_0.csv"
+        },
+        {
+            "name": "Pittsburgh Zoning Districts / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/4d0adfc893d24a029a947f449c3ac45a_0"
+        },
+        {
+            "name": "Pittsburgh Zoning Districts / Esri Rest API",
+            "web": "http://maps.pittsburghpa.gov/arcgis/rest/services/OpenData/PGHODZoningDistricts/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh Zoning Districts / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/4d0adfc893d24a029a947f449c3ac45a_0.csv"
+        },
+        {
+            "name": "Pittsburgh Neighborhoods / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/87a7e06c5d8440f280ce4b1e4f75cc84_0"
+        },
+        {
+            "name": "Pittsburgh Neighborhoods / Esri Rest API",
+            "web": "http://maps.pittsburghpa.gov/arcgis/rest/services/OpenData/PGHODNeighborhoods/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh Neighborhoods / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/87a7e06c5d8440f280ce4b1e4f75cc84_0.csv"
+        },
+        {
+            "name": "Pittsburgh FEMA Flood Zones / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/fb45ed8f9e0d463aadfab95620ffa303_0"
+        },
+        {
+            "name": "Pittsburgh FEMA Flood Zones / Esri Rest API",
+            "web": "https://services1.arcgis.com/YZCmUqbcsUpOKfj7/arcgis/rest/services/FEMA_2014_A_AE/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh FEMA Flood Zones / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/fb45ed8f9e0d463aadfab95620ffa303_0.csv"
+        },
+        {
+            "name": "Pittsburgh Traffic Signals / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/d7113fcd9cea485098f94530be1095a7_0"
+        },
+        {
+            "name": "Pittsburgh Traffic Signals / Esri Rest API",
+            "web": "http://maps.pittsburghpa.gov/arcgis/rest/services/OpenData/PGHODTrafficSignals/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh Traffic Signals / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/d7113fcd9cea485098f94530be1095a7_0.csv"
+        },
+        {
+            "name": "Pittsburgh Individual Historic Properties / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/9a3c2c43d39443e7a21070e13e66f422_0"
+        },
+        {
+            "name": "Pittsburgh Individual Historic Properties / Esri Rest API",
+            "web": "https://services1.arcgis.com/YZCmUqbcsUpOKfj7/arcgis/rest/services/PGHCHD_Individual/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh Individual Historic Properties / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/9a3c2c43d39443e7a21070e13e66f422_0.csv"
+        },
+        {
+            "name": "Pittsburgh Historic Districts / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/71df883dcf184292b69d5721df39b5dd_0"
+        },
+        {
+            "name": "Pittsburgh Historic Districts / Esri Rest API",
+            "web": "https://services1.arcgis.com/YZCmUqbcsUpOKfj7/arcgis/rest/services/PGHCHD_Districts/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh Historic Districts / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/71df883dcf184292b69d5721df39b5dd_0.csv"
+        },
+        {
+            "name": "Neighborhoods with SNAP Data / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/3ca13246362540fa8b4b567f84a1255b_0"
+        },
+        {
+            "name": "Neighborhoods with SNAP Data / Esri Rest API",
+            "web": "https://services1.arcgis.com/YZCmUqbcsUpOKfj7/arcgis/rest/services/PGH_Neighborhoods_SNAP_OD/FeatureServer/0"
+        },
+        {
+            "name": "Neighborhoods with SNAP Data / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/3ca13246362540fa8b4b567f84a1255b_0.csv"
+        },
+        {
+            "name": "Pittsburgh Landslide Prone / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/c5b8bed5963746d4844dcfea7c2053e7_0"
+        },
+        {
+            "name": "Pittsburgh Landslide Prone / Esri Rest API",
+            "web": "http://maps.pittsburghpa.gov/arcgis/rest/services/OpenData/PGHODLandslideProne/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh Landslide Prone / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/c5b8bed5963746d4844dcfea7c2053e7_0.csv"
+        },
+        {
+            "name": "Pittsburgh City Facilities / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/b9c387d024944503ad27549e196d7260_0"
+        },
+        {
+            "name": "Pittsburgh City Facilities / Esri Rest API",
+            "web": "http://maps.pittsburghpa.gov//arcgis/rest/services/OpenData/PGHODCityFacilities/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh City Facilities / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/b9c387d024944503ad27549e196d7260_0.csv"
+        },
+        {
+            "name": "Pittsburgh EMS Districts / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/e0c617ba041645ffaee67cace8a7a549_0"
+        },
+        {
+            "name": "Pittsburgh EMS Districts / Esri Rest API",
+            "web": "http://maps.pittsburghpa.gov/arcgis/rest/services/OpenData/PGHODEMSDistricts/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh EMS Districts / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/e0c617ba041645ffaee67cace8a7a549_0.csv"
+        },
+        {
+            "name": "Pittsburgh City Boundary / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/a99f25fffb7b41c8a4adf9ea676a3a0b_0"
+        },
+        {
+            "name": "Pittsburgh City Boundary / Esri Rest API",
+            "web": "https://services1.arcgis.com/YZCmUqbcsUpOKfj7/arcgis/rest/services/CityBoundary/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh City Boundary / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/a99f25fffb7b41c8a4adf9ea676a3a0b_0.csv"
+        },
+        {
+            "name": "Pittsburgh 2014 CDBG Census Tracts / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/6f8ecf3a84944582b29e5b215f30e3b0_0"
+        },
+        {
+            "name": "Pittsburgh 2014 CDBG Census Tracts / Esri Rest API",
+            "web": "https://services1.arcgis.com/YZCmUqbcsUpOKfj7/arcgis/rest/services/CDBG2014Census/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh 2014 CDBG Census Tracts / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/6f8ecf3a84944582b29e5b215f30e3b0_0.csv"
+        },
+        {
+            "name": "Pittsburgh 2014 CDBG Block Groups / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/a1696bd0aa8648249a94e9a56a1d56f8_0"
+        },
+        {
+            "name": "Pittsburgh 2014 CDBG Block Groups / Esri Rest API",
+            "web": "https://services1.arcgis.com/YZCmUqbcsUpOKfj7/arcgis/rest/services/CDBG2014BlockGroups/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh 2014 CDBG Block Groups / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/a1696bd0aa8648249a94e9a56a1d56f8_0.csv"
+        },
+        {
+            "name": "Pittsburgh - URA Main St / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/ab9b192ab4ba46d88144bacf5a0252e0_0"
+        },
+        {
+            "name": "Pittsburgh - URA Main St / Esri Rest API",
+            "web": "http://maps.pittsburghpa.gov/arcgis/rest/services/OpenData/PGHODMainSt/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh - URA Main St / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/ab9b192ab4ba46d88144bacf5a0252e0_0.csv"
+        },
+        {
+            "name": "Pittsburgh Beautify The Burgh / ArcGIS Open Dataset",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/bcd39ed918714385ac1c135b3e122582_0"
+        },
+        {
+            "name": "Pittsburgh Beautify The Burgh / Esri Rest API",
+            "web": "https://services1.arcgis.com/YZCmUqbcsUpOKfj7/arcgis/rest/services/BeautifyBurgh/FeatureServer/0"
+        },
+        {
+            "name": "Pittsburgh Beautify The Burgh / CSV",
+            "web": "http://pghgis.pittsburghpa.opendata.arcgis.com/datasets/bcd39ed918714385ac1c135b3e122582_0.csv"
+        },
+        {
+            "name": "Parcel Centroids in Allegheny County with Geographic Identifiers / Parcel Centroid August 2016",
+            "web": "https://data.wprdc.org/dataset/2536e5e2-253b-4c58-969d-687828bb94c6/resource/4b68a6dd-b7ea-4385-b88e-e7d77ff0b294/download/parcelcentroidaug102016.csv"
+        },
+        {
+            "name": "Parcel Centroids in Allegheny County with Geographic Identifiers / Parcel Centroid Data Dictionary August 10, 2016",
+            "web": "https://data.wprdc.org/dataset/2536e5e2-253b-4c58-969d-687828bb94c6/resource/d68baaec-acef-4fa9-8870-4067dcf8d13c/download/parcelcentroiddatadictionaryaug102016.csv"
+        },
+        {
+            "name": "Parcel Centroids in Allegheny County with Geographic Identifiers / Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/2536e5e2-253b-4c58-969d-687828bb94c6/resource/91abbccc-3b86-4cd7-a204-bbbd0363ac84/download/parcelcentroiddatadictionarysept2015.csv"
+        },
+        {
+            "name": "Allegheny County Park Rangers Outreach / Park Rangers Outreach Data",
+            "web": "https://data.wprdc.org/dataset/01894671-26ec-423c-985c-55c66220e433/resource/feae9f33-d2e7-4586-898b-c1857b31cbbd/download/park-rangers-outreach-data.csv"
+        },
+        {
+            "name": "Allegheny County Park Rangers Outreach / Park Rangers Outreach Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/01894671-26ec-423c-985c-55c66220e433/resource/ce71db3a-1333-46fc-a7d2-adb75b5e19cc/download/park-rangers-outreach-data-dictionary.csv"
+        },
+        {
+            "name": "2010 Census Blocks with Geographic Codes Southwestern PA / Block Level Correspondence Table Data Dictionary August 10, 2016 (Draft)",
+            "web": "https://data.wprdc.org/dataset/1fb0bfbd-c8cc-4245-a8d0-2e60196040b3/resource/2eaffc6d-baf0-4d07-95cc-e6863ef309e0/download/blockdatadictionaryaug102016.csv"
+        },
+        {
+            "name": "Allegheny County Fatal Accidental Overdoses / Fatal Accidental OD Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/7fb0505e-8e2c-4825-b22c-4fbee8fc8010/resource/b8d1b547-edb9-4082-ab96-21094217c511/download/acomedatadictionary.csv"
+        },
+        {
+            "name": "Allegheny County Fatal Accidental Overdoses / Fatal Accidental OD 2016",
+            "web": "https://data.wprdc.org/dataset/7fb0505e-8e2c-4825-b22c-4fbee8fc8010/resource/386ca0ed-717d-46d3-8ed2-da37553ec6d1/download/crimelabaccidentaldrugdeathsextract2016.csv"
+        },
+        {
+            "name": "Allegheny County Fatal Accidental Overdoses / Fatal Accidental OD 2015",
+            "web": "https://data.wprdc.org/datastore/dump/502136a8-649b-44c5-9b08-ec2733201e5f"
+        },
+        {
+            "name": "Allegheny County Fatal Accidental Overdoses / Fatal Accidental OD 2014",
+            "web": "https://data.wprdc.org/datastore/dump/7146df41-9531-4327-961a-362ad6f3d2c3"
+        },
+        {
+            "name": "Allegheny County Fatal Accidental Overdoses / Fatal Accidental OD 2013",
+            "web": "https://data.wprdc.org/dataset/7fb0505e-8e2c-4825-b22c-4fbee8fc8010/resource/ee648fab-3048-48b6-9757-f8dfbae378c8/download/crimelabaccidentaldrugdeathsextract2013.csv"
+        },
+        {
+            "name": "Allegheny County Fatal Accidental Overdoses / Fatal Accidental OD 2012",
+            "web": "https://data.wprdc.org/dataset/7fb0505e-8e2c-4825-b22c-4fbee8fc8010/resource/d8db2bcb-58cf-4de7-91f5-82d122c0f1f3/download/crimelabaccidentaldrugdeathsextract2012.csv"
+        },
+        {
+            "name": "Allegheny County Fatal Accidental Overdoses / Fatal Accidental OD 2011",
+            "web": "https://data.wprdc.org/dataset/7fb0505e-8e2c-4825-b22c-4fbee8fc8010/resource/1556690f-47e5-4ce5-bd5f-25eff4955c32/download/crimelabaccidentaldrugdeathsextract2011.csv"
+        },
+        {
+            "name": "Allegheny County Fatal Accidental Overdoses / Fatal Accidental OD 2010",
+            "web": "https://data.wprdc.org/dataset/7fb0505e-8e2c-4825-b22c-4fbee8fc8010/resource/8f8d068c-9c4b-4563-bc3b-1eee72bbf533/download/crimelabaccidentaldrugdeathsextract2010.csv"
+        },
+        {
+            "name": "Allegheny County Fatal Accidental Overdoses / Fatal Accidental OD 2009",
+            "web": "https://data.wprdc.org/dataset/7fb0505e-8e2c-4825-b22c-4fbee8fc8010/resource/395f38ac-d021-4b33-959d-b06bd7b9efe1/download/crimelabaccidentaldrugdeathsextract2009.csv"
+        },
+        {
+            "name": "Allegheny County Fatal Accidental Overdoses / Fatal Accidental OD 2008",
+            "web": "https://data.wprdc.org/dataset/7fb0505e-8e2c-4825-b22c-4fbee8fc8010/resource/233c321d-ff80-4d06-85b7-d5c3f227f2a8/download/crimelabaccidentaldrugdeathsextract2008.csv"
+        },
+        {
+            "name": "Allegheny County Fatal Accidental Overdoses / OverdoseFreePA Data",
+            "web": "http://www.overdosefreepa.pitt.edu/overdose-data/"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-08 Sale Results",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/f7583b18-3088-49ce-b640-ab3cdb60a146/download/201608results.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-08 Postponement Sale Results",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/80379426-80f7-4dce-a344-3d7d4bf6e6e5/download/201608postponement.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-09 Bid List",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/9b2c7aca-8afe-4dd4-a835-f6add5f11b22/download/201609bidlist.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-09 Postponement List",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/5668bb05-26c2-4192-84fe-eab212f06858/download/201609postponement.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-07 Sale Results",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/004c6571-1b32-4637-af93-c25f22c96dd0/download/2016-07-sale-results.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-07 Postponement Sale Results",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/9d92f3cb-a7fc-49c2-9f2d-af86f05dba83/download/2016-07-postponement-sale-results.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-08 Bid List",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/99d3960b-fbe5-4591-a2f8-46fff62a40f4/download/2016-08-bid-list.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-08 Postponement List",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/fcba9fbf-aa47-49dd-9c9e-cef18e15cafd/download/2016-08-postponement-list.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-06 Sale Results",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/919543dc-0dac-44a2-804c-e8dd56636309/download/2016-06-sale-results-csv.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-06 Postponement Sale Results",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/af3b9628-02b4-4f72-bb6c-ac40f73586ef/download/2016-06-postponement-sale-results-csv.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-07 Bid List",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/ff19cf91-6919-433c-a649-4b32f477f3a9/download/2016-07-bid-list-csv.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-07 Postponement List",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/4b4a93ad-649f-4ba6-bbfd-604c192db9a9/download/2016-07-postponement-list-csv.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-05 Sale Results",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/cd45d89e-d126-4893-81fa-93fc7bfd0492/download/2016-05-sale-results.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-05 Postponement Sale Results",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/499abeb5-8af1-46b1-922d-aa201a6a7abb/download/2016-05-postponement-sale-results.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-06 Bid List",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/deff009d-f32d-4ef6-97ca-2c0850b85c59/download/2016-06-bid-list.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-04 Sale Results",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/c6116ebf-7def-4b94-b066-12491e38102f/download/saleresultsapr16.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-04 Postponement Sale Results",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/2bdc35d5-728b-4c93-9918-08cf92a954bd/download/postponementlistapr16.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-03 Sale Results",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/c327fc09-abfa-4dd8-a112-0cc2a2c16887/download/2016-03-sale-results.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-03 Postponement Sale Results",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/371cb63e-8cc3-41b2-b336-776bfc09e7e1/download/2016-03-postponement-sale-results.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-04 Bid List",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/94e0a7a8-99f7-4fef-9565-9232b3dce2a7/download/2016-04-bid-list.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2016-04 Postponement List",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/d3cbff3b-5fd2-497c-9570-a9b0d1db676c/download/2016-04-postponement-list.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2015-10 Bid List",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/bd808816-7966-4b7e-a9bd-2fe843596f41/download/bid-list-oct15-processed.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2015-10 Postponement List",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/599faab9-3b05-469d-82fa-dcf11d58c2e7/download/postponement-list-oct15-refined.csv"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2015-08 Bid List",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/2a6cae4f-2803-4d40-9f4d-e2ed9c11132f/download/master-bid-list-aug15-2015-07-22.xlsx"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2015-08 Postponement List",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/81caedcf-fd7f-4938-bef9-ca25f6393a7c/download/postponement-list-aug15-2015-07-22.xlsx"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2015-07 Sale Results",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/8b88d12e-1a2b-4779-9c49-027b3d6b5131/download/sale-results-jul15-2015-07-22.xlsx"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / 2015-07 Postponement Sale Results",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/0d35dc6c-14b5-4247-89cc-a17435de6778/download/last-month-postponements-jul15-2015-07-22.xlsx"
+        },
+        {
+            "name": "Allegheny County Sheriff Sales / Sheriff Sales Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/1876f595-d8a2-4eb2-a64c-ebedf2afa4df/resource/09ccb84d-b5b0-4472-9f6a-4b6d9f4036cc/download/sheriff-sales-data-dictionary.xlsx"
+        },
+        {
+            "name": "Allegheny County Property Sale Transactions / Property Sales Transactions",
+            "web": "https://data.wprdc.org/dataset/9e0ce87d-07b8-420c-a8aa-9de6104f61d6/resource/5bbe6c55-bce6-4edb-9d04-68edeb6bf7b1/download/aa301080120160800.csv"
+        },
+        {
+            "name": "Allegheny County Property Sale Transactions / Property Sale Transactions Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/9e0ce87d-07b8-420c-a8aa-9de6104f61d6/resource/72c092e5-b693-4bad-adff-2e6d0fda81b3/download/property-sale-transaction-data-dictionary.csv"
+        },
+        {
+            "name": "Allegheny County Property Sale Transactions / Sales Validation Codes Dictionary",
+            "web": "https://data.wprdc.org/dataset/9e0ce87d-07b8-420c-a8aa-9de6104f61d6/resource/5144e253-2613-46eb-9379-3f6a65a360bc/download/sales-validation-codes-dictionary.csv"
+        },
+        {
+            "name": "Allegheny County Property Assessments / 2016-JUL Property Assessments Parcel Data",
+            "web": "https://data.wprdc.org/dataset/2b3df818-601e-4f06-b150-643557229491/resource/941c9b08-b438-4312-8201-02331c0f1e1e/download/alleghenycountymasterfile07292016.csv"
+        },
+        {
+            "name": "Allegheny County Property Assessments / Property Assessment Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/2b3df818-601e-4f06-b150-643557229491/resource/d31e1b1c-215d-4693-9898-154ca49050a4/download/property-assessments-data-dictionary.csv"
+        },
+        {
+            "name": "Allegheny County Property Assessments / Property Assessment Data User Guide Allegheny County",
+            "web": "https://docs.google.com/document/d/1eYuJOh4_CBitclhhgeJv6iLStPjtouhXV1_2cwei_-s/edit?usp=sharing"
+        },
+        {
+            "name": "Allegheny County Property Assessments / Property Assessments Parcel Data",
+            "web": "http://#"
+        },
+        {
+            "name": "Allegheny County Property Assessments / Parcel information Extractor",
+            "web": "http://wprdc.github.io/property-information-extractor/#"
+        },
+        {
+            "name": "Allegheny County Municipal Building Energy and Water Use / Municipal Building Energy and Water Use",
+            "web": "https://data.wprdc.org/dataset/98ec7315-47ad-4ffc-9368-dea01d054761/resource/fea0f9c4-05f7-4764-8560-1f9f0432fede/download/municipal-building-energy-and-water-use.xlsx"
+        },
+        {
+            "name": "Allegheny County Municipal Building Energy and Water Use / Municipal Building Energy and Water Use",
+            "web": "https://data.wprdc.org/dataset/98ec7315-47ad-4ffc-9368-dea01d054761/resource/21b044b4-38b6-4a05-83c5-7ec3ed6f9b88/download/municipal-building-energy-and-water-use.csv"
+        },
+        {
+            "name": "Allegheny County Municipal Building Energy and Water Use / Energy and Water Use Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/98ec7315-47ad-4ffc-9368-dea01d054761/resource/c948290a-b7da-407d-a7ae-09923ef2ff02/download/energy-and-water-use-data-dictionary.csv"
+        },
+        {
+            "name": "Library Locations / Library Locations",
+            "web": "https://data.wprdc.org/datastore/dump/2ba0788a-2f35-43aa-a47c-89c75f55cf9d"
+        },
+        {
+            "name": "Library Locations / Library Locations Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/5d52127f-3606-4ed9-a019-1daf4381902a/resource/df4a9e2f-0919-4882-985a-5a2a40847110/download/libraries-data-dictionary-20160607.csv"
+        },
+        {
+            "name": "City Owned Publicly Available Properties / Publicly Available Properties 2015",
+            "web": "https://data.wprdc.org/dataset/46a4f481-751f-4e6c-b104-7a42bbb522f8/resource/47e4d773-f9c5-4a70-a975-2aed472d42ab/download/opendata-finance---publicly-available-properties-2015.xlsx"
+        },
+        {
+            "name": "City Owned Publicly Available Properties / Publicly Available Properties Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/46a4f481-751f-4e6c-b104-7a42bbb522f8/resource/10f0bd47-554e-45e8-9ca0-f57bd25c5d7b/download/opendata-finance---publicly-available-properties-2015---column-definitions.xlsx"
+        },
+        {
+            "name": "City Owned Publicly Available Properties / Publicly Available Properties 2015 - Refined",
+            "web": "https://data.wprdc.org/dataset/46a4f481-751f-4e6c-b104-7a42bbb522f8/resource/950df67c-e078-438e-89e1-bb6a7f3a6a09/download/publicly-available-properties-2015-csv.csv"
+        },
+        {
+            "name": "Allegheny County Crash Data / Cumulative Crash Data",
+            "web": "https://data.wprdc.org/datastore/dump/2c13021f-74a9-4289-a1e5-fe0472c89881"
+        },
+        {
+            "name": "Allegheny County Crash Data / 2015 Crash Data",
+            "web": "https://data.wprdc.org/datastore/dump/d90eb4fd-1234-4f3b-ba3d-422769cd3761"
+        },
+        {
+            "name": "Allegheny County Crash Data / 2014 Crash Data",
+            "web": "https://data.wprdc.org/dataset/3130f583-9499-472b-bb5a-f63a6ff6059a/resource/a1d00c8a-18dd-43ee-aa13-c2998ceb76ad/download/2014alcocrash.csv"
+        },
+        {
+            "name": "Allegheny County Crash Data / 2013 Crash Data",
+            "web": "https://data.wprdc.org/dataset/3130f583-9499-472b-bb5a-f63a6ff6059a/resource/eb54323c-164b-4010-a78f-2dba4d382604/download/2013alcocrash.csv"
+        },
+        {
+            "name": "Allegheny County Crash Data / 2012 Crash Data",
+            "web": "https://data.wprdc.org/dataset/3130f583-9499-472b-bb5a-f63a6ff6059a/resource/bcd2e0a7-d059-4ec8-9d5d-3d293aadd4c4/download/2012alcocrash.csv"
+        },
+        {
+            "name": "Allegheny County Crash Data / 2011 Crash Data",
+            "web": "https://data.wprdc.org/dataset/3130f583-9499-472b-bb5a-f63a6ff6059a/resource/0950f9ac-fe2f-4441-a355-d60ee7653f8c/download/2011alcocrash.csv"
+        },
+        {
+            "name": "Allegheny County Crash Data / 2010 Crash Data",
+            "web": "https://data.wprdc.org/dataset/3130f583-9499-472b-bb5a-f63a6ff6059a/resource/93b3d18c-680f-4a1c-9896-72b446557505/download/2010alcocrash.csv"
+        },
+        {
+            "name": "Allegheny County Crash Data / 2009 Crash Data",
+            "web": "https://data.wprdc.org/dataset/3130f583-9499-472b-bb5a-f63a6ff6059a/resource/4cccbf70-5709-4630-a0cd-cc4a3ed69be7/download/2009alcocrash.csv"
+        },
+        {
+            "name": "Allegheny County Crash Data / 2008 Crash Data",
+            "web": "https://data.wprdc.org/dataset/3130f583-9499-472b-bb5a-f63a6ff6059a/resource/92608ca3-3a44-4fe8-af1a-967cfe8bc29d/download/2008alcocrash.csv"
+        },
+        {
+            "name": "Allegheny County Crash Data / 2007 Crash Data",
+            "web": "https://data.wprdc.org/dataset/3130f583-9499-472b-bb5a-f63a6ff6059a/resource/1c7ce0ad-40d3-47e4-b654-6a6bdbfeca2c/download/2007alcocrash.csv"
+        },
+        {
+            "name": "Allegheny County Crash Data / 2006 Crash Data",
+            "web": "https://data.wprdc.org/dataset/3130f583-9499-472b-bb5a-f63a6ff6059a/resource/01860f81-dd89-465a-ab73-1edc21858303/download/2006alcocrash.csv"
+        },
+        {
+            "name": "Allegheny County Crash Data / 2005 Crash Data",
+            "web": "https://data.wprdc.org/dataset/3130f583-9499-472b-bb5a-f63a6ff6059a/resource/e6a24c09-c381-430b-b8ff-3ec5611538f5/download/2005alcocrash.csv"
+        },
+        {
+            "name": "Allegheny County Crash Data / 2004 Crash Data",
+            "web": "https://data.wprdc.org/dataset/3130f583-9499-472b-bb5a-f63a6ff6059a/resource/17012686-77d8-477b-b034-5b4a4715ec53/download/2004alcocrash.csv"
+        },
+        {
+            "name": "Allegheny County Crash Data / Allegheny County Crash Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/3130f583-9499-472b-bb5a-f63a6ff6059a/resource/12d9e6e1-3657-4cad-a430-119d34b1a5b2/download/crashdatadictionary.csv"
+        },
+        {
+            "name": "Allegheny County Crash Data / Municipality Codes",
+            "web": "https://data.wprdc.org/dataset/3130f583-9499-472b-bb5a-f63a6ff6059a/resource/fb81a55f-c560-4541-9ad4-7ea7c41f79e7/download/municipalitycodes.csv"
+        },
+        {
+            "name": "Allegheny County Crash Data / Police Agency Codes",
+            "web": "https://data.wprdc.org/dataset/3130f583-9499-472b-bb5a-f63a6ff6059a/resource/057dc1b4-a720-4593-8a0c-02f302b8b817/download/policeagencycodes.csv"
+        },
+        {
+            "name": "Allegheny County Plumbers / Master Plumber Search",
+            "web": "http://webapps.achd.net/Plumbing/"
+        },
+        {
+            "name": "Allegheny County Plumbers / Plumbers 2015",
+            "web": "https://data.wprdc.org/dataset/bafa99e3-6773-4dec-95bf-77d34b7754eb/resource/e8e2e1a7-8a06-4d69-8a0d-12f9e4e99b86/download/plumbers.csv"
+        },
+        {
+            "name": "Allegheny County Plumbers / Plumbers Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/bafa99e3-6773-4dec-95bf-77d34b7754eb/resource/ecc11b52-8b4b-49e4-b087-7bcfa7209288/download/plumbersdatadictionary.csv"
+        },
+        {
+            "name": "Allegheny County Election Results / 2015 General Election Summary",
+            "web": "https://data.wprdc.org/dataset/ea85f4b5-0b95-41b8-86ee-f1e6d16fc409/resource/38028f74-bca9-4411-953a-94961f2274b2/download/2015-general-election-summary.csv"
+        },
+        {
+            "name": "Allegheny County Election Results / 2015 General Election Results by Precinct",
+            "web": "https://data.wprdc.org/dataset/ea85f4b5-0b95-41b8-86ee-f1e6d16fc409/resource/638582cb-99b1-4ef0-ac05-bc40dabb9668/download/2015-general-election-results-by-precinct.csv"
+        },
+        {
+            "name": "Allegheny County Election Results / 2015 Primary Election Summary",
+            "web": "https://data.wprdc.org/dataset/ea85f4b5-0b95-41b8-86ee-f1e6d16fc409/resource/6cafc8ab-4839-4f8b-8ef1-b4fd725a6035/download/primary-2015-election-summary.csv"
+        },
+        {
+            "name": "Allegheny County Election Results / 2015 Primary Election Results by Precinct",
+            "web": "https://data.wprdc.org/dataset/ea85f4b5-0b95-41b8-86ee-f1e6d16fc409/resource/4a26e9b4-b4ec-4616-8602-22f7f257a87f/download/primary-2015-precinct-summary.csv"
+        },
+        {
+            "name": "Allegheny County Election Results / Election Results by Precinct Layout and Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/ea85f4b5-0b95-41b8-86ee-f1e6d16fc409/resource/6132082a-f9bb-4f37-8b1c-f435354eb02b/download/results-by-precinct-layout-and-data-dictionary.xlsx"
+        },
+        {
+            "name": "Allegheny County Election Results / Election Summary Layout and Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/ea85f4b5-0b95-41b8-86ee-f1e6d16fc409/resource/62e8f28b-164d-40ac-8bc3-9948d5849357/download/election-summary-layout-and-data-dictionary.xlsx"
+        },
+        {
+            "name": "State of Aging in Allegheny County Survey / State of Aging Survey Landing Page",
+            "web": "http://ucsur.pitt.edu/center-reports/november-2014-state-aging-allegheny-county/"
+        },
+        {
+            "name": "State of Aging in Allegheny County Survey / Survey results",
+            "web": "https://data.wprdc.org/dataset/33891263-235f-4c6c-af8a-c79b0114a9f9/resource/c29c46fe-5bf7-431a-9c1c-a9e2e4e81eff/download/ucsur-soa-data-for-distribution---2015-oct-14.csv"
+        },
+        {
+            "name": "State of Aging in Allegheny County Survey / Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/33891263-235f-4c6c-af8a-c79b0114a9f9/resource/d9c54000-dfd8-4d90-b490-b6a9bd423285/download/datadictionary.csv"
+        },
+        {
+            "name": "State of Aging in Allegheny County Survey / Codebook",
+            "web": "https://data.wprdc.org/dataset/33891263-235f-4c6c-af8a-c79b0114a9f9/resource/9f83585c-6b85-4a49-a559-343141badd17/download/codebook.xlsx"
+        },
+        {
+            "name": "Allegheny County Kane Regional Center Census / Kane Census",
+            "web": "https://data.wprdc.org/dataset/db327693-d758-431e-9f59-a906bdef46b3/resource/686dce10-a646-4834-a49c-bbc92c51f395/download/kane-census.csv"
+        },
+        {
+            "name": "Allegheny County Kane Regional Center Census / Kane Census Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/db327693-d758-431e-9f59-a906bdef46b3/resource/64ebeeea-babd-478d-a4fc-27975f40d632/download/kanecensusdatadictionary.csv"
+        },
+        {
+            "name": "Play Area Listings / Play Area Listing 2015",
+            "web": "https://data.wprdc.org/dataset/640add54-b0e1-4abb-a232-f5092b243ee0/resource/d917a890-9c8b-4979-96f5-8a4ff9017f2d/download/opendata-pubworks---play-area-listing-2015.xlsx"
+        },
+        {
+            "name": "Play Area Listings / Play Area Listing Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/640add54-b0e1-4abb-a232-f5092b243ee0/resource/42e23e4f-8d45-464f-8b57-23509e0944f3/download/opendata-pubworks---play-area-listing-2015---column-names.xlsx"
+        },
+        {
+            "name": "Play Area Listings / Play Area Listing 2015",
+            "web": "https://data.wprdc.org/dataset/640add54-b0e1-4abb-a232-f5092b243ee0/resource/40097711-aa25-47d9-b0fb-920cace3afa0/download/opendata-pubworks---play-area-listing-2015.csv"
+        },
+        {
+            "name": "Summer Meal Sites / Citiparks Summer Meal Sites 2015",
+            "web": "https://data.wprdc.org/dataset/543ae03d-3ef4-45c7-b766-2ed49338120f/resource/f5282701-4689-4629-9333-06a01989c551/download/opendata-citiparks---summer-meal-sites-2015.xlsx"
+        },
+        {
+            "name": "Summer Meal Sites / Citiparks Summer Meal Sites Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/543ae03d-3ef4-45c7-b766-2ed49338120f/resource/2c57a029-08a3-4a0b-a156-07af2a34a03a/download/opendata-citiparks---summer-meal-sites-2015---column-definitions.xlsx"
+        },
+        {
+            "name": "Summer Meal Sites / Citiparks Summer Meal Sites 2015",
+            "web": "https://data.wprdc.org/dataset/543ae03d-3ef4-45c7-b766-2ed49338120f/resource/f587d617-7afa-4e79-8010-c0d2bdff4c04/download/opendata-citiparks---summer-meal-sites-2015.csv"
+        },
+        {
+            "name": "Operations Green Spaces / Green Spaces Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/cd9ae013-5b93-43d6-8793-bccf10f12c72/resource/488c3ded-8956-4d4b-8659-45406aadb409/download/opendata-pubworks---operations-green-spaces-2015---column-names.xlsx"
+        },
+        {
+            "name": "Operations Green Spaces / Green Spaces 2015",
+            "web": "https://data.wprdc.org/dataset/cd9ae013-5b93-43d6-8793-bccf10f12c72/resource/5cf7163b-f76c-47ef-b48d-a16366ac1835/download/opendata-pubworks---operations-green-spaces-2015.xlsx"
+        },
+        {
+            "name": "Operations Green Spaces / Green Spaces 2015",
+            "web": "https://data.wprdc.org/dataset/cd9ae013-5b93-43d6-8793-bccf10f12c72/resource/b06fa202-ead7-491c-b8f6-2702dd35f8dd/download/opendata-pubworks---operations-green-spaces-2015.csv"
+        },
+        {
+            "name": "Field Listings / Field Listing 2015",
+            "web": "https://data.wprdc.org/dataset/5934b8d1-892f-4fd7-84c1-aa890d3ff529/resource/f9cdb902-d135-4c33-bc09-221f3a3c9c1f/download/opendata-pubworks---field-listing-2015.xlsx"
+        },
+        {
+            "name": "Field Listings / Field Listing Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/5934b8d1-892f-4fd7-84c1-aa890d3ff529/resource/caff3dd6-9f3a-4e6a-9e20-f464308de728/download/opendata-pubworks---field-listing-2015---column-names.xlsx"
+        },
+        {
+            "name": "Field Listings / Field Listing 2015",
+            "web": "https://data.wprdc.org/dataset/5934b8d1-892f-4fd7-84c1-aa890d3ff529/resource/a61b6617-2f06-4745-8731-165139d41667/download/opendata-pubworks---field-listing-2015.csv"
+        },
+        {
+            "name": "Permitted Shelters / Permitted Shelter 2015",
+            "web": "https://data.wprdc.org/dataset/7bc5037e-52fc-476d-b75c-f1629f007493/resource/b05f9c9c-6c3e-496b-81a9-69b46e867047/download/opendata-pubworks---permitted-shelter-2015.xlsx"
+        },
+        {
+            "name": "Permitted Shelters / Permitted Shelter Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/7bc5037e-52fc-476d-b75c-f1629f007493/resource/1f48b0c6-e51b-470e-8ebc-f65027fb5368/download/opendata-pubworks---permitted-shelter-2015---column-names.xlsx"
+        },
+        {
+            "name": "Permitted Shelters / Permitted Shelter 2015",
+            "web": "https://data.wprdc.org/dataset/7bc5037e-52fc-476d-b75c-f1629f007493/resource/f9fcdd7e-0d0f-4efc-a0ca-cd7f36f56632/download/opendata-pubworks---permitted-shelter-2015.csv"
+        },
+        {
+            "name": "2014 Capital Project Budgets / Project Budgets 2015-2020",
+            "web": "https://data.wprdc.org/dataset/6a3f9f95-8104-44a0-bcd7-b0e082d76fc9/resource/aa1e8a5b-18ec-4f6c-86be-02898969fc97/download/opendata-omb---budget-2015.xlsx"
+        },
+        {
+            "name": "2014 Capital Project Budgets / Project Budgets Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/6a3f9f95-8104-44a0-bcd7-b0e082d76fc9/resource/c3aae20d-379b-48fa-8a52-cdd265a80f01/download/opendata-omb---budget-2015-data-dictionary.xlsx"
+        },
+        {
+            "name": "2014 Capital Project Budgets / Project Budgets for 2015 - 202",
+            "web": "https://data.wprdc.org/dataset/6a3f9f95-8104-44a0-bcd7-b0e082d76fc9/resource/69251c39-ce1d-46a1-a8c2-b6223bee8447/download/opendata-omb---budget-2015.csv"
+        },
+        {
+            "name": "2011-2015 City of Pittsburgh Operating Budget / Fiscal Focus Pittsburgh",
+            "web": "https://pittsburghpa.opengov.com/transparency"
+        },
+        {
+            "name": "2011-2015 City of Pittsburgh Operating Budget / Budget 2011-2013",
+            "web": "https://docs.google.com/a/pittsburghpa.gov/spreadsheets/d/1Th4FRVSgS8Wni6Q78CiukceLN33rw5B2pyGLQ4jJatQ/edit#gid=0"
+        },
+        {
+            "name": "PGH SNAP / PGH Snap Website",
+            "web": "http://www.pittsburghpa.gov/dcp/snap/raw_data"
+        },
+        {
+            "name": "PGH SNAP / PGHSNAP - Neighborhood Census Data",
+            "web": "https://data.wprdc.org/dataset/40188e1c-6d2e-4f20-9391-607bd3054949/resource/b7156251-6036-4b68-ad2a-95566c84343e/download/opendata-pghsnap---neighborhood-census-data.xlsx"
+        },
+        {
+            "name": "PGH SNAP / PGHSNAP Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/40188e1c-6d2e-4f20-9391-607bd3054949/resource/ea21607a-64be-4e12-bbf8-2c8e0ad2c83b/download/column-definitions.xls.xlsx"
+        },
+        {
+            "name": "PGH SNAP / Housing 2010",
+            "web": "https://data.wprdc.org/dataset/40188e1c-6d2e-4f20-9391-607bd3054949/resource/94f8eda2-fa77-49a2-9190-3a6ed85fc561/download/housing.xls"
+        },
+        {
+            "name": "PGH SNAP / Employment 2010",
+            "web": "https://data.wprdc.org/dataset/40188e1c-6d2e-4f20-9391-607bd3054949/resource/3ffbb824-1368-45d4-9113-019992c475d7/download/employment.xls"
+        },
+        {
+            "name": "PGH SNAP / Education - Income 2010",
+            "web": "https://data.wprdc.org/dataset/40188e1c-6d2e-4f20-9391-607bd3054949/resource/86fab672-1c6b-48c3-a637-e5827c66ee5c/download/education--income.xls"
+        },
+        {
+            "name": "PGH SNAP / Built Environment Conditions 2010",
+            "web": "https://data.wprdc.org/dataset/40188e1c-6d2e-4f20-9391-607bd3054949/resource/7e033198-5f62-4cd9-b55a-c5540eff9e88/download/built-environment-conditions.xls"
+        },
+        {
+            "name": "PGH SNAP / Transportation 2010",
+            "web": "https://data.wprdc.org/dataset/40188e1c-6d2e-4f20-9391-607bd3054949/resource/cf0617a1-b950-4aa7-a36d-dc9da412ddf7/download/transportation.xls"
+        },
+        {
+            "name": "PGH SNAP / Public Safety 2010",
+            "web": "https://data.wprdc.org/dataset/40188e1c-6d2e-4f20-9391-607bd3054949/resource/bd152875-a14d-421a-8656-cc896a7e9074/download/public-safety.xls"
+        },
+        {
+            "name": "PGH SNAP / Population Density 2010",
+            "web": "https://data.wprdc.org/dataset/40188e1c-6d2e-4f20-9391-607bd3054949/resource/d5573eb6-a647-42b4-8b17-6e4787e48eeb/download/population--density.xls"
+        },
+        {
+            "name": "PGH SNAP / Natural Environment Conditions 2010",
+            "web": "https://data.wprdc.org/dataset/40188e1c-6d2e-4f20-9391-607bd3054949/resource/9c46a88c-8fca-4839-9848-c2b819ecbf0f/download/natural-environment-conditions.xls"
+        },
+        {
+            "name": "PGH SNAP / Land Use (Zoning) 2010",
+            "web": "https://data.wprdc.org/dataset/40188e1c-6d2e-4f20-9391-607bd3054949/resource/3738b143-57f8-4b66-a130-fc5357a0ff4e/download/land-use-zoning.xls"
+        },
+        {
+            "name": "PGH SNAP / Housing 2010",
+            "web": "https://data.wprdc.org/dataset/40188e1c-6d2e-4f20-9391-607bd3054949/resource/9890875b-c1d1-4e64-8fc9-a4a8dc433745/download/housing.csv"
+        },
+        {
+            "name": "PGH SNAP / Employment 2010",
+            "web": "https://data.wprdc.org/dataset/40188e1c-6d2e-4f20-9391-607bd3054949/resource/fd095080-d32c-4669-8b62-c80f4f32723a/download/employment.csv"
+        },
+        {
+            "name": "PGH SNAP / Education - Income 2010",
+            "web": "https://data.wprdc.org/dataset/40188e1c-6d2e-4f20-9391-607bd3054949/resource/f7b19c6c-aa66-419b-b0e1-9998d7ddfcbc/download/education-income.csv"
+        },
+        {
+            "name": "PGH SNAP / Built Environment Conditions 2010",
+            "web": "https://data.wprdc.org/dataset/40188e1c-6d2e-4f20-9391-607bd3054949/resource/61a264ec-a537-42de-91e3-5752d689103d/download/built-enviornment-conditions.csv"
+        },
+        {
+            "name": "PGH SNAP / Transportation 2010",
+            "web": "https://data.wprdc.org/dataset/40188e1c-6d2e-4f20-9391-607bd3054949/resource/5d61b60b-bd25-4c33-8420-e31a9135ec6e/download/transportation.csv"
+        },
+        {
+            "name": "PGH SNAP / Public Safety 2010",
+            "web": "https://data.wprdc.org/dataset/40188e1c-6d2e-4f20-9391-607bd3054949/resource/204f63f4-296f-4f1d-bbdd-946b183fa5a0/download/public-safety.csv"
+        },
+        {
+            "name": "PGH SNAP / Population Density 2010",
+            "web": "https://data.wprdc.org/dataset/40188e1c-6d2e-4f20-9391-607bd3054949/resource/8ac5c768-09ba-43a8-829f-ce4a417d20fb/download/population--density.csv"
+        },
+        {
+            "name": "PGH SNAP / Natural Environment Conditions 2010",
+            "web": "https://data.wprdc.org/dataset/40188e1c-6d2e-4f20-9391-607bd3054949/resource/14501cb9-308d-49ce-8bbb-7933ad703fe1/download/natural-environment-conditions.csv"
+        },
+        {
+            "name": "PGH SNAP / Land Use (Zoning) 2010",
+            "web": "https://data.wprdc.org/dataset/40188e1c-6d2e-4f20-9391-607bd3054949/resource/c2cd7415-b401-4857-8ca5-58ce2ec17c5d/download/land-use-zoning.csv"
+        },
+        {
+            "name": "Municipal Building Energy Usage / Municipal Building Energy Use 2009-2014",
+            "web": "https://data.wprdc.org/dataset/7b8896c5-867d-428d-a2e3-bdb732655846/resource/2fb77af2-f80b-415b-bab6-7358391ae2ff/download/municpal-building-energy-use-2009-2014.xlsx"
+        },
+        {
+            "name": "Municipal Building Energy Usage / Municipal Building Energy Use 2009-2014",
+            "web": "https://data.wprdc.org/dataset/7b8896c5-867d-428d-a2e3-bdb732655846/resource/90e87a5c-0cdd-4534-ab84-0cc523b110f5/download/municpal-building-energy-use-2009-2014.csv"
+        },
+        {
+            "name": "Municipal Building Energy Usage / Municipal Building Energy Use Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/7b8896c5-867d-428d-a2e3-bdb732655846/resource/7fb578c4-e5eb-4ea4-96f2-a3c0dfd517f9/download/municipal-building-energy-use-column-descriptions.xlsx"
+        },
+        {
+            "name": "Municipal Building Energy Usage / Municipal Building Energy Use Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/7b8896c5-867d-428d-a2e3-bdb732655846/resource/28a82cb6-8a8b-4317-8c08-54d9171c8623/download/municipal-building-energy-use-column-descriptions.csv"
+        },
+        {
+            "name": "Allegheny County Housing and Community Environment Inspections / Service Requests",
+            "web": "https://data.wprdc.org/dataset/19beed76-cd72-4fa8-9f8f-c402608ed569/resource/6bf7c881-2164-4212-b714-8bea3f660f57/download/servicerequest.csv"
+        },
+        {
+            "name": "Allegheny County Housing and Community Environment Inspections / Service Request Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/19beed76-cd72-4fa8-9f8f-c402608ed569/resource/bbb8b1bf-e505-48f0-9028-e263528368e2/download/service-requests-data-dictionary.csv"
+        },
+        {
+            "name": "Allegheny County Housing and Community Environment Inspections / Inspections",
+            "web": "https://data.wprdc.org/dataset/19beed76-cd72-4fa8-9f8f-c402608ed569/resource/a39e5edc-0001-404f-b4af-05534e34526f/download/inspection.csv"
+        },
+        {
+            "name": "Allegheny County Housing and Community Environment Inspections / Inspection Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/19beed76-cd72-4fa8-9f8f-c402608ed569/resource/b2413d04-35f6-4892-a2e2-19782088cf54/download/inspection-data-dictionary.csv"
+        },
+        {
+            "name": "Allegheny County Housing and Community Environment Inspections / Violations",
+            "web": "https://data.wprdc.org/dataset/19beed76-cd72-4fa8-9f8f-c402608ed569/resource/f3df0760-54cc-4279-b7c8-a12a60f4f0f6/download/violations.csv"
+        },
+        {
+            "name": "Allegheny County Housing and Community Environment Inspections / Violation Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/19beed76-cd72-4fa8-9f8f-c402608ed569/resource/c66dbc40-9341-4cf7-ba0c-b65a3b7709bb/download/violation-data-dictionary.csv"
+        },
+        {
+            "name": "Allegheny County Food Facilities / Food Facility Inspection Search",
+            "web": "http://webapps.achd.net/Restaurant/"
+        },
+        {
+            "name": "Allegheny County PA Senate Districts / State Senate Districts Webmap",
+            "web": "http://www.arcgis.com/home/webmap/viewer.html?url=http://services1.arcgis.com/vdNDkVykv9vEWFX4/ArcGIS/rest/services/Allegheny_County_Pennsylvania_Senate_Districts/FeatureServer&source=sd"
+        },
+        {
+            "name": "Allegheny County PA House of Representative Districts / PA House of Representatives Webmap",
+            "web": "http://www.arcgis.com/home/webmap/viewer.html?url=http://services1.arcgis.com/vdNDkVykv9vEWFX4/ArcGIS/rest/services/Allegheny_County_Pennsylvania_House_of_Representatives_Districts/FeatureServer&source=sd"
+        },
+        {
+            "name": "Comprehensive Parks List / Comprehensive Parks Listing 2015",
+            "web": "https://data.wprdc.org/dataset/f74ad7d4-f243-4b4d-9f10-3ae3a1b8d76f/resource/b2ff2aca-92cc-422b-ac45-8313ac8c894e/download/comprehensive-parks-listing-2015.csv"
+        },
+        {
+            "name": "Comprehensive Parks List / Comprehensive Parks List Data Dictionary",
+            "web": "https://data.wprdc.org/dataset/f74ad7d4-f243-4b4d-9f10-3ae3a1b8d76f/resource/2a884e67-72d9-4473-8b18-ed58534f0d5d/download/opendata-pubworks---comprehensive-parks-listing-2015---column-names.csv"
+        },
+        {
+            "name": "Public Works - Block Party Summary / Public Works - Block Party Summary",
+            "web": "https://data.wprdc.org/dataset/cfaffd5c-ab5a-42fd-83ae-2411e376ae0c/resource/4ae88ba4-f535-44d7-9a96-08c6f38a34fc/download/opendata-pubworks---block-party-summary-2013-2014---block-party-dataset.csv"
+        },
+        {
+            "name": "New Zoning and Parcel Map Viewer / New Zoning and Parcel Map Viewer",
+            "web": "http://gis.pittsburghpa.gov/zonetest/"
+        },
+        {
+            "name": "Interactive Zoning and Parcel Map / Zoning and Parcel Map",
+            "web": "http://gis.pittsburghpa.gov/zoning/"
+        },
+        {
+            "name": "Pittsburgh Map / Pittsburgh Map",
+            "web": "http://gis.pittsburghpa.gov/map/"
+        },
+        {
+            "name": "Pittsburgh Steps Map / Pittsburgh Steps",
+            "web": "http://gis.pittsburghpa.gov/steps/"
+        }
+    ],
+    "validator_url": "https://goodtables.okfnlabs.org/api/run"
+}
