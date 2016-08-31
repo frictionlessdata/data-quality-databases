@@ -1,0 +1,1546 @@
+HRG Code,HRG Label,Altnagelvin,Antrim,Belfast City,Causeway,Craigavon,Daisy Hill,Downe,Greenpark,Lagan Valley,Lurgan,Mater,Mid Ulster,Royal,South Tyrone,South West Acute,Tyrone County,Ulster,Northern Ireland Average
+AA22C,"Cerebrovascular Accident, Nervous System Infections or Encephalopathy, with CC Score 14+",.,.,.,.,.,452,.,.,.,.,.,.,640,.,.,.,.,546
+AA22D,"Cerebrovascular Accident, Nervous System Infections or Encephalopathy, with CC Score 11-13",546,401,.,.,376,.,.,.,.,.,.,.,436,.,.,.,.,428
+AA22E,"Cerebrovascular Accident, Nervous System Infections or Encephalopathy, with CC Score 8-10",448,401,.,.,376,.,.,.,.,.,339,.,529,.,609,.,364,486
+AA22F,"Cerebrovascular Accident, Nervous System Infections or Encephalopathy, with CC Score 5-7",462,388,.,.,376,291,.,.,370,.,.,.,491,.,514,.,364,450
+AA22G,"Cerebrovascular Accident, Nervous System Infections or Encephalopathy, with CC Score 0-4",458,382,515,495,472,291,.,.,.,.,334,.,433,.,514,.,364,422
+AA23C,Haemorrhagic Cerebrovascular Disorders with CC Score 14+,.,.,.,.,.,344,.,.,.,.,.,.,450,.,.,.,422,393
+AA23D,Haemorrhagic Cerebrovascular Disorders with CC Score 10-13,.,387,.,.,376,.,.,.,929,.,.,.,366,.,.,.,350,407
+AA23E,Haemorrhagic Cerebrovascular Disorders with CC Score 6-9,446,373,.,.,376,291,.,.,370,.,344,.,399,.,561,.,345,391
+AA23F,Haemorrhagic Cerebrovascular Disorders with CC Score 3-5,433,381,.,508,376,291,.,.,370,.,.,.,662,.,656,.,364,480
+AA23G,Haemorrhagic Cerebrovascular Disorders with CC Score 0-2,424,374,532,470,386,330,.,.,.,.,342,.,532,.,.,.,364,433
+AA24C,"Brain Tumours or Cerebral Cysts, with CC Score 11+",.,401,.,.,.,.,.,.,.,.,.,.,.,.,.,.,364,392
+AA24D,"Brain Tumours or Cerebral Cysts, with CC Score 8-10",.,390,515,.,.,.,.,.,.,.,.,.,538,.,.,.,364,418
+AA24E,"Brain Tumours or Cerebral Cysts, with CC Score 6-7",446,380,.,.,376,.,.,.,.,.,340,.,396,.,514,.,364,398
+AA24F,"Brain Tumours or Cerebral Cysts, with CC Score 4-5",446,376,594,.,454,291,.,.,.,.,345,.,427,.,514,.,362,409
+AA24G,"Brain Tumours or Cerebral Cysts, with CC Score 2-3",446,388,550,468,376,291,.,.,370,.,337,.,402,.,514,.,364,406
+AA24H,"Brain Tumours or Cerebral Cysts, with CC Score 0-1",446,390,.,.,515,.,.,.,370,.,351,.,408,.,514,.,364,412
+AA25C,"Cerebral Degenerations or Miscellaneous Disorders of Nervous System, with CC Score 14+",446,401,.,.,.,.,.,.,370,.,.,.,417,.,.,.,.,414
+AA25D,"Cerebral Degenerations or Miscellaneous Disorders of Nervous System, with CC Score 11-13",428,357,.,.,376,.,.,.,.,.,471,.,554,.,514,.,356,424
+AA25E,"Cerebral Degenerations or Miscellaneous Disorders of Nervous System, with CC Score 8-10",437,386,472,.,376,452,.,.,370,.,341,.,421,.,514,.,355,407
+AA25F,"Cerebral Degenerations or Miscellaneous Disorders of Nervous System, with CC Score 5-7",449,377,480,468,376,330,515,.,370,378,344,.,426,440,542,.,352,403
+AA25G,"Cerebral Degenerations or Miscellaneous Disorders of Nervous System, with CC Score 0-4",447,382,517,563,413,362,515,.,428,.,358,.,429,.,514,498,354,409
+AA26C,"Muscular, Balance, Cranial or Peripheral Nerve Disorders, Epilepsy or Head Injury, with CC Score 15+",.,401,608,.,387,291,.,.,333,.,.,.,417,.,.,.,364,472
+AA26D,"Muscular, Balance, Cranial or Peripheral Nerve Disorders, Epilepsy or Head Injury, with CC Score 12-14",446,401,483,.,376,291,.,.,721,.,344,.,469,.,.,.,357,435
+AA26E,"Muscular, Balance, Cranial or Peripheral Nerve Disorders, Epilepsy or Head Injury, with CC Score 9-11",436,376,538,.,376,291,515,.,370,.,359,.,384,.,567,.,361,390
+AA26F,"Muscular, Balance, Cranial or Peripheral Nerve Disorders, Epilepsy or Head Injury, with CC Score 6-8",457,402,520,478,394,314,515,.,370,.,379,.,427,440,555,498,361,417
+AA26G,"Muscular, Balance, Cranial or Peripheral Nerve Disorders, Epilepsy or Head Injury, with CC Score 3-5",459,389,561,469,392,330,515,.,370,.,360,.,403,.,539,498,364,403
+AA26H,"Muscular, Balance, Cranial or Peripheral Nerve Disorders, Epilepsy or Head Injury, with CC Score 0-2",446,392,482,500,486,332,515,.,392,.,354,.,388,.,526,498,370,409
+AA27Z,Medical Care of Patients with Alzheimer's Disease,410,365,524,.,584,291,515,.,370,.,340,.,412,.,561,.,356,425
+AA28D,Motor Neuron Disease with CC Score 5-7,416,.,.,.,.,291,.,.,.,.,.,.,.,.,.,.,.,385
+AA28E,Motor Neuron Disease with CC Score 2-4,.,.,.,.,376,.,.,.,.,.,.,.,422,.,.,.,.,411
+AA28F,Motor Neuron Disease with CC Score 0-1,546,.,.,.,.,.,.,.,.,.,.,.,367,.,.,.,364,427
+AA29C,Transient Ischaemic Attack with CC Score 11+,402,359,.,468,376,291,.,.,.,.,.,.,380,.,.,.,336,368
+AA29D,Transient Ischaemic Attack with CC Score 8-10,446,371,.,474,376,291,515,.,.,.,344,.,500,.,585,.,351,437
+AA29E,Transient Ischaemic Attack with CC Score 5-7,442,384,.,468,376,385,568,.,362,.,367,.,504,.,609,.,352,422
+AA29F,Transient Ischaemic Attack with CC Score 0-4,436,376,472,469,419,331,515,.,370,.,351,.,479,.,612,.,344,406
+AA30C,"Medical Care of Patients with Multiple Sclerosis, with CC Score 8+",.,.,.,.,376,.,.,.,.,.,.,.,.,.,.,.,.,376
+AA30D,"Medical Care of Patients with Multiple Sclerosis, with CC Score 5-7",446,.,.,468,.,.,.,.,370,.,.,.,.,.,.,.,.,432
+AA30E,"Medical Care of Patients with Multiple Sclerosis, with CC Score 2-4",446,.,.,468,376,.,.,.,.,.,.,.,369,.,.,.,364,384
+AA30F,"Medical Care of Patients with Multiple Sclerosis, with CC Score 0-1",446,394,.,.,376,322,.,.,.,.,.,.,388,.,585,.,364,399
+AA31C,"Headache, Migraine or Cerebrospinal Fluid Leak, with CC Score 11+",446,398,.,.,376,.,.,.,.,.,.,.,505,.,.,.,364,414
+AA31D,"Headache, Migraine or Cerebrospinal Fluid Leak, with CC Score 7-10",439,394,515,468,376,.,.,.,370,.,338,.,423,.,514,498,356,402
+AA31E,"Headache, Migraine or Cerebrospinal Fluid Leak, with CC Score 0-6",448,405,585,499,459,361,515,.,370,378,340,.,401,.,533,498,382,416
+AA33C,"Conventional EEG, EMG or Nerve Conduction Studies, 19 years and over",402,.,.,.,.,.,.,.,.,.,473,.,525,.,.,.,.,512
+AA33D,"Conventional EEG, EMG or Nerve Conduction Studies, 18 years and under",745,.,.,.,.,.,.,.,.,.,.,.,871,.,.,.,.,860
+AA35A,Stroke with CC Score 16+,.,359,.,.,.,.,.,.,.,.,.,.,394,440,.,.,364,378
+AA35B,Stroke with CC Score 13-15,446,373,682,.,.,322,.,.,.,378,392,.,468,.,.,.,351,431
+AA35C,Stroke with CC Score 10-12,.,372,.,.,376,.,515,.,.,378,328,.,518,.,555,.,350,438
+AA35D,Stroke with CC Score 7-9,438,372,515,469,403,291,.,.,370,378,356,.,485,440,561,.,347,417
+AA35E,Stroke with CC Score 4-6,435,377,.,469,378,354,.,.,370,.,349,.,484,440,634,.,353,412
+AA35F,Stroke with CC Score 0-3,430,374,464,469,376,336,515,.,370,.,349,.,466,.,567,.,356,403
+AA50C,"Very Complex Intracranial Procedures, 19 years and over, with CC Score 0-5",.,.,.,.,.,.,.,.,.,.,.,.,"7,513",.,.,.,.,"7,513"
+AA51C,"Complex Intracranial Procedures, 19 years and over, with CC Score 4-7",.,.,.,.,.,.,.,.,.,.,.,.,"7,049",.,.,.,.,"7,049"
+AA51D,"Complex Intracranial Procedures, 19 years and over, with CC Score 0-3",.,.,.,.,.,.,.,.,.,.,.,.,"6,857",.,.,.,.,"6,857"
+AA51F,"Complex Intracranial Procedures, 18 years and under, with CC Score 4-7",.,.,.,.,.,.,.,.,.,.,.,.,"7,435",.,.,.,.,"7,435"
+AA51G,"Complex Intracranial Procedures, 18 years and under, with CC Score 0-3",.,.,.,.,.,.,.,.,.,.,.,.,"12,810",.,.,.,.,"12,810"
+AA52A,"Very Major Intracranial Procedures, 19 years and over, with CC Score 12+",.,.,.,.,.,.,.,.,.,.,.,.,"4,809",.,.,.,.,"4,809"
+AA52B,"Very Major Intracranial Procedures, 19 years and over, with CC Score 8-11",.,.,.,.,.,.,.,.,.,.,.,.,"3,353",.,.,.,.,"3,353"
+AA52C,"Very Major Intracranial Procedures, 19 years and over, with CC Score 4-7",.,.,.,.,.,.,.,.,.,.,.,.,"4,226",.,.,.,.,"4,226"
+AA52D,"Very Major Intracranial Procedures, 19 years and over, with CC Score 0-3",.,.,.,.,.,.,.,.,.,.,.,.,"4,167",.,.,.,.,"4,167"
+AA52F,"Very Major Intracranial Procedures, 18 years and under, with CC Score 4-7",.,.,.,.,.,.,.,.,.,.,.,.,"6,925",.,.,.,.,"6,925"
+AA52G,"Very Major Intracranial Procedures, 18 years and under, with CC Score 0-3",.,.,.,.,.,.,.,.,.,.,.,.,"6,051",.,.,.,.,"6,051"
+AA53B,"Major Intracranial Procedures, 19 years and over, with CC Score 8-11",.,.,.,.,.,.,.,.,.,.,.,.,"6,377",.,.,.,.,"6,377"
+AA53C,"Major Intracranial Procedures, 19 years and over, with CC Score 4-7",.,.,.,.,.,.,.,.,.,.,.,.,"5,301",.,.,.,.,"5,301"
+AA53D,"Major Intracranial Procedures, 19 years and over, with CC Score 0-3",.,.,.,.,.,.,.,.,.,.,.,.,"4,577",.,.,.,.,"4,577"
+AA53G,"Major Intracranial Procedures, 18 years and under, with CC Score 0-3",.,.,.,.,.,.,.,.,.,.,.,.,"5,060",.,.,.,.,"5,060"
+AA55A,"Minor Intracranial Procedures, 19 years and over, with CC Score 4+",446,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,446
+AA55C,"Minor Intracranial Procedures, 19 years and over, with CC Score 0-1",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,547","1,547"
+AA56A,"Minor or Intermediate, Intracranial Procedures, 18 years and under, with CC Score 4+",.,.,.,.,.,.,.,.,.,.,.,.,"8,550",.,.,.,.,"8,550"
+AA56B,"Minor or Intermediate, Intracranial Procedures, 18 years and under, with CC Score 0-3",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,981","1,981"
+AA60A,"Insertion of Neurostimulator for Treatment of Neurological Conditions, 19 years and over",.,.,.,.,.,.,.,.,.,.,.,.,"12,907",.,.,.,.,"12,907"
+AA80Z,Complex Long Term EEG Monitoring,.,.,.,.,691,.,.,.,.,.,.,.,"1,010",.,.,.,.,745
+AA81Z,Standard Long Term EEG Monitoring,.,.,"1,269",.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,269"
+BZ24E,"Non-Surgical Ophthalmology without Interventions, with CC Score 5+",.,401,.,.,439,.,.,.,370,.,.,.,.,.,514,.,.,425
+BZ24F,"Non-Surgical Ophthalmology without Interventions, with CC Score 2-4",444,370,.,468,433,291,.,.,370,.,338,.,396,.,585,.,355,396
+BZ24G,"Non-Surgical Ophthalmology without Interventions, with CC Score 0-1",449,394,609,508,612,461,515,.,.,.,351,.,465,.,636,498,376,460
+BZ30B,"Complex, Cataract or Lens Procedures, with CC Score 0-1",.,.,.,.,.,.,.,.,.,.,.,.,"1,793",.,.,.,.,"1,793"
+BZ31B,"Very Major, Cataract or Lens Procedures, with CC Score 0-1",.,.,.,.,.,.,.,.,.,.,.,.,"1,380",.,.,.,.,"1,380"
+BZ32A,"Intermediate, Cataract or Lens Procedures, with CC Score 2+",.,.,.,.,.,.,.,.,.,.,.,.,"1,946",.,.,.,.,"1,946"
+BZ33Z,"Minor, Cataract or Lens Procedures",769,.,.,.,.,.,.,.,.,.,.,.,477,.,.,.,.,574
+BZ34C,"Phacoemulsification Cataract Extraction and Lens Implant, with CC Score 0-1","1,097",.,.,.,.,.,.,.,.,.,959,.,"1,656",.,.,.,.,"1,477"
+BZ42A,"Very Major Oculoplastics Procedures, 19 years and over, with CC Score 2+",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,666","1,666"
+BZ42B,"Very Major Oculoplastics Procedures, 19 years and over, with CC Score 0-1","1,426",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,426"
+BZ44B,"Major Oculoplastics Procedures, 19 years and over, with CC Score 0-1","1,426",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,426"
+BZ44C,"Major Oculoplastics Procedures, 18 years and under","1,709",.,.,.,.,.,.,.,.,.,.,.,.,.,"1,573",.,"1,587","1,623"
+BZ45A,"Intermediate Oculoplastics Procedures, 19 years and over, with CC Score 2+","1,097",.,.,.,"1,000",.,.,.,.,.,.,.,.,.,.,.,.,"1,049"
+BZ45B,"Intermediate Oculoplastics Procedures, 19 years and over, with CC Score 0-1","1,291",367,.,.,.,.,.,.,.,.,.,.,"2,575",.,.,.,"1,194","1,626"
+BZ45C,"Intermediate Oculoplastics Procedures, between 4 and 18 years","1,709",367,.,.,.,.,.,.,.,.,.,.,854,.,.,.,.,977
+BZ45D,"Intermediate Oculoplastics Procedures, 3 years and under","1,709",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,321","1,418"
+BZ51B,"Complex, Orbit or Lacrimal Procedures, 19 years and over, with CC Score 0",.,.,.,.,.,.,.,.,.,.,.,.,"1,778",.,.,.,.,"1,778"
+BZ52Z,"Very Complex or Complex, Orbit or Lacrimal Procedures, 18 years and under","5,112",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"5,112"
+BZ54A,"Major, Orbit or Lacrimal Procedures, 19 years and over, with CC Score 1+",.,.,.,.,.,.,.,.,.,.,.,.,"1,747",.,.,.,.,"1,747"
+BZ54B,"Major, Orbit or Lacrimal Procedures, 19 years and over, with CC Score 0",.,.,.,.,.,.,.,.,.,.,.,.,"2,615",.,.,.,.,"2,615"
+BZ60A,"Very Complex, Cornea or Sclera Procedures, with CC Score 2+",446,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,446
+BZ60B,"Very Complex, Cornea or Sclera Procedures, with CC Score 0-1",.,.,.,.,.,.,.,.,.,.,.,.,"2,092",.,.,.,.,"2,092"
+BZ61B,"Complex, Cornea or Sclera Procedures, with CC Score 0-1",.,.,.,.,.,.,.,.,.,.,.,.,"2,234",.,.,.,.,"2,234"
+BZ62A,"Very Major, Cornea or Sclera Procedures, with CC Score 1+",.,.,.,.,.,.,.,.,.,.,.,.,"2,821",.,.,.,.,"2,821"
+BZ62B,"Very Major, Cornea or Sclera Procedures, with CC Score 0","1,061",.,.,.,.,.,.,.,.,.,.,.,"3,177",.,.,.,.,"1,590"
+BZ64A,"Intermediate, Cornea or Sclera Procedures, with CC Score 1+",988,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,988
+BZ64B,"Intermediate, Cornea or Sclera Procedures, with CC Score 0","1,097",.,.,.,.,.,.,.,.,.,.,.,"1,974",.,.,.,.,"1,682"
+BZ72A,"Major Ocular Motility Procedures, 19 years and over",.,.,.,.,.,.,.,.,.,.,.,.,"1,566",.,.,.,.,"1,566"
+BZ80B,"Very Complex Vitreous Retinal Procedures, 19 years and over, with CC Score 0-1",.,.,.,.,.,.,.,.,.,.,.,.,"1,333",.,.,.,.,"1,333"
+BZ81B,"Complex Vitreous Retinal Procedures, 19 years and over, with CC Score 0-1",659,.,.,.,.,.,.,.,.,.,.,.,"2,127",.,.,.,.,"2,005"
+BZ82Z,"Very Complex or Complex, Vitreous Retinal Procedures, 18 years and under",.,.,.,.,.,.,.,.,.,.,.,.,"3,749",.,.,.,.,"3,749"
+BZ83A,"Very Major Vitreous Retinal Procedures, 19 years and over, with CC Score 2+",.,.,.,.,.,.,.,.,.,.,.,.,"2,138",.,.,.,.,"2,138"
+BZ83B,"Very Major Vitreous Retinal Procedures, 19 years and over, with CC Score 0-1",.,.,.,.,.,.,.,.,.,.,.,.,"1,742",.,.,.,.,"1,742"
+BZ84B,"Major Vitreous Retinal Procedures, 19 years and over, with CC Score 0-1",.,.,.,.,.,.,.,.,.,.,.,.,"2,199",.,.,.,.,"2,199"
+BZ85Z,"Very Major or Major, Vitreous Retinal Procedures, 18 years and under",.,.,.,.,.,.,.,.,.,.,.,.,"4,422",.,.,.,.,"4,422"
+BZ86B,"Intermediate Vitreous Retinal Procedures, 19 years and over, with CC Score 0-1",659,.,.,.,.,.,.,.,.,.,.,.,"1,276",.,.,.,.,"1,139"
+BZ87B,"Minor Vitreous Retinal Procedures, between 4 and 18 years",.,.,.,.,.,.,.,.,.,.,.,.,"2,385",.,.,.,.,"2,385"
+BZ88A,"Retinal Tomography, 19 years and over","1,097",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,097"
+BZ92B,"Very Major, Glaucoma or Iris Procedures, with CC Score 0-1",878,.,.,.,.,.,.,.,.,.,.,.,"1,773",.,.,.,.,"1,549"
+BZ93B,"Major, Glaucoma or Iris Procedures, with CC Score 0-1",.,.,.,.,.,.,.,.,.,.,.,.,"1,431",.,.,.,.,"1,431"
+BZ94A,"Intermediate, Glaucoma or Iris Procedures, with CC Score 1+",.,.,.,.,.,.,.,.,.,.,.,.,"1,189",.,.,.,.,"1,189"
+BZ94B,"Intermediate, Glaucoma or Iris Procedures, with CC Score 0",.,.,.,.,.,.,.,.,.,.,.,.,"1,117",.,.,.,.,"1,117"
+CA03B,Major Neck Procedures with CC Score 0-1,.,464,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,464
+CA05A,"Minor Neck Procedures, 19 years and over","3,892",401,.,634,.,.,.,.,.,.,"1,528",.,870,.,.,.,"1,446","1,435"
+CA05B,"Minor Neck Procedures, 18 years and under","2,467",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,467"
+CA10A,"Septorhinoplasty, 19 years and over",.,.,.,.,"2,870",.,.,.,.,.,.,.,.,.,.,.,.,"2,870"
+CA11A,"Septoplasty, 19 years and over",.,.,.,.,"2,696",.,.,.,.,.,.,.,.,.,.,.,.,"2,696"
+CA11B,"Septoplasty, 18 years and under",.,.,.,.,.,.,.,.,.,.,.,.,"2,162",.,.,.,.,"2,162"
+CA12Z,Major Treatment of Epistaxis,"1,810",464,.,.,"1,532",.,.,.,.,.,.,.,"2,282",.,.,.,.,"1,329"
+CA13A,"Minor Treatment of Epistaxis, 19 years and over","1,674",546,.,.,792,.,.,.,.,.,.,.,"1,966",.,.,.,"1,603","1,208"
+CA13B,"Minor Treatment of Epistaxis, 18 years and under","1,810",464,.,.,689,.,.,.,.,.,.,.,"1,659",.,.,.,.,"1,286"
+CA15Z,"Excision or Biopsy, of Lesion of Internal Nose",.,.,.,.,376,.,.,.,.,.,.,.,.,.,.,.,.,376
+CA16Z,"Excision or Biopsy, of Lesion of External Nose","2,126",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,126"
+CA22Z,Major Nose Procedures,.,.,.,.,"2,550",.,.,.,.,.,.,.,.,.,.,.,"2,060","2,256"
+CA23Z,Intermediate Nose Procedures,"2,126",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,126"
+CA24A,"Minor Nose Procedures, 19 years and over","2,427",464,.,.,931,.,.,.,.,.,.,.,"1,108",.,.,.,"1,272","1,134"
+CA24B,"Minor Nose Procedures, 18 years and under","2,126",.,.,"1,047",.,.,.,.,.,.,.,.,.,.,.,.,"1,289","1,408"
+CA25A,"Minimal Nose Procedures, 19 years and over","2,056",464,.,.,403,.,.,.,.,.,.,.,"1,035",.,.,.,.,"1,477"
+CA25B,"Minimal Nose Procedures, 18 years and under","1,913",671,.,.,813,.,.,.,.,.,.,.,"1,056",.,.,.,.,"1,085"
+CA28Z,Intermediate Sinus Procedures,.,464,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,464
+CA29Z,Minor Sinus Procedures,.,464,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,577","1,021"
+CA31Z,"Simple or Cortical, Mastoid Procedures",.,.,.,.,.,.,.,.,.,.,.,.,"3,692",.,.,.,.,"3,692"
+CA32B,"Tympanoplasty, 18 years and under",.,"18,850",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"18,850"
+CA34A,"Excision or Biopsy, of Lesion of External Ear, 19 years and over",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,272","1,272"
+CA35A,"Insertion of Grommets, 19 years and over",.,.,.,.,.,.,.,.,.,.,.,.,"1,093",.,.,.,.,"1,093"
+CA36A,"Clearance of External Auditory Canal, 19 years and over",.,.,.,.,.,.,.,.,.,.,.,.,"1,312",.,.,.,.,"1,312"
+CA36B,"Clearance of External Auditory Canal, 18 years and under","1,810",967,.,.,779,.,.,.,.,.,.,.,.,.,.,.,.,"1,111"
+CA52B,"Major Ear Procedures, 18 years and under",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,611","2,611"
+CA53A,"Intermediate Ear Procedures, 19 years and over",.,.,.,.,"1,280",.,.,.,.,.,.,.,.,.,.,.,.,"1,280"
+CA54A,"Minor Ear Procedures, 19 years and over",.,432,.,.,"1,067",.,.,.,.,.,.,.,"1,231",.,.,.,"1,479","1,187"
+CA54B,"Minor Ear Procedures, 18 years and under","1,810","1,011",.,.,"1,067",.,.,.,.,.,.,.,.,.,.,.,"1,628","1,557"
+CA60A,"Tonsillectomy, 19 years and over","1,128",.,.,.,"1,232",.,.,.,.,.,.,.,"1,437",.,.,.,.,"1,277"
+CA60B,"Tonsillectomy, 18 years and under",745,511,.,.,"1,232",.,.,.,.,.,.,.,.,.,.,.,.,956
+CA61Z,Adenotonsillectomy,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,446","1,446"
+CA62Z,Adenoidectomy,.,.,.,.,757,.,.,.,.,.,.,.,"1,215",.,.,.,.,986
+CA63Z,Tracheostomy,.,.,935,.,.,.,.,.,.,.,.,.,"2,224",.,.,.,.,"1,708"
+CA65Z,Frenotomy or Frenectomy,"2,126",558,.,.,.,.,.,.,.,.,.,.,.,.,.,.,672,"1,552"
+CA66A,"Excision or Biopsy, of Lesion of Mouth, 19 years and over",.,.,.,.,"1,455",.,.,.,.,.,.,.,.,.,.,.,"1,194","1,324"
+CA68A,"Therapeutic Endoscopic, Larynx or Pharynx Procedures, 19 years and over",.,"1,011",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,011"
+CA69A,"Diagnostic, Laryngoscopy or Pharyngoscopy, 19 years and over","1,456",486,.,.,798,.,.,.,.,.,623,.,"1,040",.,.,.,.,850
+CA69B,"Diagnostic, Laryngoscopy or Pharyngoscopy, between 2 and 18 years",.,.,.,.,"1,009",.,.,.,.,.,.,.,.,.,.,.,"1,358","1,125"
+CA69C,"Diagnostic, Laryngoscopy or Pharyngoscopy, 1 year and under",.,.,.,.,902,.,.,.,.,.,.,.,"1,523",.,.,.,.,"1,213"
+CA70Z,Diagnostic Examination of Upper Respiratory Tract and Upper Gastrointestinal Tract,.,.,.,.,.,.,.,.,.,.,.,.,"1,114",.,.,.,.,"1,114"
+CA71A,"Diagnostic Nasopharyngoscopy, 19 years and over","1,810",464,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,362"
+CA81C,"Complex, Mouth or Throat Procedures, between 2 and 18 years",.,.,.,.,834,.,.,.,.,.,.,.,.,.,.,.,.,834
+CA82A,"Very Major, Mouth or Throat Procedures, 19 years and over, with CC Score 2+",.,464,.,.,.,"1,390",.,.,.,.,.,.,.,.,.,.,.,927
+CA83A,"Major, Mouth or Throat Procedures, 19 years and over, with CC Score 2+","1,520",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,520"
+CA83B,"Major, Mouth or Throat Procedures, 19 years and over, with CC Score 0-1",.,464,.,.,"1,513",.,.,.,.,.,.,.,"2,159",.,.,.,"1,446","1,454"
+CA83C,"Major, Mouth or Throat Procedures, 18 years and under","1,810","1,287",.,.,"2,243",.,.,.,.,.,.,.,"2,051",.,.,.,"1,446","1,971"
+CA84B,"Intermediate, Mouth or Throat Procedures, 19 years and over, with CC Score 0-1","1,810",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,810"
+CA85A,"Minor, Mouth or Throat Procedures, 19 years and over","1,953",752,.,.,408,.,.,.,.,.,.,.,617,.,.,.,"1,398",954
+CA85B,"Minor, Mouth or Throat Procedures, between 2 and 18 years","1,850",464,.,.,416,.,.,.,.,.,.,.,642,.,.,.,"1,458","1,025"
+CA85C,"Minor, Mouth or Throat Procedures, 1 year and under",.,.,.,.,.,.,.,.,.,.,.,.,"1,265",.,.,.,.,"1,265"
+CA86A,"Minimal, Mouth or Throat Procedures, 19 years and over","1,731",454,.,.,"1,000",.,.,.,"1,115",.,798,.,"1,893",.,.,.,"1,522","1,464"
+CA86B,"Minimal, Mouth or Throat Procedures, between 2 and 18 years","2,111",752,.,.,931,.,.,.,.,.,.,.,.,.,.,.,"1,459","1,609"
+CA86C,"Minimal, Mouth or Throat Procedures, 1 year and under","1,849",.,.,.,.,.,.,.,.,.,.,.,"1,579",.,.,.,"1,461","1,545"
+CA92A,Very Major Maxillofacial Procedures with CC Score 1+,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,605","2,605"
+CA93A,"Major Maxillofacial Procedures, 19 years and over, with CC Score 1+","5,872",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"5,872"
+CA93B,"Major Maxillofacial Procedures, 19 years and over, with CC Score 0",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,052","2,052"
+CA95Z,Minor Maxillofacial Procedures,"5,872",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"5,872"
+CA96Z,"Reduction or Fixation, of Jaw","4,636",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,103","3,506"
+CA97Z,"Reduction or Fixation, of Cheekbone","5,872",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,545","3,153"
+CA98Z,Reduction of Fracture of Nasal Bone,"1,501",.,.,.,670,.,.,.,.,.,.,.,"1,164",.,.,.,"1,102","1,080"
+CB01D,"Malignant, Ear, Nose, Mouth, Throat or Neck Disorders, without Interventions, with CC Score 9+",.,.,.,.,376,.,.,.,.,.,.,.,.,.,.,.,.,376
+CB01E,"Malignant, Ear, Nose, Mouth, Throat or Neck Disorders, without Interventions, with CC Score 5-8",446,401,.,.,.,.,.,.,.,.,.,.,.,.,.,.,364,395
+CB01F,"Malignant, Ear, Nose, Mouth, Throat or Neck Disorders, without Interventions, with CC Score 0-4",877,417,600,.,376,.,.,.,.,.,.,.,428,.,.,.,735,555
+CB02A,"Non-Malignant, Ear, Nose, Mouth, Throat or Neck Disorders, with Interventions, with CC Score 5+",.,444,544,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,076",688
+CB02B,"Non-Malignant, Ear, Nose, Mouth, Throat or Neck Disorders, with Interventions, with CC Score 1-4","1,713",444,.,.,921,.,.,.,929,.,355,.,.,.,.,.,"1,254","1,119"
+CB02C,"Non-Malignant, Ear, Nose, Mouth, Throat or Neck Disorders, with Interventions, with CC Score 0","2,042",367,.,.,"1,247","2,009",.,.,.,.,.,.,"2,692",.,.,.,"1,217","1,599"
+CB02D,"Non-Malignant, Ear, Nose, Mouth, Throat or Neck Disorders, without Interventions, with CC Score 5+",467,382,513,506,440,357,.,.,401,.,341,.,387,440,550,498,362,400
+CB02E,"Non-Malignant, Ear, Nose, Mouth, Throat or Neck Disorders, without Interventions, with CC Score 1-4",464,390,522,508,556,355,586,.,370,378,295,.,387,440,598,498,386,421
+CB02F,"Non-Malignant, Ear, Nose, Mouth, Throat or Neck Disorders, without Interventions, with CC Score 0",527,400,429,502,713,389,515,.,420,.,260,.,321,.,611,498,450,411
+CD02A,"Intermediate Dental Procedures, 19 years and over",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,814","1,814"
+CD02B,"Intermediate Dental Procedures, 18 years and under",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,102","1,102"
+CD03A,"Minor Dental Procedures, 19 years and over",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,419","1,419"
+CD03B,"Minor Dental Procedures, 18 years and under",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,603","1,603"
+CD04A,"Major Surgical Removal of Tooth, 19 years and over","2,750",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,340","2,397"
+CD05A,"Surgical Removal of Tooth, 19 years and over","2,750",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,131","1,670"
+CD05B,"Surgical Removal of Tooth, 18 years and under","2,750",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,261","2,005"
+CD06A,"Extraction of Multiple Teeth, 19 years and over","2,750",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,498","2,124"
+CD06B,"Extraction of Multiple Teeth, 18 years and under","1,748",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,498","1,598"
+CD07A,"Minor Extraction of Tooth, 19 years and over",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,102","1,102"
+DZ02K,"Complex Thoracic Procedures, 19 years and over, with CC Score 0-2",.,.,.,.,.,.,.,.,.,.,.,.,"7,909",.,.,.,.,"7,909"
+DZ09K,"Pulmonary Embolus with Interventions, with CC Score 0-8",.,345,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,345
+DZ09L,"Pulmonary Embolus without Interventions, with CC Score 12+",.,401,.,.,376,.,515,.,.,378,.,.,.,.,.,.,364,408
+DZ09M,"Pulmonary Embolus without Interventions, with CC Score 9-11",.,348,.,.,403,291,515,.,.,.,.,.,682,.,514,.,364,435
+DZ09N,"Pulmonary Embolus without Interventions, with CC Score 6-8",446,378,474,468,376,291,.,.,370,.,372,.,393,.,514,.,364,390
+DZ09P,"Pulmonary Embolus without Interventions, with CC Score 3-5",458,379,556,470,376,291,515,.,370,.,343,.,388,.,514,498,364,394
+DZ09Q,"Pulmonary Embolus without Interventions, with CC Score 0-2",446,374,543,468,376,291,.,.,370,.,343,.,374,.,514,498,366,382
+DZ10L,"Lung Abscess-Empyema without Interventions, with CC Score 9+",.,447,.,.,376,.,.,.,.,.,.,.,.,.,.,.,364,416
+DZ10M,"Lung Abscess-Empyema without Interventions, with CC Score 5-8",.,.,.,.,376,.,.,.,.,.,.,.,444,.,.,.,364,393
+DZ10N,"Lung Abscess-Empyema without Interventions, with CC Score 0-4",.,.,713,.,376,.,.,.,.,.,336,.,391,.,514,.,.,416
+DZ11N,"Lobar, Atypical or Viral Pneumonia, with Single Intervention, with CC Score 13+",.,351,.,.,376,.,.,.,.,.,402,.,366,.,.,.,.,379
+DZ11P,"Lobar, Atypical or Viral Pneumonia, with Single Intervention, with CC Score 8-12",.,401,.,468,.,.,.,.,370,.,460,.,367,.,.,.,364,392
+DZ11Q,"Lobar, Atypical or Viral Pneumonia, with Single Intervention, with CC Score 0-7",446,372,.,468,376,.,.,.,370,.,417,.,427,.,.,.,364,401
+DZ11R,"Lobar, Atypical or Viral Pneumonia, without Interventions, with CC Score 14+",446,389,515,.,376,452,.,.,.,.,330,.,388,.,.,.,364,387
+DZ11S,"Lobar, Atypical or Viral Pneumonia, without Interventions, with CC Score 10-13",448,386,568,468,376,420,515,.,370,.,358,.,381,.,514,.,363,401
+DZ11T,"Lobar, Atypical or Viral Pneumonia, without Interventions, with CC Score 7-9",448,381,498,468,383,388,515,.,370,.,363,.,382,.,527,.,363,391
+DZ11U,"Lobar, Atypical or Viral Pneumonia, without Interventions, with CC Score 4-6",444,381,493,469,376,378,515,.,370,378,351,.,384,.,524,498,364,391
+DZ11V,"Lobar, Atypical or Viral Pneumonia, without Interventions, with CC Score 0-3",448,380,491,463,389,310,533,.,378,.,347,.,384,.,534,.,365,389
+DZ12C,Bronchiectasis with CC Score 8+,446,371,682,474,376,.,.,.,370,.,374,.,399,.,514,.,364,404
+DZ12D,Bronchiectasis with CC Score 5-7,446,369,458,468,376,.,.,.,370,.,351,.,385,.,514,.,360,411
+DZ12E,Bronchiectasis with CC Score 2-4,446,381,493,468,376,291,.,.,370,.,351,.,401,.,522,.,364,413
+DZ12F,Bronchiectasis with CC Score 0-1,446,384,481,468,.,291,515,.,370,.,346,.,396,.,514,.,573,429
+DZ14G,"Pulmonary, Pleural or Other Tuberculosis, without Interventions, with CC Score 7+",.,.,.,468,376,.,.,.,.,.,.,.,.,.,.,.,.,422
+DZ14H,"Pulmonary, Pleural or Other Tuberculosis, without Interventions, with CC Score 3-6",.,.,.,468,.,.,.,.,.,.,.,.,624,.,.,.,.,572
+DZ14J,"Pulmonary, Pleural or Other Tuberculosis, without Interventions, with CC Score 0-2",.,373,445,.,376,.,.,.,.,.,344,.,432,.,.,.,364,410
+DZ15M,Asthma with Interventions,446,.,445,.,.,.,.,.,.,.,449,.,.,.,.,.,.,447
+DZ15N,"Asthma without Interventions, with CC Score 9+",446,401,519,.,376,.,.,.,370,.,.,.,.,.,514,.,364,405
+DZ15P,"Asthma without Interventions, with CC Score 6-8",446,384,498,468,376,291,.,.,370,.,361,.,380,.,514,.,380,411
+DZ15Q,"Asthma without Interventions, with CC Score 3-5",461,378,487,470,376,352,515,.,370,.,353,.,392,.,514,.,365,396
+DZ15R,"Asthma without Interventions, with CC Score 0-2",448,372,457,468,385,319,515,.,370,.,345,.,367,.,521,.,369,384
+DZ16N,"Pleural Effusion with Single Intervention, with CC Score 0-5",446,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,446
+DZ16P,"Pleural Effusion without Interventions, with CC Score 11+",446,374,540,.,376,.,.,.,.,.,.,.,.,.,.,.,364,476
+DZ16Q,"Pleural Effusion without Interventions, with CC Score 6-10",446,381,547,469,381,.,.,.,370,.,391,.,383,.,514,.,364,405
+DZ16R,"Pleural Effusion without Interventions, with CC Score 0-5",463,381,460,484,414,307,.,.,370,.,345,.,387,.,532,498,368,402
+DZ17N,"Respiratory Neoplasms with Multiple Interventions, with CC Score 0-5",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,921,921
+DZ17R,"Respiratory Neoplasms with Single Intervention, with CC Score 0-5",.,.,.,"1,033",.,.,.,.,.,.,.,.,"1,284",.,.,.,921,"1,079"
+DZ17S,"Respiratory Neoplasms without Interventions, with CC Score 13+",.,401,430,.,376,.,.,.,.,.,.,.,366,.,.,.,.,384
+DZ17T,"Respiratory Neoplasms without Interventions, with CC Score 8-12",441,378,510,468,376,340,.,.,370,.,380,.,393,.,514,.,364,397
+DZ17U,"Respiratory Neoplasms without Interventions, with CC Score 4-7",443,384,478,468,378,291,.,.,370,.,353,.,397,.,514,.,367,403
+DZ17V,"Respiratory Neoplasms without Interventions, with CC Score 0-3",452,374,623,468,484,291,.,.,370,.,360,.,391,.,514,.,364,425
+DZ18D,"Sleep Disorders Affecting Breathing, with Interventions, with CC Score 4+",446,.,.,.,.,.,.,.,.,.,732,.,366,.,.,.,.,477
+DZ18F,"Sleep Disorders Affecting Breathing, without Interventions, with CC Score 4+",.,.,.,.,376,.,.,.,.,.,471,.,614,.,.,.,364,410
+DZ18G,"Sleep Disorders Affecting Breathing, without Interventions, with CC Score 0-3",.,.,.,.,376,.,.,.,.,.,362,.,366,.,514,.,364,384
+DZ19J,"Other Respiratory Disorders with Single Intervention, with CC Score 5+",.,351,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,351
+DZ19K,"Other Respiratory Disorders with Single Intervention, with CC Score 0-4",.,.,.,946,.,.,.,.,.,.,.,.,366,.,.,.,.,656
+DZ19L,"Other Respiratory Disorders without Interventions, with CC Score 11+",479,376,713,468,376,.,.,.,.,.,335,.,366,.,514,.,364,430
+DZ19M,"Other Respiratory Disorders without Interventions, with CC Score 5-10",463,381,499,469,376,291,515,.,370,.,360,.,395,.,522,498,369,414
+DZ19N,"Other Respiratory Disorders without Interventions, with CC Score 0-4",458,389,480,519,464,428,621,.,370,378,343,.,374,.,533,498,391,421
+DZ20E,"Pulmonary Oedema without Interventions, with CC Score 6+",446,.,586,468,376,.,.,.,545,.,377,.,369,.,514,.,.,423
+DZ20F,"Pulmonary Oedema without Interventions, with CC Score 0-5",491,368,682,468,376,322,.,.,.,.,.,.,382,.,612,498,364,437
+DZ22L,"Unspecified Acute Lower Respiratory Infection with Interventions, with CC Score 0-8",446,351,517,468,.,.,.,.,.,.,.,.,366,.,.,.,364,410
+DZ22M,"Unspecified Acute Lower Respiratory Infection without Interventions, with CC Score 13+",.,401,524,.,376,.,.,.,.,378,344,.,407,.,514,.,364,409
+DZ22N,"Unspecified Acute Lower Respiratory Infection without Interventions, with CC Score 9-12",446,392,501,468,379,412,.,.,370,.,392,.,389,440,514,.,363,403
+DZ22P,"Unspecified Acute Lower Respiratory Infection without Interventions, with CC Score 5-8",446,382,500,468,379,381,515,.,411,.,358,.,384,.,537,498,364,402
+DZ22Q,"Unspecified Acute Lower Respiratory Infection without Interventions, with CC Score 0-4",453,380,506,469,401,347,564,.,370,.,348,.,392,.,544,498,369,406
+DZ23H,Bronchopneumonia with Multiple Interventions,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,364,364
+DZ23J,"Bronchopneumonia with Single Intervention, with CC Score 11+",.,401,.,.,.,.,.,.,.,.,.,.,.,.,.,.,457,429
+DZ23K,"Bronchopneumonia with Single Intervention, with CC Score 0-10",446,368,429,468,376,.,.,.,.,.,511,.,.,.,.,.,364,401
+DZ23L,"Bronchopneumonia without Interventions, with CC Score 11+",446,383,492,.,433,.,.,.,370,.,335,.,366,.,514,.,364,402
+DZ23M,"Bronchopneumonia without Interventions, with CC Score 6-10",446,375,475,500,383,306,.,.,370,.,340,.,408,.,514,.,371,398
+DZ23N,"Bronchopneumonia without Interventions, with CC Score 0-5",437,380,507,495,387,291,.,.,415,.,334,.,376,.,514,.,366,408
+DZ24M,"Inhalation, Lung Injury or Foreign Body, with Single Intervention, with CC Score 0-9",446,401,.,.,376,.,.,.,.,.,375,.,.,.,.,.,.,395
+DZ24N,"Inhalation, Lung Injury or Foreign Body, without Interventions, with CC Score 14+",.,376,.,.,397,.,.,.,.,.,.,.,.,.,514,.,364,394
+DZ24P,"Inhalation, Lung Injury or Foreign Body, without Interventions, with CC Score 10-13",446,407,615,.,384,.,.,.,370,.,343,.,378,.,571,.,364,429
+DZ24Q,"Inhalation, Lung Injury or Foreign Body, without Interventions, with CC Score 6-9",446,384,504,469,378,291,650,.,370,.,398,.,382,.,524,.,363,399
+DZ24R,"Inhalation, Lung Injury or Foreign Body, without Interventions, with CC Score 0-5",437,396,467,476,385,291,515,.,370,.,358,.,392,.,514,.,364,394
+DZ25J,"Fibrosis or Pneumoconiosis, without Interventions, with CC Score 10+",.,.,521,.,376,291,.,.,.,.,348,.,375,440,.,.,307,395
+DZ25K,"Fibrosis or Pneumoconiosis, without Interventions, with CC Score 7-9",446,376,469,.,376,291,.,.,370,.,327,.,366,.,.,.,364,378
+DZ25L,"Fibrosis or Pneumoconiosis, without Interventions, with CC Score 4-6",446,376,497,468,376,.,.,.,370,.,367,.,377,.,542,.,364,399
+DZ25M,"Fibrosis or Pneumoconiosis, without Interventions, with CC Score 0-3",446,371,486,472,376,291,.,.,370,.,345,.,384,.,546,.,364,393
+DZ26M,"Pneumothorax or Intrathoracic Injuries, without Interventions, with CC Score 6+",446,361,445,.,376,.,.,.,370,.,335,.,378,.,.,.,364,376
+DZ26N,"Pneumothorax or Intrathoracic Injuries, without Interventions, with CC Score 3-5",428,380,.,468,.,.,.,.,370,.,380,.,383,.,.,498,370,395
+DZ26P,"Pneumothorax or Intrathoracic Injuries, without Interventions, with CC Score 0-2",446,383,.,508,605,343,.,.,.,.,337,.,419,.,514,498,381,414
+DZ27N,"Respiratory Failure with Multiple Interventions, with CC Score 0-10",.,.,544,.,.,.,.,.,.,.,.,.,.,.,.,.,.,544
+DZ27P,"Respiratory Failure with Single Intervention, with CC Score 11+",.,.,.,.,376,.,.,.,.,.,449,.,366,.,.,.,.,389
+DZ27Q,"Respiratory Failure with Single Intervention, with CC Score 6-10",446,.,.,.,.,389,.,.,370,.,490,.,367,.,.,.,364,400
+DZ27R,"Respiratory Failure with Single Intervention, with CC Score 0-5",446,401,.,468,.,389,.,.,.,.,450,.,380,.,.,.,364,417
+DZ27S,"Respiratory Failure without Interventions, with CC Score 11+",446,.,.,.,394,291,.,.,.,.,333,.,395,.,.,.,364,387
+DZ27T,"Respiratory Failure without Interventions, with CC Score 6-10",462,360,480,.,376,291,.,.,370,.,366,.,391,.,514,.,351,388
+DZ27U,"Respiratory Failure without Interventions, with CC Score 0-5",446,376,460,468,376,308,.,.,370,.,356,.,378,.,514,.,413,393
+DZ28A,Pleurisy with CC Score 3+,580,392,.,.,"1,000",.,.,.,.,.,223,.,.,.,.,.,364,487
+DZ28B,Pleurisy with CC Score 0-2,479,393,.,.,376,291,.,.,.,.,259,.,366,.,514,.,364,402
+DZ29H,"Granulomatous, Allergic Alveolitis or Autoimmune Lung Disease, without Interventions, with CC Score 5+",.,.,635,.,376,.,.,.,370,.,.,.,.,.,.,.,364,518
+DZ29J,"Granulomatous, Allergic Alveolitis or Autoimmune Lung Disease, without Interventions, with CC Score 2-4",446,359,.,.,.,291,.,.,.,.,439,.,.,.,514,.,364,417
+DZ29K,"Granulomatous, Allergic Alveolitis or Autoimmune Lung Disease, without Interventions, with CC Score 0-1",446,366,.,.,376,.,.,.,.,.,344,.,395,.,.,.,364,378
+DZ37A,"Non-Invasive Ventilation Support Assessment, 19 years and over",446,373,890,495,403,291,.,.,510,.,412,.,399,.,.,.,364,415
+DZ37B,"Non-Invasive Ventilation Support Assessment, 18 years and under",.,"1,275",.,.,655,.,.,.,.,.,.,.,688,.,.,.,.,909
+DZ38Z,Oxygen Assessment and Monitoring,.,.,.,.,.,.,.,.,.,.,.,.,.,.,514,.,.,514
+DZ42Z,TB Nurse Support,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,031","1,031"
+DZ50Z,Respiratory Sleep Study,.,.,.,.,.,.,.,.,.,.,.,.,"2,213",.,.,.,.,"2,213"
+DZ63B,"Major Thoracic Procedures, 19 years and over, with CC Score 3-5",.,.,.,.,.,.,.,.,.,.,.,.,"3,451",.,.,.,.,"3,451"
+DZ63C,"Major Thoracic Procedures, 19 years and over, with CC Score 0-2",.,.,.,789,.,.,.,.,.,.,.,.,.,.,.,.,.,789
+DZ64B,"Intermediate Thoracic Procedures, 19 years and over, with CC Score 3-5",.,.,.,.,376,.,.,.,.,.,.,.,.,.,.,.,.,376
+DZ64C,"Intermediate Thoracic Procedures, 19 years and over, with CC Score 0-2",.,956,.,.,.,.,.,.,.,.,.,.,"1,709",.,855,.,.,"1,316"
+DZ65C,"Chronic Obstructive Pulmonary Disease or Bronchitis, with Single Intervention, with CC Score 9+",.,.,.,.,.,.,.,.,.,.,355,.,.,.,.,.,.,355
+DZ65D,"Chronic Obstructive Pulmonary Disease or Bronchitis, with Single Intervention, with CC Score 5-8",446,.,515,.,376,.,.,.,.,.,355,.,366,.,.,.,364,388
+DZ65E,"Chronic Obstructive Pulmonary Disease or Bronchitis, with Single Intervention, with CC Score 0-4",.,.,.,468,376,291,.,.,.,.,445,.,395,.,.,.,.,403
+DZ65F,"Chronic Obstructive Pulmonary Disease or Bronchitis, without Interventions, with CC Score 13+",.,.,.,.,376,.,.,.,.,.,.,.,.,.,.,.,.,376
+DZ65G,"Chronic Obstructive Pulmonary Disease or Bronchitis, without Interventions, with CC Score 9-12",.,401,.,.,376,.,.,.,.,.,358,.,366,440,539,.,364,411
+DZ65H,"Chronic Obstructive Pulmonary Disease or Bronchitis, without Interventions, with CC Score 5-8",446,376,448,468,376,409,515,.,370,378,391,.,396,.,527,.,363,392
+DZ65J,"Chronic Obstructive Pulmonary Disease or Bronchitis, without Interventions, with CC Score 0-4",456,374,472,468,407,.,515,.,370,378,353,.,397,.,530,.,364,392
+DZ65K,"Chronic Obstructive Pulmonary Disease or Bronchitis, with length of stay 1 day or less, discharged home",449,378,475,469,384,307,534,.,377,378,355,.,386,.,517,498,365,393
+DZ67Z,Major Therapeutic Bronchoscopy,446,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,446
+DZ68Z,Therapeutic Bronchoscopy,.,"1,116",.,.,"1,436",.,.,.,.,.,.,.,"2,167",.,.,.,921,"1,561"
+DZ69A,"Diagnostic Bronchoscopy, 19 years and over",747,"1,118",993,"1,054",.,353,.,.,.,.,814,.,.,.,"1,045",.,943,918
+DZ69B,"Diagnostic Bronchoscopy, 18 years and under",.,.,.,.,.,.,.,.,.,.,.,.,"1,752",.,.,.,921,"1,337"
+DZ70Z,Endobronchial Ultrasound Examination of Mediastinum,446,.,"1,040",.,.,.,.,.,.,.,.,.,.,.,.,.,.,594
+DZ71Z,Minor Thoracic Procedures,.,.,.,.,.,.,.,.,.,.,.,.,.,.,514,.,921,718
+EB02A,Endocarditis with CC Score 10+,.,.,589,.,429,.,.,.,.,.,.,.,.,.,.,.,364,493
+EB02B,Endocarditis with CC Score 5-9,.,392,586,474,499,291,.,.,.,.,344,.,613,.,514,.,411,461
+EB02C,Endocarditis with CC Score 0-4,.,392,.,468,429,.,.,.,.,.,.,.,.,.,.,.,388,404
+EB03A,"Heart Failure or Shock, with CC Score 14+",484,401,614,.,376,438,.,.,370,.,.,.,375,.,514,.,395,436
+EB03B,"Heart Failure or Shock, with CC Score 11-13",527,382,492,.,388,452,.,.,370,.,379,.,409,.,514,.,367,403
+EB03C,"Heart Failure or Shock, with CC Score 8-10",492,386,522,469,380,329,728,.,370,.,387,.,396,.,552,.,365,407
+EB03D,"Heart Failure or Shock, with CC Score 4-7",494,382,509,470,389,380,586,.,370,378,376,.,416,.,537,498,366,411
+EB03E,"Heart Failure or Shock, with CC Score 0-3",470,384,528,473,400,350,.,.,370,.,391,.,401,.,543,.,376,415
+EB04Z,Hypertension,456,390,540,484,376,349,621,.,405,.,356,.,397,.,539,498,361,416
+EB05A,Cardiac Arrest with CC Score 9+,446,395,.,.,376,424,.,.,721,.,734,.,366,.,.,.,360,559
+EB05B,Cardiac Arrest with CC Score 5-8,580,.,445,468,.,.,.,.,.,.,646,.,428,.,514,.,.,553
+EB05C,Cardiac Arrest with CC Score 0-4,446,392,429,468,561,291,.,.,.,.,414,.,437,.,.,.,.,437
+EB06A,Cardiac Valve Disorders with CC Score 13+,.,.,.,.,.,452,.,.,.,.,.,.,.,.,.,.,.,452
+EB06B,Cardiac Valve Disorders with CC Score 9-12,.,392,636,468,376,291,.,.,.,.,471,.,"1,003",.,.,.,364,570
+EB06C,Cardiac Valve Disorders with CC Score 5-8,531,392,544,.,406,.,621,.,370,.,406,.,553,.,656,498,392,472
+EB06D,Cardiac Valve Disorders with CC Score 0-4,540,395,533,473,423,558,515,.,370,.,427,.,558,.,661,498,402,465
+EB07A,"Arrhythmia or Conduction Disorders, with CC Score 13+",.,381,687,.,376,.,.,.,.,378,.,.,377,.,.,.,364,395
+EB07B,"Arrhythmia or Conduction Disorders, with CC Score 10-12",553,397,588,474,389,.,515,.,458,.,408,.,470,.,573,.,373,453
+EB07C,"Arrhythmia or Conduction Disorders, with CC Score 7-9",544,390,590,474,390,466,515,.,448,.,420,.,430,.,547,498,402,442
+EB07D,"Arrhythmia or Conduction Disorders, with CC Score 4-6",531,389,605,472,401,398,562,.,422,.,461,.,500,.,579,498,435,462
+EB07E,"Arrhythmia or Conduction Disorders, with CC Score 0-3",532,392,594,482,437,398,599,.,511,.,530,.,445,.,695,498,451,479
+EB08A,"Syncope or Collapse, with CC Score 13+",446,401,.,.,376,452,.,.,.,.,.,.,475,440,.,.,357,399
+EB08B,"Syncope or Collapse, with CC Score 10-12",479,393,586,.,376,291,.,.,370,.,342,.,422,.,623,.,367,417
+EB08C,"Syncope or Collapse, with CC Score 7-9",455,392,507,468,381,320,515,.,622,.,361,.,394,.,536,.,364,400
+EB08D,"Syncope or Collapse, with CC Score 4-6",459,386,531,469,384,332,600,.,388,.,370,.,400,.,556,498,367,406
+EB08E,"Syncope or Collapse, with CC Score 0-3",463,393,541,468,453,344,543,.,379,.,355,.,388,.,573,498,374,416
+EB09A,Non-Interventional Congenital Cardiac Conditions with CC Score 3+,.,.,.,.,429,.,.,.,.,.,.,.,.,.,.,.,.,429
+EB09B,Non-Interventional Congenital Cardiac Conditions with CC Score 0-2,.,.,.,.,.,558,.,.,.,.,.,.,613,.,.,.,.,586
+EB10A,"Actual or Suspected Myocardial Infarction, with CC Score 13+",.,392,586,.,389,440,.,.,.,.,.,.,.,.,.,.,457,414
+EB10B,"Actual or Suspected Myocardial Infarction, with CC Score 10-12",580,390,586,468,408,398,515,.,370,.,560,.,459,.,710,.,388,427
+EB10C,"Actual or Suspected Myocardial Infarction, with CC Score 7-9",554,393,600,473,398,473,657,.,545,.,519,.,451,.,649,.,397,450
+EB10D,"Actual or Suspected Myocardial Infarction, with CC Score 4-6",547,389,583,473,414,431,637,.,505,.,421,.,428,.,714,498,403,458
+EB10E,"Actual or Suspected Myocardial Infarction, with CC Score 0-3",553,391,589,473,423,485,600,.,593,.,460,.,595,.,758,498,443,507
+EB12A,Unspecified Chest Pain with CC Score 11+,580,389,586,468,376,452,728,.,370,.,.,.,406,.,514,.,383,445
+EB12B,Unspecified Chest Pain with CC Score 5-10,527,389,582,474,390,368,634,.,469,.,402,.,476,.,564,498,424,460
+EB12C,Unspecified Chest Pain with CC Score 0-4,500,391,560,486,433,399,638,.,466,.,342,.,357,.,587,498,437,452
+EB13A,Angina with CC Score 12+,.,392,594,.,376,291,728,.,370,.,520,.,.,.,514,.,.,445
+EB13B,Angina with CC Score 8-11,556,392,560,474,395,335,515,.,434,.,468,.,640,.,632,.,444,454
+EB13C,Angina with CC Score 4-7,555,392,636,473,402,348,681,.,445,.,464,.,561,.,612,.,440,470
+EB13D,Angina with CC Score 0-3,551,390,594,473,424,383,667,.,402,.,423,.,527,.,651,498,443,473
+EB14A,Other Acquired Cardiac Conditions with CC Score 13+,.,378,696,.,407,452,.,.,.,.,.,.,517,.,656,.,457,553
+EB14B,Other Acquired Cardiac Conditions with CC Score 9-12,500,395,633,474,404,426,515,.,370,.,344,.,484,.,573,.,369,495
+EB14C,Other Acquired Cardiac Conditions with CC Score 6-8,520,389,574,487,402,315,600,580,.,.,345,.,464,.,612,.,381,464
+EB14D,Other Acquired Cardiac Conditions with CC Score 3-5,529,385,632,470,402,398,610,.,370,.,432,.,544,.,678,498,411,493
+EB14E,Other Acquired Cardiac Conditions with CC Score 0-2,530,410,577,473,446,443,586,.,370,.,401,.,598,.,667,498,501,500
+EB15B,Primary Pulmonary Hypertension with CC Score 4-8,.,.,445,.,.,.,.,.,.,.,.,.,.,440,.,.,.,443
+EB15C,Primary Pulmonary Hypertension with CC Score 0-3,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,364,364
+EC10C,Very Complex Procedures for Congenital Heart Disease with CC Score 0-6,.,.,.,.,.,.,.,.,.,.,.,.,"9,105",.,.,.,.,"9,105"
+EC11B,Complex Procedures for Congenital Heart Disease with CC Score 7-14,.,.,.,.,.,.,.,.,.,.,.,.,"11,720",.,.,.,.,"11,720"
+EC11C,Complex Procedures for Congenital Heart Disease with CC Score 0-6,.,.,.,.,.,.,.,.,.,.,.,.,"8,482",.,.,.,.,"8,482"
+EC12B,Very Major Procedures for Congenital Heart Disease with CC Score 4-8,.,.,.,.,.,.,.,.,.,.,.,.,"8,005",.,.,.,.,"8,005"
+EC12C,Very Major Procedures for Congenital Heart Disease with CC Score 0-3,.,.,.,.,.,.,.,.,.,.,.,.,"11,233",.,.,.,.,"11,233"
+EC13C,Major Procedures for Congenital Heart Disease with CC Score 0-3,.,.,.,.,.,.,.,.,.,.,.,.,"6,951",.,.,.,.,"6,951"
+EC14C,Intermediate Procedures for Congenital Heart Disease with CC Score 0-3,.,.,.,.,.,.,.,.,.,.,.,.,"2,187",.,.,.,.,"2,187"
+EC15B,Minor Procedures for Congenital Heart Disease with CC Score 0-3,.,.,.,.,.,.,.,.,.,.,.,.,"4,080",.,.,.,.,"4,080"
+EC20A,Diagnostic Percutaneous Intervention for Congenital Heart Disease with CC Score 4+,"1,539",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,539"
+EC20B,Diagnostic Percutaneous Intervention for Congenital Heart Disease with CC Score 0-3,.,.,.,.,.,.,.,.,.,.,.,.,"1,407",.,.,.,.,"1,407"
+ED11Z,Standard Repair of Descending Thoracic Aorta,.,.,.,.,.,.,.,.,.,.,.,.,"5,357",.,.,.,.,"5,357"
+ED12B,Complex Repair of Aortic Root with CC Score 0-6,.,.,.,.,.,.,.,.,.,.,.,.,"21,266",.,.,.,.,"21,266"
+ED14A,Complex Repair of Ascending Thoracic Aorta with CC Score 7+,.,.,.,.,.,.,.,.,.,.,.,.,"12,532",.,.,.,.,"12,532"
+ED15A,Standard Repair of Ascending Thoracic Aorta with CC Score 7+,.,.,.,.,.,.,.,.,.,.,.,.,"5,895",.,.,.,.,"5,895"
+ED15B,Standard Repair of Ascending Thoracic Aorta with CC Score 0-6,.,.,.,.,.,.,.,.,.,.,.,.,"16,988",.,.,.,.,"16,988"
+ED20A,"Complex, Repair or Replacement, of Multiple Heart Valves, with CC Score 8+",.,.,.,.,.,.,.,.,.,.,.,.,"11,723",.,.,.,.,"11,723"
+ED20B,"Complex, Repair or Replacement, of Multiple Heart Valves, with CC Score 0-7",.,.,.,.,.,.,.,.,.,.,.,.,"29,402",.,.,.,.,"29,402"
+ED22C,"Complex, Coronary Artery Bypass Graft with Single Heart Valve Replacement or Repair, with CC Score 0-5",.,.,.,.,.,.,.,.,.,.,.,.,"20,388",.,.,.,.,"20,388"
+ED23C,"Standard, Coronary Artery Bypass Graft with Single Heart Valve Replacement or Repair, with CC Score 0-5",.,.,.,.,.,.,.,.,.,.,.,.,"10,951",.,.,.,.,"10,951"
+ED25B,"Standard, Single Heart Valve Replacement or Repair, with CC Score 6-10",.,.,.,.,.,.,.,.,.,.,.,.,"12,353",.,.,.,.,"12,353"
+ED25C,"Standard, Single Heart Valve Replacement or Repair, with CC Score 0-5",.,.,.,.,.,.,.,.,.,.,.,.,"9,387",.,.,.,.,"9,387"
+ED26A,Complex Coronary Artery Bypass Graft with CC Score 10+,.,.,.,.,.,.,.,.,.,.,.,.,"10,256",.,.,.,.,"10,256"
+ED26B,Complex Coronary Artery Bypass Graft with CC Score 5-9,.,.,.,.,.,.,.,.,.,.,.,.,"12,982",.,.,.,.,"12,982"
+ED27B,Major Coronary Artery Bypass Graft with CC Score 5-9,.,.,.,.,.,.,.,.,.,.,.,.,"9,332",.,.,.,.,"9,332"
+ED28A,Standard Coronary Artery Bypass Graft with CC Score 10+,.,.,.,.,.,.,.,.,.,.,.,.,"8,661",.,.,.,.,"8,661"
+ED28C,Standard Coronary Artery Bypass Graft with CC Score 0-4,.,.,.,.,.,.,.,.,.,.,.,.,"6,088",.,.,.,.,"6,088"
+ED31A,"Standard, Other Operations on Heart or Pericardium, with CC Score 10+",.,.,.,.,376,.,.,.,.,.,.,.,.,.,.,.,.,376
+ED31B,"Standard, Other Operations on Heart or Pericardium, with CC Score 5-9",.,.,.,.,920,.,.,.,.,.,"1,271",.,"1,451",.,.,.,802,"1,073"
+ED31C,"Standard, Other Operations on Heart or Pericardium, with CC Score 0-4","2,075",.,"2,555",.,"1,464",.,.,.,.,.,.,.,"1,671",.,.,.,.,"1,941"
+EY01A,"Implantation of Cardioverter Defibrillator with Cardiac Resynchronisation Therapy, with CC Score 9+",.,.,.,.,.,.,.,.,.,.,.,.,"15,601",.,.,.,.,"15,601"
+EY01B,"Implantation of Cardioverter Defibrillator with Cardiac Resynchronisation Therapy, with CC Score 0-8",.,.,"16,167",.,.,.,.,.,.,.,.,.,"16,136",.,.,.,.,"16,144"
+EY02A,Implantation of Cardioverter Defibrillator with CC Score 9+,.,.,.,.,.,.,.,.,.,.,.,.,"15,319",.,.,.,.,"15,319"
+EY02B,Implantation of Cardioverter Defibrillator with CC Score 0-8,580,.,"14,473",.,"1,809",.,.,.,.,.,.,.,"14,904",.,.,.,.,"14,200"
+EY03Z,Implantation of Biventricular Pacemaker with Other Percutaneous Intervention,.,.,.,.,.,.,.,.,.,.,.,.,"10,123",.,.,.,.,"10,123"
+EY05B,"Implantation of Dual Chamber Pacemaker with Other Percutaneous Intervention, with CC Score 0-5",.,.,.,.,"2,928",.,.,.,.,.,.,.,.,.,.,.,.,"2,928"
+EY06B,Implantation of Dual Chamber Pacemaker with CC Score 9-11,.,.,"4,039",.,.,.,.,.,.,.,.,.,.,.,.,.,.,"4,039"
+EY06C,Implantation of Dual Chamber Pacemaker with CC Score 6-8,.,.,"3,985",.,"2,928",.,.,.,.,.,.,.,"3,566",.,.,.,.,"3,816"
+EY06D,Implantation of Dual Chamber Pacemaker with CC Score 3-5,.,.,"4,030",.,"2,608",.,.,.,.,.,.,.,"4,374",.,.,.,.,"3,918"
+EY06E,Implantation of Dual Chamber Pacemaker with CC Score 0-2,.,.,"4,072",.,"2,608",.,.,.,.,.,.,.,"4,522",.,.,.,.,"4,050"
+EY07A,"Implantation of Single Chamber Pacemaker with Other Percutaneous Intervention, with CC Score 6+","3,094",.,.,.,"2,828",.,.,.,.,.,.,.,"6,494",.,.,.,.,"4,139"
+EY07B,"Implantation of Single Chamber Pacemaker with Other Percutaneous Intervention, with CC Score 0-5",.,.,"5,497",.,.,.,.,.,.,.,.,.,"5,673",.,.,.,.,"5,648"
+EY08A,Implantation of Single Chamber Pacemaker with CC Score 12+,.,.,.,.,"2,828",.,.,.,.,.,.,.,.,.,.,.,.,"2,828"
+EY08B,Implantation of Single Chamber Pacemaker with CC Score 9-11,.,.,.,.,"2,828",.,.,.,.,.,.,.,.,.,.,.,802,"1,815"
+EY08C,Implantation of Single Chamber Pacemaker with CC Score 6-8,"1,837",.,"3,630",.,"2,573",.,.,.,.,.,.,.,"2,955",.,.,.,802,"2,708"
+EY08D,Implantation of Single Chamber Pacemaker with CC Score 3-5,"3,094",.,"3,402",.,"2,828",.,.,.,.,.,.,.,"2,959",.,.,.,.,"3,260"
+EY08E,Implantation of Single Chamber Pacemaker with CC Score 0-2,.,.,"3,298",474,"2,735",.,.,.,.,.,.,.,"2,998",.,.,.,.,"2,989"
+EY09A,"Removal of Cardiac Pacemaker or Cardioverter Defibrillator, with CC Score 6+",.,.,.,.,.,.,.,.,.,.,.,.,"2,906",.,.,.,.,"2,906"
+EY09B,"Removal of Cardiac Pacemaker or Cardioverter Defibrillator, with CC Score 0-5",.,.,.,.,.,.,.,.,.,.,.,.,"4,437",.,.,.,.,"4,437"
+EY10A,"Attention to Cardiac Pacemaker or Cardioverter Defibrillator, with CC Score 6+",.,.,"3,302",.,.,.,.,.,.,.,.,.,.,.,.,.,.,"3,302"
+EY10B,"Attention to Cardiac Pacemaker or Cardioverter Defibrillator, with CC Score 0-5",.,.,"3,214",.,.,.,.,.,.,.,.,.,"3,109",.,.,.,.,"3,188"
+EY11Z,Testing of Cardiac Pacemaker or Cardioverter Defibrillator,580,.,617,.,.,.,.,.,.,.,.,.,397,.,.,.,.,531
+EY12B,Implantation of Electrocardiography Loop Recorder with CC Score 0-2,.,.,"3,027",.,.,.,.,.,.,.,.,.,.,.,.,.,802,"1,914"
+EY20B,"Transcatheter Aortic Valve Implantation (TAVI) using Other Approach, with CC Score 0-7",.,.,.,.,.,.,.,.,.,.,.,.,"24,044",.,.,.,.,"24,044"
+EY22B,Complex Other Percutaneous Transluminal Repair of Acquired Defect of Heart with CC Score 5-9,.,.,.,.,.,.,.,.,.,.,.,.,"3,811",.,.,.,.,"3,811"
+EY22C,Complex Other Percutaneous Transluminal Repair of Acquired Defect of Heart with CC Score 0-4,.,.,.,.,.,.,.,.,.,.,.,.,"3,640",.,.,.,921,"3,338"
+EY23B,Standard Other Percutaneous Transluminal Repair of Acquired Defect of Heart with CC Score 5-9,.,.,.,.,.,.,.,.,.,.,.,.,"2,821",.,.,.,.,"2,821"
+EY23C,Standard Other Percutaneous Transluminal Repair of Acquired Defect of Heart with CC Score 0-4,.,.,"4,435",.,"1,119",.,.,.,.,.,.,.,"2,719",.,.,.,.,"2,554"
+EY30B,Complex Percutaneous Transluminal Ablation of Heart with CC Score 0-2,.,.,.,.,.,.,.,.,.,.,.,.,"7,595",.,.,.,.,"7,595"
+EY31A,Standard Percutaneous Transluminal Ablation of Heart with CC Score 3+,.,.,.,.,.,.,.,.,.,.,.,.,"5,176",.,.,.,.,"5,176"
+EY31B,Standard Percutaneous Transluminal Ablation of Heart with CC Score 0-2,.,.,.,.,.,.,.,.,.,.,.,.,"3,960",.,.,.,.,"3,960"
+EY32A,Percutaneous Diagnostic Electrophysiology Studies with CC Score 2+,.,.,.,.,"3,149",.,.,.,.,.,.,.,"3,164",.,.,.,.,"3,159"
+EY32B,Percutaneous Diagnostic Electrophysiology Studies with CC Score 0-1,.,.,"3,259",.,"3,149",.,.,.,.,.,.,.,"4,355",.,.,.,.,"3,789"
+EY40A,Complex Percutaneous Transluminal Coronary Angioplasty with CC Score 12+,.,.,"3,134",.,.,.,.,.,.,.,.,.,"3,090",.,.,.,.,"3,101"
+EY40B,Complex Percutaneous Transluminal Coronary Angioplasty with CC Score 8-11,"4,021",.,"3,550",.,"3,185",.,.,.,.,.,.,.,"4,262",.,.,.,.,"3,988"
+EY40C,Complex Percutaneous Transluminal Coronary Angioplasty with CC Score 4-7,"3,133",.,"3,902",.,"3,059",.,.,.,.,.,.,.,"3,910",.,.,.,.,"3,784"
+EY40D,Complex Percutaneous Transluminal Coronary Angioplasty with CC Score 0-3,"3,661",.,"3,872",.,"2,839",.,.,.,.,.,.,.,"3,825",.,.,.,.,"3,738"
+EY41A,Standard Percutaneous Transluminal Coronary Angioplasty with CC Score 12+,"2,971",.,.,.,"2,530",.,.,.,.,.,.,.,.,.,.,.,.,"2,750"
+EY41B,Standard Percutaneous Transluminal Coronary Angioplasty with CC Score 8-11,"2,971",.,"2,822",.,"2,515",.,.,.,.,.,.,.,"3,228",.,.,.,.,"2,919"
+EY41C,Standard Percutaneous Transluminal Coronary Angioplasty with CC Score 4-7,"2,878",.,"2,793",.,"2,473",.,.,.,.,.,.,.,"2,670",.,.,.,.,"2,696"
+EY41D,Standard Percutaneous Transluminal Coronary Angioplasty with CC Score 0-3,"2,912",.,"2,716",.,"2,483",291,.,.,.,.,.,.,"2,664",.,.,.,.,"2,684"
+EY42A,Complex Cardiac Catheterisation with CC Score 7+,"1,631",.,"1,918",.,"1,335",.,.,.,.,.,.,.,.,.,.,.,.,"1,701"
+EY42B,Complex Cardiac Catheterisation with CC Score 4-6,"1,599",.,"2,227",.,"1,809",.,.,.,.,.,.,.,"2,150",.,.,.,.,"1,994"
+EY42C,Complex Cardiac Catheterisation with CC Score 2-3,"1,631",.,"2,170",.,.,.,.,.,.,.,.,.,"2,390",.,.,.,.,"2,031"
+EY42D,Complex Cardiac Catheterisation with CC Score 0-1,"1,631",.,"2,146",.,.,.,.,.,.,.,.,.,"2,379",.,.,.,802,"2,056"
+EY43B,Standard Cardiac Catheterisation with CC Score 10-12,"1,539",.,"1,936",.,"1,335",.,.,.,.,.,.,.,"1,915",.,.,.,.,"1,576"
+EY43C,Standard Cardiac Catheterisation with CC Score 7-9,"1,539",.,"1,728",.,"1,335",.,.,.,.,.,.,.,"1,613",.,.,.,802,"1,489"
+EY43D,Standard Cardiac Catheterisation with CC Score 4-6,"1,548",.,"1,575",.,"1,335",.,.,.,.,.,.,.,"1,564",.,.,.,802,"1,482"
+EY43E,Standard Cardiac Catheterisation with CC Score 2-3,"1,557",.,"1,562",.,"1,335",.,.,.,.,.,.,.,"1,511",.,514,.,802,"1,447"
+EY43F,Standard Cardiac Catheterisation with CC Score 0-1,"1,537",.,"1,509",.,"1,335",.,.,.,.,.,.,.,"1,534",.,.,.,802,"1,469"
+EY50Z,Complex Echocardiogram,513,.,775,.,"1,138",452,.,.,.,.,625,.,"1,283",.,612,.,836,951
+EY51Z,Electrocardiogram Monitoring or Stress Testing,446,.,819,.,.,.,.,.,.,.,.,.,"1,666",.,.,498,.,892
+FZ12L,"Major General Abdominal Procedures, 19 years and over, with CC Score 10+",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,950","2,950"
+FZ12M,"Major General Abdominal Procedures, 19 years and over, with CC Score 6-9",.,401,"3,481",.,"2,640",.,.,.,.,.,.,.,.,.,.,.,.,"2,174"
+FZ12N,"Major General Abdominal Procedures, 19 years and over, with CC Score 3-5","2,375","2,346",.,.,"2,273",291,.,.,.,.,"4,301",.,"3,279",.,.,.,"1,131","2,167"
+FZ12P,"Major General Abdominal Procedures, 19 years and over, with CC Score 1-2","2,375","1,568",.,.,"1,353","2,413",.,.,.,.,"5,520",.,"1,997",.,.,.,"2,010","2,035"
+FZ12Q,"Major General Abdominal Procedures, 19 years and over, with CC Score 0","2,375",848,"6,197",.,"2,590","1,797",.,.,.,.,.,.,"1,815",.,"3,014",.,"2,156","2,558"
+FZ12T,"Major General Abdominal Procedures, 1 year and under, with CC Score 2+",.,.,.,.,.,.,.,.,.,.,.,.,"3,838",.,.,.,.,"3,838"
+FZ12U,"Major General Abdominal Procedures, 1 year and under, with CC Score 0-1",.,.,.,.,.,.,.,.,.,.,.,.,"3,994",.,.,.,.,"3,994"
+FZ13C,"Minor Therapeutic or Diagnostic, General Abdominal Procedures, 19 years and over",477,554,664,"1,335",910,"1,000",867,.,918,.,664,.,616,.,849,.,"1,182",701
+FZ13D,"Minor Therapeutic or Diagnostic, General Abdominal Procedures, 18 years and under",.,"1,095",.,.,.,"1,840",.,.,.,.,.,.,.,.,.,.,"1,031","1,367"
+FZ17E,"Abdominal Hernia Procedures, 19 years and over, with CC Score 4+",.,.,.,.,.,.,.,.,.,.,.,.,"3,414",.,.,.,.,"3,414"
+FZ17F,"Abdominal Hernia Procedures, 19 years and over, with CC Score 1-3","2,375","1,239",.,.,"1,650","1,958",.,.,.,.,.,.,"3,730",.,.,.,"1,360","2,297"
+FZ17G,"Abdominal Hernia Procedures, 19 years and over, with CC Score 0",.,.,.,.,"2,017",.,.,.,.,.,.,.,"2,728",.,.,.,.,"2,372"
+FZ18E,"Inguinal, Umbilical or Femoral Hernia Procedures, between 2 and 18 years",.,.,.,.,.,"1,637",.,.,.,.,.,.,"2,528",.,.,.,.,"2,306"
+FZ18F,"Inguinal, Umbilical or Femoral Hernia Procedures, 1 year and under",.,.,.,.,.,.,.,.,.,.,.,.,"2,524",.,.,.,.,"2,524"
+FZ18G,"Inguinal, Umbilical or Femoral Hernia Procedures, 19 years and over, with CC Score 6+",.,.,.,"1,742",.,.,.,.,.,.,.,.,.,.,.,.,"1,131","1,436"
+FZ18H,"Inguinal, Umbilical or Femoral Hernia Procedures, 19 years and over, with CC Score 3-5",.,"1,014",.,"1,158","1,870","1,722",.,.,.,.,.,.,"1,841",.,.,.,"1,131","1,584"
+FZ18J,"Inguinal, Umbilical or Femoral Hernia Procedures, 19 years and over, with CC Score 1-2","2,651","1,058",.,"1,676","2,292","2,790",.,.,.,.,.,.,"2,034",.,"3,242",.,"1,253","2,173"
+FZ18K,"Inguinal, Umbilical or Femoral Hernia Procedures, 19 years and over, with CC Score 0","2,641",444,.,"1,379","1,936","1,804",.,.,.,.,.,.,"1,726",.,"2,942",.,"1,131","1,822"
+FZ19A,"Herniotomy Procedures, 2 years and over",.,"1,168",.,.,.,.,.,.,.,.,.,.,"2,069",.,.,.,"1,381","1,672"
+FZ19B,"Herniotomy Procedures, 1 year and under",.,.,.,.,.,.,.,.,.,.,.,.,"2,145",.,.,.,.,"2,145"
+FZ20F,"Appendicectomy Procedures, 19 years and over, with CC Score 5+",.,.,.,.,.,.,.,.,.,.,.,.,"3,753",.,.,.,"1,284","2,107"
+FZ20G,"Appendicectomy Procedures, 19 years and over, with CC Score 3-4",.,.,.,.,.,"2,228",.,.,.,.,.,.,"2,391",.,.,.,"1,360","2,152"
+FZ20H,"Appendicectomy Procedures, 19 years and over, with CC Score 1-2","2,375",444,.,"1,010","1,981","1,401",.,.,.,.,.,.,"2,677",.,.,.,"1,391","2,072"
+FZ20J,"Appendicectomy Procedures, 19 years and over, with CC Score 0","2,375",444,.,549,"1,971","1,717",.,.,.,.,.,.,"2,537",.,"3,407",.,"1,401","1,798"
+FZ20K,"Appendicectomy Procedures, 18 years and under, with CC Score 3+",.,.,.,.,"1,650",.,.,.,.,.,.,.,.,.,.,.,.,"1,650"
+FZ20L,"Appendicectomy Procedures, 18 years and under, with CC Score 1-2","2,375",.,.,.,"2,201","1,755",.,.,.,.,.,.,"3,344",.,.,.,.,"2,571"
+FZ20M,"Appendicectomy Procedures, 18 years and under, with CC Score 0","2,375",455,.,549,"2,162","1,533",.,.,.,.,.,.,"2,606",.,"3,407",.,"1,401","1,721"
+FZ21B,"Major Anal Procedures, 18 years and under",.,.,.,"1,093",.,.,.,.,.,.,.,.,"1,359",.,.,.,.,"1,226"
+FZ21C,"Major Anal Procedures, 19 years and over, with CC Score 1+",.,861,.,.,"1,365",.,.,.,.,.,.,.,"1,104",.,.,.,"1,080","1,127"
+FZ21D,"Major Anal Procedures, 19 years and over, with CC Score 0","1,411",.,.,.,"1,063","1,384",.,.,.,.,.,.,"1,045",.,.,.,"1,004","1,073"
+FZ22B,"Intermediate Anal Procedures, 18 years and under","1,411","1,022",.,"1,137","1,052","1,058",.,.,.,.,.,.,937,.,"2,261",.,"1,207","1,149"
+FZ22C,"Intermediate Anal Procedures, 19 years and over, with CC Score 3+",.,"1,079",.,.,.,.,.,.,.,.,.,.,732,.,.,.,902,905
+FZ22D,"Intermediate Anal Procedures, 19 years and over, with CC Score 1-2","1,571",703,806,984,"1,652","1,114",.,.,.,.,.,.,907,.,656,.,"1,054","1,004"
+FZ22E,"Intermediate Anal Procedures, 19 years and over, with CC Score 0","1,422","1,783","1,741","1,166","1,106","1,099",.,.,.,.,.,.,947,.,"2,261",.,"1,066","1,226"
+FZ23A,"Minor Anal Procedures, 19 years and over","1,411","1,127",.,.,953,.,.,.,.,.,.,.,"1,117",.,"2,031",.,825,"1,331"
+FZ24E,"Major Therapeutic Endoscopic, Upper or Lower Gastrointestinal Tract Procedures, between 2 and 18 years","1,278","1,056",.,.,"1,377","2,093",.,.,.,.,.,.,"1,565",.,.,.,"1,367","1,483"
+FZ24F,"Major Therapeutic Endoscopic, Upper or Lower Gastrointestinal Tract Procedures, 1 year and under",.,.,.,.,.,.,.,.,.,.,.,.,"1,389",.,.,.,.,"1,389"
+FZ24G,"Major Therapeutic Endoscopic, Upper or Lower Gastrointestinal Tract Procedures, 19 years and over, with CC Score 3+",747,745,.,.,.,.,.,.,.,.,794,.,773,.,.,.,.,760
+FZ24H,"Major Therapeutic Endoscopic, Upper or Lower Gastrointestinal Tract Procedures, 19 years and over, with CC Score 1-2",747,803,872,.,861,"1,334",.,.,770,.,.,.,"1,320",.,"2,031",.,"1,446","1,093"
+FZ24J,"Major Therapeutic Endoscopic, Upper or Lower Gastrointestinal Tract Procedures, 19 years and over, with CC Score 0","1,172",702,"1,137",772,"1,373","1,123",.,.,770,.,.,.,"1,245",.,"2,031",.,.,"1,192"
+FZ27D,"Intermediate Therapeutic General Abdominal Procedures, 18 years and under",.,.,.,.,.,.,.,.,.,.,.,.,"5,070",.,.,.,.,"5,070"
+FZ27F,"Intermediate Therapeutic General Abdominal Procedures, 19 years and over, with CC Score 1-2",.,.,.,"1,257","4,199",.,.,.,.,.,.,.,.,.,.,.,.,"2,728"
+FZ27G,"Intermediate Therapeutic General Abdominal Procedures, 19 years and over, with CC Score 0",.,444,.,"1,067",.,895,.,.,.,.,.,.,.,.,"3,407",.,"1,374","1,419"
+FZ36M,"Gastrointestinal Infections without Interventions, with CC Score 8+",446,363,429,468,392,371,.,.,370,.,327,.,371,.,585,.,476,402
+FZ36N,"Gastrointestinal Infections without Interventions, with CC Score 5-7",427,382,489,468,382,359,.,.,370,.,359,.,375,.,514,.,368,394
+FZ36P,"Gastrointestinal Infections without Interventions, with CC Score 2-4",446,392,506,468,404,363,515,.,370,.,351,.,379,.,519,.,365,392
+FZ36Q,"Gastrointestinal Infections without Interventions, with CC Score 0-1",445,390,582,498,442,511,515,.,393,.,343,.,383,.,550,.,391,409
+FZ37P,"Inflammatory Bowel Disease without Interventions, with CC Score 5+",446,380,584,469,376,291,.,.,370,.,347,.,367,.,.,.,364,396
+FZ37Q,"Inflammatory Bowel Disease without Interventions, with CC Score 3-4",446,392,496,483,407,389,.,.,.,.,377,.,388,.,808,.,364,419
+FZ37R,"Inflammatory Bowel Disease without Interventions, with CC Score 1-2",446,386,433,493,410,291,.,.,.,.,346,.,377,.,514,.,368,398
+FZ37S,"Inflammatory Bowel Disease without Interventions, with CC Score 0",446,402,442,513,429,303,.,.,370,.,359,.,377,.,514,.,390,408
+FZ38H,"Gastrointestinal Bleed with Multiple Interventions, with CC Score 0-4",.,641,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,641
+FZ38M,"Gastrointestinal Bleed without Interventions, with CC Score 9+",496,395,.,.,.,.,.,.,.,.,.,.,369,.,.,.,364,387
+FZ38N,"Gastrointestinal Bleed without Interventions, with CC Score 5-8",446,388,430,533,589,413,.,.,.,.,330,.,383,.,534,.,367,408
+FZ38P,"Gastrointestinal Bleed without Interventions, with CC Score 0-4",446,392,474,528,462,392,.,.,.,.,345,.,372,.,553,498,374,400
+FZ42A,"Wireless Capsule Endoscopy, 19 years and over",796,.,803,.,.,691,.,.,.,.,.,.,.,.,.,.,921,803
+FZ49F,"Nutritional Disorders without Interventions, with CC Score 6+",446,390,539,.,376,.,.,.,.,.,344,.,402,.,.,.,307,390
+FZ49G,"Nutritional Disorders without Interventions, with CC Score 2-5",446,385,524,468,442,345,515,.,370,.,348,.,385,.,514,.,364,417
+FZ49H,"Nutritional Disorders without Interventions, with CC Score 0-1",446,391,515,470,465,291,.,.,370,.,357,.,375,.,514,.,358,400
+FZ50Z,"Intermediate Large Intestine Procedures, 19 years and over",805,575,.,771,"1,029","1,060",.,.,.,.,.,.,"1,202",.,"2,375",.,602,"1,029"
+FZ51Z,"Diagnostic Colonoscopy, 19 years and over",602,"2,131",804,"1,405","1,008",.,.,.,.,.,703,.,"1,121",.,"1,021",.,"1,141",959
+FZ52Z,"Diagnostic Colonoscopy with Biopsy, 19 years and over",636,807,916,"1,803",.,"2,285",.,.,.,.,788,.,"1,134",.,"1,029",.,"1,313",935
+FZ53Z,"Therapeutic Colonoscopy, 19 years and over",767,620,707,"1,040","1,778","1,789",.,.,.,.,"1,846",.,"1,302",.,.,.,.,"1,128"
+FZ54Z,"Diagnostic Flexible Sigmoidoscopy, 19 years and over",693,866,727,849,"1,275",767,969,.,742,.,805,.,756,.,"1,514",.,894,814
+FZ55Z,"Diagnostic Flexible Sigmoidoscopy with Biopsy, 19 years and over",662,"1,161",732,756,784,845,.,.,.,.,810,.,751,.,"1,045",.,848,821
+FZ56Z,"Therapeutic Flexible Sigmoidoscopy, 19 years and over",937,"1,079",.,.,925,735,.,.,770,.,.,.,"1,816",.,.,.,.,"1,093"
+FZ57Z,"Diagnostic or Therapeutic, Rigid Sigmoidoscopy, 19 years and over",557,.,.,.,"1,022",726,.,.,.,.,.,.,923,.,997,.,881,910
+FZ58A,"Endoscopic or Intermediate, Lower Gastrointestinal Tract Procedures, between 2 and 18 years",864,760,645,.,861,659,.,.,742,.,.,.,"1,285",.,.,.,.,912
+FZ58B,"Endoscopic or Intermediate, Lower Gastrointestinal Tract Procedures, 1 year and under",.,.,.,.,.,.,.,.,.,.,.,.,"1,552",.,.,.,.,"1,552"
+FZ59Z,"Intermediate Upper Gastrointestinal Tract Procedures, 19 years and over",901,.,"1,390",.,582,751,.,.,.,.,696,.,"1,415",.,.,.,.,"1,209"
+FZ60Z,"Diagnostic Endoscopic Upper Gastrointestinal Tract Procedures, 19 years and over",736,"1,027",708,"1,083",875,744,969,.,742,.,879,.,580,.,"1,021",.,850,796
+FZ61Z,"Diagnostic Endoscopic Upper Gastrointestinal Tract Procedures with Biopsy, 19 years and over",740,749,730,"1,032",760,880,969,.,742,.,854,.,642,.,"1,033",.,845,766
+FZ62A,"Endoscopic or Intermediate, Upper Gastrointestinal Tract Procedures, between 2 and 18 years",747,517,.,858,.,"1,126",.,.,.,.,696,.,"1,110",.,.,.,.,961
+FZ62B,"Endoscopic or Intermediate, Upper Gastrointestinal Tract Procedures, 1 year and under",.,.,.,.,.,.,.,.,.,.,.,.,"1,177",.,.,.,.,"1,177"
+FZ63Z,Combined Upper and Lower Gastrointestinal Tract Diagnostic Endoscopic Procedures,671,.,"1,054",.,.,.,.,.,.,.,"1,274",.,"1,229",.,"1,021",.,.,"1,002"
+FZ64A,"Combined Upper and Lower Gastrointestinal Tract Diagnostic Endoscopic Procedures with Biopsy, 19 years and over",715,643,812,.,843,"1,098",.,.,.,.,736,.,"1,335",.,.,.,839,812
+FZ64B,"Combined Upper and Lower Gastrointestinal Tract Diagnostic Endoscopic Procedures with Biopsy, 18 years and under",.,.,.,.,.,.,.,.,.,.,.,.,"2,699",.,.,.,"1,360","2,030"
+FZ65Z,Combined Upper and Lower Gastrointestinal Tract Therapeutic Endoscopic Procedures,776,.,.,.,.,"1,114",.,.,.,.,.,.,.,.,"1,045",.,.,877
+FZ66D,"Very Major Small Intestine Procedures, 19 years and over, with CC Score 5-7",.,.,.,.,"4,796",.,.,.,.,.,.,.,.,.,.,.,"1,997","3,117"
+FZ66E,"Very Major Small Intestine Procedures, 19 years and over, with CC Score 2-4","5,268",615,.,.,"5,263","7,002",.,.,.,.,"1,392",.,"3,501",.,.,.,"2,201","3,149"
+FZ66F,"Very Major Small Intestine Procedures, 19 years and over, with CC Score 0-1",.,"1,163",.,.,"4,046","1,352",.,.,.,.,.,.,"3,715",.,.,.,"1,381","3,001"
+FZ67C,"Major Small Intestine Procedures, 19 years and over, with CC Score 7+",.,.,.,.,.,.,.,.,.,.,.,.,"2,245",.,.,.,.,"2,245"
+FZ67D,"Major Small Intestine Procedures, 19 years and over, with CC Score 4-6",.,.,.,.,"2,457",.,.,.,.,.,.,.,.,.,.,.,"1,360","1,909"
+FZ67E,"Major Small Intestine Procedures, 19 years and over, with CC Score 2-3",.,444,.,.,376,.,.,.,.,.,.,.,.,.,.,.,.,410
+FZ67F,"Major Small Intestine Procedures, 19 years and over, with CC Score 0-1",.,.,.,.,"2,108","7,002",.,.,.,.,.,.,"2,733",.,.,.,"1,381","3,306"
+FZ68H,"Very Major or Major, Small Intestine Procedures, between 2 and 18 years, with CC Score 0-1",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,278","2,278"
+FZ68J,"Very Major or Major, Small Intestine Procedures, 1 year and under, with CC Score 3+",.,.,.,.,.,.,.,.,.,.,.,.,"2,296",.,.,.,.,"2,296"
+FZ68L,"Very Major or Major, Small Intestine Procedures, 1 year and under, with CC Score 0",.,.,.,.,.,.,.,.,.,.,.,.,"4,924",.,.,.,.,"4,924"
+FZ69C,"Complex Small Intestine Procedures, 19 years and over, with CC Score 7+",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,125","2,125"
+FZ69D,"Complex Small Intestine Procedures, 19 years and over, with CC Score 3-6",.,.,.,.,.,.,.,.,.,.,.,.,"7,615",.,.,.,.,"7,615"
+FZ69E,"Complex Small Intestine Procedures, 19 years and over, with CC Score 0-2",.,.,.,.,.,"3,712",.,.,.,.,.,.,"5,106",.,.,.,.,"4,409"
+FZ70Z,"Therapeutic Endoscopic Upper Gastrointestinal Tract Procedures, 19 years and over",868,"1,017","1,100","1,412",859,935,.,.,.,.,837,.,"1,197",.,"1,045",.,"1,186",998
+FZ71E,Endoscopic Insertion of Luminal Stent into Gastrointestinal Tract with CC Score 4-6,.,.,"3,982",.,.,.,.,.,.,.,.,.,.,.,.,.,"1,047","2,221"
+FZ71F,Endoscopic Insertion of Luminal Stent into Gastrointestinal Tract with CC Score 1-3,"1,690",.,"3,260",.,989,"1,003",.,.,770,.,"2,513",.,"1,655",.,"1,045",.,"1,221","2,104"
+FZ71G,Endoscopic Insertion of Luminal Stent into Gastrointestinal Tract with CC Score 0,"1,065",.,"2,873",.,.,"1,241",.,.,.,.,.,.,927,.,.,.,"1,381","2,248"
+FZ73E,Very Complex Large Intestine Procedures with CC Score 3-5,.,.,.,.,.,.,.,.,.,.,.,.,"5,721",.,.,.,.,"5,721"
+FZ73F,Very Complex Large Intestine Procedures with CC Score 0-2,.,.,.,.,"6,254",.,.,.,.,.,.,.,"6,067",.,.,.,"2,660","4,994"
+FZ74D,"Complex Large Intestine Procedures, 19 years and over, with CC Score 6-8",.,.,"11,629","1,342","4,209",.,.,.,.,.,.,.,"4,515",.,.,.,.,"4,990"
+FZ74E,"Complex Large Intestine Procedures, 19 years and over, with CC Score 3-5",.,.,.,.,"4,823",.,.,.,.,.,.,.,"4,889",.,.,.,"1,953","3,684"
+FZ74F,"Complex Large Intestine Procedures, 19 years and over, with CC Score 0-2","6,233",.,"3,276",549,"5,355","6,095",.,.,.,.,.,.,"6,346",.,.,.,"2,313","4,543"
+FZ75D,"Proximal Colon Procedures, 19 years and over, with CC Score 3-5",.,.,.,.,.,.,.,.,.,.,.,.,"2,633",.,.,.,"2,340","2,535"
+FZ75E,"Proximal Colon Procedures, 19 years and over, with CC Score 0-2",.,.,"4,785",.,"3,044",.,.,.,.,.,.,.,"3,505",.,.,.,"2,080","3,447"
+FZ76C,"Distal Colon Procedures, 19 years and over, with CC Score 3+",.,.,.,.,"3,698","3,898",.,.,.,.,.,.,"4,118",.,.,.,.,"3,822"
+FZ77C,"Major Large Intestine Procedures, 19 years and over, with CC Score 3+","2,375",.,.,.,.,.,.,.,.,.,.,.,"2,547",.,.,.,.,"2,461"
+FZ77D,"Major Large Intestine Procedures, 19 years and over, with CC Score 1-2",.,444,.,.,.,.,.,.,.,.,.,.,"3,090",.,.,.,.,"1,767"
+FZ77E,"Major Large Intestine Procedures, 19 years and over, with CC Score 0",.,.,.,.,"2,759",.,.,.,.,.,.,.,.,.,.,.,.,"2,759"
+FZ78A,"Complex or Major, Large Intestine Procedures, between 2 and 18 years, with CC Score 1+",.,.,.,.,.,.,.,.,.,.,.,.,"7,278",.,.,.,.,"7,278"
+FZ78D,"Complex or Major, Large Intestine Procedures, 1 year and under, with CC Score 0",.,.,.,.,.,.,.,.,.,.,.,.,"5,685",.,.,.,.,"5,685"
+FZ81E,"Complex, Oesophageal, Stomach or Duodenum Procedures, 19 years and over, with CC Score 0-1",.,.,.,.,"3,557",.,.,.,.,.,.,.,.,.,.,.,.,"3,557"
+FZ82C,"Very Complex or Complex, Oesophageal, Stomach or Duodenum Procedures, 18 years and under, with CC Score 2+",.,.,.,.,.,.,.,.,.,.,.,.,"5,558",.,.,.,.,"5,558"
+FZ83F,"Major, Oesophageal, Stomach or Duodenum Procedures, 1 year and under, with CC Score 0",.,.,.,.,.,.,.,.,.,.,.,.,"4,028",.,.,.,.,"4,028"
+FZ83G,"Major, Oesophageal, Stomach or Duodenum Procedures, 19 years and over, with CC Score 7+",.,.,.,.,.,.,.,.,.,.,.,.,"3,058",.,.,.,.,"3,058"
+FZ83H,"Major, Oesophageal, Stomach or Duodenum Procedures, 19 years and over, with CC Score 4-6",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,278","2,278"
+FZ83J,"Major, Oesophageal, Stomach or Duodenum Procedures, 19 years and over, with CC Score 2-3",.,.,"2,265","1,008","3,095","2,726",.,.,.,.,.,.,"2,723",.,.,.,"2,584","2,693"
+FZ83K,"Major, Oesophageal, Stomach or Duodenum Procedures, 19 years and over, with CC Score 0-1",.,.,.,.,.,.,.,.,.,.,.,.,"2,417",.,.,.,.,"2,417"
+FZ86Z,"Endoscopic Insertion of Gastric Balloon or Sleeve, for Obesity",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,921,921
+FZ87D,Complex Hernia Procedures with CC Score 5+,.,.,.,.,.,.,.,.,.,.,.,.,"2,427",.,514,.,"1,381","1,441"
+FZ87E,Complex Hernia Procedures with CC Score 3-4,.,.,.,.,.,.,.,.,.,.,.,.,"2,232",.,.,.,.,"2,232"
+FZ87F,Complex Hernia Procedures with CC Score 1-2,.,.,.,.,"3,484",.,.,.,.,.,.,.,.,.,.,.,"1,381","2,433"
+FZ87G,Complex Hernia Procedures with CC Score 0,.,351,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,351
+FZ89Z,"Complex Therapeutic Endoscopic, Upper or Lower Gastrointestinal Tract Procedures",446,.,737,.,.,.,.,.,.,.,.,.,.,.,.,.,921,701
+FZ90B,Abdominal Pain without Interventions,454,485,546,665,490,484,515,.,370,.,352,.,387,.,646,498,460,458
+FZ91H,"Non-Malignant Gastrointestinal Tract Disorders with Single Intervention, with CC Score 0-2",.,.,.,.,989,.,.,.,.,.,.,.,"1,115",.,.,.,.,"1,052"
+FZ91J,"Non-Malignant Gastrointestinal Tract Disorders without Interventions, with CC Score 11+",.,423,515,.,376,.,.,.,.,.,344,.,375,.,514,.,380,389
+FZ91K,"Non-Malignant Gastrointestinal Tract Disorders without Interventions, with CC Score 6-10",449,383,494,468,403,391,515,.,370,.,363,.,380,440,527,.,368,397
+FZ91L,"Non-Malignant Gastrointestinal Tract Disorders without Interventions, with CC Score 3-5",449,392,514,516,416,360,568,.,370,378,363,.,384,440,567,498,376,409
+FZ91M,"Non-Malignant Gastrointestinal Tract Disorders without Interventions, with CC Score 0-2",456,405,509,532,458,374,576,.,405,.,349,.,388,.,599,498,399,421
+FZ92G,"Malignant Gastrointestinal Tract Disorders without Interventions, with CC Score 9+",446,392,487,.,.,.,.,.,.,.,365,.,368,.,514,.,364,416
+FZ92H,"Malignant Gastrointestinal Tract Disorders without Interventions, with CC Score 5-8",446,392,515,.,439,389,515,.,370,378,571,.,379,.,514,.,368,411
+FZ92J,"Malignant Gastrointestinal Tract Disorders without Interventions, with CC Score 3-4",446,396,504,495,395,356,.,.,370,.,344,.,381,.,656,.,364,423
+FZ92K,"Malignant Gastrointestinal Tract Disorders without Interventions, with CC Score 0-2",446,427,562,508,457,373,.,.,370,.,350,.,380,.,546,.,394,446
+FZ93A,"Endoscopic Insertion of Gastrostomy Tube, 19 years and over",821,757,"1,060","1,161",.,.,.,.,742,.,956,.,.,.,.,.,839,845
+FZ93B,"Endoscopic Insertion of Gastrostomy Tube, 18 years and under",.,.,.,.,902,.,.,.,.,.,.,.,.,.,.,.,902,902
+FZ94Z,"Endoscopic Insertion of, Gastrojejunostomy or Jejunostomy Tube",747,501,958,.,.,.,.,.,.,.,"1,945",.,"1,495",.,.,.,.,"1,006"
+FZ95A,"Endoscopic, Sclerotherapy or Rubber Band Ligation, of Lesion of Upper Gastrointestinal Tract, with CC Score 9+",.,572,.,.,.,"1,199",.,.,.,.,.,.,.,.,.,.,.,885
+FZ95B,"Endoscopic, Sclerotherapy or Rubber Band Ligation, of Lesion of Upper Gastrointestinal Tract, with CC Score 6-8",.,"1,259",.,.,.,.,.,.,.,.,.,.,"1,297",.,.,.,.,"1,278"
+FZ95C,"Endoscopic, Sclerotherapy or Rubber Band Ligation, of Lesion of Upper Gastrointestinal Tract, with CC Score 3-5",.,.,.,.,.,"1,160",.,.,.,.,.,.,"1,186",.,.,.,"1,360","1,223"
+FZ95D,"Endoscopic, Sclerotherapy or Rubber Band Ligation, of Lesion of Upper Gastrointestinal Tract, with CC Score 0-2",747,"1,066",.,.,974,"1,344",.,.,.,.,744,.,"1,063",.,.,.,"1,313","1,033"
+FZ98Z,Maintenance of Gastric Band for Obesity,.,.,"2,245",.,.,.,.,.,.,.,.,.,959,.,.,.,"1,381","1,386"
+GA03C,"Very Complex Open, Hepatobiliary or Pancreatic Procedures, with CC Score 4+",.,.,.,.,.,.,.,.,.,.,.,.,"2,124",.,.,.,.,"2,124"
+GA05C,"Very Major Open, Hepatobiliary or Pancreatic Procedures, with CC Score 3+",.,.,.,.,"4,713",.,.,.,.,.,"1,184",.,.,.,.,.,422,"1,685"
+GA05D,"Very Major Open, Hepatobiliary or Pancreatic Procedures, with CC Score 0-2",.,.,.,.,.,.,.,.,.,.,"1,168",.,"3,453",.,.,.,.,"2,311"
+GA06C,"Major Open, Hepatobiliary or Pancreatic Procedures, with CC Score 2+",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,381","1,381"
+GA07D,"Intermediate Open, Hepatobiliary or Pancreatic Procedures, with CC Score 1-2",.,.,.,.,.,.,.,.,.,.,.,.,"2,825",.,.,.,.,"2,825"
+GA07E,"Intermediate Open, Hepatobiliary or Pancreatic Procedures, with CC Score 0",.,.,.,639,.,.,.,.,.,.,"2,194",.,.,.,.,.,.,"1,417"
+GA10H,"Laparoscopic Cholecystectomy, 19 years and over, with CC Score 4+",.,.,.,.,"4,988",.,.,.,.,.,.,.,.,.,.,.,.,"4,988"
+GA10J,"Laparoscopic Cholecystectomy, 19 years and over, with CC Score 1-3",.,.,.,.,.,.,.,.,.,.,.,.,"2,242",.,.,.,.,"2,242"
+GA10K,"Laparoscopic Cholecystectomy, 19 years and over, with CC Score 0","3,930",.,.,.,.,"1,874",.,.,.,.,.,.,"2,462",.,.,.,"2,794","2,638"
+GA10M,"Open Cholecystectomy, 19 years and over, with CC Score 1-2",.,.,.,.,.,.,.,.,.,.,.,.,"4,407",.,.,.,.,"4,407"
+GA10N,"Open Cholecystectomy, 19 years and over, with CC Score 0",.,.,.,.,.,.,.,.,.,.,.,.,"2,761",.,.,.,.,"2,761"
+GA13A,"Minor, Open or Laparoscopic, Hepatobiliary or Pancreatic Procedures, with CC Score 1+",.,.,.,.,.,.,.,.,.,.,.,.,"2,124",.,.,.,.,"2,124"
+GB05F,Major Therapeutic Endoscopic Retrograde Cholangiopancreatography with CC Score 5+,"1,451",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,788","1,619"
+GB05G,Major Therapeutic Endoscopic Retrograde Cholangiopancreatography with CC Score 2-4,"1,099",.,"2,444",673,.,.,.,.,.,.,"2,195",.,.,.,.,.,"1,472","1,676"
+GB05H,Major Therapeutic Endoscopic Retrograde Cholangiopancreatography with CC Score 0-1,923,.,"2,641",684,.,.,.,.,.,.,"2,410",.,.,.,.,.,"1,788","1,902"
+GB06E,Intermediate Therapeutic Endoscopic Retrograde Cholangiopancreatography with CC Score 6+,"1,451",.,"2,908",.,376,.,.,.,"1,115",.,"1,589",.,.,.,.,.,"1,274","1,398"
+GB06F,Intermediate Therapeutic Endoscopic Retrograde Cholangiopancreatography with CC Score 4-5,"1,275",503,"2,322",.,407,.,.,.,.,.,.,.,"1,775",.,.,.,"1,412","1,189"
+GB06G,Intermediate Therapeutic Endoscopic Retrograde Cholangiopancreatography with CC Score 2-3,992,630,"1,656",839,376,.,.,.,"1,115",.,"1,600",.,"1,526",.,.,.,"1,400","1,158"
+GB06H,Intermediate Therapeutic Endoscopic Retrograde Cholangiopancreatography with CC Score 0-1,875,"1,030","1,860",644,363,389,.,.,"1,141",.,"1,655",.,"1,796",.,.,.,"1,387","1,191"
+GB09D,Complex Therapeutic Endoscopic Retrograde Cholangiopancreatography with CC Score 5+,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,709","1,709"
+GB09E,Complex Therapeutic Endoscopic Retrograde Cholangiopancreatography with CC Score 2-4,"1,150",.,"1,473",.,.,.,.,.,.,.,"1,622",.,.,.,.,.,.,"1,467"
+GB09F,Complex Therapeutic Endoscopic Retrograde Cholangiopancreatography with CC Score 0-1,"1,150",.,.,.,.,.,.,.,"1,239",.,"2,083",.,.,.,.,.,.,"1,639"
+GB10Z,"Diagnostic Endoscopic Retrograde Cholangiopancreatography, with Biopsy or Cytology",446,.,"1,036",.,.,.,.,.,.,.,.,.,.,.,.,.,921,801
+GB11Z,Diagnostic Endoscopic Retrograde Cholangiopancreatography,446,815,"1,247",606,951,.,.,.,"1,177",.,"1,044",.,"1,951",.,.,.,.,875
+GB12Z,"Endoscopic Ultrasound Examination, of Hepatobiliary or Pancreatic Duct, with Biopsy or Cytology",.,.,"1,073",.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,073"
+GB13Z,"Endoscopic Ultrasound Examination, of Hepatobiliary or Pancreatic Duct",.,.,720,.,376,.,.,.,.,.,.,.,.,.,.,.,.,671
+GC01E,"Liver Failure Disorders without Interventions, with CC Score 5+",446,376,.,468,376,.,.,.,370,.,331,.,.,.,514,.,364,396
+GC01F,"Liver Failure Disorders without Interventions, with CC Score 0-4",446,443,.,.,376,424,.,.,370,.,412,.,366,.,514,.,364,423
+GC12G,"Malignant, Hepatobiliary or Pancreatic Disorders, without Interventions, with CC Score 6+",446,386,464,.,385,389,515,.,.,.,336,.,387,.,.,.,364,394
+GC12H,"Malignant, Hepatobiliary or Pancreatic Disorders, without Interventions, with CC Score 3-5",446,377,513,549,407,291,515,.,.,378,399,.,400,.,514,.,374,409
+GC12J,"Malignant, Hepatobiliary or Pancreatic Disorders, without Interventions, with CC Score 1-2",446,395,546,468,407,291,515,.,370,.,365,.,382,.,514,.,364,406
+GC12K,"Malignant, Hepatobiliary or Pancreatic Disorders, without Interventions, with CC Score 0",446,366,713,508,.,.,.,.,.,.,371,.,392,.,585,.,364,428
+GC17A,"Non-Malignant, Hepatobiliary or Pancreatic Disorders, with Multiple Interventions, with CC Score 9+",.,.,.,"1,327",.,.,.,.,.,.,935,.,.,.,.,.,.,"1,131"
+GC17F,"Non-Malignant, Hepatobiliary or Pancreatic Disorders, with Single Intervention, with CC Score 0-3",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,364,364
+GC17G,"Non-Malignant, Hepatobiliary or Pancreatic Disorders, without Interventions, with CC Score 8+",446,383,480,499,385,425,.,.,370,.,346,.,383,.,514,.,371,396
+GC17H,"Non-Malignant, Hepatobiliary or Pancreatic Disorders, without Interventions, with CC Score 5-7",446,401,578,512,421,382,515,.,364,.,339,.,390,.,527,.,375,405
+GC17J,"Non-Malignant, Hepatobiliary or Pancreatic Disorders, without Interventions, with CC Score 2-4",455,393,541,526,421,378,515,.,370,.,374,.,384,.,539,.,403,405
+GC17K,"Non-Malignant, Hepatobiliary or Pancreatic Disorders, without Interventions, with CC Score 0-1",452,421,491,531,440,374,.,.,370,.,376,.,387,.,604,.,424,419
+GC18A,Non-Obstructive Jaundice with CC Score 5+,446,373,.,.,439,.,.,.,370,.,332,.,366,.,.,.,364,379
+GC18B,Non-Obstructive Jaundice with CC Score 0-4,488,397,.,468,387,291,515,.,370,.,367,.,373,.,585,.,364,420
+HC20H,Vertebral Column Injury with Interventions,.,399,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,399
+HC20J,"Vertebral Column Injury without Interventions, with CC Score 6+",446,401,515,.,376,.,.,.,370,.,.,.,372,.,514,.,364,384
+HC20K,"Vertebral Column Injury without Interventions, with CC Score 3-5",466,378,515,549,376,389,.,.,370,.,.,.,384,.,656,.,364,389
+HC20L,"Vertebral Column Injury without Interventions, with CC Score 1-2",616,370,450,549,397,340,.,.,370,.,318,.,425,.,.,.,372,417
+HC20M,"Vertebral Column Injury without Interventions, with CC Score 0",492,382,.,411,852,.,.,.,.,.,327,.,494,.,656,.,414,575
+HC21D,Spinal Cord Injury with CC Score 2+,446,.,.,313,.,.,.,.,.,.,.,.,.,.,.,.,.,380
+HC21E,Spinal Cord Injury with CC Score 0-1,525,.,.,.,.,.,.,.,.,.,.,.,632,.,.,.,.,579
+HC26D,"Scoliosis or Other Spinal Deformity, with CC Score 3+",.,.,.,.,376,.,.,.,.,.,327,.,410,.,.,.,.,387
+HC26E,"Scoliosis or Other Spinal Deformity, with CC Score 1-2",.,.,.,.,.,.,.,.,.,.,.,.,366,.,.,.,364,365
+HC26F,"Scoliosis or Other Spinal Deformity, with CC Score 0",.,401,516,.,"1,000",.,.,.,.,.,.,.,367,.,.,.,.,493
+HC27J,"Degenerative Spinal Conditions with Interventions, with CC Score 0-2",.,.,.,.,.,.,.,.,.,.,549,.,.,.,.,.,.,549
+HC27K,"Degenerative Spinal Conditions without Interventions, with CC Score 9+",446,.,.,.,.,452,.,.,.,.,.,.,396,.,.,.,364,424
+HC27L,"Degenerative Spinal Conditions without Interventions, with CC Score 6-8",.,385,486,.,532,291,.,.,.,.,.,.,420,.,514,.,364,418
+HC27M,"Degenerative Spinal Conditions without Interventions, with CC Score 3-5",470,385,514,468,376,291,515,.,370,.,379,.,425,.,542,.,364,413
+HC27N,"Degenerative Spinal Conditions without Interventions, with CC Score 0-2",461,389,490,846,823,513,515,619,370,.,327,.,427,.,597,498,377,493
+HC28J,"Spinal Cord Conditions without Interventions, with CC Score 7+",.,.,.,.,.,.,.,.,.,.,.,.,537,.,.,.,.,537
+HC28K,"Spinal Cord Conditions without Interventions, with CC Score 5-6",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,364,364
+HC28L,"Spinal Cord Conditions without Interventions, with CC Score 3-4",.,359,.,.,376,340,.,.,.,.,.,.,.,.,.,.,364,356
+HC28M,"Spinal Cord Conditions without Interventions, with CC Score 0-2",446,401,.,.,376,291,.,.,.,.,.,.,.,.,.,.,364,374
+HC29A,Inflammatory Spinal Conditions with CC Score 2+,.,.,.,.,"1,000",.,.,.,.,.,.,.,399,.,514,.,.,488
+HC29B,Inflammatory Spinal Conditions with CC Score 0-1,.,380,.,.,542,.,.,.,.,.,.,.,339,.,.,.,.,360
+HC31M,"Spinal Infection without Interventions, with CC Score 3-5",.,345,.,.,.,.,.,.,.,.,.,.,366,.,.,.,395,371
+HC31N,"Spinal Infection without Interventions, with CC Score 0-2",.,401,.,.,376,.,.,.,.,.,.,.,434,.,.,.,.,412
+HC32H,"Low Back Pain without Interventions, with CC Score 6+",446,"14,604",548,.,376,.,.,.,.,.,.,.,909,.,514,.,.,"1,670"
+HC32J,"Low Back Pain without Interventions, with CC Score 3-5",446,387,477,.,751,.,515,.,.,.,.,.,407,.,514,.,336,475
+HC32K,"Low Back Pain without Interventions, with CC Score 0-2",460,382,515,549,880,291,.,.,370,.,318,.,457,.,646,.,406,547
+HC51E,"Complex Instrumented Correction of Spinal Deformity, 18 years and under, with CC Score 0-2",.,.,.,.,.,.,.,.,.,.,.,.,"12,814",.,.,.,.,"12,814"
+HC53A,Very Major Spinal Reconstructive Procedures with CC Score 4+,.,.,.,.,.,.,.,.,.,.,.,.,"15,033",.,.,.,.,"15,033"
+HC54B,Major Spinal Reconstructive Procedures with CC Score 2-3,.,.,.,.,.,.,.,.,.,.,.,.,"15,418",.,.,.,.,"15,418"
+HC54C,Major Spinal Reconstructive Procedures with CC Score 0-1,.,.,.,.,.,.,.,.,.,.,.,.,"11,812",.,.,.,.,"11,812"
+HC61A,Complex Extradural Spinal Procedures with CC Score 4+,.,.,.,.,.,.,.,.,.,.,.,.,"7,816",.,.,.,.,"7,816"
+HC62B,Very Major Extradural Spinal Procedures with CC Score 2-3,.,.,.,.,.,.,.,.,.,.,.,.,"4,579",.,.,.,.,"4,579"
+HC62C,Very Major Extradural Spinal Procedures with CC Score 0-1,.,.,.,.,.,.,.,.,.,.,.,.,"4,354",.,.,.,.,"4,354"
+HC63A,Major Extradural Spinal Procedures with CC Score 4+,.,.,.,.,.,.,.,.,.,.,.,.,"4,447",.,.,.,.,"4,447"
+HC63B,Major Extradural Spinal Procedures with CC Score 2-3,.,.,.,.,.,.,.,.,.,.,.,.,"4,302",.,.,.,.,"4,302"
+HC64B,Intermediate Extradural Spinal Procedures with CC Score 2-3,.,.,.,.,.,.,.,.,.,.,.,.,"4,255",.,.,.,.,"4,255"
+HC64C,Intermediate Extradural Spinal Procedures with CC Score 0-1,.,.,.,.,.,.,.,.,.,.,.,.,"2,665",.,.,.,.,"2,665"
+HC70B,Complex Intradural Spinal Procedures with CC Score 0-1,446,.,.,.,.,.,.,.,.,.,.,.,"5,115",.,.,.,.,"4,596"
+HC72A,"Diagnostic Spinal Puncture, 19 years and over",447,446,.,497,385,304,"1,197",.,859,.,351,.,432,.,514,.,"1,076",552
+HC72B,"Diagnostic Spinal Puncture, between 6 and 18 years",521,389,.,471,.,.,.,.,.,.,.,.,614,.,514,.,"1,076",582
+HC72C,"Diagnostic Spinal Puncture, 5 years and under",745,558,.,.,902,818,.,.,.,.,.,.,778,.,.,.,.,770
+HD21D,Soft Tissue Disorders with CC Score 12+,.,401,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,401
+HD21E,Soft Tissue Disorders with CC Score 9-11,446,384,541,.,407,.,.,.,370,.,.,.,366,.,514,.,364,425
+HD21F,Soft Tissue Disorders with CC Score 6-8,402,379,551,471,392,322,515,.,370,.,328,.,413,440,514,498,359,399
+HD21G,Soft Tissue Disorders with CC Score 3-5,458,392,.,469,511,364,.,.,370,.,359,.,428,.,547,498,373,437
+HD21H,Soft Tissue Disorders with CC Score 0-2,470,404,483,387,693,458,515,.,370,.,313,.,406,.,533,498,546,488
+HD23D,"Inflammatory, Spine, Joint or Connective Tissue Disorders, with CC Score 12+",.,.,.,.,.,.,.,.,370,.,327,.,366,.,.,.,364,360
+HD23E,"Inflammatory, Spine, Joint or Connective Tissue Disorders, with CC Score 9-11",.,401,485,.,376,.,.,.,.,378,366,.,430,.,.,.,364,410
+HD23F,"Inflammatory, Spine, Joint or Connective Tissue Disorders, with CC Score 7-8",441,376,518,.,376,.,728,.,370,378,372,.,403,.,514,.,377,407
+HD23G,"Inflammatory, Spine, Joint or Connective Tissue Disorders, with CC Score 5-6",473,387,587,.,376,.,.,.,.,.,325,.,401,.,659,.,357,410
+HD23H,"Inflammatory, Spine, Joint or Connective Tissue Disorders, with CC Score 3-4",472,383,460,.,540,291,.,580,370,.,326,.,377,.,514,.,363,431
+HD23J,"Inflammatory, Spine, Joint or Connective Tissue Disorders, with CC Score 0-2",456,398,752,358,445,444,.,.,370,.,324,.,401,.,555,498,404,436
+HD24D,"Non-Inflammatory, Bone or Joint Disorders, with CC Score 12+",466,.,.,.,.,.,.,.,.,.,.,.,366,.,.,.,.,437
+HD24E,"Non-Inflammatory, Bone or Joint Disorders, with CC Score 8-11",444,370,.,.,409,.,.,628,370,.,364,.,450,.,.,.,364,422
+HD24F,"Non-Inflammatory, Bone or Joint Disorders, with CC Score 5-7",446,355,493,468,376,.,.,616,370,.,342,.,413,.,585,.,364,418
+HD24G,"Non-Inflammatory, Bone or Joint Disorders, with CC Score 2-4",483,373,525,470,496,291,621,619,370,.,340,.,443,.,.,.,377,428
+HD24H,"Non-Inflammatory, Bone or Joint Disorders, with CC Score 0-1",664,362,.,468,681,389,728,.,.,.,223,.,343,.,514,.,377,504
+HD25D,"Infections of Bones or Joints, with CC Score 13+",.,.,.,.,376,452,.,.,.,.,.,.,366,.,.,.,414,413
+HD25E,"Infections of Bones or Joints, with CC Score 9-12",.,391,.,.,439,.,.,.,370,.,.,.,366,.,514,.,364,383
+HD25F,"Infections of Bones or Joints, with CC Score 5-8",472,388,632,.,407,558,.,.,370,.,427,.,372,.,514,.,372,415
+HD25G,"Infections of Bones or Joints, with CC Score 2-4",472,389,.,468,404,291,.,.,.,.,338,.,484,.,514,.,420,425
+HD25H,"Infections of Bones or Joints, with CC Score 0-1",.,394,.,.,376,.,.,.,.,.,.,.,406,.,.,.,414,400
+HD26D,"Musculoskeletal Signs or Symptoms, with CC Score 12+",446,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,446
+HD26E,"Musculoskeletal Signs or Symptoms, with CC Score 8-11",446,345,701,.,376,291,.,.,.,.,.,.,435,.,514,.,364,421
+HD26F,"Musculoskeletal Signs or Symptoms, with CC Score 4-7",476,386,498,468,421,291,515,.,370,.,396,.,384,.,585,498,364,414
+HD26G,"Musculoskeletal Signs or Symptoms, with CC Score 0-3",468,383,596,468,613,291,.,.,.,.,346,.,404,.,514,498,380,424
+HD39D,Pathological Fractures with CC Score 11+,525,.,.,.,.,.,.,.,.,.,.,.,.,.,514,.,.,520
+HD39E,Pathological Fractures with CC Score 8-10,446,.,.,.,.,.,.,.,.,.,.,.,367,.,.,.,364,379
+HD39F,Pathological Fractures with CC Score 6-7,.,376,.,.,376,.,.,.,370,.,344,.,.,.,.,.,.,370
+HD39G,Pathological Fractures with CC Score 3-5,525,376,.,.,385,.,.,.,370,.,.,.,400,.,.,.,364,395
+HD39H,Pathological Fractures with CC Score 0-2,446,382,.,.,376,.,.,.,.,.,.,.,408,.,.,.,326,386
+HD40D,"Malignancy, of Bone or Connective Tissue, with CC Score 12+",.,351,.,.,.,.,.,.,.,.,.,.,.,.,.,.,364,356
+HD40E,"Malignancy, of Bone or Connective Tissue, with CC Score 8-11",.,351,.,.,376,.,.,.,.,.,.,.,390,.,.,.,364,372
+HD40F,"Malignancy, of Bone or Connective Tissue, with CC Score 5-7",525,393,587,.,376,.,.,.,370,.,.,.,371,.,514,.,364,483
+HD40G,"Malignancy, of Bone or Connective Tissue, with CC Score 2-4",518,392,574,468,409,.,.,622,.,.,.,.,391,.,.,.,364,423
+HD40H,"Malignancy, of Bone or Connective Tissue, with CC Score 0-1",.,.,613,.,.,.,.,623,.,.,.,.,812,.,.,.,353,641
+HE11D,"Hip Fracture with Single Intervention, with CC Score 0-7",.,.,.,.,.,389,.,.,.,.,.,.,366,.,.,.,.,377
+HE11E,"Hip Fracture without Interventions, with CC Score 12+",.,401,.,.,.,409,.,.,.,.,.,.,366,.,.,.,.,392
+HE11F,"Hip Fracture without Interventions, with CC Score 8-11",505,363,.,468,385,409,.,616,.,.,344,.,396,.,707,.,378,413
+HE11G,"Hip Fracture without Interventions, with CC Score 4-7",516,376,505,549,426,328,515,620,370,378,337,.,391,.,642,.,395,445
+HE11H,"Hip Fracture without Interventions, with CC Score 0-3",511,374,490,536,511,380,515,645,370,.,333,.,406,440,656,.,406,454
+HE12C,"Other Injury of Hip without Interventions, with CC Score 6+",446,361,.,468,376,291,.,.,.,.,.,.,411,.,.,.,364,389
+HE12D,"Other Injury of Hip without Interventions, with CC Score 3-5",428,385,.,.,507,291,.,.,370,.,344,.,397,.,514,.,369,401
+HE12E,"Other Injury of Hip without Interventions, with CC Score 0-2",482,377,440,443,716,369,.,.,.,.,335,.,404,.,656,.,385,451
+HE21D,"Knee Fracture with Single Intervention, with CC Score 0-1",.,401,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,401
+HE21E,"Knee Fracture without Interventions, with CC Score 5+",525,360,.,468,"1,000",389,.,.,.,.,330,.,419,.,.,.,.,446
+HE21F,"Knee Fracture without Interventions, with CC Score 2-4",525,362,515,508,503,354,.,616,.,.,344,.,411,.,514,.,389,432
+HE21G,"Knee Fracture without Interventions, with CC Score 0-1",525,367,.,549,519,347,.,637,.,.,223,.,524,.,.,.,411,499
+HE22C,"Other Injury of Knee with Multiple Interventions, with CC Score 0-2","1,389",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,389"
+HE22F,"Other Injury of Knee with Single Intervention, with CC Score 0-2",.,.,.,"1,421","1,684",.,.,.,.,.,.,.,.,.,.,.,"1,547","1,584"
+HE22G,"Other Injury of Knee without Interventions, with CC Score 9+",.,.,.,.,376,.,.,.,.,.,.,.,.,.,.,.,364,366
+HE22H,"Other Injury of Knee without Interventions, with CC Score 6-8",357,384,.,468,376,.,.,.,370,.,.,.,402,.,.,.,364,384
+HE22J,"Other Injury of Knee without Interventions, with CC Score 3-5",469,374,.,.,482,.,.,.,370,.,299,.,386,.,656,.,359,401
+HE22K,"Other Injury of Knee without Interventions, with CC Score 0-2",488,378,429,549,689,389,.,616,.,.,312,.,378,.,585,.,374,460
+HE31C,"Foot Fracture with Single Intervention, with CC Score 0-1","1,389",.,.,.,969,.,.,.,.,.,.,.,"1,524",.,.,.,.,"1,307"
+HE31D,"Foot Fracture without Interventions, with CC Score 8+",462,376,.,.,.,.,.,.,370,.,.,.,.,.,.,.,.,429
+HE31E,"Foot Fracture without Interventions, with CC Score 4-7",525,358,.,.,.,291,.,.,742,.,.,.,421,.,514,.,364,430
+HE31F,"Foot Fracture without Interventions, with CC Score 2-3",525,387,.,.,610,291,.,.,742,.,430,.,406,.,514,.,520,481
+HE31G,"Foot Fracture without Interventions, with CC Score 0-1",523,376,.,549,588,.,.,653,.,.,305,.,438,440,514,.,410,489
+HE32B,"Other Injury of Foot with Interventions, with CC Score 0-1",.,"1,072",.,.,901,.,.,.,.,.,.,.,.,.,.,.,.,958
+HE32C,"Other Injury of Foot without Intervention, with CC Score 4+",.,401,.,.,.,.,.,.,.,.,.,.,.,.,.,.,364,372
+HE32D,"Other Injury of Foot without Interventions, with CC Score 2-3",446,373,.,.,"1,000",291,.,.,.,378,.,.,.,.,.,.,377,437
+HE32E,"Other Injury of Foot without Interventions, with CC Score 0-1",525,382,.,392,744,291,.,.,.,.,340,.,377,.,.,.,418,463
+HE41A,Hand Fracture with Interventions,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,311","1,311"
+HE41B,"Hand Fracture without Interventions, with CC Score 3+",446,363,.,.,.,.,.,.,.,.,374,.,381,.,.,.,364,378
+HE41C,"Hand Fracture without Interventions, with CC Score 1-2",446,390,.,549,441,291,786,.,.,.,344,.,342,.,656,.,406,413
+HE41D,"Hand Fracture without Interventions, with CC Score 0",499,376,.,.,764,.,.,622,.,.,223,.,379,.,656,.,441,550
+HE42A,"Other Injury of Hand with Interventions, with CC Score 2+",.,757,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,194",975
+HE42B,"Other Injury of Hand with Interventions, with CC Score 0-1",.,.,.,"1,427",.,.,.,.,.,.,.,.,.,.,.,.,"1,249","1,255"
+HE42C,"Other Injury of Hand without Interventions, with CC Score 4+",.,392,.,.,.,.,.,.,.,.,.,.,450,.,.,.,364,384
+HE42D,"Other Injury of Hand without Interventions, with CC Score 2-3",446,376,.,.,.,.,.,.,.,.,.,.,394,.,514,.,380,394
+HE42E,"Other Injury of Hand without Interventions, with CC Score 0-1",451,373,.,313,818,291,.,.,.,.,275,.,312,.,609,.,514,469
+HE51C,"Arm Fracture with Interventions, with CC Score 0-2","1,389",444,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,917
+HE51D,"Arm Fracture without Interventions, with CC Score 9+",525,401,682,.,376,.,.,.,.,.,.,.,345,.,.,.,326,427
+HE51E,"Arm Fracture without Interventions, with CC Score 6-8",525,368,575,.,376,291,.,.,370,.,327,.,381,.,.,.,364,390
+HE51F,"Arm Fracture without Interventions, with CC Score 4-5",466,380,463,.,548,.,.,.,538,.,339,.,401,.,.,.,349,410
+HE51G,"Arm Fracture without Interventions, with CC Score 2-3",499,381,490,468,467,330,.,.,556,378,350,.,416,.,585,.,407,420
+HE51H,"Arm Fracture without Interventions, with CC Score 0-1",515,375,429,529,649,334,.,.,.,.,263,.,381,.,656,.,412,469
+HE52B,"Other Injury of Arm with Interventions, with CC Score 0-1","1,400",.,.,.,"1,151",.,.,.,.,.,.,.,"1,997",.,.,.,"1,203","1,287"
+HE52C,"Other Injury of Arm without Interventions, with CC Score 7+",446,373,.,.,376,.,.,.,.,.,.,.,.,.,.,.,364,372
+HE52D,"Other Injury of Arm without Interventions, with CC Score 4-6",.,387,.,.,376,.,.,.,.,.,394,.,398,.,514,.,364,397
+HE52E,"Other Injury of Arm without Interventions, with CC Score 2-3",446,390,515,.,501,291,.,.,.,.,339,.,399,.,514,.,370,409
+HE52F,"Other Injury of Arm without Interventions, with CC Score 0-1",464,373,.,391,914,327,.,.,.,.,276,.,344,.,538,.,386,422
+HE71B,"Rib or Chest Fracture, without Interventions, with CC Score 6+",446,376,.,.,439,.,.,.,.,.,327,.,556,.,514,.,364,404
+HE71C,"Rib or Chest Fracture, without Interventions, with CC Score 3-5",446,371,515,468,492,340,.,.,370,.,223,.,366,.,623,.,374,414
+HE71D,"Rib or Chest Fracture, without Interventions, with CC Score 0-2",456,402,515,502,707,359,.,.,.,.,360,.,384,.,636,.,364,430
+HE72A,"Other Injury, of Rib or Chest, with Interventions",.,.,.,.,"1,319",.,.,.,.,.,.,.,.,.,.,.,978,"1,149"
+HE72B,"Other Injury, of Rib or Chest, without Interventions, with CC Score 7+",446,401,.,.,389,.,.,.,.,.,.,.,376,.,.,.,364,379
+HE72C,"Other Injury, of Rib or Chest, without Interventions, with CC Score 4-6",446,385,.,468,376,.,.,.,.,.,.,.,393,.,.,.,364,387
+HE72D,"Other Injury, of Rib or Chest, without Interventions, with CC Score 2-3",446,399,.,.,438,340,.,.,370,.,223,.,413,.,514,.,370,402
+HE72E,"Other Injury, of Rib or Chest, without Interventions, with CC Score 0-1",464,422,624,533,767,473,515,.,370,.,445,.,363,.,656,.,390,464
+HE81B,"Infection or Inflammatory Reaction, due to, Internal Orthopaedic Prosthetic Devices, Implants or Grafts, with CC Score 3-5",525,.,.,.,.,.,.,.,.,.,.,.,386,.,.,.,.,424
+HE81C,"Infection or Inflammatory Reaction, due to, Internal Orthopaedic Prosthetic Devices, Implants or Grafts, with CC Score 0-2",525,.,.,.,.,.,.,.,.,.,.,.,633,.,.,.,.,579
+HE82B,"Other Complications of, Internal Orthopaedic Prosthetic Devices, Implants or Grafts, with CC Score 4-6",525,363,.,.,.,.,.,.,.,.,.,.,498,.,.,.,378,416
+HE82C,"Other Complications of, Internal Orthopaedic Prosthetic Devices, Implants or Grafts, with CC Score 2-3",525,.,.,.,"1,000",.,.,618,.,.,.,.,.,.,.,.,414,564
+HE82D,"Other Complications of, Internal Orthopaedic Prosthetic Devices, Implants or Grafts with CC Score 0-1",525,354,.,549,441,.,.,617,.,.,.,.,302,.,.,.,401,429
+HE83A,"Early Complications of Trauma or Injury of Non-Specific Joint Site, with CC Score 5+",.,401,.,.,.,.,.,.,370,.,344,.,368,.,.,.,364,374
+HE83B,"Early Complications of Trauma or Injury of Non-Specific Joint Site, with CC Score 2-4",.,401,.,.,.,.,.,.,.,.,.,.,389,.,.,.,364,383
+HE83C,"Early Complications of Trauma or Injury of Non-Specific Joint Site, with CC Score 0-1",446,.,.,468,584,.,.,.,.,.,350,.,379,.,682,.,404,441
+HN12D,Very Major Hip Procedures for Non-Trauma with CC Score 4-5,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,184","2,184"
+HN12F,Very Major Hip Procedures for Non-Trauma with CC Score 0-1,.,.,.,.,"3,154",.,.,.,.,.,.,.,.,.,.,.,.,"3,154"
+HN13E,"Major Hip Procedures for Non-Trauma, 19 years and over, with CC Score 1",.,.,.,.,.,.,.,.,.,.,.,.,"1,974",.,.,.,.,"1,974"
+HN13F,"Major Hip Procedures for Non-Trauma, 19 years and over, with CC Score 0",.,.,.,.,.,.,.,.,.,.,.,.,"1,848",.,.,.,.,"1,848"
+HN14B,"Intermediate Hip Procedures for Non-Trauma, 19 years and over, with CC Score 4-5","1,821",.,.,.,376,.,.,.,.,.,.,.,"1,607",.,.,.,.,"1,268"
+HN14C,"Intermediate Hip Procedures for Non-Trauma, 19 years and over, with CC Score 2-3","1,821",.,.,.,.,.,.,.,.,.,.,.,"1,583",.,.,.,.,"1,643"
+HN14D,"Intermediate Hip Procedures for Non-Trauma, 19 years and over, with CC Score 1",.,.,.,.,"1,541",.,.,.,.,.,.,.,.,.,.,.,"1,299","1,380"
+HN14E,"Intermediate Hip Procedures for Non-Trauma, 19 years and over, with CC Score 0","1,821",.,.,.,"2,023",.,.,"3,844",.,.,.,.,"1,433",.,.,.,"1,299","2,074"
+HN14G,"Intermediate Hip Procedures for Non-Trauma, between 6 and 18 years, with CC Score 0",.,.,.,.,.,.,.,.,.,.,.,.,"2,834",.,.,.,"1,528","2,399"
+HN15A,"Minor Hip Procedures for Non-Trauma, 19 years and over",.,.,.,.,820,.,.,"3,241",.,.,.,.,.,.,.,.,.,"1,627"
+HN16B,"Minimal Hip Procedures, between 6 and 18 years","1,389",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,389"
+HN22E,Very Major Knee Procedures for Non-Trauma with CC Score 0-1,.,.,.,.,.,.,.,"5,630",.,.,.,.,.,.,.,.,.,"5,630"
+HN23B,"Major Knee Procedures for Non-Trauma, 19 years and over, with CC Score 2-3","1,821",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,821"
+HN23C,"Major Knee Procedures for Non-Trauma, 19 years and over, with CC Score 0-1",.,.,.,.,"1,374",.,.,"3,275",.,.,.,.,.,.,.,.,.,"2,641"
+HN24C,"Intermediate Knee Procedures for Non-Trauma, 19 years and over, with CC Score 0-1","2,163",.,.,.,"1,346",.,.,"2,377",.,.,.,.,"1,170",.,.,.,.,"1,689"
+HN25A,"Minor Knee Procedures for Non-Trauma, 19 years and over","1,821",.,.,.,"1,744",.,.,.,.,.,.,.,.,.,.,.,.,"1,795"
+HN25B,"Minor Knee Procedures for Non-Trauma, 18 years and under",.,.,.,.,.,.,.,.,.,.,.,.,"1,816",.,.,.,.,"1,816"
+HN26A,"Minimal Knee Procedures, 19 years and over",446,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,446
+HN33D,"Major Foot Procedures for Non-Trauma, 18 years and under",.,.,.,.,.,.,.,.,.,.,.,.,"1,061",.,.,.,.,"1,061"
+HN34B,"Intermediate Foot Procedures for Non-Trauma, 19 years and over, with CC Score 2-3",.,.,.,.,.,.,.,.,.,.,.,.,"5,001",.,.,.,.,"5,001"
+HN34C,"Intermediate Foot Procedures for Non-Trauma, 19 years and over, with CC Score 0-1","1,821",.,.,.,"1,234",.,.,.,.,.,.,.,.,.,"2,490",.,"1,152","1,391"
+HN34D,"Intermediate Foot Procedures for Non-Trauma, 18 years and under",.,.,.,.,"1,157",.,.,.,.,.,.,.,.,.,.,.,.,"1,157"
+HN35A,"Minor Foot Procedures for Non-Trauma, 19 years and over","1,821",.,984,.,"1,075",.,.,.,.,.,.,.,"2,607",.,"2,031",.,"1,547","1,677"
+HN35B,"Minor Foot Procedures for Non-Trauma, 18 years and under","1,411",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,411"
+HN43A,"Major Hand Procedures for Non-Trauma, 19 years and over, with CC Score 2+",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,771","1,771"
+HN43B,"Major Hand Procedures for Non-Trauma, 19 years and over, with CC Score 0-1","1,821",.,.,.,"2,683",.,.,.,.,.,.,.,.,.,.,.,"1,745","1,948"
+HN43C,"Major Hand Procedures for Non-Trauma, 18 years and under",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,987","1,987"
+HN44A,"Intermediate Hand Procedures for Non-Trauma, 19 years and over, with CC Score 2+",.,.,.,.,.,.,.,.,.,.,.,.,"2,254",.,.,.,"1,430","1,704"
+HN44B,"Intermediate Hand Procedures for Non-Trauma, 19 years and over, with CC Score 0-1","1,821",.,.,.,"1,347",.,.,.,.,.,.,.,"1,323",.,.,.,"1,520","1,518"
+HN44C,"Intermediate Hand Procedures for Non-Trauma, between 6 and 18 years",.,.,.,.,"1,432",.,.,.,.,.,.,.,.,.,.,.,"1,232","1,282"
+HN44D,"Intermediate Hand Procedures for Non-Trauma, 5 years and under",.,.,.,.,.,.,.,.,.,.,.,.,"2,261",.,.,.,"1,430","1,845"
+HN45A,"Minor Hand Procedures for Non-Trauma, 19 years and over","1,389",.,.,.,"1,187",.,.,.,.,.,.,.,.,.,.,.,"1,451","1,403"
+HN45B,"Minor Hand Procedures for Non-Trauma, between 6 and 18 years",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,547","1,547"
+HN53C,Major Shoulder Procedures for Non-Trauma with CC Score 0-1,"3,249",.,.,.,"4,037",.,.,.,.,.,.,.,"1,207",.,.,.,.,"2,425"
+HN54A,"Intermediate Shoulder Procedures for Non-Trauma, 19 years and over, with CC Score 4+",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,921,921
+HN54C,"Intermediate Shoulder Procedures for Non-Trauma, 19 years and over, with CC Score 0-1","1,821",.,.,.,"1,761",.,.,.,.,.,.,.,"1,287",.,.,.,"1,270","1,553"
+HN54D,"Intermediate Shoulder Procedures for Non-Trauma, 18 years and under",.,.,.,.,"1,649",.,.,.,.,.,.,.,.,.,.,.,.,"1,649"
+HN55Z,Minor Shoulder Procedures for Non-Trauma,"2,252",.,.,.,"2,170",.,.,.,.,.,.,.,.,.,.,.,"1,360","1,927"
+HN56Z,Minimal Shoulder Procedures,"1,389",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,389"
+HN63B,Major Elbow Procedures for Non-Trauma with CC Score 0-1,.,.,.,.,.,.,.,.,.,.,.,.,"3,482",.,.,.,"1,775","2,344"
+HN64A,"Intermediate Elbow Procedures for Non-Trauma, 19 years and over, with CC Score 2+",.,.,.,.,"1,349",.,.,.,.,.,.,.,.,.,.,.,.,"1,349"
+HN64B,"Intermediate Elbow Procedures for Non-Trauma, 19 years and over, with CC Score 0-1","1,821",.,.,.,"2,241",.,.,.,.,.,.,.,.,.,.,.,"1,337","1,615"
+HN64C,"Intermediate Elbow Procedures for Non-Trauma, between 6 and 18 years",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,152","1,152"
+HN65Z,Minor Elbow Procedures for Non-Trauma,.,"10,075",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"10,075"
+HN66Z,Minimal Elbow Procedures,"1,389",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,389"
+HN81C,"Complex, Hip or Knee Procedures for Non-Trauma, with CC Score 4-5",.,.,.,.,"4,424",.,.,.,.,.,.,.,.,.,.,.,.,"4,424"
+HN81D,"Complex, Hip or Knee Procedures for Non-Trauma, with CC Score 2-3",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,619","1,619"
+HT12B,Very Major Hip Procedures for Trauma with CC Score 9-11,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,863","2,863"
+HT12C,Very Major Hip Procedures for Trauma with CC Score 6-8,.,.,.,.,"4,932",.,.,.,.,.,.,.,"2,997",.,.,.,"2,051","3,327"
+HT12D,Very Major Hip Procedures for Trauma with CC Score 3-5,.,.,.,.,"4,358",.,.,.,.,.,.,.,"10,734",.,.,.,"2,051","4,711"
+HT12E,Very Major Hip Procedures for Trauma with CC Score 0-2,"3,680",.,.,.,"4,490",.,.,.,.,.,.,.,"7,181",.,.,.,"2,051","4,462"
+HT13D,Major Hip Procedures for Trauma with CC 3-5,"2,252",.,.,.,"2,505",.,.,.,.,.,.,.,.,.,.,.,"1,749","2,169"
+HT13E,Major Hip Procedures for Trauma with CC 0-2,"2,900",.,.,.,"3,511",.,.,.,.,.,.,.,.,.,.,.,"1,749","3,263"
+HT14C,Intermediate Hip Procedures for Trauma with CC Score 0-1,"1,821",.,.,.,"2,209",.,.,.,.,.,.,.,"3,060",.,.,.,.,"2,325"
+HT22C,Very Major Knee Procedures for Trauma with CC Score 0-1,"3,548",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"3,548"
+HT23D,"Major Knee Procedures for Trauma, 19 years and over, with CC Score 0",.,.,.,.,"3,213",.,.,.,.,.,.,.,"4,043",.,.,.,"1,619","3,221"
+HT24A,"Intermediate Knee Procedures for Trauma, 19 years and over, with CC Score 2+",.,.,.,.,.,.,.,.,.,.,.,.,"4,328",.,.,.,.,"4,328"
+HT24C,"Intermediate Knee Procedures for Trauma, 19 years and over, with CC Score 0","1,821",.,.,.,"1,618",.,.,.,.,.,.,.,"3,270",.,.,.,"1,430","2,399"
+HT24D,"Intermediate Knee Procedures for Trauma, 18 years and under","2,252",.,.,.,.,.,.,.,.,.,.,.,"4,152",.,.,.,"1,078","3,323"
+HT25Z,Minor Knee Procedures for Trauma,"1,389",.,.,.,976,.,.,.,.,.,.,.,"2,236",.,.,.,.,"1,885"
+HT32C,Very Major Foot Procedures for Trauma with CC Score 0-1,"3,770",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"3,770"
+HT33A,"Major Foot Procedures for Trauma, 19 years and over, with CC Score 4+",.,.,.,.,.,.,.,.,.,.,.,.,"4,148",.,.,.,.,"4,148"
+HT33C,"Major Foot Procedures for Trauma, 19 years and over, with CC Score 1","3,230",.,.,.,.,.,.,.,.,.,.,.,"4,148",.,.,.,.,"3,505"
+HT33D,"Major Foot Procedures for Trauma, 19 years and over, with CC Score 0","3,199",.,.,.,"2,583",.,.,.,.,.,.,.,"4,506",.,.,.,"1,625","3,071"
+HT33E,"Major Foot Procedures for Trauma, 18 years and under","2,252",.,.,.,"2,039",.,.,.,.,.,.,.,"2,957",.,.,.,.,"2,449"
+HT34C,"Intermediate Foot Procedures for Trauma, 19 years and over, with CC Score 1","1,821",.,.,.,"1,380",.,.,.,.,.,.,.,"3,067",.,.,.,.,"2,334"
+HT34D,"Intermediate Foot Procedures for Trauma, 19 years and over, with CC Score 0","2,120",.,.,.,"1,562",.,.,.,.,.,.,.,"3,112",.,.,.,"1,958","2,122"
+HT34E,"Intermediate Foot Procedures for Trauma, 18 years and under","1,821",.,.,.,.,.,.,.,.,.,.,.,"1,758",.,.,.,"1,397","1,698"
+HT35Z,Minor Foot Procedures for Trauma,"2,252",.,.,.,"1,416",.,.,.,.,.,.,.,.,.,.,.,.,"1,583"
+HT42B,Very Major Hand Procedures for Trauma with CC Score 0-1,"2,833",.,.,.,"1,993",.,.,.,.,.,.,.,"5,509",.,.,.,"1,895","2,564"
+HT43A,"Major Hand Procedures for Trauma, 19 years and over, with CC Score 4+","2,596",.,.,.,"3,068",.,.,.,.,.,.,.,.,.,.,.,"1,902","2,367"
+HT43B,"Major Hand Procedures for Trauma, 19 years and over, with CC Score 2-3",.,.,.,.,"2,263",.,.,.,.,.,.,.,"3,017",.,.,.,"1,820","2,015"
+HT43C,"Major Hand Procedures for Trauma, 19 years and over, with CC Score 0-1","2,636",.,.,.,"2,581",.,.,.,.,.,.,.,"3,302",.,.,.,"1,855","2,182"
+HT43D,"Major Hand Procedures for Trauma, between 6 and 18 years","2,466",.,.,.,"2,220",.,.,.,.,.,.,.,"3,353",.,.,.,"1,729","2,411"
+HT43E,"Major Hand Procedures for Trauma, 5 years and under","3,249",.,.,.,.,.,.,.,.,.,.,.,"3,374",.,.,.,"1,720","2,526"
+HT44A,"Intermediate Hand Procedures for Trauma, 19 years and over, with CC Score 4+",.,.,.,.,.,.,.,.,866,.,.,.,.,.,.,.,"1,430","1,148"
+HT44B,"Intermediate Hand Procedures for Trauma, 19 years and over, with CC Score 2-3","1,821",.,.,.,.,.,"1,121",.,.,.,.,.,.,.,.,.,"1,430","1,434"
+HT44C,"Intermediate Hand Procedures for Trauma, 19 years and over, with CC Score 0-1","1,914",367,.,.,"1,568",.,.,"2,642",.,.,227,.,"1,450",.,.,.,"1,505","1,527"
+HT44D,"Intermediate Hand Procedures for Trauma, between 6 and 18 years","1,812",.,.,.,"1,569",.,.,.,.,.,.,.,"1,561",.,.,.,"1,280","1,530"
+HT44E,"Intermediate Hand Procedures for Trauma, 5 years and under","1,821",.,.,.,.,.,.,.,.,.,.,.,"1,264",.,.,.,"1,267","1,358"
+HT45Z,Minor Hand Procedures for Trauma,"1,821",.,.,.,"1,297",.,.,.,.,.,.,.,"1,951",.,.,.,"1,432","1,455"
+HT52B,Very Major Shoulder Procedures for Trauma with CC Score 2-3,.,.,.,.,"4,313",.,.,.,.,.,.,.,.,.,.,.,.,"4,313"
+HT53B,"Major Shoulder Procedures for Trauma, 19 years and over, with CC Score 2-3","3,249",.,.,.,.,.,.,.,.,.,.,.,"4,407",.,.,.,.,"3,828"
+HT53C,"Major Shoulder Procedures for Trauma, 19 years and over, with CC Score 1",.,.,.,.,"4,455",.,.,.,.,.,.,.,"3,240",.,.,.,.,"4,050"
+HT53D,"Major Shoulder Procedures for Trauma, 19 years and over, with CC Score 0","2,751",.,.,.,"2,909",.,.,"3,631",.,.,.,.,"3,912",.,.,.,.,"3,061"
+HT53E,"Major Shoulder Procedures for Trauma, 18 years and under","3,249",.,.,.,.,.,.,.,.,.,.,.,"4,901",.,.,.,.,"4,075"
+HT54A,Intermediate Shoulder Procedures for Trauma with CC Score 4+,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,921,921
+HT54B,Intermediate Shoulder Procedures for Trauma with CC Score 2-3,"1,821",.,.,.,"1,000",.,.,.,770,.,.,.,947,.,.,.,.,"1,041"
+HT54C,Intermediate Shoulder Procedures for Trauma with CC Score 1,"1,893",367,.,.,"1,427",.,.,.,.,.,.,.,"1,274",.,.,.,856,"1,466"
+HT54D,Intermediate Shoulder Procedures for Trauma with CC Score 0,"1,875",367,.,.,"1,447",.,.,.,.,.,.,.,"1,012",.,.,.,"1,078","1,328"
+HT55Z,Minor Shoulder Procedures for Trauma,.,.,.,.,"2,300",.,.,.,.,.,.,.,.,.,.,.,.,"2,300"
+HT62B,Very Major Elbow Procedures for Trauma with CC score 0-1,"3,774",.,.,.,.,.,.,.,.,.,.,.,"4,969",.,.,.,"2,184","4,107"
+HT63C,"Major Elbow Procedures for Trauma, 19 years and over, with CC Score 1","3,249",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,933","2,371"
+HT63D,"Major Elbow Procedures for Trauma, 19 years and over, with CC Score 0","3,195",.,.,.,"2,714",.,.,.,.,.,.,.,"3,582",.,.,.,"1,902","2,652"
+HT63E,"Major Elbow Procedures for Trauma, between 6 and 18 years","2,519",.,.,.,"2,426",.,.,.,.,.,.,.,"3,604",.,.,.,"1,690","2,703"
+HT63F,"Major Elbow Procedures for Trauma, 5 years and under","2,296",.,.,.,.,.,.,.,.,.,.,.,"3,281",.,.,.,"1,694","2,667"
+HT64A,"Intermediate Elbow Procedures for Trauma, 19 years and over, with CC Score 1+",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,430","1,430"
+HT64B,"Intermediate Elbow Procedures for Trauma, 19 years and over, with CC Score 0","2,067",.,.,.,"1,959",.,.,"2,258",.,.,.,.,"1,656",.,.,.,"1,566","1,839"
+HT64C,"Intermediate Elbow Procedures for Trauma, between 6 and 18 years","1,890",.,.,.,"1,174",.,.,.,.,.,.,.,"1,903",.,.,.,"1,107","1,749"
+HT64D,"Intermediate Elbow Procedures for Trauma, 5 years and under","1,869",.,.,.,.,.,.,.,.,.,.,.,"1,666",.,.,.,"1,127","1,687"
+HT65Z,Minor Elbow Procedures for Trauma,"1,821",.,.,.,633,.,.,.,.,.,.,.,.,.,.,.,.,"1,425"
+HT81D,"Complex, Hip or Knee Procedures for Trauma, with CC Score 0-3",.,.,.,.,"9,281",.,.,.,.,.,.,.,.,.,.,.,.,"9,281"
+HT86A,"Complex, Foot, Hand, Shoulder or Elbow Procedures for Trauma, with CC Score 4+",.,.,.,.,.,.,.,.,.,.,.,.,"6,524",.,.,.,.,"6,524"
+HT86C,"Complex, Foot, Hand, Shoulder or Elbow Procedures for Trauma, with CC Score 0-1","2,585",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"3,658","3,014"
+JA12E,"Malignant Breast Disorders with Interventions, with CC Score 3-6",.,.,965,.,.,.,.,.,.,.,.,.,.,.,.,.,.,965
+JA12G,"Malignant Breast Disorders without Interventions, with CC Score 9+",446,401,.,468,397,.,.,.,.,.,.,.,.,.,.,.,364,412
+JA12H,"Malignant Breast Disorders without Interventions, with CC Score 6-8",.,373,497,.,376,.,.,.,.,.,327,.,548,440,.,.,364,407
+JA12J,"Malignant Breast Disorders without Interventions, with CC Score 4-5",446,.,662,.,376,.,.,.,.,.,.,.,.,.,514,.,364,512
+JA12K,"Malignant Breast Disorders without Interventions, with CC Score 2-3",446,381,662,.,392,291,.,.,.,.,.,.,374,.,.,.,364,462
+JA12L,"Malignant Breast Disorders without Interventions, with CC Score 0-1",.,.,654,.,439,.,.,.,.,.,.,.,.,.,.,.,364,591
+JA13B,"Non-Malignant Breast Disorders without Interventions, with CC Score 4+",.,.,.,.,376,.,.,.,.,.,.,.,.,.,.,.,364,368
+JA13C,"Non-Malignant Breast Disorders without Interventions, with CC Score 0-3",446,444,.,549,428,.,.,.,.,.,.,.,390,.,.,498,538,447
+JA20F,Unilateral Major Breast Procedures with CC Score 0-2,.,399,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,399
+JA34Z,Unilateral Delayed Free Perforator Flap Breast Reconstruction,.,.,.,.,"1,264",.,.,.,.,.,.,.,.,.,.,.,.,"1,264"
+JA43B,Unilateral Intermediate Breast Procedures with CC Score 0-2,.,.,"2,577",.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,577"
+JA45Z,Unilateral Minor Breast Procedures,.,838,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,838
+JB31B,Intermediate Burn (TBSA of 20-59%) with Other Skin Procedure,.,.,.,.,.,.,.,.,.,.,.,.,"3,111",.,.,.,.,"3,111"
+JB31C,Intermediate Burn (TBSA of 20-59%) without Skin Procedure,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,364,364
+JB32A,Minor Burn (TBSA of less than 20%) with Skin Graft,.,.,.,.,.,.,.,.,.,.,.,.,"2,600",.,.,.,.,"2,600"
+JB32B,Minor Burn (TBSA of less than 20%) with Other Skin Procedure,"1,389",.,.,.,.,"1,401",.,.,.,.,.,.,"2,198",.,.,.,.,"2,038"
+JB32C,Minor Burn (TBSA of less than 20%) without Skin Procedure,446,431,.,508,860,818,.,.,.,.,.,.,678,.,656,.,.,657
+JB33A,Other Burn with Skin Graft,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,430","1,430"
+JB33B,Other Burn with Other Skin Procedure,.,.,.,.,.,.,.,.,.,.,.,.,"2,096",.,.,.,"1,430","1,963"
+JB33C,Other Burn without Skin Procedure,489,422,.,.,668,571,.,.,370,.,269,.,396,.,.,.,845,484
+JC41Z,Major Skin Procedures,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,430","1,430"
+JC42A,"Intermediate Skin Procedures, 13 years and over","1,495",776,642,"1,079","1,318","1,130",.,.,.,.,392,.,465,.,"2,634",.,"1,351","1,244"
+JC42B,"Intermediate Skin Procedures, 12 years and under","1,776",783,.,.,"1,692",.,.,.,.,.,.,.,"1,016",.,"2,719",.,"1,404","1,422"
+JC43A,"Minor Skin Procedures, 13 years and over","1,169",423,896,"1,015","1,106","1,275",.,.,929,.,.,.,792,.,"2,490",.,"1,228","1,095"
+JC43B,"Minor Skin Procedures, 12 years and under","1,843",777,.,.,.,.,.,.,.,.,.,.,"1,296",.,"1,573",.,"1,225","1,298"
+JC47B,"Phototherapy or Photochemotherapy, 12 years and under",.,.,.,714,.,.,.,.,.,.,.,.,688,.,.,.,570,636
+JD07C,"Skin Disorders with Interventions, with CC Score 4-7",.,.,.,.,376,.,.,.,.,.,.,.,.,.,.,.,.,376
+JD07D,"Skin Disorders with Interventions, with CC Score 0-3","1,677",514,"1,665","1,120","1,099",861,.,.,.,.,.,.,537,.,"2,031",.,921,929
+JD07E,"Skin Disorders without Interventions, with CC Score 19+",.,.,682,.,376,.,.,.,.,.,.,.,.,.,.,.,364,494
+JD07F,"Skin Disorders without Interventions, with CC Score 14-18",.,401,600,.,429,452,.,.,370,.,.,.,354,.,514,.,364,442
+JD07G,"Skin Disorders without Interventions, with CC Score 10-13",447,393,520,468,465,452,.,.,370,.,347,.,385,.,567,.,364,416
+JD07H,"Skin Disorders without Interventions, with CC Score 6-9",446,478,506,.,380,291,.,.,367,.,339,.,397,.,538,.,364,414
+JD07J,"Skin Disorders without Interventions, with CC Score 2-5",447,390,518,473,422,336,515,.,397,.,335,.,405,.,532,498,374,413
+JD07K,"Skin Disorders without Interventions, with CC Score 0-1",446,387,476,586,657,336,515,"1,555",370,.,304,.,353,.,569,498,407,436
+KA05D,Anterior Pituitary Disorders with CC Score 0-1,.,.,.,.,376,.,.,.,.,.,.,.,.,.,.,.,.,376
+KA06C,"Non-Pituitary Neoplasia or Hypoplasia, with CC Score 4+",491,373,.,468,.,.,.,.,.,.,.,.,.,.,.,.,.,448
+KA06D,"Non-Pituitary Neoplasia or Hypoplasia, with CC Score 2-3",446,392,.,468,.,291,.,.,.,.,330,.,372,.,656,.,364,407
+KA06E,"Non-Pituitary Neoplasia or Hypoplasia, with CC Score 0-1",446,384,.,.,376,.,.,.,.,.,.,.,.,.,.,.,364,395
+KA07A,Non-Surgical Thyroid Disorders with CC Score 4+,512,.,.,.,376,.,.,.,.,.,344,.,388,.,514,.,364,422
+KA07B,Non-Surgical Thyroid Disorders with CC Score 2-3,446,428,.,.,.,.,.,.,.,.,392,.,402,.,514,.,.,414
+KA07C,Non-Surgical Thyroid Disorders with CC Score 0-1,459,367,667,471,387,.,.,.,370,.,488,.,431,.,514,.,380,437
+KA08A,Other Endocrine Disorders with CC Score 4+,446,395,.,468,.,291,.,.,370,.,341,.,382,.,542,.,364,406
+KA08B,Other Endocrine Disorders with CC Score 2-3,446,381,439,468,376,.,515,.,.,.,344,.,377,.,514,.,364,391
+KA08C,Other Endocrine Disorders with CC Score 0-1,446,395,.,468,376,291,.,.,.,.,351,.,414,.,514,.,364,389
+KA09E,Thyroid Procedures with CC Score 0-1,"3,518",.,.,.,"3,801",.,.,.,.,.,.,.,.,.,.,.,.,"3,660"
+KB01C,"Diabetes with Hypoglycaemic Disorders, with CC Score 8+",.,396,515,.,376,558,.,.,370,.,344,.,379,.,.,.,364,394
+KB01D,"Diabetes with Hypoglycaemic Disorders, with CC Score 5-7",458,380,.,468,376,.,.,.,370,.,366,.,416,.,514,.,369,408
+KB01E,"Diabetes with Hypoglycaemic Disorders, with CC Score 3-4",446,375,586,468,376,291,.,.,370,.,338,.,383,.,514,.,364,395
+KB01F,"Diabetes with Hypoglycaemic Disorders, with CC Score 0-2",446,389,429,468,445,291,.,.,.,.,334,.,419,.,561,.,364,408
+KB02G,"Diabetes with Hyperglycaemic Disorders, with CC Score 8+",446,392,623,468,376,431,.,.,370,.,.,.,392,.,514,.,364,409
+KB02H,"Diabetes with Hyperglycaemic Disorders, with CC Score 5-7",457,395,.,468,381,291,515,.,370,.,343,.,396,.,532,.,372,402
+KB02J,"Diabetes with Hyperglycaemic Disorders, with CC Score 2-4",449,387,466,469,376,291,515,.,370,.,341,.,404,.,525,.,364,402
+KB02K,"Diabetes with Hyperglycaemic Disorders, with CC Score 0-1",449,396,433,468,413,308,515,.,370,.,348,.,400,.,530,.,363,400
+KB03C,"Diabetes with Lower Limb Complications, with CC Score 9+",.,401,525,.,.,291,.,.,680,.,.,.,.,.,.,.,.,450
+KB03D,"Diabetes with Lower Limb Complications, with CC Score 5-8",446,401,.,.,407,.,.,.,.,.,344,.,370,.,.,.,364,396
+KB03E,"Diabetes with Lower Limb Complications, with CC Score 0-4",446,384,.,.,428,389,.,.,.,.,338,.,.,.,514,.,364,408
+KC04A,Inborn Errors of Metabolism with CC Score 3+,484,.,.,.,.,.,.,.,370,.,330,.,367,.,514,.,364,438
+KC04B,Inborn Errors of Metabolism with CC Score 0-2,561,.,584,.,376,291,.,.,.,.,354,.,398,.,.,.,527,475
+KC05J,"Fluid or Electrolyte Disorders, without Interventions, with CC Score 10+",446,386,600,.,382,462,.,.,.,.,344,.,377,.,514,.,364,434
+KC05K,"Fluid or Electrolyte Disorders, without Interventions, with CC Score 7-9",440,388,562,468,376,431,515,.,370,.,364,.,381,.,530,.,366,409
+KC05L,"Fluid or Electrolyte Disorders, without Interventions, with CC Score 4-6",447,391,541,473,390,291,539,.,399,.,355,.,390,.,522,.,363,399
+KC05M,"Fluid or Electrolyte Disorders, without Interventions, with CC Score 2-3",474,386,536,470,415,379,515,.,370,.,349,.,386,.,540,.,365,401
+KC05N,"Fluid or Electrolyte Disorders, without Interventions, with CC Score 0-1",458,392,446,469,448,291,515,.,370,.,351,.,388,.,514,498,415,399
+LA02A,"Kidney Transplant, 19 years and over, from Cadaver Heart-Beating Donor",.,.,"9,738",.,.,.,.,.,.,.,.,.,.,.,.,.,.,"9,738"
+LA04M,"Kidney or Urinary Tract Infections, with Interventions, with CC Score 0-2",.,.,.,.,.,.,.,.,.,.,.,.,373,.,.,.,.,373
+LA04N,"Kidney or Urinary Tract Infections, without Interventions, with CC Score 13+",.,.,.,.,376,.,.,.,.,.,.,.,371,.,.,.,364,371
+LA04P,"Kidney or Urinary Tract Infections, without Interventions, with CC Score 8-12",431,378,556,.,376,291,.,.,370,.,356,.,377,.,542,.,362,393
+LA04Q,"Kidney or Urinary Tract Infections, without Interventions, with CC Score 4-7",450,383,500,468,380,388,515,.,368,.,352,.,385,.,534,.,364,397
+LA04R,"Kidney or Urinary Tract Infections, without Interventions, with CC Score 2-3",445,388,507,480,407,351,515,.,370,.,347,.,386,440,546,.,368,402
+LA04S,"Kidney or Urinary Tract Infections, without Interventions, with CC Score 0-1",450,392,510,516,442,334,515,.,368,.,339,.,380,.,567,498,366,403
+LA05Z,Renal Replacement Peritoneal Dialysis Associated Procedures,.,.,683,.,.,.,.,.,.,.,.,.,.,.,.,.,.,683
+LA07J,"Acute Kidney Injury with Interventions, with CC Score 6-10",.,.,.,.,376,.,.,.,.,.,.,.,.,.,.,.,.,376
+LA07K,"Acute Kidney Injury with Interventions, with CC Score 0-5",.,.,"1,052",.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,052"
+LA07L,"Acute Kidney Injury without Interventions, with CC Score 12+",.,385,.,.,376,.,.,.,.,.,.,.,400,.,.,.,364,384
+LA07M,"Acute Kidney Injury without Interventions, with CC Score 8-11",522,385,555,.,376,371,.,.,370,.,345,.,366,.,542,.,364,416
+LA07N,"Acute Kidney Injury without Interventions, with CC Score 4-7",512,384,531,475,394,382,515,.,370,.,351,.,384,.,521,.,368,412
+LA07P,"Acute Kidney Injury without Interventions, with CC Score 0-3",492,390,613,478,410,432,515,.,370,.,354,.,381,.,566,.,362,411
+LA08K,"Chronic Kidney Disease without Interventions, with CC Score 11+",.,373,515,.,.,.,.,.,.,.,.,.,.,.,.,.,.,434
+LA08L,"Chronic Kidney Disease without Interventions, with CC Score 8-10",446,338,682,.,.,452,.,.,.,.,.,.,366,.,514,.,422,481
+LA08M,"Chronic Kidney Disease without Interventions, with CC Score 5-7",491,405,671,468,.,452,.,.,.,.,344,.,.,.,.,.,379,479
+LA08N,"Chronic Kidney Disease without Interventions, with CC Score 3-4",481,364,682,474,.,430,.,.,.,.,.,.,366,.,.,.,382,486
+LA08P,"Chronic Kidney Disease without Interventions, with CC Score 0-2",.,.,669,.,.,.,.,.,.,.,.,.,"1,889",.,.,.,.,732
+LA09M,"General Renal Disorders without Interventions, with CC Score 9+",.,401,.,.,.,.,.,.,.,.,.,.,.,.,514,.,.,439
+LA09N,"General Renal Disorders without Interventions, with CC Score 6-8",446,363,628,549,439,.,.,.,.,.,334,.,366,.,.,.,364,484
+LA09P,"General Renal Disorders without Interventions, with CC Score 3-5",470,384,589,.,386,291,515,.,370,.,321,.,424,.,514,.,368,409
+LA09Q,"General Renal Disorders without Interventions, with CC Score 0-2",455,395,613,619,421,361,515,.,370,.,307,.,350,.,550,.,376,389
+LB06N,"Kidney, Urinary Tract or Prostate Neoplasms, without Interventions, with CC Score 13+",.,.,682,.,376,.,.,.,.,.,.,.,.,.,.,.,.,551
+LB06P,"Kidney, Urinary Tract or Prostate Neoplasms, without Interventions, with CC Score 7-12",.,394,559,664,392,.,.,.,.,.,.,.,366,.,.,.,364,404
+LB06Q,"Kidney, Urinary Tract or Prostate Neoplasms, without Interventions, with CC Score 4-6",503,384,555,508,376,.,.,.,.,.,.,.,368,.,514,.,364,395
+LB06R,"Kidney, Urinary Tract or Prostate Neoplasms, without Interventions, with CC Score 2-3",474,430,590,549,481,.,.,.,.,.,340,.,376,.,.,.,372,429
+LB06S,"Kidney, Urinary Tract or Prostate Neoplasms, without Interventions, with CC Score 0-1",489,.,570,.,805,452,.,.,370,.,.,.,366,.,.,.,443,501
+LB09D,"Intermediate Endoscopic Ureter Procedures, 19 years and over","1,491",401,"1,756","1,307","2,086",.,.,.,.,.,.,.,.,.,.,.,867,"1,378"
+LB13F,Major Endoscopic Bladder Procedures with CC Score 0-1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,188","1,188"
+LB14Z,Intermediate Endoscopic Bladder Procedures,805,.,.,"1,567",.,.,.,.,.,.,.,.,.,.,.,.,.,995
+LB15D,"Minor Bladder Procedures, 18 years and under",745,.,.,.,415,818,.,.,.,.,.,.,778,.,.,.,952,773
+LB15E,"Minor Bladder Procedures, 19 years and over",793,453,635,681,697,678,894,.,790,.,391,.,"1,041",.,"1,458",.,862,690
+LB16G,"Urinary Incontinence or Other Urinary Problems, without Interventions, with CC Score 8+",424,351,.,.,376,389,.,.,.,.,.,.,.,.,514,.,364,399
+LB16H,"Urinary Incontinence or Other Urinary Problems, without Interventions, with CC Score 5-7",446,399,559,626,376,389,.,.,.,.,308,.,366,.,561,.,364,462
+LB16J,"Urinary Incontinence or Other Urinary Problems, without Interventions, with CC Score 2-4",452,395,591,492,442,340,.,.,.,.,344,.,445,.,638,.,372,438
+LB16K,"Urinary Incontinence or Other Urinary Problems, without Interventions, with CC Score 0-1",480,468,617,577,577,389,.,.,.,.,335,.,393,.,609,.,493,493
+LB17Z,Introduction of Therapeutic Substance into Bladder,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,099","1,099"
+LB18Z,Attention to Suprapubic Bladder Catheter,"1,087",423,632,899,.,.,.,.,721,.,.,.,778,.,"2,152",.,913,891
+LB19E,"Ureteric or Bladder Disorders, without Interventions, with CC Score 5+",446,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,364,419
+LB19F,"Ureteric or Bladder Disorders, without Interventions, with CC Score 2-4",446,.,.,.,.,389,.,.,.,.,344,.,379,.,.,.,.,386
+LB19G,"Ureteric or Bladder Disorders, without Interventions, with CC Score 0-1",503,.,585,.,.,389,.,.,.,.,.,.,396,.,656,.,456,503
+LB20D,"Infection or Mechanical Problems Related to Genito-Urinary Prostheses, Implants or Grafts, with Interventions, with CC Score 0-3",.,.,.,.,376,.,.,.,.,.,.,.,.,.,.,.,.,376
+LB20E,"Infection or Mechanical Problems Related to Genito-Urinary Prostheses, Implants or Grafts, without Interventions, with CC Score 7+",503,387,505,508,376,291,.,.,.,.,370,.,.,.,561,.,364,410
+LB20F,"Infection or Mechanical Problems Related to Genito-Urinary Prostheses, Implants or Grafts, without Interventions, with CC Score 2-6",456,385,624,578,492,291,.,.,370,.,339,.,392,.,571,.,383,422
+LB20G,"Infection or Mechanical Problems Related to Genito-Urinary Prostheses, Implants or Grafts, without Interventions, with CC Score 0-1",446,390,624,549,575,389,.,.,370,.,350,.,349,.,708,.,402,459
+LB25F,Transurethral Prostate Resection Procedures with CC Score 0-2,.,.,.,.,376,.,.,.,.,.,.,.,.,.,.,.,"1,415",896
+LB28E,"Non-Malignant Prostate Disorders without Interventions, with CC Score 6+",.,401,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,401
+LB28F,"Non-Malignant Prostate Disorders without Interventions, with CC Score 3-5",.,.,647,468,.,.,.,.,.,.,.,.,366,.,.,.,.,494
+LB28G,"Non-Malignant Prostate Disorders without Interventions, with CC Score 0-2",446,367,447,599,427,291,.,.,.,.,.,.,.,.,.,.,.,449
+LB29A,"Major Open Urethra Procedures, 19 years and over",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,061","1,061"
+LB35C,"Scrotum, Testis or Vas Deferens Disorders, with Interventions, with CC Score 2+",.,.,"2,326",.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,326"
+LB35E,"Scrotum, Testis or Vas Deferens Disorders, without Interventions, with CC Score 6+",.,.,.,.,439,.,.,.,.,.,.,.,642,.,.,.,364,471
+LB35F,"Scrotum, Testis or Vas Deferens Disorders, without Interventions, with CC Score 3-5",417,401,532,549,.,389,.,.,.,.,345,.,366,.,656,.,.,437
+LB35G,"Scrotum, Testis or Vas Deferens Disorders, without Interventions, with CC Score 1-2",446,430,610,549,537,389,.,.,.,.,.,.,.,.,656,.,424,494
+LB35H,"Scrotum, Testis or Vas Deferens Disorders, without Interventions, with CC Score 0",448,441,624,549,448,389,.,.,.,.,339,.,388,.,647,.,402,492
+LB37C,Miscellaneous Urinary Tract Findings with CC Score 5+,446,.,.,.,376,.,.,.,.,.,.,.,425,.,.,.,364,413
+LB37D,Miscellaneous Urinary Tract Findings with CC Score 2-4,485,363,.,474,376,.,.,.,.,.,.,.,.,.,514,.,473,451
+LB37E,Miscellaneous Urinary Tract Findings with CC Score 0-1,446,401,560,549,401,.,.,.,.,.,340,.,513,.,514,.,561,486
+LB38F,"Unspecified Haematuria without Interventions, with CC Score 8+",503,.,515,.,439,.,.,.,370,.,.,.,.,.,.,.,364,438
+LB38G,"Unspecified Haematuria without Interventions, with CC Score 4-7",471,376,649,529,415,389,.,.,370,.,327,.,.,.,585,.,381,436
+LB38H,"Unspecified Haematuria without Interventions, with CC Score 0-3",464,437,616,522,569,389,.,.,.,.,314,.,359,.,609,.,420,463
+LB40E,"Urinary Tract Stone Disease without Interventions, with CC Score 6+",503,.,.,.,.,.,.,.,.,.,.,.,366,.,.,.,.,411
+LB40F,"Urinary Tract Stone Disease without Interventions, with CC Score 3-5",465,416,675,549,415,356,.,.,.,.,330,.,384,.,656,.,396,439
+LB40G,"Urinary Tract Stone Disease without Interventions, with CC Score 0-2",462,386,616,608,514,386,.,.,.,.,246,.,308,.,646,.,412,440
+LB43Z,Treatment of Erectile Dysfunction,.,.,624,.,.,.,.,.,.,.,.,.,.,.,.,.,.,624
+LB47Z,Major Open Penis Procedures,.,.,.,.,"2,246",.,.,.,.,.,.,.,.,.,.,.,.,"2,246"
+LB52A,"Major Open, Scrotum, Testis or Vas Deferens Procedures, with CC Score 2+",.,"1,585",.,.,"1,256",.,.,.,.,.,.,.,.,.,.,.,.,"1,366"
+LB52B,"Major Open, Scrotum, Testis or Vas Deferens Procedures, with CC Score 0-1",.,.,"1,955",.,971,.,.,.,.,.,.,.,"1,601",.,.,.,"1,360","1,669"
+LB53B,"Intermediate Open, Scrotum, Testis or Vas Deferens Procedures, 18 years and under","2,375",953,"1,545",.,"2,500",.,.,.,.,.,.,.,"2,698",.,.,.,.,"2,369"
+LB53C,"Intermediate Open, Scrotum, Testis or Vas Deferens Procedures, 19 years and over, with CC Score 1+",.,"1,292",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,292"
+LB53D,"Intermediate Open, Scrotum, Testis or Vas Deferens Procedures, 19 years and over, with CC Score 0","2,375",.,"1,991",779,"1,739","1,637",.,.,.,.,.,.,"2,087",.,.,.,.,"1,814"
+LB54A,"Minor, Scrotum, Testis or Vas Deferens Procedures, 19 years and over","1,330","1,231","1,679","1,107","1,999","1,049",.,.,.,.,.,.,.,.,"3,052",.,"1,066","1,676"
+LB54C,"Minor, Scrotum, Testis or Vas Deferens Procedures, between 2 and 18 years","1,420","1,116","2,342","1,174","1,614","1,340",.,.,.,.,.,.,"1,820",.,"3,051",.,"1,188","1,670"
+LB54D,"Minor, Scrotum, Testis or Vas Deferens Procedures, 1 year and under",.,.,.,.,.,.,.,.,.,.,.,.,"1,798",.,.,.,.,"1,798"
+LB55A,"Minor or Intermediate, Urethra Procedures, 19 years and over",.,.,"1,335",.,"1,114",979,.,.,.,.,.,.,.,.,.,.,783,"1,099"
+LB55B,"Minor or Intermediate, Urethra Procedures, 18 years and under",.,.,.,.,"1,496",.,.,.,.,.,.,.,"2,723",.,.,.,"1,381","1,867"
+LB56A,"Minor Penis Procedures, 19 years and over","1,411",907,"1,807",794,"1,496","1,367",.,.,.,.,.,.,.,.,"2,031",.,862,"1,381"
+LB56C,"Minor Penis Procedures, between 2 and 18 years","1,183",738,.,877,.,"1,114",.,.,.,.,.,.,"1,583",.,.,.,.,"1,326"
+LB56D,"Minor Penis Procedures, 1 year and under",.,.,.,.,.,.,.,.,.,.,.,.,"1,469",.,.,.,.,"1,469"
+LB57D,Urethral Disorders without Interventions,417,401,534,779,708,.,.,.,.,.,.,.,.,.,656,.,387,530
+LB58D,Penile Disorders without Interventions,446,.,624,431,415,.,.,.,.,.,.,.,366,.,.,.,372,419
+LB60F,"Complex, Open or Laparoscopic, Kidney or Ureter Procedures, with CC Score 0-1",.,.,.,.,.,.,.,.,.,.,.,.,"1,098",.,.,.,.,"1,098"
+LB61C,"Major, Open or Percutaneous, Kidney or Ureter Procedures, 19 years and over, with CC Score 10+",.,.,"4,796",.,.,.,.,.,.,.,.,.,.,.,.,.,.,"4,796"
+LB61E,"Major, Open or Percutaneous, Kidney or Ureter Procedures, 19 years and over, with CC Score 4-6",.,.,.,.,.,.,.,.,.,.,.,.,"2,195",.,.,.,.,"2,195"
+LB61G,"Major, Open or Percutaneous, Kidney or Ureter Procedures, 19 years and over, with CC Score 0-1",.,.,.,.,"2,379",.,.,.,.,.,.,.,.,.,.,.,.,"2,379"
+LB63D,"Major, Open or Laparoscopic, Kidney or Ureter Procedures, 18 years and under, with CC Score 0-1",.,.,.,.,.,.,.,.,.,.,.,.,"7,779",.,.,.,.,"7,779"
+LB64E,"Complex Endoscopic, Kidney or Ureter Procedures, 19 years and over, with CC Score 0-1","1,410",.,"2,478",779,.,.,.,.,.,.,.,.,.,.,.,.,978,"1,411"
+LB65C,"Major Endoscopic, Kidney or Ureter Procedures, 19 years and over, with CC Score 5+","1,410",401,.,.,"1,135",.,.,.,.,.,.,.,.,.,.,.,.,"1,020"
+LB65D,"Major Endoscopic, Kidney or Ureter Procedures, 19 years and over, with CC Score 3-4",.,.,"2,165",.,"1,893",.,.,.,.,.,.,.,.,.,.,.,.,"2,029"
+LB65E,"Major Endoscopic, Kidney or Ureter Procedures, 19 years and over, with CC Score 0-2","1,651",.,"1,969",852,"1,587",.,.,.,.,.,.,.,.,.,.,.,"1,180","1,481"
+LB66Z,"Complex or Major, Endoscopic, Kidney or Ureter Procedures, 18 years and under",.,.,"2,247",.,"3,283",.,.,.,.,.,.,.,.,.,.,.,.,"2,765"
+LB68A,Complex Endoscopic Bladder Procedures with CC Score 3+,"2,375",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,375"
+LB68B,Complex Endoscopic Bladder Procedures with CC Score 0-2,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,978,978
+LB72A,"Diagnostic Flexible Cystoscopy, 19 years and over",805,351,"1,460","1,157",907,733,.,.,.,.,.,.,"1,100",.,.,.,749,"1,023"
+LB76Z,Transrectal Ultrasound Guided Biopsy of Prostate,.,.,624,.,.,.,.,.,.,.,.,.,.,.,.,.,.,624
+MA02C,"Very Major Open, Upper or Lower Genital Tract Procedures, with CC Score 0-1",.,.,"2,364",.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,364"
+MA04D,Intermediate Open Lower Genital Tract Procedures with CC Score 0-2,"1,470","1,164",.,.,"1,306","1,935",.,.,.,.,.,.,.,.,.,.,"1,101","1,380"
+MA06C,"Major, Open or Laparoscopic, Upper or Lower Genital Tract Procedures for Malignancy, with CC Score 0-1",.,.,"2,656",.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,656"
+MA07E,Major Open Upper Genital Tract Procedures with CC Score 5+,.,.,.,.,906,.,.,.,.,.,.,.,.,.,.,.,.,906
+MA07G,Major Open Upper Genital Tract Procedures with CC Score 0-2,"1,852",827,"2,125",.,"1,799",.,.,.,.,.,.,.,"2,391",.,"4,077",.,.,"2,107"
+MA08B,"Major, Laparoscopic or Endoscopic, Upper Genital Tract Procedures, with CC Score 0-1","2,089","1,093","3,320",908,"2,161","2,940",.,.,.,.,.,.,"4,934",.,"5,762",.,"1,386","2,345"
+MA09Z,"Intermediate, Laparoscopic or Endoscopic, Upper Genital Tract Procedures",.,.,"3,322",.,.,.,.,.,.,.,.,.,.,.,.,.,.,"3,322"
+MA10Z,"Minor, Laparoscopic or Endoscopic, Upper Genital Tract Procedures","1,661","1,711","2,105","1,198","1,810","1,874",.,.,.,.,.,.,"1,817",.,"4,197",.,.,"1,937"
+MA11Z,Intermediate Open Upper Genital Tract Procedures,.,.,.,.,"1,978",.,.,.,.,.,.,.,.,.,.,.,"1,544","1,761"
+MA12Z,Resection or Ablation Procedures for Intra-Uterine Lesions,"1,586",.,"1,272",.,"1,363",.,.,.,.,.,.,.,.,.,"2,279",.,.,"1,522"
+MA17C,"Dilation and Evacuation, less than 14 weeks gestation",972,"1,583",979,"1,574","1,342","1,269",.,.,.,.,.,.,"1,020",.,"1,853",.,990,"1,411"
+MA17D,"Dilation and Evacuation, 14 to 20 weeks gestation",972,"1,111",.,"6,501","1,358","1,237",.,.,.,.,.,.,.,.,"1,831",.,.,"2,015"
+MA18C,"Medical Termination of Pregnancy, less than 14 weeks gestation",972,827,.,908,"1,289","1,149",.,.,.,.,.,.,509,.,"1,339",.,737,"1,020"
+MA18D,"Medical Termination of Pregnancy, 14 to 20 weeks gestation",972,.,.,.,"1,289","1,149",.,.,.,.,.,.,512,.,.,.,779,822
+MA19A,"Vacuum Aspiration with Cannula, less than 14 weeks gestation","1,027","1,865",.,"1,576","1,354","1,218",.,.,.,.,.,.,"1,020",.,"1,831",.,"1,069","1,138"
+MA19B,"Vacuum Aspiration with Cannula, 14 to 20 weeks gestation",972,827,.,"1,411",.,.,.,.,.,.,.,.,"1,020",.,.,.,.,"1,045"
+MA20Z,"Medical or Surgical Termination of Pregnancy, over 20 weeks gestation",972,.,.,.,906,.,.,.,.,.,.,.,509,.,.,.,.,652
+MA22Z,Minor Lower Genital Tract Procedures,"1,158","1,434",978,"1,602","1,499","1,319",.,.,.,.,.,.,"1,157",.,"2,392",.,"1,148","1,220"
+MA23Z,Minimal Lower Genital Tract Procedures,"1,224","1,058",853,"1,342","1,263","1,212",.,.,.,.,.,.,.,.,"2,392",.,"1,028","1,112"
+MA24Z,Minor Upper Genital Tract Procedures,972,"5,389",.,"1,514","1,479","1,375",.,.,.,.,.,.,"1,289",.,.,.,.,"1,490"
+MA25Z,Minimal Upper Genital Tract Procedures,"1,138",.,"1,028",.,"1,207","1,305",.,.,.,.,.,.,.,.,.,.,974,"1,113"
+MA27Z,"Minor, Upper or Lower Genital Tract Procedures for Malignancy",.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,392",.,"2,019","2,205"
+MA30Z,Intermediate Female Pelvic Peritoneum Adhesion Procedures,.,.,.,"1,903",.,.,.,.,.,.,.,.,.,.,.,.,.,"1,903"
+MA31Z,Diagnostic Hysteroscopy,.,.,.,.,.,"1,149",.,.,.,.,.,.,.,.,.,.,.,"1,149"
+MA32Z,Diagnostic Hysteroscopy with Biopsy,.,"1,458","1,301","1,524","1,338",.,.,.,.,.,.,.,.,.,"2,813",.,"1,069","1,924"
+MA33Z,Diagnostic Hysteroscopy with Biopsy and Implantation of Intrauterine Device,.,"1,442",.,.,.,.,.,.,.,.,.,.,.,.,"2,392",.,.,"1,917"
+MA36Z,Transvaginal Ultrasound,804,812,"1,331",894,"1,194",429,.,.,.,.,.,.,509,.,"1,269",.,886,849
+MA37Z,Transvaginal Ultrasound with Biopsy,806,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,806
+MA39Z,Diagnostic Colposcopy with Biopsy,.,.,.,908,.,.,.,.,.,.,.,.,.,.,.,.,.,908
+MB05G,"Malignant Gynaecological Disorders without Interventions, with CC Score 10+",.,401,.,.,.,.,.,.,.,.,.,.,.,.,.,.,364,383
+MB05H,"Malignant Gynaecological Disorders without Interventions, with CC Score 7-9",.,401,562,.,797,.,.,.,.,.,.,.,591,.,.,.,.,554
+MB05J,"Malignant Gynaecological Disorders without Interventions, with CC Score 4-6",.,394,668,549,376,.,.,.,370,.,437,.,367,.,514,.,364,466
+MB05K,"Malignant Gynaecological Disorders without Interventions, with CC Score 2-3",.,625,661,.,.,291,.,.,.,.,344,.,381,.,514,.,.,472
+MB05L,"Malignant Gynaecological Disorders without Interventions, with CC Score 0-1",474,380,645,.,439,291,.,.,.,.,.,.,353,.,708,.,403,480
+MB08B,"Threatened or Spontaneous Miscarriage, without Interventions",554,809,548,"1,003",810,418,"1,908",.,.,.,223,.,506,.,731,.,627,652
+MB09D,"Non-Malignant Gynaecological Disorders without Interventions, with CC Score 6+",.,.,515,.,407,.,.,.,.,.,362,.,.,.,.,.,355,394
+MB09E,"Non-Malignant Gynaecological Disorders without Interventions, with CC Score 3-5",455,513,531,468,418,.,.,.,.,378,.,.,390,.,.,.,384,453
+MB09F,"Non-Malignant Gynaecological Disorders without Interventions, with CC Score 0-2",464,603,551,720,576,414,.,.,.,.,327,.,387,.,686,.,529,516
+NZ16Z,Ante-Natal Routine Observation,593,926,.,"1,225",906,"1,096","1,908",.,"1,365",.,"4,221",.,509,.,846,.,728,792
+NZ17A,"Ante-Natal False Labour, including Premature Rupture of Membranes, with CC Score 2+",.,926,.,"1,225",906,"1,096",.,.,.,.,.,.,509,.,.,.,.,924
+NZ17B,"Ante-Natal False Labour, including Premature Rupture of Membranes, with CC Score 0-1",537,922,.,"1,225",897,"1,075",.,.,"1,365",.,.,.,510,.,843,.,729,916
+NZ18A,Ante-Natal Complex Disorders with CC Score 2+,544,926,.,.,766,.,.,.,.,.,.,.,509,.,.,.,729,666
+NZ18B,Ante-Natal Complex Disorders with CC Score 0-1,539,791,.,"1,161",955,601,.,.,.,.,.,.,508,.,811,498,655,691
+NZ19A,Ante-Natal Major Disorders with CC Score 2+,564,926,.,"1,079","1,076","1,292",.,.,.,.,.,.,512,.,846,.,729,813
+NZ19B,Ante-Natal Major Disorders with CC Score 0-1,603,898,.,"1,156","1,058","1,240",.,.,"1,365",.,"4,221",.,509,.,822,498,704,844
+NZ20A,Ante-Natal Other Disorders with CC Score 2+,.,.,.,.,.,.,.,.,.,.,.,.,509,.,846,.,.,677
+NZ20B,Ante-Natal Other Disorders with CC Score 0-1,575,926,.,.,"1,102","1,292",.,.,"1,365",.,"4,221",.,503,.,839,.,729,840
+NZ24A,"Ante-Natal Therapeutic Procedures, including Induction, with CC Score 2+","1,013",.,.,.,.,.,.,.,.,.,.,.,541,.,.,.,.,777
+NZ24B,"Ante-Natal Therapeutic Procedures, including Induction, with CC Score 0-1","1,013",926,.,"1,225","1,014",.,"1,942",.,.,.,.,.,741,.,"3,364",.,.,"1,024"
+NZ25Z,Labour without Specified Delivery,593,939,.,"1,225",906,"1,096","1,908",.,"1,365",.,"4,221",.,509,.,822,.,804,"1,041"
+NZ26A,Post-Natal Disorders with CC Score 2+,.,.,.,.,739,.,.,.,.,.,.,.,509,.,.,.,.,662
+NZ26B,Post-Natal Disorders with CC Score 0-1,516,704,551,"1,149",943,"1,146","1,908",.,"1,365",.,327,.,504,.,753,.,743,790
+NZ27Z,Post-Natal Therapeutic Procedures,"1,230","1,352",.,"1,225","1,102","1,292",.,.,"1,415",.,.,.,809,.,"2,371",.,"1,222","1,211"
+NZ30A,Normal Delivery with CC Score 2+,"1,433",926,.,"1,225",906,"1,096",.,.,.,.,"4,244",.,"1,662",.,"3,364",.,"1,503","1,559"
+NZ30B,Normal Delivery with CC Score 1,"1,433",926,.,"1,225",906,"1,096",.,.,"2,567",.,"4,222",.,"1,608",.,"3,364",.,"1,503","1,526"
+NZ30C,Normal Delivery with CC Score 0,"1,430",926,.,"1,225",906,"1,096","4,317",.,"2,567",.,"4,221",.,"1,555",.,"3,364",.,"1,521","1,613"
+NZ31A,"Normal Delivery, with Epidural or Induction, with CC Score 2+","1,433",926,.,"1,247","1,102","1,292",.,.,.,.,"4,221",.,"1,880",.,"3,364",.,"1,503","1,422"
+NZ31B,"Normal Delivery, with Epidural or Induction, with CC Score 1","1,433",926,.,"1,225","1,102","1,292","4,317",.,.,.,.,.,"1,818",.,"3,266",.,"1,503","1,436"
+NZ31C,"Normal Delivery, with Epidural or Induction, with CC Score 0","1,426",926,.,"1,228","1,100","1,279","4,317",.,"2,567",.,"4,223",.,"1,754",.,"3,364",.,"1,503","1,439"
+NZ32A,"Normal Delivery, with Epidural and Induction, or with Post-Partum Surgical Intervention, with CC Score 2+","1,433",926,.,.,"1,102","1,292",.,.,.,.,.,.,"1,820",.,.,.,"1,503","1,338"
+NZ32B,"Normal Delivery, with Epidural and Induction, or with Post-Partum Surgical Intervention, with CC Score 1","1,433",926,.,"1,225","1,102","1,292",.,.,.,.,.,.,"1,763",.,"3,364",.,"1,503","1,393"
+NZ32C,"Normal Delivery, with Epidural and Induction, or with Post-Partum Surgical Intervention, with CC Score 0","1,433",926,.,"1,453","1,102","1,292",.,.,.,.,.,.,"1,703",.,"3,364",.,"1,503","1,513"
+NZ33A,"Normal Delivery, with Epidural or Induction, and with Post-Partum Surgical Intervention, with CC Score 2+","1,433",.,.,.,"1,102","1,292",.,.,.,.,.,.,"1,795",.,.,.,"1,503","1,563"
+NZ33B,"Normal Delivery, with Epidural or Induction, and with Post-Partum Surgical Intervention, with CC Score 1","1,433",926,.,"2,000","1,102","1,292",.,.,.,.,.,.,"1,745",.,"3,364",.,"1,503","1,471"
+NZ33C,"Normal Delivery, with Epidural or Induction, and with Post-Partum Surgical Intervention, with CC Score 0","1,433",926,.,"1,225",.,"1,292",.,.,.,.,.,.,"1,678",.,"3,364",.,"1,503","1,580"
+NZ34A,"Normal Delivery, with Epidural, Induction and Post-Partum Surgical Intervention, with CC Score 2+",.,.,.,.,"1,102",.,.,.,.,.,.,.,.,.,.,.,"1,503","1,203"
+NZ34B,"Normal Delivery, with Epidural, Induction and Post-Partum Surgical Intervention, with CC Score 1","1,433",.,.,.,"1,102","1,292",.,.,.,.,.,.,.,.,.,.,"1,503","1,359"
+NZ34C,"Normal Delivery, with Epidural, Induction and Post-Partum Surgical Intervention, with CC Score 0","1,433",926,.,"1,225","1,102","1,292",.,.,.,.,.,.,.,.,.,.,"1,503","1,235"
+NZ40A,Assisted Delivery with CC Score 2+,"2,272",926,.,"1,225",906,"1,096",.,.,.,.,.,.,"2,161",.,"3,364",.,"2,215","2,009"
+NZ40B,Assisted Delivery with CC Score 1,"1,013",926,.,"1,225",906,"1,096",.,.,.,.,.,.,"2,084",.,"3,364",.,"2,096","1,591"
+NZ40C,Assisted Delivery with CC Score 0,"1,091",926,.,"1,225",906,"1,096",.,.,.,.,.,.,"2,012",.,"3,364",.,"2,198","1,606"
+NZ41A,"Assisted Delivery, with Epidural or Induction, with CC Score 2+","1,013",926,.,"1,225","1,102",.,.,.,.,.,.,.,"2,489",.,.,.,.,"1,433"
+NZ41B,"Assisted Delivery, with Epidural or Induction, with CC Score 1","1,013",916,.,"1,225","1,102","1,292",.,.,.,.,.,.,"2,362",.,"3,364",.,"2,250","1,627"
+NZ41C,"Assisted Delivery, with Epidural or Induction, with CC Score 0","1,079",926,.,"1,225","1,102","1,292",.,.,.,.,.,.,"2,308",.,"3,364",.,"2,274","1,579"
+NZ42A,"Assisted Delivery, with Epidural and Induction, or with Post-Partum Surgical Intervention, with CC Score 2+",.,926,.,.,"1,102",.,.,.,.,.,.,.,.,.,"3,364",.,"1,940","1,594"
+NZ42B,"Assisted Delivery, with Epidural and Induction, or with Post-Partum Surgical Intervention, with CC Score 1","1,013",926,.,"1,225","1,102","1,292",.,.,.,.,.,.,"2,490",.,"3,364",.,"2,155","1,412"
+NZ42C,"Assisted Delivery, with Epidural and Induction, or with Post-Partum Surgical Intervention, with CC Score 0","1,013",926,.,"1,225","1,102","1,292",.,.,.,.,.,.,"2,393",.,"3,364",.,"2,234","1,570"
+NZ43A,"Assisted Delivery, with Epidural or Induction, and with Post-Partum Surgical Intervention, with CC Score 2+","2,272",.,.,.,"1,102",.,.,.,.,.,.,.,.,.,.,.,.,"1,687"
+NZ43B,"Assisted Delivery, with Epidural or Induction, and with Post-Partum Surgical Intervention, with CC Score 1","1,642",926,.,"1,945",.,.,.,.,.,.,.,.,"2,380",.,.,.,"2,215","1,808"
+NZ43C,"Assisted Delivery, with Epidural or Induction, and with Post-Partum Surgical Intervention, with CC Score 0",.,926,.,"1,225","1,102","1,292",.,.,.,.,.,.,.,.,.,.,"2,392","1,269"
+NZ44A,"Assisted Delivery, with Epidural, Induction and Post-Partum Surgical Intervention, with CC Score 2+",.,926,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,926
+NZ44B,"Assisted Delivery, with Epidural, Induction and Post-Partum Surgical Intervention, with CC Score 1","1,013",.,.,.,"1,102",.,.,.,.,.,.,.,.,.,.,.,.,"1,072"
+NZ44C,"Assisted Delivery, with Epidural, Induction and Post-Partum Surgical Intervention, with CC Score 0",.,926,.,"1,225","1,102",.,.,.,.,.,.,.,.,.,.,.,"2,037","1,405"
+NZ50A,Planned Caesarean Section with CC Score 4+,.,926,.,.,"1,102",.,.,.,.,.,.,.,.,.,.,.,.,"1,043"
+NZ50B,Planned Caesarean Section with CC Score 2-3,"2,272",926,.,.,"1,102","1,292",.,.,.,.,.,.,"3,243",.,"3,886",.,"1,424","1,633"
+NZ50C,Planned Caesarean Section with CC Score 0-1,"2,272",926,.,.,"1,102","1,217",.,.,.,.,.,.,"3,168",.,"3,886",.,"1,424","1,737"
+NZ51A,Emergency Caesarean Section with CC Score 4+,.,926,.,.,"1,102",.,.,.,.,.,.,.,.,.,.,.,"2,731","1,465"
+NZ51B,Emergency Caesarean Section with CC Score 2-3,.,926,.,"1,225","1,102","1,292",.,.,.,.,.,.,.,.,.,.,"2,731","1,407"
+NZ51C,Emergency Caesarean Section with CC Score 0-1,"2,272",926,.,"1,225","1,102","1,292",.,.,.,.,.,.,"4,582",.,"3,886",.,"2,731","1,735"
+PB04C,"Neonatal Diagnoses, Admitted from Other Location or Born in Hospital, with CC Score 1-3",.,558,.,787,.,.,.,.,.,.,.,.,.,.,.,.,.,582
+PB04D,"Neonatal Diagnoses, Admitted from Other Location or Born in Hospital, with CC Score 0",745,561,.,739,.,.,.,.,.,.,.,.,.,.,.,.,.,603
+PB05B,"Neonatal Diagnoses, Admitted from Other Hospital Provider, with CC Score 1-5",.,558,.,714,902,818,.,.,.,.,.,.,719,.,.,.,570,705
+PB05C,"Neonatal Diagnoses, Admitted from Other Hospital Provider, with CC Score 0",.,558,.,714,902,.,.,.,.,.,.,.,778,.,.,.,.,704
+PB06B,"Neonatal Diagnoses, Admitted from Home, with Interventions, with CC Score 4-5",.,.,.,.,902,.,.,.,.,.,.,.,.,.,.,.,.,902
+PB06D,"Neonatal Diagnoses, Admitted from Home, with Interventions, with CC Score 2",745,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,570,658
+PB06E,"Neonatal Diagnoses, Admitted from Home, with Interventions, with CC Score 1",745,558,.,.,902,.,.,.,.,.,.,.,688,.,.,.,.,759
+PB06F,"Neonatal Diagnoses, Admitted from Home, with Interventions, with CC Score 0",745,558,.,714,902,818,.,.,.,.,.,.,688,.,.,.,570,702
+PB06H,"Neonatal Diagnoses, Admitted from Home, without Interventions, with CC Score 4-5",.,.,.,.,902,818,.,.,.,.,.,.,695,.,.,.,.,750
+PB06J,"Neonatal Diagnoses, Admitted from Home, without Interventions, with CC Score 3",745,558,.,.,902,818,.,.,.,.,.,403,711,.,.,.,570,695
+PB06K,"Neonatal Diagnoses, Admitted from Home, without Interventions, with CC Score 2",745,558,.,714,902,818,.,.,.,.,.,403,699,.,"1,166",.,570,667
+PB06L,"Neonatal Diagnoses, Admitted from Home, without Interventions, with CC Score 1",745,558,.,714,902,818,.,.,.,.,.,403,688,.,"1,166",.,570,661
+PB06M,"Neonatal Diagnoses, Admitted from Home, without Interventions, with CC Score 0",739,558,.,714,902,818,.,.,.,.,.,403,688,.,"1,166",.,570,643
+PC63A,"Paediatric, Head, Neck or Ear Disorders, with CC Score 6+",.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,166",.,.,"1,166"
+PC63B,"Paediatric, Head, Neck or Ear Disorders, with CC Score 3-5",702,479,.,714,902,818,.,.,370,.,.,403,646,.,"1,166",.,467,709
+PC63C,"Paediatric, Head, Neck or Ear Disorders, with CC Score 1-2",727,556,676,687,712,818,515,.,370,.,284,403,634,.,"1,123",.,590,688
+PC63D,"Paediatric, Head, Neck or Ear Disorders, with CC Score 0",747,538,.,714,742,795,.,.,.,.,293,403,434,.,"1,151",.,563,637
+PD11A,"Paediatric, Acute Upper Respiratory Tract Infection or Common Cold, with CC Score 4+",745,.,.,714,727,818,.,.,.,.,.,403,713,.,"1,166",.,570,737
+PD11B,"Paediatric, Acute Upper Respiratory Tract Infection or Common Cold, with CC Score 1-3",732,558,.,714,902,818,.,.,.,.,.,403,672,.,"1,166",.,558,708
+PD11C,"Paediatric, Acute Upper Respiratory Tract Infection or Common Cold, with CC Score 0",745,556,.,714,905,818,.,.,.,.,.,403,661,.,"1,166",.,568,713
+PD12A,"Paediatric, Asthma or Wheezing, with CC Score 4+",645,.,.,.,.,.,.,.,.,.,.,.,688,.,.,.,.,656
+PD12B,"Paediatric, Asthma or Wheezing, with CC Score 1-3",713,458,.,714,881,705,.,.,.,.,344,403,690,.,"1,166",.,515,708
+PD12C,"Paediatric, Asthma or Wheezing, with CC Score 0",724,548,.,700,880,818,.,.,.,.,342,403,644,.,"1,166",.,570,686
+PD14B,"Paediatric Lower Respiratory Tract Disorders without Acute Bronchiolitis, with CC Score 8-10",745,.,.,714,.,818,.,.,.,.,.,.,.,.,.,.,.,747
+PD14C,"Paediatric Lower Respiratory Tract Disorders without Acute Bronchiolitis, with CC Score 4-7",745,558,.,.,827,818,.,.,.,.,329,.,642,.,"1,166",.,570,674
+PD14D,"Paediatric Lower Respiratory Tract Disorders without Acute Bronchiolitis, with CC Score 2-3",725,599,.,.,836,818,.,.,.,.,.,403,653,.,"1,093",.,447,732
+PD14E,"Paediatric Lower Respiratory Tract Disorders without Acute Bronchiolitis, with CC Score 1",715,562,.,673,876,653,.,.,.,.,330,.,619,.,"1,122",.,532,722
+PD14F,"Paediatric Lower Respiratory Tract Disorders without Acute Bronchiolitis, with CC Score 0",731,551,.,687,866,818,.,.,370,.,335,403,616,.,"1,126",498,565,695
+PD15A,Paediatric Acute Bronchiolitis with CC Score 5+,745,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,166",.,570,827
+PD15B,Paediatric Acute Bronchiolitis with CC Score 2-4,745,558,.,.,902,818,.,.,.,.,.,.,691,.,"1,166",.,570,726
+PD15C,Paediatric Acute Bronchiolitis with CC Score 1,745,558,.,714,902,818,.,.,.,.,.,.,686,.,"1,166",.,570,764
+PD15D,Paediatric Acute Bronchiolitis with CC Score 0,745,558,.,714,902,818,.,.,.,.,.,403,688,.,"1,166",.,570,722
+PD65A,Paediatric Upper Respiratory Tract Disorders with CC Score 5+,745,.,.,.,.,818,.,.,.,.,.,.,724,.,514,.,570,697
+PD65B,Paediatric Upper Respiratory Tract Disorders with CC Score 2-4,745,.,.,714,770,818,.,.,.,.,.,.,689,.,"1,166",.,570,741
+PD65C,Paediatric Upper Respiratory Tract Disorders with CC Score 1,745,558,.,714,902,818,.,.,.,.,.,403,689,.,"1,166",.,570,690
+PD65D,Paediatric Upper Respiratory Tract Disorders with CC Score 0,742,547,.,714,902,818,.,.,.,.,.,403,695,.,"1,166",.,606,693
+PE23C,Paediatric Cardiac Conditions with CC Score 6-9,745,.,.,.,.,.,.,.,.,.,.,.,812,.,"1,166",.,.,907
+PE23D,Paediatric Cardiac Conditions with CC Score 3-5,745,558,.,.,.,.,.,.,.,.,.,.,721,.,.,.,.,698
+PE23E,Paediatric Cardiac Conditions with CC Score 1-2,613,521,.,714,902,.,.,.,.,.,.,403,795,.,514,.,570,621
+PE23F,Paediatric Cardiac Conditions with CC Score 0,663,553,.,471,666,558,.,.,.,.,.,.,443,.,"1,166",.,583,577
+PE24A,"Paediatric, Arrhythmia or Conduction Disorders, with CC Score 2+",663,.,.,.,902,.,.,.,.,.,.,.,711,.,"1,166",498,383,700
+PE24B,"Paediatric, Arrhythmia or Conduction Disorders, with CC Score 1",592,429,.,.,677,818,.,.,.,.,410,403,812,.,514,498,448,533
+PE24C,"Paediatric, Arrhythmia or Conduction Disorders, with CC Score 0",729,496,.,593,429,818,.,.,.,.,.,.,556,.,"1,166",498,431,616
+PE62A,"Paediatric, Syncope and Collapse, with CC Score 2+",644,401,.,714,534,818,.,.,370,.,.,.,707,.,911,498,467,597
+PE62B,"Paediatric, Syncope and Collapse, with CC Score 1",681,460,.,632,644,686,.,.,.,.,335,403,518,.,928,498,541,603
+PE62C,"Paediatric, Syncope and Collapse, with CC Score 0",638,496,.,616,902,818,515,.,.,.,471,403,589,.,"1,035",498,510,616
+PF21A,"Paediatric, Infectious or Non-Infectious Gastroenteritis, with CC Score 1+",708,545,.,714,845,818,.,.,370,.,340,403,648,.,"1,052",.,561,725
+PF21B,"Paediatric, Infectious or Non-Infectious Gastroenteritis, with CC Score 0",721,558,.,712,870,747,.,.,370,.,345,403,646,.,"1,124",.,564,734
+PF25A,Paediatric Major Gastrointestinal Disorders with CC Score 7+,.,.,.,.,902,.,.,.,.,.,.,.,778,.,.,.,.,840
+PF25B,Paediatric Major Gastrointestinal Disorders with CC Score 5-6,446,.,.,.,.,.,.,.,.,.,.,403,.,.,.,.,.,425
+PF25C,Paediatric Major Gastrointestinal Disorders with CC Score 3-4,.,.,.,.,.,389,.,.,.,.,328,.,654,.,.,.,570,533
+PF25D,Paediatric Major Gastrointestinal Disorders with CC Score 1-2,745,558,.,.,825,818,.,.,.,.,.,.,425,.,"1,166",.,570,655
+PF25E,Paediatric Major Gastrointestinal Disorders with CC Score 0,558,501,429,632,593,604,.,.,.,.,.,.,533,.,.,.,467,546
+PF26A,Paediatric Other Gastrointestinal Disorders with CC Score 4+,745,468,.,.,670,.,.,.,.,.,.,.,744,.,.,.,570,672
+PF26B,Paediatric Other Gastrointestinal Disorders with CC Score 1-3,679,516,.,714,777,695,.,.,.,.,339,403,552,.,880,.,557,612
+PF26C,Paediatric Other Gastrointestinal Disorders with CC Score 0,652,532,.,685,588,624,.,.,370,.,330,403,522,.,867,.,555,622
+PF27A,Paediatric Inflammatory Bowel Disease with CC Score 1+,745,375,469,.,376,.,.,.,.,.,.,403,490,.,.,.,364,441
+PF27B,Paediatric Inflammatory Bowel Disease with CC Score 0,446,409,429,719,439,.,.,.,370,.,.,403,416,.,.,.,443,483
+PF28A,"Paediatric, Feeding Difficulties or Vomiting, with CC Score 6+",745,.,.,.,.,.,.,.,.,.,.,.,688,.,.,.,570,619
+PF28B,"Paediatric, Feeding Difficulties or Vomiting, with CC Score 4-5",745,401,.,.,902,.,.,.,.,.,.,.,688,.,"1,166",.,.,761
+PF28C,"Paediatric, Feeding Difficulties or Vomiting, with CC Score 2-3",676,523,.,714,797,818,.,.,.,.,.,403,770,.,"1,166",.,570,667
+PF28D,"Paediatric, Feeding Difficulties or Vomiting, with CC Score 1",706,537,.,691,902,818,.,.,370,.,340,403,700,.,"1,166",.,565,675
+PF28E,"Paediatric, Feeding Difficulties or Vomiting, with CC Score 0",728,552,.,714,882,818,.,.,.,.,.,403,643,.,"1,152",.,568,685
+PG71A,"Paediatric, Hepatobiliary or Pancreatic Disorders, with CC Score 2+",.,636,.,.,.,.,.,.,.,.,.,.,550,.,"1,166",.,.,663
+PG71B,"Paediatric, Hepatobiliary or Pancreatic Disorders, with CC Score 1",446,.,.,.,439,.,.,.,.,.,.,.,366,.,.,.,443,431
+PG71C,"Paediatric, Hepatobiliary or Pancreatic Disorders, with CC Score 0",.,.,.,632,639,.,.,.,.,.,.,.,578,.,"1,166",.,507,639
+PH34A,"Paediatric, Musculoskeletal or Connective Tissue Disorders, with CC Score 5+",.,.,.,714,.,.,.,.,.,.,.,.,"1,097",.,.,.,.,905
+PH34B,"Paediatric, Musculoskeletal or Connective Tissue Disorders, with CC Score 3-4",745,558,.,.,902,389,.,.,.,.,337,.,655,.,"1,166",.,.,648
+PH34C,"Paediatric, Musculoskeletal or Connective Tissue Disorders, with CC Score 1-2",671,528,.,714,676,818,.,.,.,.,.,403,751,.,948,498,550,660
+PH34D,"Paediatric, Musculoskeletal or Connective Tissue Disorders, with CC Score 0",660,558,.,659,844,818,.,623,.,.,223,403,548,.,"1,129",498,549,657
+PJ35A,Paediatric Skin Disorders with CC Score 4+,.,.,.,.,.,.,.,.,.,.,.,.,907,.,.,.,570,795
+PJ35B,Paediatric Skin Disorders with CC Score 2-3,745,558,.,714,385,.,.,.,.,.,.,403,697,.,"1,166",.,570,671
+PJ35C,Paediatric Skin Disorders with CC Score 1,712,558,.,.,797,818,.,.,.,.,344,.,688,.,.,.,570,666
+PJ35D,Paediatric Skin Disorders with CC Score 0,719,558,.,.,774,607,.,.,.,.,.,403,609,.,"1,057",.,566,639
+PJ66A,"Paediatric, Rash or Other Non-Specific Skin Eruption, with CC Score 3+",.,558,.,714,.,.,.,.,.,.,.,403,688,.,"1,166",.,570,688
+PJ66B,"Paediatric, Rash or Other Non-Specific Skin Eruption, with CC Score 1-2",712,558,.,714,.,818,.,.,.,.,.,.,603,.,840,.,570,667
+PJ66C,"Paediatric, Rash or Other Non-Specific Skin Eruption, with CC Score 0",732,542,.,714,902,818,.,.,.,.,.,403,688,.,"1,166",.,570,707
+PK36A,"Paediatric Endocrine Disorders, excluding Diabetes Mellitus, with CC Score 4+",446,.,.,.,.,.,.,.,.,.,.,.,654,.,.,.,.,515
+PK36B,"Paediatric Endocrine Disorders, excluding Diabetes Mellitus, with CC Score 1-3",446,558,.,.,902,.,.,.,.,.,.,.,393,.,.,.,.,497
+PK36C,"Paediatric Endocrine Disorders, excluding Diabetes Mellitus, with CC Score 0",.,.,.,.,376,.,.,.,.,.,.,.,598,.,"1,166",.,570,677
+PK67A,"Paediatric Diabetes Mellitus, with Ketoacidosis or Coma, with CC Score 1+",745,401,.,714,376,642,.,.,.,.,327,.,582,.,.,.,394,490
+PK67B,"Paediatric Diabetes Mellitus, with Ketoacidosis or Coma, with CC Score 0",446,487,.,.,676,291,.,.,.,.,337,.,366,.,"1,166",.,488,556
+PK68A,"Paediatric Diabetes Mellitus, without Ketoacidosis or Coma, with CC Score 3+",.,401,.,.,902,.,.,.,.,.,.,.,688,.,.,.,.,747
+PK68B,"Paediatric Diabetes Mellitus, without Ketoacidosis or Coma, with CC Score 1-2",745,475,.,714,902,.,515,.,.,.,.,.,688,.,"1,166",.,488,614
+PK68C,"Paediatric Diabetes Mellitus, without Ketoacidosis or Coma, with CC Score 0",670,558,.,714,849,818,.,.,.,.,344,.,499,.,731,.,529,620
+PK72B,Paediatric Metabolic Disorders with CC Score 1-3,.,.,.,.,902,.,.,.,.,.,.,.,688,.,.,.,.,795
+PK72C,Paediatric Metabolic Disorders with CC Score 0,.,.,.,.,439,.,.,.,.,.,.,403,688,.,.,.,.,524
+PL38A,"Paediatric Renal Disease with Renal Failure, with CC Score 3+",.,401,.,.,.,.,.,.,.,.,.,.,655,.,.,.,.,486
+PL38B,"Paediatric Renal Disease with Renal Failure, with CC Score 1-2",745,.,.,.,902,818,.,.,.,.,.,.,778,.,514,.,570,721
+PL38C,"Paediatric Renal Disease with Renal Failure, with CC Score 0",745,.,630,.,.,.,.,.,.,.,.,.,.,.,.,.,570,648
+PL69A,"Paediatric, Nephritic or Nephrotic Renal Diseases, with CC Score 2+",.,384,.,.,639,452,.,.,.,.,344,.,366,.,514,.,570,454
+PL69B,"Paediatric, Nephritic or Nephrotic Renal Diseases, with CC Score 1",.,558,.,468,407,.,.,.,.,.,344,.,366,.,514,.,570,437
+PL69C,"Paediatric, Nephritic or Nephrotic Renal Diseases, with CC Score 0",596,401,.,.,.,.,.,.,370,.,337,.,447,.,514,.,570,501
+PL70A,Paediatric Other Renal Diseases with CC Score 4+,670,.,.,.,.,.,.,.,.,.,344,.,688,.,.,.,.,580
+PL70B,Paediatric Other Renal Diseases with CC Score 2-3,596,444,624,549,376,604,.,.,.,.,.,403,643,.,.,.,525,545
+PL70C,Paediatric Other Renal Diseases with CC Score 1,629,482,624,549,615,.,.,.,.,.,.,403,742,.,"1,038",.,376,647
+PL70D,Paediatric Other Renal Diseases with CC Score 0,574,500,624,587,541,496,.,.,.,.,.,403,539,.,783,.,484,568
+PM42A,"Paediatric Brain Tumours with length of stay 1 day or more, with CC score 1+",.,.,.,.,.,554,.,.,.,.,.,.,"1,134",.,.,.,.,747
+PM42B,"Paediatric Brain Tumours with length of stay 1 day or more, with CC score 0",.,.,.,.,.,.,.,.,.,.,.,.,366,.,.,.,.,366
+PM43C,"Paediatric Other Neoplasms with length of stay 1 day or more, with CC Score 0",.,558,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,558
+PM44Z,Paediatric Neoplasm Diagnoses with length of stay 0 days,745,558,.,.,902,.,.,.,.,.,.,403,366,.,.,.,.,595
+PN46A,Paediatric Thalassaemia with CC Score 1+,745,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,745
+PN48B,Paediatric Blood Cell Disorders with CC Score 1-4,446,.,.,.,902,291,.,.,.,.,.,.,515,.,514,.,570,589
+PN48C,Paediatric Blood Cell Disorders with CC Score 0,708,532,676,.,.,.,.,.,.,.,.,.,.,.,"1,166",.,536,634
+PN49A,Paediatric Coagulation Disorders with CC Score 1+,745,558,676,.,902,818,.,.,.,.,.,.,911,.,"1,166",.,.,775
+PN49B,Paediatric Coagulation Disorders with CC Score 0,745,558,676,.,902,818,.,.,.,.,.,403,659,.,"1,166",.,570,669
+PP64A,Paediatric Non-Surgical Ophthalmology with CC Score 1+,593,.,.,.,902,291,.,.,.,.,.,403,688,.,.,.,570,625
+PP64B,Paediatric Non-Surgical Ophthalmology with CC Score 0,669,558,.,.,902,818,.,.,.,.,.,403,611,.,.,.,570,643
+PQ01B,Paediatric Disorders of Immunity with CC Score 0,.,.,.,714,.,.,.,.,.,.,.,.,.,.,.,.,.,714
+PR01A,Paediatric Nervous System Disorders with CC Score 8+,.,.,.,.,902,.,.,.,.,.,.,.,.,.,.,.,.,902
+PR01B,Paediatric Nervous System Disorders with CC Score 5-7,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,457,457
+PR01C,Paediatric Nervous System Disorders with CC Score 2-4,685,515,.,714,786,642,.,.,.,.,340,403,755,.,514,.,467,639
+PR01D,Paediatric Nervous System Disorders with CC Score 1,651,467,.,468,902,818,.,.,.,.,.,403,605,.,.,.,570,629
+PR01E,Paediatric Nervous System Disorders with CC Score 0,710,558,.,714,902,818,.,.,.,.,.,403,674,.,"1,106",.,558,705
+PR02A,Paediatric Epilepsy Syndrome with CC Score 6+,745,.,.,.,.,.,.,.,.,.,.,403,688,.,.,.,570,640
+PR02B,Paediatric Epilepsy Syndrome with CC Score 1-5,691,518,.,714,691,554,.,.,.,.,335,.,791,.,948,.,552,696
+PR02C,Paediatric Epilepsy Syndrome with CC Score 0,712,512,.,714,691,713,.,.,.,.,344,.,759,.,"1,166",.,558,678
+PR03A,Paediatric Febrile Convulsions with CC Score 4+,695,558,.,.,902,818,.,.,.,.,.,.,626,.,"1,166",.,570,718
+PR03B,Paediatric Febrile Convulsions with CC Score 1-3,693,527,.,699,843,818,.,.,.,.,342,403,618,.,"1,073",.,519,659
+PR03C,Paediatric Febrile Convulsions with CC Score 0,695,544,.,698,875,743,.,.,370,.,.,.,609,.,"1,113",.,570,721
+PR04A,"Paediatric, Headaches or Migraines, with CC Score 4+",625,.,.,.,.,818,.,.,.,.,340,.,"1,024",.,.,.,467,842
+PR04B,"Paediatric, Headaches or Migraines, with CC Score 1-3",654,461,.,606,481,607,515,.,370,.,340,403,480,.,939,.,475,551
+PR04C,"Paediatric, Headaches or Migraines, with CC Score 0",651,506,.,714,752,607,.,.,.,.,339,403,545,.,996,.,467,678
+PR05A,Paediatric Developmental Disorders with CC Score 2+,446,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,446
+PR05C,Paediatric Developmental Disorders with CC Score 0,.,558,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,558
+PR06A,Paediatric Intracranial Injury with CC Score 3+,446,.,.,549,902,818,.,.,.,.,.,.,.,.,.,.,.,679
+PR06B,Paediatric Intracranial Injury with CC Score 1-2,.,539,.,.,439,389,.,.,.,.,.,.,733,.,.,.,570,556
+PR06C,Paediatric Intracranial Injury with CC Score 0,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,570,570
+PR07A,Paediatric Non-Intracranial Head Injury with CC Score 1+,498,491,.,699,744,604,.,.,.,.,249,.,548,.,"1,166",.,543,559
+PR07B,Paediatric Non-Intracranial Head Injury with CC Score 0,446,557,.,697,717,587,.,.,.,.,223,.,627,.,"1,166",.,574,595
+PT52A,Paediatric Behavioural Disorders with CC Score 1+,.,415,.,.,862,291,.,.,.,.,357,.,364,.,"1,166",.,433,538
+PT52B,Paediatric Behavioural Disorders with CC Score 0,593,454,.,.,699,.,.,.,.,.,315,403,341,.,929,.,519,489
+PT53A,Paediatric Eating Disorders with CC Score 1+,446,.,429,.,.,.,.,.,.,.,.,.,.,.,.,.,.,442
+PT53B,Paediatric Eating Disorders with CC Score 0,745,.,.,.,.,.,.,.,.,.,.,403,.,.,.,.,364,504
+PV08A,"Paediatric Intermediate Injury without Intracranial Injury, with CC Score 1+",596,558,.,.,441,.,.,.,.,.,.,.,"1,080",.,.,.,764,764
+PV08B,"Paediatric Intermediate Injury without Intracranial Injury, with CC Score 0",696,839,.,549,580,.,.,.,.,.,.,.,627,.,"1,166",.,447,620
+PV31A,"Paediatric Major Injury without Intracranial Injury, with CC Score 1+",.,.,.,.,.,.,.,.,.,.,.,.,644,.,.,.,.,644
+PV31B,"Paediatric Major Injury without Intracranial Injury, with CC Score 0",957,406,.,.,803,.,.,.,.,.,.,.,717,.,.,.,414,701
+PV32A,"Paediatric Minor Injury without Intracranial Injury, with CC Score 3+",546,558,.,.,645,.,.,"1,910",.,.,.,.,733,.,.,.,425,689
+PV32B,"Paediatric Minor Injury without Intracranial Injury, with CC Score 1-2",574,457,.,742,803,669,.,.,.,.,344,403,994,.,874,.,701,701
+PV32C,"Paediatric Minor Injury without Intracranial Injury, with CC Score 0",698,518,624,651,729,700,.,.,.,.,223,403,614,.,716,.,727,665
+PW01A,Paediatric Minor Infections with CC Score 4+,745,558,.,714,902,818,.,.,.,.,.,.,688,.,"1,166",.,467,701
+PW01B,Paediatric Minor Infections with CC Score 1-3,743,554,.,712,880,803,.,580,.,.,346,403,687,.,"1,166",.,569,709
+PW01C,Paediatric Minor Infections with CC Score 0,709,553,.,708,810,746,515,.,.,.,344,403,612,.,"1,110",.,560,692
+PW16A,Paediatric Major Infections with CC Score 7+,.,351,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,351
+PW16B,Paediatric Major Infections with CC Score 5-6,.,558,.,.,.,.,.,.,.,.,.,.,"1,005",.,"1,166",.,.,977
+PW16C,Paediatric Major Infections with CC Score 2-4,745,522,.,.,902,.,.,.,.,.,.,403,741,.,"1,166",.,.,676
+PW16D,Paediatric Major Infections with CC Score 1,745,551,.,714,902,818,.,616,.,.,.,403,688,.,840,.,.,608
+PW16E,Paediatric Major Infections with CC Score 0,672,551,.,697,551,.,.,.,.,.,.,403,655,.,"1,148",.,493,683
+PW17D,Paediatric Intermediate Infections with CC Score 0,656,539,.,683,626,711,.,.,.,.,327,403,508,.,"1,052",.,555,637
+PW17E,Paediatric Intermediate Infections with CC Score 5+,745,.,.,.,.,.,.,.,.,.,.,.,720,.,.,.,.,726
+PW17F,Paediatric Intermediate Infections with CC Score 2-4,663,558,.,.,852,675,.,.,.,.,344,403,564,.,933,.,545,661
+PW17G,Paediatric Intermediate Infections with CC Score 1,683,553,.,632,736,681,.,.,.,.,.,403,571,.,933,.,560,652
+PW20A,Paediatric Fever of Unknown Origin with CC Score 3+,745,558,.,.,.,818,.,.,.,.,.,403,729,.,.,.,570,674
+PW20B,Paediatric Fever of Unknown Origin with CC Score 1-2,728,558,.,714,902,642,.,.,.,.,.,403,618,.,656,.,570,666
+PW20C,Paediatric Fever of Unknown Origin with CC Score 0,745,558,.,714,902,818,.,.,.,.,.,403,593,.,"1,166",.,561,681
+PX01B,Paediatric Congenital Nervous System Conditions with CC Score 2-3,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,570,570
+PX01C,Paediatric Congenital Nervous System Conditions with CC Score 1,.,.,.,.,.,818,.,.,.,.,.,.,.,.,.,.,.,818
+PX01D,Paediatric Congenital Nervous System Conditions with CC Score 0,.,558,.,.,902,.,.,.,.,.,.,.,.,.,"1,166",.,570,822
+PX02A,"Paediatric Congenital, Ear, Nose, Mouth or Throat Conditions, with CC Score 3+",.,.,.,.,.,.,.,.,.,.,.,.,"1,208",.,.,.,.,"1,208"
+PX02B,"Paediatric Congenital, Ear, Nose, Mouth or Throat Conditions, with CC Score 1-2",877,558,.,714,.,818,.,.,.,.,.,.,.,.,"1,166",.,.,827
+PX02C,"Paediatric Congenital, Ear, Nose, Mouth or Throat Conditions, with CC Score 0",.,558,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,558
+PX04A,Paediatric Congenital Spinal Conditions with CC Score 1+,745,.,.,.,.,291,.,.,.,.,.,.,.,.,.,.,.,518
+PX04B,Paediatric Congenital Spinal Conditions with CC Score 0,745,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,570,658
+PX05A,Paediatric Congenital Other Musculoskeletal Conditions with CC Score 2+,.,558,.,.,.,.,.,616,.,.,.,.,.,.,.,.,.,587
+PX05B,Paediatric Congenital Other Musculoskeletal Conditions with CC Score 1,.,558,.,.,902,.,.,.,.,.,.,.,.,.,.,.,.,627
+PX05C,Paediatric Congenital Other Musculoskeletal Conditions with CC Score 0,.,563,.,.,902,.,.,616,.,.,.,.,.,.,"1,166",.,570,585
+PX06B,Paediatric Congenital Skin Conditions with CC Score 0,.,558,.,.,.,.,.,.,.,.,.,.,.,.,"1,166",.,570,661
+PX07A,Paediatric Congenital Renal Conditions with CC Score 2+,.,.,.,.,.,.,.,.,.,.,.,.,688,.,.,.,.,688
+PX07C,Paediatric Congenital Renal Conditions with CC Score 0,.,558,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,558
+PX08B,"Paediatric Congenital, Urological or Male Reproductive System Conditions, with CC Score 1",.,558,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,558
+PX08C,"Paediatric Congenital, Urological or Male Reproductive System Conditions, with CC Score 0",446,549,.,.,.,.,.,.,.,.,.,403,.,.,.,.,.,531
+PX09B,Paediatric Congenital Mental Health Conditions with CC Score 1-2,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,570,570
+PX09C,Paediatric Congenital Mental Health Conditions with CC Score 0,.,558,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,558
+PX10A,Paediatric Congenital Other Conditions with CC Score 1+,.,.,.,.,.,.,.,.,.,.,.,.,748,.,.,.,.,748
+PX10B,Paediatric Congenital Other Conditions with CC Score 0,745,558,.,.,"1,183",.,.,.,.,.,.,.,725,.,708,.,.,722
+PX22A,Paediatric Chest Pain with CC Score 1+,632,503,.,591,376,339,.,.,.,.,328,.,550,.,"1,003",498,491,557
+PX22B,Paediatric Chest Pain with CC Score 0,668,461,.,714,902,818,.,.,.,.,398,403,299,.,"1,073",498,536,573
+PX29A,Paediatric Abdominal Pain with CC Score 3+,496,558,.,.,637,389,.,.,.,.,.,403,438,.,.,.,485,499
+PX29B,Paediatric Abdominal Pain with CC Score 1-2,470,475,509,584,506,440,.,.,370,.,331,403,531,.,628,.,479,495
+PX29C,Paediatric Abdominal Pain with CC Score 0,466,485,624,600,458,433,.,.,.,.,.,403,506,.,719,.,502,517
+PX30A,Paediatric Faltering Growth (Failure to Thrive) with CC Score 2+,745,373,.,.,902,.,.,.,.,.,.,.,688,.,.,.,570,748
+PX30B,Paediatric Faltering Growth (Failure to Thrive) with CC Score 1,645,558,.,.,.,.,.,.,.,.,.,403,688,.,"1,166",.,570,622
+PX30C,Paediatric Faltering Growth (Failure to Thrive) with CC Score 0,745,558,.,714,902,818,.,.,.,.,.,403,695,.,"1,166",.,570,659
+PX50A,"Paediatric, Ingestion Poisoning or Allergies, with CC Score 4+",596,406,.,468,603,291,.,.,370,.,303,.,396,.,514,.,387,421
+PX50B,"Paediatric, Ingestion Poisoning or Allergies, with CC Score 1-3",555,412,445,644,644,466,.,.,370,.,320,.,357,.,715,.,388,442
+PX50C,"Paediatric, Ingestion Poisoning or Allergies, with CC Score 0",669,475,.,703,811,637,.,.,370,.,304,.,443,.,"1,083",.,539,540
+PX54Z,"Paediatric, Convalescent or Other Relief Care",745,558,.,714,.,.,.,.,.,.,.,.,.,.,.,.,.,691
+PX55Z,Paediatric Respite Care,745,.,.,714,.,.,.,.,.,.,.,.,.,.,.,.,.,741
+PX56A,"Paediatric Admission for Unexplained Symptoms, with CC Score 1+",745,453,.,714,639,818,.,.,370,.,.,403,636,.,840,.,467,655
+PX56B,"Paediatric Admission for Unexplained Symptoms, with CC Score 0",745,528,.,714,902,818,.,.,.,.,.,403,694,.,"1,064",.,552,672
+PX57A,"Paediatric, Examination, Follow-Up, Special Screening or Other Admissions, with CC Score 4+",745,444,.,.,.,291,.,.,.,.,.,403,718,.,.,.,570,560
+PX57B,"Paediatric, Examination, Follow-Up, Special Screening or Other Admissions, with CC Score 1-3",660,556,624,632,526,818,515,.,.,.,.,403,679,.,843,.,586,585
+PX57C,"Paediatric, Examination, Follow-Up, Special Screening or Other Admissions, with CC Score 0",639,550,.,716,474,750,.,.,.,.,.,403,648,.,"1,166",.,580,570
+SA01G,"Acquired Pure Red Cell Aplasia or Other Aplastic Anaemia, with CC Score 8+",446,338,.,.,.,.,.,.,.,.,.,.,.,.,.,.,364,383
+SA01H,"Acquired Pure Red Cell Aplasia or Other Aplastic Anaemia, with CC Score 5-7",.,401,474,.,481,.,.,.,.,.,337,.,366,.,.,.,364,409
+SA01J,"Acquired Pure Red Cell Aplasia or Other Aplastic Anaemia, with CC Score 2-4",446,.,.,.,376,.,.,.,.,.,.,.,.,.,514,.,364,413
+SA01K,"Acquired Pure Red Cell Aplasia or Other Aplastic Anaemia, with CC Score 0-1",.,.,.,.,376,291,.,.,.,.,.,.,366,.,.,.,364,360
+SA02G,Coagulation Defect with CC Score 5+,505,.,.,.,.,.,.,.,.,.,.,.,366,.,.,.,.,436
+SA02H,Coagulation Defect with CC Score 2-4,.,.,676,.,.,.,.,.,.,.,344,.,366,.,.,.,.,462
+SA02J,Coagulation Defect with CC Score 0-1,486,351,676,.,690,.,.,.,.,.,.,.,.,.,.,.,364,606
+SA03G,Haemolytic Anaemia with CC Score 3+,580,401,641,.,.,.,.,.,.,.,.,.,.,.,.,.,.,581
+SA03H,Haemolytic Anaemia with CC Score 0-2,446,351,618,.,.,.,.,.,.,.,389,.,.,.,.,.,364,471
+SA04G,Iron Deficiency Anaemia with CC Score 14+,.,.,429,.,.,.,.,.,.,.,.,.,367,.,.,.,.,398
+SA04H,Iron Deficiency Anaemia with CC Score 10-13,446,382,527,.,407,.,.,.,.,.,342,.,.,.,514,.,364,409
+SA04J,Iron Deficiency Anaemia with CC Score 6-9,446,373,587,.,376,291,.,.,370,.,342,.,367,.,514,.,375,397
+SA04K,Iron Deficiency Anaemia with CC Score 2-5,446,384,473,469,376,291,.,.,370,.,340,.,380,.,514,.,376,402
+SA04L,Iron Deficiency Anaemia with CC Score 0-1,447,376,432,437,416,291,.,.,370,.,347,.,368,.,514,.,358,398
+SA05H,Megaloblastic Anaemia with CC Score 4-7,446,401,.,.,376,291,.,.,.,.,.,.,372,.,585,.,364,406
+SA05J,Megaloblastic Anaemia with CC Score 0-3,446,396,.,.,.,.,.,.,.,.,341,.,366,.,.,.,364,386
+SA06G,Myelodysplastic Syndrome with CC Score 8+,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,364,364
+SA06H,Myelodysplastic Syndrome with CC Score 5-7,.,.,.,.,376,.,.,.,370,.,.,.,.,.,.,.,364,370
+SA06J,Myelodysplastic Syndrome with CC Score 2-4,564,.,676,.,586,.,.,.,370,.,.,.,.,.,.,.,364,533
+SA06K,Myelodysplastic Syndrome with CC Score 0-1,.,.,676,.,.,.,.,.,.,.,.,.,.,.,.,.,.,676
+SA07G,Myeloproliferative Disorder with CC Score 7+,.,.,.,.,376,.,.,.,.,.,.,.,.,.,.,.,364,367
+SA07H,Myeloproliferative Disorder with CC Score 4-6,.,.,.,.,376,.,.,.,.,.,471,.,.,.,.,.,364,394
+SA07J,Myeloproliferative Disorder with CC Score 0-3,564,.,676,.,.,.,.,.,.,.,.,.,.,.,.,.,489,533
+SA08G,"Other Haematological or Splenic Disorders, with CC Score 6+",446,401,.,.,.,.,.,.,.,.,330,.,.,.,514,.,364,409
+SA08H,"Other Haematological or Splenic Disorders, with CC Score 3-5",446,.,429,.,605,.,.,.,.,.,.,.,.,.,514,.,364,482
+SA08J,"Other Haematological or Splenic Disorders, with CC Score 0-2",446,384,.,.,376,.,.,.,.,.,.,.,452,.,576,.,364,467
+SA09G,Other Red Blood Cell Disorders with CC Score 14+,.,.,.,"1,056",.,.,.,.,370,.,.,.,388,.,.,.,364,452
+SA09H,Other Red Blood Cell Disorders with CC Score 10-13,416,401,489,468,454,.,515,.,370,378,472,.,373,.,514,.,364,420
+SA09J,Other Red Blood Cell Disorders with CC Score 6-9,446,426,467,468,386,291,515,.,370,.,363,.,389,.,563,.,364,405
+SA09K,Other Red Blood Cell Disorders with CC Score 2-5,450,383,513,484,410,315,.,.,370,378,343,.,386,440,514,.,370,399
+SA09L,Other Red Blood Cell Disorders with CC Score 0-1,446,417,554,495,404,323,.,.,370,.,349,.,370,.,514,.,400,412
+SA11Z,Thalassaemia,.,351,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,351
+SA12G,Thrombocytopenia with CC Score 8+,525,.,.,.,.,.,.,.,.,.,.,.,366,.,.,.,.,462
+SA12H,Thrombocytopenia with CC Score 5-7,564,367,676,.,376,.,515,.,.,.,330,.,.,.,.,.,364,430
+SA12J,Thrombocytopenia with CC Score 2-4,564,401,.,468,376,.,.,.,.,.,335,.,.,.,.,.,.,473
+SA12K,Thrombocytopenia with CC Score 0-1,446,401,676,.,376,291,.,.,.,.,.,.,.,.,656,.,364,441
+SA13A,"Single Plasma Exchange, Leucophoresis or Red Cell Exchange, 19 years and over",703,805,"1,325",841,553,496,515,.,370,.,.,.,509,440,559,.,393,750
+SA13B,"Single Plasma Exchange, Leucophoresis or Red Cell Exchange, 18 years and under",.,.,870,.,906,.,.,.,.,.,.,.,"1,013",.,.,.,.,957
+SA14Z,"Plasma Exchanges, 2 to 9",546,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,546
+SA17G,"Malignant Disorders of Lymphatic or Haematological Systems, with CC Score 3+",.,401,676,.,.,.,.,.,.,.,.,.,426,.,514,.,.,516
+SA24H,Acute Lymphoblastic Leukaemia with CC Score 2-4,.,.,676,.,.,.,.,.,.,.,.,.,.,.,.,.,.,676
+SA24J,Acute Lymphoblastic Leukaemia with CC Score 0-1,.,.,676,.,.,.,.,.,.,.,.,.,.,.,.,.,.,676
+SA25G,Acute Myeloid Leukaemia with CC Score 12+,.,.,.,.,376,.,.,.,.,.,.,.,.,.,.,.,.,376
+SA25H,Acute Myeloid Leukaemia with CC Score 9-11,.,.,676,.,.,.,.,.,.,.,.,.,.,.,.,.,.,676
+SA25J,Acute Myeloid Leukaemia with CC Score 6-8,505,.,.,.,690,.,.,.,.,.,.,.,.,.,.,.,.,567
+SA25K,Acute Myeloid Leukaemia with CC Score 4-5,.,.,596,.,533,.,.,.,.,.,.,.,.,.,.,.,.,564
+SA25L,Acute Myeloid Leukaemia with CC Score 2-3,.,351,676,.,403,291,.,.,.,.,.,.,.,.,.,.,839,494
+SA25M,Acute Myeloid Leukaemia with CC Score 0-1,.,375,676,.,690,.,.,.,.,.,.,.,.,.,.,.,364,576
+SA30A,Plasma Cell Disorders with CC Score 11+,387,.,687,.,376,.,.,.,.,.,340,.,.,.,.,.,.,531
+SA30B,Plasma Cell Disorders with CC Score 8-10,.,.,678,.,.,.,.,.,.,.,.,.,.,.,.,.,364,635
+SA30C,Plasma Cell Disorders with CC Score 5-7,.,401,670,.,.,.,.,.,.,.,.,.,.,.,.,.,364,579
+SA30D,Plasma Cell Disorders with CC Score 2-4,564,358,596,.,481,.,.,.,370,.,.,.,.,.,.,.,364,435
+SA30E,Plasma Cell Disorders with CC Score 0-1,.,401,678,.,.,.,.,.,.,.,.,.,.,.,.,.,364,570
+SA31A,"Malignant Lymphoma, including Hodgkin's and Non-Hodgkin's, with CC Score 15+",.,.,.,.,376,.,.,.,.,.,.,.,.,.,.,.,.,376
+SA31B,"Malignant Lymphoma, including Hodgkin's and Non-Hodgkin's, with CC Score 10-14",.,370,.,.,533,.,.,.,.,.,.,.,.,.,.,.,364,405
+SA31C,"Malignant Lymphoma, including Hodgkin's and Non-Hodgkin's, with CC Score 6-9",525,401,631,.,586,.,.,.,.,.,.,.,378,.,.,.,364,438
+SA31D,"Malignant Lymphoma, including Hodgkin's and Non-Hodgkin's, with CC Score 4-5",564,376,614,468,407,.,.,.,.,.,.,.,.,.,514,.,364,471
+SA31E,"Malignant Lymphoma, including Hodgkin's and Non-Hodgkin's, with CC Score 2-3",564,380,676,.,.,.,.,.,.,.,.,.,366,.,.,.,356,463
+SA31F,"Malignant Lymphoma, including Hodgkin's and Non-Hodgkin's, with CC Score 0-1",564,399,670,.,439,.,.,.,.,.,.,.,381,.,.,.,364,517
+SA32B,"Chronic Lymphocytic Leukaemia, including Related Disorders, with CC Score 5-6",564,401,.,468,.,.,.,.,.,.,.,.,.,.,.,.,364,424
+SA32C,"Chronic Lymphocytic Leukaemia, including Related Disorders, with CC Score 3-4",564,.,.,.,.,.,515,.,.,.,.,.,.,.,514,.,.,531
+SA32D,"Chronic Lymphocytic Leukaemia, including Related Disorders, with CC Score 0-2",564,.,676,.,376,.,.,.,.,.,.,.,366,.,.,.,364,536
+SA33Z,Diagnostic Bone Marrow Extraction,564,399,676,.,.,.,.,.,.,.,.,.,.,.,.,.,.,543
+SA34Z,Peripheral Blood Stem Cell Harvest,.,.,"1,121",.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,121"
+SA35A,Agranulocytosis with CC Score 13+,.,.,.,.,.,.,.,.,.,.,361,.,.,.,.,.,.,361
+SA35B,Agranulocytosis with CC Score 9-12,.,.,713,.,.,.,.,.,.,.,.,.,.,.,.,.,364,451
+SA35C,Agranulocytosis with CC Score 5-8,.,400,638,.,.,.,.,.,.,.,.,.,369,.,.,.,364,404
+SA35D,Agranulocytosis with CC Score 2-4,506,401,713,468,.,291,.,.,.,.,.,.,366,.,514,.,364,455
+SA35E,Agranulocytosis with CC Score 0-1,493,400,713,.,376,.,.,.,.,.,.,.,394,.,514,.,364,450
+SB97Z,Same Day Chemotherapy Admission or Attendance,564,399,689,.,376,.,.,.,.,.,.,.,.,.,.,.,.,597
+UZ01Z,Data Invalid for Grouping,536,545,525,826,565,445,.,638,.,.,"1,522",.,598,.,747,.,407,550
+VA10A,"Multiple Trauma with Diagnosis Score <=23, with No Interventions",525,387,626,535,781,405,.,.,742,.,273,.,358,440,656,.,503,466
+VA10B,"Multiple Trauma with Diagnosis Score 24-32, with No Interventions",501,381,.,604,617,389,515,.,.,378,283,.,439,.,514,.,416,480
+VA10C,"Multiple Trauma with Diagnosis Score 33-50, with No Interventions",474,380,515,522,439,368,.,.,370,.,341,.,445,.,585,.,372,422
+VA10D,"Multiple Trauma with Diagnosis Score >=51, with No Interventions",421,381,465,.,444,291,.,616,.,.,342,.,402,.,656,.,374,406
+VA11A,"Multiple Trauma with Diagnosis Score <=23, with Intervention Score 1-8","2,699",570,"2,332",549,"1,858","2,009",.,.,.,.,.,.,"3,347",.,.,.,"1,700","1,927"
+VA11B,"Multiple Trauma with Diagnosis Score 24-32, with Intervention Score 1-8",.,430,.,.,.,.,.,.,.,.,.,.,"3,742",.,.,.,.,"1,258"
+VA11C,"Multiple Trauma with Diagnosis Score 33-50, with Intervention Score 1-8","1,389",.,.,508,"3,762",.,.,.,.,.,.,.,"2,817",.,.,.,"1,524","1,963"
+VA11D,"Multiple Trauma with Diagnosis Score >=51, with Intervention Score 1-8",.,.,.,.,.,.,.,.,929,.,.,.,.,.,514,.,"1,347","1,034"
+VA12A,"Multiple Trauma with Diagnosis Score <=23, with Intervention Score 9-18",.,367,.,.,"3,065",.,.,.,.,.,.,.,"3,638",.,.,.,"1,773","2,555"
+VA12B,"Multiple Trauma with Diagnosis Score 24-32, with Intervention Score 9-18",.,.,.,.,"2,569",.,.,.,.,.,.,.,"6,237",.,.,.,"2,821","3,353"
+VA12C,"Multiple Trauma with Diagnosis Score 33-50, with Intervention Score 9-18","2,252",.,.,.,"4,907",.,.,.,.,.,.,.,"3,814",.,.,.,.,"4,158"
+VA12D,"Multiple Trauma with Diagnosis Score >=51, with Intervention Score 9-18",.,.,.,.,.,.,.,.,.,.,.,.,"4,887",.,.,.,"1,721","2,513"
+VA13A,"Multiple Trauma with Diagnosis Score <=23, with Intervention Score 19-29",.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,719",.,"1,054","1,887"
+VA13B,"Multiple Trauma with Diagnosis Score 24-32, with Intervention Score 19-29",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,951","1,951"
+VA13C,"Multiple Trauma with Diagnosis Score 33-50, with Intervention Score 19-29",.,.,.,.,.,.,.,.,.,.,.,.,"7,319",.,.,.,"1,430","5,846"
+VA13D,"Multiple Trauma with Diagnosis Score >=51, with Intervention Score 19-29",.,.,.,.,"7,429",.,.,.,.,.,.,.,"7,787",.,.,.,.,"7,715"
+VA14B,"Multiple Trauma with Diagnosis Score 24-32, with Intervention Score 30-44",.,.,.,.,"2,505",.,.,.,.,.,.,.,.,.,.,.,.,"2,505"
+VA15D,"Multiple Trauma with Diagnosis Score >=51, with Intervention Score >=45",.,.,.,.,.,.,.,.,.,.,.,.,"23,915",.,.,.,.,"23,915"
+WH01C,"Transplant Failure and Rejection, without Interventions, with CC Score 2+",.,.,.,.,376,.,.,.,.,.,.,.,.,.,.,.,.,376
+WH01D,"Transplant Failure and Rejection, without Interventions, with CC Score 0-1",546,.,682,.,376,452,.,.,.,.,.,.,390,.,.,.,377,474
+WH02Z,Toxic Effect of Contact with Venomous Animal,446,367,.,468,584,291,.,.,370,.,223,.,280,.,.,.,.,390
+WH03A,Toxic Effect of Other Substance with CC Score 2+,446,.,429,.,376,.,.,.,.,.,.,.,.,.,612,.,.,514
+WH03B,Toxic Effect of Other Substance with CC Score 0-1,446,381,.,468,614,309,.,.,370,.,323,.,357,.,514,.,375,407
+WH04B,"Poisoning Diagnosis with Single Intervention, with CC Score 2+",.,.,433,.,.,.,.,.,.,.,.,.,.,.,.,.,.,433
+WH04C,"Poisoning Diagnosis with Single Intervention, with CC Score 0-1",446,.,"1,826",.,.,291,.,.,.,.,396,.,.,.,.,.,.,957
+WH04D,"Poisoning Diagnosis without Interventions, with CC Score 2+",446,387,445,469,546,315,515,.,370,.,339,.,369,.,514,.,364,410
+WH04E,"Poisoning Diagnosis without Interventions, with CC Score 0-1",447,383,430,462,541,320,515,.,384,.,323,.,321,.,523,498,366,387
+WH05Z,Allergy or Adverse Allergic Reaction,451,386,614,469,701,351,515,.,370,.,322,.,310,.,514,.,364,381
+WH06Z,Environmental Effects,446,376,.,.,751,303,.,.,.,.,340,.,315,.,514,498,364,377
+WH07B,"Infections or Other Complications of Procedures, with Multiple Interventions, with CC Score 0-1",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,300","1,300"
+WH07C,"Infections or Other Complications of Procedures, with Single Intervention, with CC Score 2+",.,444,.,549,"1,196",.,.,.,.,.,.,.,.,.,.,.,.,730
+WH07D,"Infections or Other Complications of Procedures, with Single Intervention, with CC Score 0-1",.,444,"2,211",903,.,836,.,.,.,.,.,.,"1,622",.,.,.,"1,464","1,332"
+WH07E,"Infections or Other Complications of Procedures, without Interventions, with CC Score 4+",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,364,364
+WH07F,"Infections or Other Complications of Procedures, without Interventions, with CC Score 2-3",462,572,.,.,414,.,.,.,.,.,327,.,364,.,550,.,425,445
+WH07G,"Infections or Other Complications of Procedures, without Interventions, with CC Score 0-1",496,462,537,615,462,375,.,616,.,.,381,.,480,.,621,498,469,484
+WH08A,Unspecified Pain with CC Score 1+,446,.,440,.,395,.,.,.,.,.,.,.,426,.,.,.,364,420
+WH08B,Unspecified Pain with CC Score 0,446,401,.,468,376,.,.,.,.,.,352,.,427,.,514,498,.,432
+WH09D,"Tendency to Fall, Senility or Other Conditions Affecting Cognitive Functions, without Interventions, with CC Score 6+",446,.,.,.,.,.,.,.,370,.,.,.,.,.,.,.,.,395
+WH09E,"Tendency to Fall, Senility or Other Conditions Affecting Cognitive Functions, without Interventions, with CC Score 4-5",.,.,521,474,376,.,.,.,.,.,.,.,374,.,514,.,364,424
+WH09F,"Tendency to Fall, Senility or Other Conditions Affecting Cognitive Functions, without Interventions, with CC Score 2-3",446,371,518,468,407,291,515,.,370,378,362,.,416,.,528,.,362,416
+WH09G,"Tendency to Fall, Senility or Other Conditions Affecting Cognitive Functions, without Interventions, with CC Score 0-1",444,380,506,467,414,320,515,.,370,.,347,.,400,.,533,498,364,405
+WH10A,Unspecified Oedema with CC Score 2+,446,367,515,.,.,.,.,.,.,.,.,.,.,.,.,.,364,431
+WH10B,Unspecified Oedema with CC Score 0-1,446,384,473,470,584,.,.,.,370,.,344,.,399,.,514,498,364,442
+WH11A,"Hypothermia, Frostbite or Other Effects of Reduced Temperature, with CC Score 2+",546,401,.,.,.,.,.,.,.,.,.,.,366,.,.,.,364,417
+WH11B,"Hypothermia, Frostbite or Other Effects of Reduced Temperature, with CC Score 0-1",.,374,.,.,376,291,.,.,.,.,.,.,354,.,661,.,364,380
+WH12A,"Signs or Symptoms, Involving Appearance or Behaviour, with CC Score 2+",.,367,.,.,"1,000",.,.,.,.,.,344,.,.,.,.,.,.,571
+WH12B,"Signs or Symptoms, Involving Appearance or Behaviour, with CC Score 0-1",438,369,.,.,792,.,.,.,.,.,.,.,366,.,559,.,364,440
+WH13B,"Abnormal Findings without Diagnosis, without Interventions, with CC Score 1+",470,387,495,.,376,291,.,.,370,.,337,.,376,.,514,.,366,393
+WH13C,"Abnormal Findings without Diagnosis, without Interventions, with CC Score 0",451,383,545,470,408,291,515,.,370,.,333,.,373,.,526,498,372,402
+WH14C,"Other or Unspecified Neoplasm, without Interventions, with CC Score 2+",446,373,596,.,.,.,.,.,.,.,.,.,.,.,.,.,364,409
+WH14D,"Other or Unspecified Neoplasm, without Interventions, with CC Score 0-1",446,498,713,.,439,389,.,.,.,.,344,.,.,.,514,.,364,445
+WH15Z,"Special Screening, Examinations or Other Genetic Disorders",446,.,.,.,.,.,.,.,.,.,.,.,420,.,.,.,714,598
+WH16A,"Observation or Counselling, with CC Score 1+",.,347,459,474,521,.,515,.,370,.,344,.,374,.,514,.,384,436
+WH16B,"Observation or Counselling, with CC Score 0",428,390,582,846,566,471,.,.,370,.,223,.,300,.,625,498,445,483
+WH17B,"Admission Related to Social Factors without Interventions, with CC Score 1+",451,379,524,514,376,291,515,.,370,.,337,.,373,.,527,498,361,417
+WH17C,"Admission Related to Social Factors without Interventions, with CC Score 0",451,382,562,468,472,402,.,.,370,.,340,.,395,.,514,498,361,421
+WH18B,"Admission Related to the, Fitting, Adjustment or Management of Device, without Interventions",446,.,682,.,.,.,.,.,.,.,.,.,393,.,.,.,443,555
+WH50A,"Procedure Not Carried Out, for Medical or Patient Reasons",526,462,595,779,659,818,.,.,.,.,460,.,786,.,.,.,486,579
+WH50B,"Procedure Not Carried Out, for Other or Unspecified Reasons",507,654,538,688,630,711,.,616,.,.,344,.,591,.,514,498,516,570
+WH51Z,"Admission Related to Donation, of Organ or Tissue",.,.,676,.,.,.,.,.,.,.,.,.,.,.,.,.,.,676
+WH52B,"Follow-Up Examination for Malignant Neoplasm, without Interventions",.,.,569,.,.,.,.,.,.,.,.,.,410,.,.,.,.,490
+WH53B,"Follow-Up Examination for Other Conditions, without Interventions",534,.,624,.,797,.,.,.,.,.,.,.,.,.,656,.,.,583
+WJ01C,"Complex Infectious Diseases without Interventions, with CC Score 6+",.,.,441,.,.,.,.,.,.,.,.,.,594,.,.,.,.,492
+WJ01D,"Complex Infectious Diseases without Interventions, with CC Score 3-5",.,401,.,.,.,291,.,.,.,.,.,.,366,.,514,.,.,394
+WJ01E,"Complex Infectious Diseases without Interventions, with CC Score 0-2",.,.,.,468,376,.,.,.,.,.,.,.,366,.,.,.,.,381
+WJ02C,"Major Infectious Diseases without Interventions, with CC Score 6+",.,387,.,.,.,.,.,.,.,.,.,.,483,.,514,.,.,443
+WJ02D,"Major Infectious Diseases without Interventions, with CC Score 3-5",.,384,429,.,.,.,.,.,.,.,.,.,366,.,514,.,364,404
+WJ02E,"Major Infectious Diseases without Interventions, with CC Score 0-2",.,401,429,.,376,.,.,.,.,.,.,.,468,.,514,.,.,432
+WJ03B,"Standard Infectious Diseases with Single Intervention, with CC Score 4+",.,.,.,.,.,.,.,.,.,.,"1,073",.,.,.,.,.,.,"1,073"
+WJ03D,"Standard Infectious Diseases without Interventions, with CC Score 7+",446,.,.,.,.,420,.,.,370,.,.,.,390,.,514,.,364,406
+WJ03E,"Standard Infectious Diseases without Interventions, with CC Score 4-6",453,383,619,.,465,331,515,.,370,.,327,.,369,.,514,.,364,413
+WJ03F,"Standard Infectious Diseases without Interventions, with CC Score 2-3",463,384,585,468,380,389,515,.,370,.,378,.,388,.,514,.,364,412
+WJ03G,"Standard Infectious Diseases without Interventions, with CC Score 0-1",460,399,472,470,404,299,621,.,370,.,346,.,359,.,541,498,385,392
+WJ04Z,Genito-Urinary Medicine (GUM) Infections,.,827,549,.,797,.,.,.,.,.,344,.,366,.,.,.,.,577
+WJ05A,Septic Shock with CC Score 5+,.,.,676,.,376,.,.,.,.,.,.,.,.,.,.,.,364,448
+WJ05B,Septic Shock with CC Score 0-4,446,367,.,.,376,291,.,.,.,.,.,.,.,.,514,.,.,381
+WJ06E,"Sepsis with Single Intervention, with CC Score 5-8",.,.,.,.,376,.,.,.,.,.,.,.,.,.,.,.,.,376
+WJ06G,"Sepsis without Interventions, with CC Score 9+",446,380,517,.,376,291,.,.,.,.,340,.,375,.,.,.,364,386
+WJ06H,"Sepsis without Interventions, with CC Score 5-8",447,382,572,508,383,310,.,.,545,.,333,.,378,.,586,.,363,397
+WJ06J,"Sepsis without Interventions, with CC Score 0-4",461,460,585,483,383,377,515,580,.,.,354,.,384,.,531,.,364,414
+WJ07C,"Fever of Unknown Origin without Interventions, with CC Score 4+",446,392,593,468,389,.,.,.,.,.,344,.,366,.,.,.,364,418
+WJ07D,"Fever of Unknown Origin without Interventions, with CC Score 0-3",479,385,571,720,387,693,.,.,370,.,365,.,403,.,609,498,376,423
+WJ11Z,Other Disorders of Immunity,446,401,.,.,.,.,.,.,.,.,.,.,366,.,.,.,.,418
+YA02A,"Percutaneous Transluminal Embolisation of, Single Large or Two Other, Intracranial or Extracranial Aneurysms, with CC Score 4+",.,.,.,.,.,.,.,.,.,.,.,.,"10,419",.,.,.,.,"10,419"
+YA02B,"Percutaneous Transluminal Embolisation of, Single Large or Two Other, Intracranial or Extracranial Aneurysms, with CC Score 0-3",.,.,.,.,.,.,.,.,.,.,.,.,"16,507",.,.,.,.,"16,507"
+YA03B,"Percutaneous Transluminal Embolisation of, Single Small or Medium, Intracranial or Extracranial Aneurysm, with CC Score 4-7",.,.,.,.,.,.,.,.,.,.,.,.,"8,890",.,.,.,.,"8,890"
+YA03C,"Percutaneous Transluminal Embolisation of, Single Small or Medium, Intracranial or Extracranial Aneurysm, with CC Score 0-3",.,.,.,.,.,.,.,.,.,.,.,.,"7,797",.,.,.,.,"7,797"
+YA10Z,"Percutaneous Transluminal Angioplasty, including Stenting, of Intracranial or Extracranial Blood Vessel",.,.,.,.,.,.,.,.,.,.,.,.,"19,401",.,.,.,.,"19,401"
+YA11Z,"Percutaneous Transluminal Arteriography, of Intracranial or Extracranial Blood Vessel",.,.,.,.,.,.,.,.,.,.,.,.,"1,924",.,.,.,.,"1,924"
+YA12Z,"Percutaneous Transluminal Other Procedures on, Intracranial or Extracranial Blood Vessel",.,.,.,.,.,.,.,.,.,.,.,.,"3,090",.,.,.,.,"3,090"
+YD03Z,"Percutaneous Biopsy of Lesion of, Lung or Mediastinum",.,351,.,.,.,.,.,.,.,.,.,.,"1,681",.,.,.,"1,076","1,028"
+YD04Z,Percutaneous Drainage of Pleural Cavity,446,367,818,468,438,.,.,.,866,.,656,.,879,.,514,.,854,686
+YD05Z,Percutaneous Aspiration of Pleural Cavity,446,421,810,468,792,558,.,.,742,.,687,.,676,.,514,.,839,622
+YF01A,"Radiological Insertion of Gastrostomy Tube, 19 years and over",.,483,.,.,"1,000",.,.,.,.,.,.,.,"1,761",.,.,.,997,"1,365"
+YF02Z,"Radiological Insertion of, Gastrojejunostomy or Jejunostomy Tube",.,.,.,.,.,.,.,.,.,.,.,.,"2,474",.,.,.,.,"2,474"
+YF04A,"Percutaneous Single Drainage of Abdominal Abscess, with CC Score 5+",.,444,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,444
+YF04C,"Percutaneous Single Drainage of Abdominal Abscess, with CC Score 0-1",.,.,.,.,.,.,.,.,.,.,.,.,630,.,514,.,.,572
+YG01A,"Percutaneous Ablation of Lesion of, Liver or Pancreas, with CC Score 2+",.,.,.,.,.,.,.,.,.,.,.,.,"3,268",.,.,.,.,"3,268"
+YG05B,"Percutaneous Insertion of Single Other Stent, into Hepatic or Bile Duct, With CC Score 0-3",.,.,"2,083",.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,083"
+YG06Z,Percutaneous Drainage of Hepatobiliary System,.,.,.,.,.,.,.,.,.,.,.,.,"1,644",.,.,.,.,"1,644"
+YG07B,"Other Percutaneous Therapeutic, Hepatobiliary or Pancreatic Procedures, with CC Score 0-2","1,893",.,.,.,376,.,.,.,.,.,.,.,.,.,.,.,.,"1,387"
+YG11A,"Percutaneous Punch Biopsy of Lesion of Liver, 19 years and over",446,409,.,549,.,"1,334",.,.,.,.,.,.,"3,004",.,514,.,.,667
+YG12Z,"Other Percutaneous Diagnostic, Hepatobiliary or Pancreatic Procedures",446,.,.,.,.,.,.,.,.,.,.,.,824,.,.,.,.,572
+YH10Z,Image Guided Biopsy of Extradural Spinal Lesion,.,.,.,.,.,.,.,"1,797",.,.,.,.,.,.,.,.,.,"1,797"
+YH30Z,Image Guided Aspiration of Joint,867,387,433,.,703,548,.,666,"1,046",.,394,.,425,.,.,.,"1,312",647
+YH31Z,Image Guided Biopsy of Lesion of Bone,446,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,446
+YJ02Z,Unilateral Core Needle Biopsy of Lesion of Breast,.,.,.,.,439,.,.,.,.,.,.,.,.,.,.,.,.,439
+YJ04Z,Core Needle Biopsy of Axillary Lymph Nodes,.,"1,431",871,"1,245",.,.,.,.,.,.,.,.,.,.,.,.,.,"1,182"
+YJ06Z,Unilateral Fine Needle Aspiration of Lesion of Breast,"1,411",971,627,.,439,726,.,.,.,.,.,.,.,.,"2,031",.,.,836
+YJ11Z,"Drainage of Lesion of Breast, including Associated Lymph Nodes","1,411",809,"3,039",949,"1,815",.,.,.,.,.,.,.,.,.,.,.,902,"1,203"
+YL10Z,"Bilateral or Multiple, Percutaneous Insertion of, Ureteric Stent or Nephrostomy","1,410",.,624,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,017"
+YL11Z,"Unilateral, Percutaneous Insertion of, Ureteric Stent or Nephrostomy","1,410",.,"1,271",.,.,.,.,.,.,.,.,.,"1,550",.,.,.,"1,336","1,340"
+YL12Z,"Percutaneous, Attention to or Removal of, Ureteric Stent or Nephrostomy","1,410",.,624,.,415,.,.,.,.,.,.,.,.,.,.,.,921,848
+YL20A,"Percutaneous Needle Biopsy of Lesion of Kidney, 19 years and over",475,.,903,.,.,452,.,.,.,.,.,.,.,.,.,.,422,622
+YL20B,"Percutaneous Needle Biopsy of Lesion of Kidney, 18 years and under",446,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,446
+YQ01B,"Multiple or Revisional, Open Repair of, Abdominal or Thoracoabdominal Aortic Aneurysm, with CC Score 0-5",.,.,.,.,.,.,.,.,.,.,.,.,"11,463",.,.,.,.,"11,463"
+YQ03A,Open Repair of Abdominal Aortic Aneurysm with CC Score 6+,.,.,.,.,.,.,.,.,.,.,.,.,"8,137",.,.,.,.,"8,137"
+YQ03B,Open Repair of Abdominal Aortic Aneurysm with CC Score 0-5,.,.,.,.,.,.,.,.,.,.,.,.,"5,160",.,.,.,.,"5,160"
+YQ05A,"Single Open Procedure, on Aorta or Abdominal Blood Vessel, with CC Score 4+",.,.,.,.,.,.,.,.,.,.,.,.,"7,194",.,.,.,.,"7,194"
+YQ05B,"Single Open Procedure, on Aorta or Abdominal Blood Vessel, with CC Score 0-3",.,.,"1,613",.,376,.,.,.,.,.,.,.,"11,905",.,.,.,.,"4,631"
+YQ10D,Multiple Open Procedures on Blood Vessels of Lower Limbs with CC Score 0-3,.,.,.,.,.,.,.,.,.,.,.,.,"5,195",.,.,.,.,"5,195"
+YQ12B,Single Open Procedure on Blood Vessel of Lower Limb with CC Score 7-10,.,.,.,.,.,.,.,.,.,.,.,.,"3,229",.,.,.,.,"3,229"
+YQ12C,Single Open Procedure on Blood Vessel of Lower Limb with CC Score 4-6,.,.,.,.,.,.,.,.,.,.,.,.,"3,853",.,.,.,.,"3,853"
+YQ12D,Single Open Procedure on Blood Vessel of Lower Limb with CC Score 0-3,.,.,.,"1,893","3,796",.,.,.,.,.,.,.,"3,945",.,.,.,.,"3,211"
+YQ14Z,"Open Treatment of, Primary or Recurrent, Bilateral Varicose Veins",.,.,.,.,376,.,.,.,.,.,.,.,.,.,.,.,.,376
+YQ16Z,Open Treatment of Primary Unilateral Varicose Veins,.,444,.,.,.,.,.,.,.,.,.,.,.,.,"3,407",.,.,"1,925"
+YQ22B,Amputation of Single Limb with CC Score 0-9,"2,857",.,.,.,.,.,.,.,.,.,.,.,"2,366",.,.,.,.,"2,530"
+YQ26A,"Single, Amputation Stump or Partial Foot Amputation Procedure, for Diabetes or Arterial Disease, with CC Score 8+",.,.,.,.,"1,228",.,.,.,.,.,.,.,.,.,.,.,.,"1,228"
+YQ26B,"Single, Amputation Stump or Partial Foot Amputation Procedure, for Diabetes or Arterial Disease, with CC Score 5-7",.,.,.,.,.,.,.,.,.,.,.,.,"1,344",.,.,.,.,"1,344"
+YQ26C,"Single, Amputation Stump or Partial Foot Amputation Procedure, for Diabetes or Arterial Disease, with CC Score 0-4",.,.,.,.,.,.,.,.,.,.,.,.,"1,566",.,.,.,"1,482","1,503"
+YQ30Z,"Multiple Open Procedures, on Carotid Artery or Blood Vessels of Upper Limbs",.,.,.,.,.,.,.,.,.,.,.,.,"2,871",.,.,.,.,"2,871"
+YQ31A,Single Open Procedure on Carotid Artery with CC Score 5+,.,.,.,.,.,.,.,.,.,.,.,.,"4,082",.,.,.,.,"4,082"
+YQ31B,Single Open Procedure on Carotid Artery with CC Score 0-4,.,.,.,.,.,.,.,.,.,.,.,.,"2,654",.,.,.,.,"2,654"
+YQ32A,"Single Open Procedure, on Blood Vessel or Upper Limb with CC Score 5+","4,304",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"4,304"
+YQ32B,"Single Open Procedure, on Blood Vessel or Upper Limb with CC Score 0-4","4,304",.,.,.,"1,173",.,.,.,.,.,.,.,"3,455",.,.,.,"1,194","2,264"
+YQ41B,"Open Operations, on Other or Unspecified Blood Vessels, with CC Score 0-1",.,.,.,.,.,.,.,.,.,.,.,.,"7,722",.,.,.,"2,334","3,411"
+YQ42Z,"Open Arteriovenous Fistula, Graft or Shunt Procedures",.,.,690,.,"1,760",.,.,.,.,.,.,.,.,.,.,.,.,"1,047"
+YQ50A,Peripheral Vascular Disorders with CC Score 15+,.,401,.,.,.,.,.,.,.,.,.,.,402,.,.,.,364,389
+YQ50B,Peripheral Vascular Disorders with CC Score 11-14,.,.,.,.,.,439,.,.,.,.,344,.,525,.,.,.,.,464
+YQ50C,Peripheral Vascular Disorders with CC Score 8-10,466,374,593,.,392,.,.,.,.,.,344,.,474,.,.,.,364,448
+YQ50D,Peripheral Vascular Disorders with CC Score 5-7,446,384,682,522,420,378,.,.,370,.,340,.,500,.,514,.,364,447
+YQ50E,Peripheral Vascular Disorders with CC Score 2-4,446,447,580,517,480,366,.,.,370,.,321,.,527,.,514,.,380,471
+YQ50F,Peripheral Vascular Disorders with CC Score 0-1,446,405,.,510,682,334,.,.,.,.,346,.,575,.,575,498,506,517
+YQ51A,Deep Vein Thrombosis with CC Score 12+,.,401,.,.,.,.,.,.,.,.,335,.,389,.,.,.,336,364
+YQ51B,Deep Vein Thrombosis with CC Score 9-11,.,380,515,.,.,.,.,.,370,.,.,.,.,.,.,.,364,390
+YQ51C,Deep Vein Thrombosis with CC Score 6-8,424,391,502,.,389,.,.,.,.,.,344,.,361,.,514,.,364,391
+YQ51D,Deep Vein Thrombosis with CC Score 3-5,454,391,507,468,532,291,515,.,.,.,398,.,401,.,526,498,388,419
+YQ51E,Deep Vein Thrombosis with CC Score 0-2,446,383,461,456,489,291,.,.,.,.,358,.,397,.,573,498,379,409
+YR03Z,Complex Endovascular Repair of Abdominal Aortic Aneurysm,.,.,.,.,.,.,.,.,.,.,.,.,"15,290",.,.,.,.,"15,290"
+YR04Z,Endovascular Repair of Abdominal Aortic Aneurysm,.,.,.,.,.,.,.,.,.,.,.,.,"14,024",.,.,.,.,"14,024"
+YR11B,Percutaneous Transluminal Angioplasty of Single Blood Vessel with CC Score 6-8,.,.,.,.,.,.,.,.,.,.,.,.,"1,358",.,.,.,.,"1,358"
+YR11D,Percutaneous Transluminal Angioplasty of Single Blood Vessel with CC Score 0-2,.,.,.,.,.,.,.,.,.,.,.,.,"3,181",.,.,.,.,"3,181"
+YR12Z,Percutaneous Transluminal Angioplasty with Insertion of Stent Graft into Peripheral Blood Vessel,.,.,.,.,.,.,.,.,.,.,.,.,"5,591",.,.,.,.,"5,591"
+YR13Z,"Percutaneous Transluminal Angioplasty with Insertion of, Drug-Eluting, Coated or Embolic Protection Stent, into Peripheral Blood Vessel",.,.,.,.,.,.,.,.,.,.,.,.,"5,034",.,.,.,921,"2,978"
+YR15B,"Percutaneous Transluminal Angioplasty with Insertion of Single Metal Stent into Peripheral Blood Vessel, with CC Score 3-5",.,.,.,.,.,.,.,.,.,.,.,.,"4,328",.,.,.,.,"4,328"
+YR22A,Inferior Vena Cava Filter Procedures with CC Score 7+,.,.,.,.,.,.,.,.,.,.,.,.,"2,068",.,.,.,.,"2,068"
+YR22C,Inferior Vena Cava Filter Procedures with CC Score 0-2,.,.,.,.,.,.,.,.,.,.,.,.,"2,092",.,.,.,.,"2,092"
+YR23A,"Percutaneous Transluminal, Embolectomy or Thrombolysis, of Blood Vessel, with CC Score 5+",.,.,.,.,.,.,.,.,.,.,.,.,"5,663",.,.,.,.,"5,663"
+YR23B,"Percutaneous Transluminal, Embolectomy or Thrombolysis, of Blood Vessel, with CC Score 0-4",580,.,.,.,.,.,.,.,.,.,.,.,"7,047",.,.,.,.,"4,892"
+YR24C,Percutaneous Transluminal Other Procedures on Blood Vessel with CC Score 4+,.,.,.,.,.,.,.,.,.,.,.,.,"5,188",.,.,.,.,"5,188"
+YR24D,Percutaneous Transluminal Other Procedures on Blood Vessel with CC Score 0-3,.,.,.,.,.,.,.,.,.,.,.,.,396,.,.,.,.,396
+YR25Z,Arteriography,.,.,.,.,439,.,.,.,.,.,.,.,"2,763",.,.,.,.,"2,298"
+YR26Z,Venography,.,.,.,.,.,291,.,.,.,.,.,.,.,.,.,.,.,291
+YR33Z,Sclerotherapy of Unilateral Varicose Veins,"1,893",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,893"
+YR40A,"Insertion of Non-Tunnelled Central Venous Catheter, 19 years and over",656,.,"2,433",.,.,"1,404","1,272",.,991,.,"1,173",.,.,.,.,.,.,"1,556"
+YR40B,"Insertion of Non-Tunnelled Central Venous Catheter, 18 years and under",745,.,.,.,.,.,.,.,.,.,.,.,"2,836",.,.,.,.,"2,313"
+YR41A,"Insertion of Tunnelled Central Venous Catheter, 19 years and over",681,.,"3,730",.,888,452,.,.,.,.,.,.,"1,591",.,.,.,422,"1,686"
+YR42A,"Peripheral Insertion of Central Venous Catheter, 19 years and over",.,.,"1,388",.,407,.,.,.,.,.,.,.,.,.,.,.,"1,155","1,008"
+YR42B,"Peripheral Insertion of Central Venous Catheter, 18 years and under",.,.,.,.,.,.,.,.,.,.,.,.,"1,267",.,.,.,.,"1,267"
+YR43A,"Attention to Central Venous Catheter, 19 years and over",446,.,"1,183",.,"1,000",452,.,.,.,.,.,403,.,.,.,.,"1,155",854
+YR43B,"Attention to Central Venous Catheter, 18 years and under",.,.,.,.,.,.,.,.,.,.,.,403,.,.,.,.,"1,152",778
+YR44A,"Removal of Central Venous Catheter, 19 years and over",.,.,682,.,.,452,.,.,.,.,.,.,.,.,.,.,"1,272",802
+YR44B,"Removal of Central Venous Catheter, 18 years and under",.,.,.,.,.,.,.,.,.,.,.,.,717,.,.,.,.,717
+YR45Z,Insertion of Subcutaneous Port,.,.,"1,318",.,.,.,.,.,.,.,.,.,.,.,.,.,.,"1,318"
+YR48Z,"Attention to Arteriovenous Fistula, Graft or Shunt",.,.,"2,083",.,.,.,.,.,.,.,.,.,.,.,.,.,.,"2,083"
+YR52A,"Percutaneous Transluminal Embolisation of, Single Small or Medium, Peripheral Aneurysm, with CC Score 4+",.,.,.,.,.,.,.,.,.,.,.,.,"7,335",.,.,.,.,"7,335"
+YR52B,"Percutaneous Transluminal Embolisation of, Single Small or Medium, Peripheral Aneurysm, with CC Score 0-3",.,.,.,.,.,.,.,.,.,.,.,.,"5,279",.,.,.,.,"5,279"
+YR54A,Percutaneous Transluminal Embolisation of Peripheral Blood Vessel with CC Score 6+,.,.,"3,244",.,.,.,.,.,.,.,.,.,"3,569",.,.,.,.,"3,407"
+YR54B,Percutaneous Transluminal Embolisation of Peripheral Blood Vessel with CC Score 3-5,.,.,.,.,.,.,.,.,.,.,.,.,"4,763",.,.,.,.,"4,763"
+Total,,704,471,995,684,691,623,995,"1,028",613,378,466,403,653,440,854,498,603,638

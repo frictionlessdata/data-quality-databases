@@ -1,0 +1,8 @@
+Target Level,Enrolments (Enrolments Dataset),Completers (Enrolments Dataset),Retention Rate,Qualifications (awarding organisation dataset),Achievment Rate,Success Rate
+Entry Level 1,8889,7795,1,5874,1,1
+Entry Level 2,17487,15654,1,11252,1,1
+Entry Level 3,47439,42355,1,35004,1,1
+Level 1,176097,158694,1,81949,1,0
+Level 2,133311,117816,1,108619,1,1
+Not Known,4996,2058,N/A,0,N/A,N/A
+Total,388219,344372,1,242698,1,1

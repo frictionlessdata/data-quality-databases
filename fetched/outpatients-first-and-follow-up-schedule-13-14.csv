@@ -1,0 +1,321 @@
+Provider,Specialty,First Attendances Total Cost,Number of First Attendances,First Attendances Unit Cost,Follow Up Attendances Total Cost,Number of Follow Ups,Follow Up Attendances Unit Costs
+,,£,,£,£,,£
+Altnagelvin,100 General Surgery,"1,631,484","7,081",230,"927,689","6,725",138
+Altnagelvin,101 Urology,"363,710","2,116",172,"475,718","3,668",130
+Altnagelvin,110 T & O surgery,"1,611,725","10,017",161,"2,011,950","18,932",106
+Altnagelvin,120 ENT,"1,249,654","6,209",201,"995,403","6,520",153
+Altnagelvin,130 Ophthalmology,"1,341,631","6,628",202,"892,300","14,833",60
+Altnagelvin,140 Oral surgery,"449,621","2,027",222,"389,762","3,328",117
+Altnagelvin,143 Orthodontics,"72,483",264,275,"530,861","2,802",189
+Altnagelvin,191 Pain management,"274,149",442,620,"117,261",868,135
+Altnagelvin,300 General medicine,"994,284","3,705",268,"1,406,076","10,440",135
+Altnagelvin,303 Haematology,"116,001",207,560,"522,132","3,493",149
+Altnagelvin,315 Palliative medicine,"12,432",53,235,"19,857",142,140
+Altnagelvin,320 Cardiology,"369,835","1,304",284,"675,317","3,185",212
+Altnagelvin,330 Dermatology,"591,566","3,542",167,"385,656","19,694",20
+Altnagelvin,360 Genito urinary medicine,"770,472","3,595",214,"189,758","1,342",141
+Altnagelvin,361a Nephrology - Other,"64,947",435,149,"259,790","2,209",118
+Altnagelvin,400 Neurology,"263,877",701,376,"237,445","2,127",112
+Altnagelvin,410 Rheumatology,"406,398","1,038",392,"597,957","4,291",139
+Altnagelvin,420 Paediatrics,"462,272","1,838",252,"840,579","6,798",124
+Altnagelvin,430 Geriatric medicine,"171,600",322,533,"398,579","1,221",326
+Altnagelvin,501 Obs & Gyn (Obstetrics),"633,596","2,763",229,"1,059,387","9,185",115
+Altnagelvin,502b Gynaecology (Excluding IVF and Other Fertility Treatments),"818,532","5,832",140,"541,256","5,117",106
+Altnagelvin,800 Clinical Oncology,"397,971",686,580,"828,545","5,153",161
+Altnagelvin,822 Chemical Pathology,"21,989",60,366,"17,871",165,108
+Altnagelvin,Nurse clinics,"218,261","1,696",129,"651,061","13,563",48
+Antrim,100 General Surgery,"2,465,215","8,255",299,"1,729,792","9,272",187
+Antrim,120 ENT,"644,033","4,812",134,"683,112","7,278",94
+Antrim,143 Orthodontics,"47,576",222,214,"352,343","2,315",152
+Antrim,191 Pain management,"53,951",460,117,"69,040",634,109
+Antrim,300 General medicine,"1,180,604","3,962",298,"2,046,808","11,622",176
+Antrim,301 Gastroenterology,"402,876","1,920",210,"571,837","4,042",141
+Antrim,303 Haematology,"329,282","3,851",86,"453,885","5,880",77
+Antrim,320 Cardiology,"904,653","3,414",265,"735,488","3,769",195
+Antrim,330 Dermatology,"548,928","3,576",154,"537,148","4,669",115
+Antrim,361a Nephrology - Other,"122,043",537,227,"574,735","4,187",137
+Antrim,400 Neurology,"108,041",589,183,"121,754","1,076",113
+Antrim,410 Rheumatology,"498,291","2,025",246,"862,385","5,821",148
+Antrim,420 Paediatrics,"560,572","2,273",247,"848,330","5,701",149
+Antrim,430 Geriatric medicine,"287,457",743,387,"228,707","1,040",220
+Antrim,501 Obs & Gyn (Obstetrics),"468,997","2,958",159,"1,334,974","11,135",120
+Antrim,502b Gynaecology (Excluding IVF and Other Fertility Treatments),"1,098,891","5,301",207,"718,325","5,873",122
+Antrim,Nurse clinics, -   , -   ,,"236,825","2,345",101
+Armagh Community,100 General Surgery,"32,387",296,109,"23,962",219,109
+Armagh Community,110 T & O surgery,"7,494",69,109,"7,385",68,109
+Armagh Community,120 ENT,"54,185",363,149,"55,379",371,149
+Armagh Community,130 Ophthalmology,"30,526",343,89,"77,426",870,89
+Armagh Community,191 Pain management,"47,359",255,186,"34,359",185,186
+Armagh Community,301 Gastroenterology,"26,773",197,136,"18,347",135,136
+Armagh Community,302 Endocrinology,"6,461",56,115,"75,566",655,115
+Armagh Community,320 Cardiology,"20,040",122,164,"13,469",82,164
+Armagh Community,330 Dermatology,"63,278",723,88,"93,035","1,063",88
+Armagh Community,400 Neurology, -   , -   ,,"18,204",133,137
+Armagh Community,410 Rheumatology,"19,708",147,134,"33,517",250,134
+Armagh Community,420 Paediatrics,"16,460",89,185,"53,819",291,185
+Armagh Community,501 Obs & Gyn (Obstetrics),"76,047",810,94,"165,050","1,758",94
+Armagh Community,502b Gynaecology (Excluding IVF and Other Fertility Treatments),"32,422",324,100,"41,428",414,100
+Banbridge,100 General Surgery,"53,167",304,175,"57,364",328,175
+Banbridge,101 Urology,"11,185",89,126,"13,196",105,126
+Banbridge,120 ENT,"33,283",233,143,"35,712",250,143
+Banbridge,301 Gastroenterology,"29,655",217,137,"18,859",138,137
+Banbridge,302 Endocrinology,"3,496",18,194,"56,512",291,194
+Banbridge,320 Cardiology,"20,753",68,305,"23,499",77,305
+Banbridge,400 Neurology,"10,888",68,160,"103,756",648,160
+Banbridge,410 Rheumatology,"93,852",526,178,"363,095","2,035",178
+Banbridge,420 Paediatrics,"57,688",299,193,"79,490",412,193
+Banbridge,501 Obs & Gyn (Obstetrics),"8,999",126,71,"26,070",365,71
+Banbridge,502b Gynaecology (Excluding IVF and Other Fertility Treatments),"23,954",259,92,"18,960",205,92
+Banbridge,822 Chemical Pathology,"6,592",87,76,"10,684",141,76
+Banbridge,Nurse clinics,"3,035",38,80,"26,919",337,80
+BCH,100 General Surgery,"2,455,586","12,050",204,"2,389,866","23,455",102
+BCH,101 Urology,"1,099,020","3,572",308,"1,247,935","8,112",154
+BCH,120 ENT,"271,935","2,071",131,"235,577","2,563",92
+BCH,172 Thoracic surgery,"20,639",109,189,"22,343",236,95
+BCH,191 Pain management,"250,746","2,679",94,"515,252","5,505",94
+BCH,300 General medicine,"548,033","1,886",291,"991,457","6,824",145
+BCH,302 Endocrinology,"167,438",499,336,"599,623","3,574",168
+BCH,303 Haematology,"305,264","1,958",156,"3,496,351","22,426",156
+BCH,315 Palliative medicine,"25,059",334,75,"76,902","1,025",75
+BCH,320 Cardiology,"607,932","2,147",283,"771,501","4,087",189
+BCH,330 Dermatology,"561,486","3,669",153,"1,964,282","17,114",115
+BCH,340 Thoracic medicine,"567,575","2,057",276,"2,029,512","10,030",202
+BCH,361a Nephrology - Other,"470,989","1,192",395,"2,266,343","9,464",239
+BCH,370a Medical Oncology,"1,114,089","5,999",186,"8,738,697","47,055",186
+BCH,400 Neurology,"464,064","1,864",249,"1,352,490","7,408",183
+BCH,410 Rheumatology,"398,698",996,400,"383,567","3,194",120
+BCH,430 Geriatric medicine,"235,217",579,406,"205,724","1,266",162
+BCH,502b Gynaecology (Excluding IVF and Other Fertility Treatments),"817,128","4,808",170,"938,416","6,626",142
+BCH,710 Mental illness,"51,267",305,168,"346,431","2,061",168
+Bluestone,710 Mental illness,"60,066",355,169,"529,253","3,128",169
+Bluestone,715 Old age psychiatry,"91,493",546,168,"191,699","1,144",168
+Causeway,100 General Surgery,"991,137","4,118",241,"588,258","5,384",109
+Causeway,101 Urology,"459,090","2,806",164,"540,373","4,652",116
+Causeway,120 ENT,"209,705","1,558",135,"128,255","1,635",78
+Causeway,143 Orthodontics,"13,860",69,201,"96,849",573,169
+Causeway,191 Pain management,"39,161",356,110,"45,183",418,108
+Causeway,300 General medicine,"1,133,834","3,469",327,"1,713,439","8,549",200
+Causeway,303 Haematology,"12,034",126,96,"102,069","1,093",93
+Causeway,330 Dermatology,"163,266","1,187",138,"66,477",840,79
+Causeway,361a Nephrology - Other,"9,777",44,222,"15,364",86,179
+Causeway,410 Rheumatology,"59,872",339,177,"199,056","1,592",125
+Causeway,420 Paediatrics,"282,022",967,292,"605,150","3,851",157
+Causeway,501 Obs & Gyn (Obstetrics),"218,810","1,369",160,"797,422","8,225",97
+Causeway,502b Gynaecology (Excluding IVF and Other Fertility Treatments),"495,551","2,390",207,"267,297","2,767",97
+Causeway,Nurse clinics, -   , -   ,,"227,444","4,731",48
+CAH,100 General Surgery,"1,654,554","10,227",162,"1,294,263","8,000",162
+CAH,101 Urology,"411,697","2,843",145,"518,712","3,582",145
+CAH,110 T & O surgery,"665,370","7,004",95,"1,271,460","13,384",95
+CAH,120 ENT,"726,781","4,921",148,"1,023,638","6,931",148
+CAH,130 Ophthalmology,"105,843",843,126,"192,099","1,530",126
+CAH,140 Oral surgery,"100,766",574,176,"132,365",754,176
+CAH,142 Paediatric dentistry,644,10,64,"1,482",23,64
+CAH,143 Orthodontics,"76,811",353,218,"615,573","2,829",218
+CAH,172 Thoracic surgery,912,7,130,"2,604",20,130
+CAH,191 Pain management,"110,168",559,197,"77,256",392,197
+CAH,300 General medicine,"353,886",849,417,"603,981","1,449",417
+CAH,301 Gastroenterology,"33,146",194,171,"26,824",157,171
+CAH,302 Endocrinology,"48,481",257,189,"340,499","1,805",189
+CAH,315 Palliative medicine,"4,400",57,77,"54,346",704,77
+CAH,320 Cardiology,"807,694","3,046",265,"394,301","1,487",265
+CAH,330 Dermatology,"493,456","5,084",97,"1,066,405","10,987",97
+CAH,340 Thoracic medicine,"163,952",907,181,"475,405","2,630",181
+CAH,370a Medical Oncology,"6,575",49,134,"50,184",374,134
+CAH,400 Neurology,"519,768","2,990",174,"647,537","3,725",174
+CAH,410 Rheumatology,"198,294",906,219,"490,700","2,242",219
+CAH,420 Paediatrics,"245,438","1,451",169,"979,553","5,791",169
+CAH,430 Geriatric medicine,"175,597",744,236,"340,573","1,443",236
+CAH,501 Obs & Gyn (Obstetrics),"296,623","3,331",89,"1,699,414","19,084",89
+CAH,502a IVF and Other Fertility Treatments,"18,374",135,136,"301,464","2,215",136
+CAH,502b Gynaecology (Excluding IVF and Other Fertility Treatments),"555,195","5,536",100,"559,808","5,582",100
+CAH,800 Clinical Oncology,"34,292",575,60,"409,183","6,861",60
+CAH,822 Chemical Pathology,"2,887",45,64,"4,619",72,64
+CAH,823 Haematology,"56,839",450,126,"835,919","6,618",126
+CAH,Nurse clinics,"3,617",45,80,"48,385",602,80
+Daisy Hill,100 General Surgery,"850,530","4,440",192,"836,163","4,365",192
+Daisy Hill,120 ENT,"249,596","1,751",143,"289,651","2,032",143
+Daisy Hill,130 Ophthalmology,"92,516","1,102",84,"208,538","2,484",84
+Daisy Hill,140 Oral surgery,"48,346",360,134,"103,675",772,134
+Daisy Hill,172 Thoracic surgery,"1,640",9,182,"6,376",35,182
+Daisy Hill,191 Pain management,"71,991",305,236,"63,022",267,236
+Daisy Hill,300 General medicine,"156,278",489,320,"612,327","1,916",320
+Daisy Hill,301 Gastroenterology,"64,907",599,108,"111,285","1,027",108
+Daisy Hill,302 Endocrinology,"37,379",332,113,"220,107","1,955",113
+Daisy Hill,303 Haematology,"7,841",73,107,"44,036",410,107
+Daisy Hill,320 Cardiology,"136,897",762,180,"161,151",897,180
+Daisy Hill,330 Dermatology,"160,117","1,656",97,"265,798","2,749",97
+Daisy Hill,340 Thoracic medicine,"101,614",582,175,"259,272","1,485",175
+Daisy Hill,360 Genito urinary medicine,"240,943","2,140",113,"83,542",742,113
+Daisy Hill,361a Nephrology - Other,"34,190",200,171,"543,629","3,180",171
+Daisy Hill,400 Neurology,"6,529",28,233,"145,044",622,233
+Daisy Hill,420 Paediatrics,"154,388",778,198,"981,890","4,948",198
+Daisy Hill,501 Obs & Gyn (Obstetrics),"263,104","2,524",104,"1,093,903","10,494",104
+Daisy Hill,502b Gynaecology (Excluding IVF and Other Fertility Treatments),"399,961","3,421",117,"426,383","3,647",117
+Daisy Hill,710 Mental illness,"39,990",324,123,"652,557","5,287",123
+Daisy Hill,715 Old age psychiatry,"25,633",343,75,"59,859",801,75
+Daisy Hill,Nurse clinics,"4,702",64,73,"31,295",426,73
+Downe,100 General Surgery,"263,490","1,217",217,"156,643","1,447",108
+Downe,101 Urology,"28,207",267,106,"37,365",288,130
+Downe,110 T & O surgery,"204,153","1,076",190,"199,978","2,108",95
+Downe,120 ENT,"326,087","1,467",222,"195,923",996,197
+Downe,130 Ophthalmology,"39,406",402,98,"87,145",889,98
+Downe,140 Oral surgery,"52,239",369,142,"43,114",248,174
+Downe,300 General medicine,"535,201","2,022",265,"1,256,610","5,697",221
+Downe,330 Dermatology,"96,696",749,129,"252,942","3,163",80
+Downe,420 Paediatrics,"33,714",192,176,"25,549",194,132
+Downe,501 Obs & Gyn (Obstetrics),"194,019",667,291,"271,685","2,802",97
+Downe,502b Gynaecology (Excluding IVF and Other Fertility Treatments),"113,635",468,243,"105,293",586,180
+Downshire,710 Mental illness,"169,891",715,238,"819,702","6,901",119
+Downshire,715 Old age psychiatry,"84,030",205,410,"128,020",624,205
+Knockbracken ,710 Mental illness,"112,063",840,133,"837,801","6,280",133
+Knockbracken ,711 Child & Adolescent Psychiatry,"560,900","1,924",292,"4,690,392","16,089",292
+Knockbracken ,712 Forensic Psychiatry,"23,181",54,429,"164,840",384,429
+Knockbracken ,715 Old age psychiatry,"203,277",790,257,"473,713","1,841",257
+Lagan Valley,100 General Surgery,"340,242","1,797",189,"113,176","1,292",88
+Lagan Valley,101 Urology,"87,061",612,142,"52,351",368,142
+Lagan Valley,120 ENT,"258,369","1,130",229,"167,711","1,467",114
+Lagan Valley,130 Ophthalmology,"71,137",795,89,"80,209","1,511",53
+Lagan Valley,300 General medicine,"815,587","3,124",261,"1,148,061","8,795",131
+Lagan Valley,330 Dermatology,"107,318",923,116,"133,026","2,262",59
+Lagan Valley,420 Paediatrics,"25,663",117,219,"18,529",114,163
+Lagan Valley,430 Geriatric medicine,"175,426",983,178,"95,922","1,075",89
+Lagan Valley,501 Obs & Gyn (Obstetrics),"317,137",835,380,"745,374","4,122",181
+Lagan Valley,502b Gynaecology (Excluding IVF and Other Fertility Treatments),"501,129","3,011",166,"262,834","2,884",91
+Longstone,700 Mental Handicap,"13,576",122,111,"168,252","1,512",111
+Lurgan,421 Paediatric Neurology, -   , -   ,,"23,427",101,232
+Lurgan,430 Geriatric medicine,"205,780",765,269,"341,084","1,268",269
+Lurgan,Nurse clinics,"8,175",66,124,"45,457",367,124
+Mater,100 General Surgery,"701,283","3,620",194,"578,752","5,975",97
+Mater,101 Urology,"82,675",373,222,"25,933",234,111
+Mater,110 T & O surgery,"167,996","1,058",159,"80,108","1,009",79
+Mater,120 ENT,"51,478",155,332,"56,726",244,232
+Mater,130 Ophthalmology,"690,557","3,741",185,"3,301,193","21,716",152
+Mater,191 Pain management,"71,705",263,273,"56,437",207,273
+Mater,300 General medicine,"863,505","2,643",327,"1,062,546","7,138",149
+Mater,303 Haematology,"1,185",48,25,"80,697","3,270",25
+Mater,320 Cardiology,"272,928","1,608",170,"428,515","3,787",113
+Mater,430 Geriatric medicine,"17,584",121,145,"24,414",420,58
+Mater,501 Obs & Gyn (Obstetrics),"166,048","1,039",160,"360,384","4,510",80
+Mater,502b Gynaecology (Excluding IVF and Other Fertility Treatments),"249,175","2,120",118,"151,915","1,551",98
+Mater,710 Mental illness,"157,630","1,023",154,"1,103,257","7,160",154
+Muckamore,700 Mental Handicap,"50,013",274,183,"565,661","3,099",183
+Mullinure,430 Geriatric medicine,"122,577",324,378,"152,087",402,378
+Mullinure,Nurse clinics,"2,884",34,85,"22,561",266,85
+Musgrave Park,110 T & O surgery,"5,919,698","20,628",287,"5,085,895","35,445",143
+Musgrave Park,314 Rehabilitation,"15,354",224,69,"354,914","5,178",69
+Musgrave Park,410 Rheumatology,"138,240",224,617,"1,482,436","8,007",185
+Musgrave Park,430 Geriatric medicine,"311,642","1,924",162,"118,048","1,822",65
+Musgrave Park,Wards/facilities for treatment of Physical and Sensory Disability,"15,944",134,119,"99,829",839,119
+Royal,100 General Surgery,"1,432,754","5,621",255,"976,496","7,662",127
+Royal,101 Urology,"6,634",60,111,"4,367",79,55
+Royal,110 T & O surgery,"2,725,410","12,944",211,"3,745,333","35,576",105
+Royal,120 ENT,"1,194,471","9,308",128,"1,561,411","17,382",90
+Royal,130 Ophthalmology,"1,080,543","11,251",96,"2,498,661","31,592",79
+Royal,142 Paediatric dentistry,"42,832",699,61,"150,189","2,451",61
+Royal,150 Neurosurgery,"832,110","1,589",524,"981,617","3,749",262
+Royal,160 Plastic surgery,"113,570",835,136,"296,868","3,274",91
+Royal,170 Cardiac surgery,"470,735","1,151",409,"400,800","1,960",204
+Royal,171 Paediatric surgery,"461,997","1,623",285,"448,334","3,150",142
+Royal,172 Thoracic surgery,"198,595",627,317,"257,508","1,626",158
+Royal,191 Pain management,"26,698",384,70,"1,043",15,70
+Royal,300 General medicine,"1,464,260","5,249",279,"1,584,073","11,357",139
+Royal,302 Endocrinology,"590,689","2,069",285,"1,774,922","12,434",143
+Royal,303 Haematology, -   , -   ,,"20,484",238,86
+Royal,314 Rehabilitation,"13,925",95,147,"17,516",239,73
+Royal,320 Cardiology,"1,538,322","6,030",255,"2,397,708","14,098",170
+Royal,330 Dermatology,"852,408","5,844",146,"1,716,631","15,692",109
+Royal,340 Thoracic medicine,"279,167",772,362,"706,718","2,665",265
+Royal,360 Genito urinary medicine,"2,979,492","9,811",304,"1,097,987","7,231",152
+Royal,361a Nephrology - Other,"58,771",271,217,"283,506","2,157",131
+Royal,370a Medical Oncology,"31,817",246,129,"450,476","3,483",129
+Royal,400 Neurology,"1,968,031","8,761",225,"969,946","5,888",165
+Royal,410 Rheumatology,"467,485","1,100",425,"1,081,421","8,482",127
+Royal,420 Paediatrics,"1,303,038","4,613",282,"1,708,338","12,465",137
+Royal,421 Paediatric Neurology,"454,018",657,691,"180,709","1,046",173
+Royal,430 Geriatric medicine,"15,214",23,661,"63,502",240,265
+Royal,450 Dental medicine specialties,"1,287,886","9,172",140,"4,170,043","29,698",140
+Royal,501 Obs & Gyn (Obstetrics),"2,965,182","18,559",160,"1,914,652","23,967",80
+Royal,502a IVF and Other Fertility Treatments,"1,809,959","8,823",205,"722,267","4,225",171
+Royal,502b Gynaecology (Excluding IVF and Other Fertility Treatments),"780,726","9,569",82,"376,330","5,535",68
+Royal,711 Child & Adolescent Psychiatry,"56,102",256,219,"551,818","2,518",219
+Royal,823 Haematology,"10,700",117,91,"216,192","2,364",91
+South Tyrone,100 General Surgery,"68,645",495,139,"21,634",156,139
+South Tyrone,101 Urology,"11,465",106,108,"13,952",129,108
+South Tyrone,110 T & O surgery,"21,579",232,93,"23,440",252,93
+South Tyrone,120 ENT,"151,150","1,041",145,"182,948","1,260",145
+South Tyrone,130 Ophthalmology,"80,558",914,88,"169,136","1,919",88
+South Tyrone,191 Pain management,"59,675",413,144,"192,175","1,330",144
+South Tyrone,300 General medicine,"96,117",328,293,"75,604",258,293
+South Tyrone,301 Gastroenterology,"4,795",39,123,"9,714",79,123
+South Tyrone,302 Endocrinology,"13,250",137,97,"156,004","1,613",97
+South Tyrone,303 Haematology,"5,011",57,88,"49,578",564,88
+South Tyrone,315 Palliative medicine,"2,353",27,87,"9,935",114,87
+South Tyrone,320 Cardiology,"20,876",112,186,"14,352",77,186
+South Tyrone,330 Dermatology,"62,144",622,100,"132,880","1,330",100
+South Tyrone,340 Thoracic medicine,"43,563",208,209,"133,411",637,209
+South Tyrone,400 Neurology,173,1,173,"49,370",286,173
+South Tyrone,410 Rheumatology,"37,053",182,204,"62,909",309,204
+South Tyrone,420 Paediatrics,"70,242",524,134,"328,420","2,450",134
+South Tyrone,430 Geriatric medicine,"36,382",255,143,"64,774",454,143
+South Tyrone,501 Obs & Gyn (Obstetrics),"128,121","1,617",79,"287,381","3,627",79
+South Tyrone,502b Gynaecology (Excluding IVF and Other Fertility Treatments),"49,903",568,88,"59,216",674,88
+South Tyrone,Nurse clinics,"3,030",41,74,"27,266",369,74
+South West Acute,100 General Surgery,"794,256","2,112",376,"323,827","2,282",142
+South West Acute,110 T & O surgery,"393,557","1,130",348,"138,039","1,997",69
+South West Acute,120 ENT,"326,023","1,053",310,"160,316",887,181
+South West Acute,130 Ophthalmology,"189,960",571,333,"296,345","1,695",175
+South West Acute,140 Oral surgery,"138,670",323,429,"51,194",567,90
+South West Acute,143 Orthodontics,"100,592",104,967,"222,930","1,527",146
+South West Acute,300 General medicine,"668,164","1,191",561,"502,910","2,926",172
+South West Acute,303 Haematology, -   , -   ,,"33,297",198,168
+South West Acute,315 Palliative medicine,"67,441",254,266,"11,882",51,233
+South West Acute,320 Cardiology,"206,936",620,334,"351,191","1,147",306
+South West Acute,330 Dermatology,"191,981","1,138",169,"36,511",544,67
+South West Acute,361a Nephrology - Other,"23,422",61,384,"82,535",389,212
+South West Acute,400 Neurology,"83,353",125,667,"24,858",348,71
+South West Acute,410 Rheumatology,"115,066",355,324,"195,225","1,000",195
+South West Acute,420 Paediatrics,"272,802",548,498,"504,740","2,845",177
+South West Acute,430 Geriatric medicine,"272,516",397,686,"216,218","1,092",198
+South West Acute,501 Obs & Gyn (Obstetrics),"835,646","1,238",675,"432,867","3,662",118
+South West Acute,502b Gynaecology (Excluding IVF and Other Fertility Treatments),"591,340","2,646",223,"314,578","2,801",112
+South West Acute,Nurse clinics,"121,075",580,209,"361,423","5,420",67
+St Luke's,710 Mental illness,"52,785",319,165,"467,947","2,828",165
+St Luke's,715 Old age psychiatry,"32,783",441,74,"69,432",934,74
+Tyrone County,100 General Surgery,"300,707","1,023",294,"217,224","1,266",172
+Tyrone County,101 Urology,"24,141",102,237,"26,497",197,135
+Tyrone County,110 T & O surgery,"214,419","1,087",197,"127,281","1,444",88
+Tyrone County,120 ENT,"287,084","1,654",174,"218,722","2,030",108
+Tyrone County,130 Ophthalmology,"139,331",650,214,"187,165","1,770",106
+Tyrone County,191 Pain management,"228,481",453,504,"40,255",492,82
+Tyrone County,300 General medicine,"212,614",460,462,"141,419","1,222",116
+Tyrone County,303 Haematology,"66,080",69,958,"32,775",475,69
+Tyrone County,315 Palliative medicine,"41,384",62,667,"10,327",21,492
+Tyrone County,320 Cardiology,"229,682",765,300,"113,915",912,125
+Tyrone County,330 Dermatology,"124,820",887,141,"61,908",914,68
+Tyrone County,361a Nephrology - Other,"154,073",209,737,"76,412","1,599",48
+Tyrone County,400 Neurology,"48,007",101,475,"26,431",321,82
+Tyrone County,410 Rheumatology,"99,580",274,363,"49,388",528,94
+Tyrone County,420 Paediatrics,"187,043",470,398,"93,626","1,521",62
+Tyrone County,430 Geriatric medicine,"114,049",267,427,"96,891",338,287
+Tyrone County,501 Obs & Gyn (Obstetrics),"135,548",431,314,"67,226",979,69
+Tyrone County,502b Gynaecology (Excluding IVF and Other Fertility Treatments),"126,667",908,140,"62,825","1,065",59
+Tyrone County,822 Chemical Pathology,"14,012",71,197,"7,127",107,67
+Tyrone County,Nurse clinics,"202,135","1,285",157,"603,057","8,179",74
+Ulster,100 General Surgery,"1,885,516","8,602",219,"1,405,019","11,735",120
+Ulster,101 Urology,"345,299","2,681",129,"272,150","3,156",86
+Ulster,110 T & O surgery,"841,766","4,565",184,"1,813,136","12,698",143
+Ulster,120 ENT,"1,540,253","6,267",246,"739,074","4,399",168
+Ulster,130 Ophthalmology,"261,355","2,483",105,"180,876","3,606",50
+Ulster,140 Oral surgery,"466,825","3,099",151,"824,533","4,567",181
+Ulster,160 Plastic surgery,"760,640","5,273",144,"1,126,265","12,881",87
+Ulster,171 Paediatric surgery,"130,291",981,133,"82,078",618,133
+Ulster,191 Pain management,"239,662","1,527",157,"269,639","2,577",105
+Ulster,300 General medicine,"1,851,073","7,387",251,"3,640,943","26,508",137
+Ulster,320 Cardiology,"889,102","4,078",218,"1,020,490","6,295",162
+Ulster,330 Dermatology,"371,863","4,113",90,"701,187","6,731",104
+Ulster,361a Nephrology - Other,"83,807",394,213,"327,613","2,090",157
+Ulster,420 Paediatrics,"1,027,642","2,331",441,"1,129,466","5,529",204
+Ulster,430 Geriatric medicine,"596,415","1,620",368,"426,093","2,203",193
+Ulster,501 Obs & Gyn (Obstetrics),"634,495","5,045",126,"2,165,364","24,004",90
+Ulster,502b Gynaecology (Excluding IVF and Other Fertility Treatments),"1,023,293","6,512",157,"325,057","4,337",75
+Ulster,710 Mental illness,"525,596",958,549,"851,890","4,729",180

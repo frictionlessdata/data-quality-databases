@@ -1,0 +1,12 @@
+Car Park Name / Location,Town,Postcode,Latitude,Longitude,Parking charge,Spaces,Disabled Spaces
+Railway Street,Antrim,BT41 4AE,Lat 54.714720,Lon -6.2164269,"First 3 hours 10p, 20p thereafter per hour",186,5
+Castleway (Central),Antrim,BT41 4JA,Lat 54.716097,Lon -6.2186136,"First 3 hours free, thereafter per hour as TL3",452,15
+Harrier Way,Ballyclare,BT39 9AA,Lat 54.751653,Lon -6.0010613,TL4,127,2
+Market Square,Ballyclare,BT39 9BB,Lat 54.752601,Lon -6.0019727,TL4,52,2
+Shore Road,Whiteabbey,BT37 0SN,Lat 54.677119,Lon -5.8923267,TL2,38,2
+"Bridge Street, Dublin Road",Antrim,BT41 4EA,Lat 54.71270,Lon -6.2197691,Free,195,0
+Portglenone Road,Randalstown,BT41 3BG,Lat 54.751167,Lon -6.3234107,Free,23,0
+John Street,Randalstown,BT41 3AD,Lat 54.749167,Lon -6.3198836,Free,102,3
+Farmley Road,Glengormley,BT36 7TY,Lat 54.669478,Lon -5.9580113,Free,119,8
+A2 Shore Road,Whiteabbey,BT37 0TX,Lat 54.673809,Lon -5.8965742,Free,18,2
+Castle Street,Antrim,BT41 4JE,Lat 54.718127,Lon -6.2201532,Free,117,1
