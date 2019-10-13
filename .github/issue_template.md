@@ -4,4 +4,4 @@ Please replace this line with full information about your idea or problem. If it
 
 ---
 
-Please preserve this line to notify the @frictionlessdata/data-quality team
+Please preserve this line to notify the @roll team
